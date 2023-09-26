@@ -1,0 +1,137 @@
+---
+title: 데이터 조화
+description: Adobe 믹스 모델러에서 데이터를 조화롭게 구성하는 방법에 대해 알아봅니다.
+feature: Harmonized Data
+source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+workflow-type: tm+mt
+source-wordcount: '785'
+ht-degree: 16%
+
+---
+
+
+# 데이터 조화
+
+Adobe 믹스 모델러의 데이터는 데이터 소스에 따라 성격이 다릅니다. 데이터는 다음과 같을 수 있습니다.
+
+* 집계된 데이터(예: 담으로 둘러싸인 정원 데이터 소스에서 수집한 데이터)
+* 이벤트 데이터(예: 자사 데이터 소스). 이 이벤트 데이터는 Adobe Analytics의 Adobe Analytics 소스 커넥터, Adobe Experience Platform 웹 또는 Mobile SDK 또는 Edge Network API를 통해 수집된 데이터 또는 소스 커넥터를 사용하여 수집된 데이터일 수 있습니다.
+
+Adobe 믹스 모델러의 조화 서비스는 집계 및 이벤트 데이터를 일관된 데이터 보기로 통합합니다. 이 데이터 보기는 Adobe 믹스 모델러의 계획 및 모델에 대한 소스입니다.
+
+## 조정된 데이터의 예
+
+Adobe 믹스 모델러에 다음 데이터 세트를 사용할 수 있다고 상상해 보십시오.
+
+**데이터 세트 1**
+
+집계 데이터의 세부기간을 일별로 설정하여 YouTube의 마케팅 노력 데이터 세트를 포함합니다.
+
+| 날짜 | 날짜 유형 | 채널 | Campaign | 브랜드 | 지역 | 클릭수 | 지출 |
+|---|:--:|---|---|---|---|---:|---:|
+| 12-31-2021 | 일 | YouTube | Y_Fall_02 | 브랜드 | US | 10000 | 100 |
+| 01-01-2022 | 일 | YouTube | Y_Fall_02 | 브랜드 | US | 1000 | 10 |
+| 01-03-2022 | 일 | YouTube | Y_Fall_01 | Y 브랜드 | CA | 10000 | 100 |
+| 01-04-2022 | 일 | YouTube | Y_Summer_01 | Null | CA | 9000 | 80 |
+
+{style="table-layout:auto"}
+
+
+**데이터 세트 2**
+
+집계 데이터의 세부기간이 주별로 설정된 Facebook의 마케팅 활동 데이터 세트를 포함합니다.
+
+| 날짜 | 날짜 유형 | 채널 | Campaign | 지역 | 클릭수 | 지출 |
+|--- |:---:|--- |---|---|---:|---:|
+| 01-01-2022 | 주 | Facebook | FB_Fall_01 | US | 8000 | 100 |
+| 01-08-2022 | 주 | Facebook | FB_Fall_02 | US | 1000 | 10 |
+| 01-08-2022 | 주 | Facebook | FB_Fall_01 | US | 7000 | 100 |
+| 01-16-2022 | 주 | Facebook | FB_Summer_01 | CA | 10000 | 80 |
+
+{style="table-layout:auto"}
+
+
+**데이터 세트 3**
+
+집계 데이터의 세부기간이 일별로 설정된 전환 데이터 세트입니다.
+
+| 날짜 | 날짜 유형 | 지역 | 목표 | 매출  |
+|--- |:---: |---|---|---:|
+| 01-01-2022 | 일 | US | 패션 | 200 |
+| 01-08-2022 | 일 | US | 패션 | 10 |
+| 01-08-2022 | 일 | US | 보석 | 1100 |
+| 01-16-2022 | 일 | CA | 보석 | 80 |
+
+{style="table-layout:auto"}
+
+
+**데이터 세트 4**
+
+고객의 샘플 경험 이벤트 데이터 세트(웹 SDK 이벤트).
+
+| 타임스탬프 | ID 네임스페이스 | ID | 채널 | 클릭수 |
+|--- |--- |--- |--- |---:|
+| 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
+| 01-01-2022 00:01:01.000 | ECID | 64fd46ff-8c63-43b4-85a7-92b953113ba0 | CSE | 1 |
+| 01-08-2022 00:01:01.000 | ECID | 2ca2a16e-caf0-4fa9-9a8b-9774b39547c4 | CSE | 1 |
+| 01-08-2022 00:01:01.000 | ECID | 5ce99bfb-e44a-40d9-b8cd-c5408bda7cdc | CSE | 1 |
+
+{style="table-layout:auto"}
+
+
+세부기간을 주별로 설정하여 조화된 데이터 세트를 만들려고 합니다. 이벤트 데이터는 주 세부 기간으로 집계되고, 조정된 데이터 세트에 추가됩니다. 결과는 다음과 같습니다.
+
+**Harmonized 데이터 세트**
+
+| 날짜 | 날짜 유형 | 채널 | Campaign | 브랜드 | 지역 | 목표 | 클릭수 | 지출 | 매출  |
+|--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
+| 12-27-2021 | 주 | YouTube | Y_Fall_02 | 브랜드 | US | Null | 11000 | 110 | Null |
+| 01-03-2022 | 주 | YouTube | Y_Fall_01 | Y 브랜드 | CA | Null | 10000 | 100 | Null |
+| 01-03-2022 | 주 | YouTube | Y_Summer_01 | Null | CA | Null | 9000 | 80 | Null |
+| 01-01-2022 | 주 | Facebook | FB_Fall_01 | Null | US | Null | 8000 | 100 | Null |
+| 01-08-2022 | 주 | Facebook | FB_Fall_02 | Null | US | Null | 1000 | 10 | Null |
+| 01-08-2022 | 주 | Facebook | FB_Fall_01 | Null | US | Null | 7000 | 100 | Null |
+| 01-16-2022 | 주 | Facebook | FB_Summer_01 | Null | CA | Null | 10000 | 80 | Null |
+| 12-27-2021 | 주 | Null | Null | Null | US | 패션 | Null | Null | 200 |
+| 01-03-2022 | 주 | Null | Null | Null | US | 패션 | Null | Null | 10 |
+| 01-03-2022 | 주 | Null | Null | Null | US | 보석 | Null | Null | 1100 |
+| 01-10-2022 | 주 | Null | Null | Null | CA | 보석 | Null | Null | 80 |
+| 01-01-2022 | 주 | CSE | Null | Null | Null | Null | 2 | Null | Null |
+| 01-08-2022 | 주 | CSE | Null | Null | Null | Null | 2 | Null | Null |
+
+{style="table-layout:auto"}
+
+
+## 조화로운 데이터 설정
+
+간소화된 과 같이 조정된 데이터 세트를 만들려면 [예](#an-example-of-harmonized-data), 다음 단계를 수행해야 합니다.
+
+1. 추가 정의 [조화 된 필드](fields.md) 전역 harmonized 필드 이외의 을 사용하려는 경우 이미 사용할 수 있습니다.
+1. 설정 [데이터 세트 규칙](dataset-rules.md) 을 사용하여 집계 또는 경험 이벤트 데이터 세트의 필드를 조화로운 필드에 매핑할 수 있습니다.
+1. 정의 [마케팅 접점](marketing-touchpoints.md) 정의한 표준 및 추가 조화 필드 사용.
+1. 정의 [전환](conversions.md) 정의한 표준 및 추가 조화 필드 사용.
+
+
+## 조화로운 데이터 보기
+
+Adobe 믹스 모델러 인터페이스에서 조화로운 데이터를 보려면 다음을 수행하십시오.
+
+1. 선택 ![데이터 검색](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** 왼쪽 레일에서.
+
+1. 선택 **[!UICONTROL Harmonized Data]** 을 클릭합니다. 정의한 필드, 데이터 세트 규칙, 마케팅 접점 및 전환을 기반으로 조화된 데이터의 요약 정보를 볼 수 있습니다.
+
+   1. 결합된 데이터의 요약의 기반이 되는 기간을 재정의하려면 날짜 범위를 입력합니다. **[!UICONTROL Date range]** 또는 사용 ![캘린더](../assets/icons/Calendar.svg) 데이터 범위를 선택합니다.
+
+   1. Harmonized Data 테이블에 표시되는 열을 수정하려면 다음을 사용합니다. ![설정](../assets/icons/Setting.svg) 을(를) 열려면 **[!UICONTROL Column settings]** 대화 상자.
+
+      1. 선택 ![SelectBox](../assets/icons/SelectBox.svg) 하나 이상의 열 위치 **[!UICONTROL AVAILABLE COLUMNS]** 및 사용 ![V자형 화살표 오른쪽](../assets/icons/ChevronRight.svg) 이 열을 추가할 위치: **[!UICONTROL SELECTED COLUMNS]**.
+
+      1. 선택 ![SelectBox](../assets/icons/SelectBox.svg) 하나 이상의 열 위치 **[!UICONTROL SELECTED COLUMNS]** 및 사용 ![V자형 화살표 왼쪽](../assets/icons/ChevronLeft.svg) 선택한 열을 제거하고 이 열을 다시 로 되돌리려면 **[!UICONTROL AVAILABLE COLUMNS]**.
+
+      1. 다음 위치에서 열 선택 **[!UICONTROL DEFAULT SORT]** 및 간 전환 **[!UICONTROL Ascending]** 또는 **[!UICONTROL Descending]**.
+
+      1. 표시되는 열의 순서를 변경하기 위해에서 열을 이동할 수 있습니다 **[!UICONTROL SELECTED COLUMNS]** 을(를) 끌어다 놓기 위해 위아래로 움직입니다.
+
+   1. 선택 **[!UICONTROL Submit]** 을 클릭하여 열 설정 변경 사항을 제출합니다. 선택 **[!UICONTROL Close]** 을 클릭하여 변경 내용을 취소합니다.
+
+
