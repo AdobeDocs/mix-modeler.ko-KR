@@ -1,7 +1,7 @@
 ---
 description: Adobe 믹스 모델러의 연속 기능 릴리스 전략에 대해 설명합니다.
 title: Adobe 믹스 모델러 릴리스
-source-git-commit: 827c25486bb56c80c52e663f391d60083e094f83
+source-git-commit: afe12371a1d5ac24377d67f4941ee14c8defd683
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 0%
@@ -11,7 +11,6 @@ ht-degree: 0%
 # Adobe 믹스 모델러 릴리스
 
 Adobe 믹스 모델러 릴리스는 기능 배포에 대한 확장 가능한 단계별 접근 방식을 고려하는 연속 제공 모델에서 작동합니다.
-
 
 <!--
 ## Release strategy

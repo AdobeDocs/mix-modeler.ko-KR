@@ -2,9 +2,9 @@
 title: Adobe 믹스 모델러 사용 사례
 description: Adobe 믹스 모델러 사용 사례.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 5d86d07562deeb200d418000a73390616c916d7e
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ Adobe 믹스 모델러는 다음과 같은 주요 사용 사례를 활성화합�
 
 ### 과제
 
-이 사용 사례가 다루는 과제는 다음과 같습니다.
+이러한 사용 사례 해결의 과제는 다음과 같습니다.
 
 * 고립된 고객 여정 데이터, 신호 손실 및 담으로 둘러싸인 정원에서 점진적인 성능을 측정하기 어려움
 * 분리된 MMM 및 MTA 방법론에서 통찰력의 불일치로 결과에 대한 신뢰도가 감소합니다.
@@ -30,12 +30,12 @@ Adobe 믹스 모델러는 다음과 같은 주요 사용 사례를 활성화합�
 
 ### 접근 방식
 
-이 사용 사례에 대한 단계 기반 접근 방식:
+이 사용 사례에 대한 단계 기반 접근 방식은 다음과 같습니다.
 
 | 단계.  | 세부 사항 |
 |---|---|
-| 수집 | 일반 스키마에서 데이터 소스를 식별하고 수집합니다. <br/>Adobe Analytics 또는 Customer Journey Analytics에 대한 기존 투자를 활용하여 신속한 배포를 수행합니다. |
-| Configure | 특정 비즈니스 목표에 맞게 AI-as-a-Service 프레임워크를 사용하여 유연한 모델 구성<br/>양방향 전송 학습을 통해 터치포인트와 요약 수준 간의 일관성을 자동으로 보장합니다. |
+| 수집 | 일반 스키마에서 데이터 소스를 식별하고 수집합니다. <br/>빠른 경로 배포에 Adobe Analytics 또는 Customer Journey Analytics에 대한 기존 투자를 적용합니다. |
+| Configure | 특정 비즈니스 목표를 위한 AI-as-a-Service 프레임워크를 사용하여 유연한 모델 구성<br/>양방향 전송 학습을 통해 터치포인트와 요약 수준 간의 일관성을 자동으로 보장합니다. |
 | 분석 | 전체 마케팅 및 개별 채널/하위 채널의 ROI를 명확하게 이해합니다.<br/>증분 전환을 가장 잘 유도하는 접점을 명확하게 이해합니다. |
 
 {style="table-layout:auto"}
@@ -54,13 +54,13 @@ Adobe 믹스 모델러는 다음과 같은 주요 사용 사례를 활성화합�
 
 ## ROI를 최적화하는 마케팅 계획 수립
 
-이 활용 사례는 사용자에게 친숙한 AI 지원 최적화 및 시나리오 계획 도구를 활용하여 ROI를 극대화합니다.
+이 사용 사례에서는 ROI를 극대화하기 위해 사용자 친화적인 AI 지원 최적화 및 시나리오 계획 도구를 사용합니다.
 
 +++ 세부 사항
 
 ### 과제
 
-이 사용 사례가 다루는 과제는 다음과 같습니다.
+이러한 사용 사례 해결의 과제는 다음과 같습니다.
 
 * 직감에 의존하지 않고 효율성 곡선을 기반으로 데이터 기반 마케팅 투자 계획을 수립합니다.
 * 여러 지역, 업종 및 채널에서 동시에 성과를 극대화할 수 있습니다.
@@ -69,7 +69,7 @@ Adobe 믹스 모델러는 다음과 같은 주요 사용 사례를 활성화합�
 
 ### 접근 방식
 
-이 사용 사례에 대한 단계 기반 접근 방식:
+이 사용 사례에 대한 단계 기반 접근 방식은 다음과 같습니다.
 
 | 단계.  | 세부 사항 |
 |---|---|
@@ -90,44 +90,47 @@ Adobe 믹스 모델러는 다음과 같은 주요 사용 사례를 활성화합�
 
 +++
 
+<!-- This use case is not supported with initial release
 
-## 데이터 기반 인라이트 최적화
+## Make data-driven inflight optimizations
 
-이 사용 사례는 기시적인 개선을 위해 실제 및 예측 성능을 평가하여 매주 ROI를 개선하는 데 도움이 됩니다.
+This use case helps you to improve ROI weekly by assessing actual and forecasted performance to make inflight improvements.
 
-+++ 세부 사항
++++ Details
 
-### 과제
+### Challenges
 
-이 사용 사례가 다루는 과제는 다음과 같습니다.
+The challenges this use case addresses are:
 
-* 캠페인 성능이 느리거나 자신 있게 최적화할 필요가 없는 경우가 많습니다.
-* 수십개의 채널과 소스에서 표준화되지 않은 지저분한 데이터를 통해 인사이트를 얻는 데 시간이 오래 걸립니다.
-* 도구로의 접근성을 민주화하지 않고 선별된 전문가 또는 외부 공급업체에 과도하게 의존하여 전환 시간을 늘립니다.
+* Campaign performance is often slow, or lacks granularity need to confidently optimize.
+* Messy, non-standardized data across dozens of channels and sources drives slow time to insight.
+* No democratized access to tools and overreliance on select experts or external vendors, increasing turnaround times.
 
 
 
-### 접근 방식
+### Approach
 
-이 사용 사례에 대한 단계 기반 접근 방식:
+The step based approach for this use case:
 
-| 단계.  | 세부 사항 |
+| Step | Details |
 |---|---|
-| 수집 | Experience Platform 애플리케이션 전반에서 모델을 쉽게 새로 고치고 다시 사용할 수 있도록 일반 스키마에 데이터를 수집합니다.<br/>자동화된 조화 도구를 사용하여 데이터 파이핑, 청소 및 QA를 간소화합니다. |
-| 새로 고침 | 사용자 친화적인 셀프서비스 플랫폼을 사용하여 AI/ML 모델을 구축하고 새로 고칩니다.<br/>주별 또는 월별 기준으로 채널별 내역 및 예측 ROI를 포함한 새로운 결과를 얻을 수 있습니다. |
-| 최적화 | 측정된 성능을 기반으로 채널 간 지출을 전환하여 신속한 인라이트 최적화를 실현합니다. |
+| Ingest | Ingest data in common schemas for easy model refreshes and reusability across Experience Platform applications.<br/>Streamline data piping, cleaning & QA with automated harmonization tools. |
+| Refresh | Build and refresh AI/ML  models using a user-friendly, self-service platform.<br/>Get new results, including historic and forecasted ROIs by channel, on a weekly or monthly basis. |
+| Optimize | Make rapid inflight optimizations by shifting spend across channels based on measured performance. |
 
 {style="table-layout:auto"}
 
 
-### 영향
+### Impact 
 
-이 사용을 성공적으로 구현하면 다음과 같은 영향이 있을 수 있습니다.
+Successful implementation of this use can have the following impact:
 
-* 표준화된 데이터 스키마와 공통 데이터 기반을 사용하여 측정 및 분석 사용 사례 간 속도, 확장성 및 유용성을 극대화합니다.
-* 주간 또는 월간 인라이트 최적화를 신속하게 실현하고 가장 잘 예측된 ROI를 반영하는 데이터 기반 지출 변화를 통해 ROI를 극대화할 수 있습니다.
+* Maximize speed, scalability, and usability across measurement & analytic use cases with standardized data schemas and common data foundation.
+* Rapidly make weekly or monthly inflight optimizations and maximize ROI with data-driven spend shifts that reflect best forecasted ROIs.
 
 +++
+
+-->
 
 ## Adobe 애플리케이션 전반에 걸쳐 전술적 통찰력 활성화
 
@@ -137,20 +140,20 @@ Adobe 믹스 모델러는 다음과 같은 주요 사용 사례를 활성화합�
 
 ### 과제
 
-이 사용 사례가 다루는 과제는 다음과 같습니다.
+이러한 사용 사례 해결의 과제는 다음과 같습니다.
 
 * 하향식 솔루션만으로는 세분화된 키 최적화 기회를 파악할 수 없습니다.
-* 측정 모델의 출력은 압도적이고 지나치게 설명적이며 인사이트 또는 작업으로 이어지지 않습니다.
+* 측정 모델의 출력은 압도적이고 지나치게 서술적이며 통찰력이나 행동을 쉽게 이끌어내지 못한다.
 * 모델이 투명하지 않고 세부 점수를 사용할 수 없기 때문에 인사이트를 얻기 위해 임시 분석을 수행할 수 없습니다.
 
 
 ### 접근 방식
 
-이 사용 사례에 대한 단계 기반 접근 방식:
+이 사용 사례에 대한 단계 기반 접근 방식은 다음과 같습니다.
 
 | 단계.  | 세부 사항 |
 |---|---|
-| 모델 | 일관된 MTA 터치포인트 점수와 MMM 집계 결과를 얻도록 AI/ML 모델을 구성하고 교육합니다. |
+| 모델 | 일관된 MTA 터치포인트 점수 및 MMM 집계 결과를 얻도록 AI/ML 모델을 구성하고 교육합니다. |
 | 분석 | 증분 터치포인트 점수를 Customer Journey Analytics 또는 외부 BI 도구로 내보냅니다.<br/>터치포인트 점수를 사용하여 세분화된 분석을 수행하고 고급 대시보드를 빌드합니다. |
 | 작업 | Real-time Customer Data Platform을 사용하여 상위 소비자 세그먼트에 대한 룩라이크를 만들고 활성화합니다.<br/>향후 캠페인을 위해 고객 세그먼트별로 데이터 기반 마케팅 전략을 개발합니다. |
 
