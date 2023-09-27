@@ -2,7 +2,7 @@
 user-guide-title: 혼합 모델러
 breadcrumb-title: 혼합 모델러
 user-guide-description: 혼합 모델러를 사용하는 방법을 알아봅니다.
-source-git-commit: afe12371a1d5ac24377d67f4941ee14c8defd683
+source-git-commit: 625ab651b676e50505f386cf70abb27f57f6c8f1
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 25%
@@ -57,7 +57,7 @@ ht-degree: 25%
 -->
 
 
-+ 릴리스 {#releaes}
++ 릴리스 {#releases}
    + [최신 릴리스](releases/latest.md)
    + [2023 릴리스](releases/2023.md)
    + [릴리스 프로세스](releases/releases.md)
