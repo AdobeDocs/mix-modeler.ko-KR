@@ -2,10 +2,10 @@
 user-guide-title: 혼합 모델러
 breadcrumb-title: 혼합 모델러
 user-guide-description: 혼합 모델러를 사용하는 방법을 알아봅니다.
-source-git-commit: cf4890eb9efc2cfc82f9d2761983a13ad5d730ee
+source-git-commit: 6b4744b1bd487b9e1c1b76f692bd86fbc236b6b1
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 25%
+source-wordcount: '65'
+ht-degree: 26%
 
 ---
 
@@ -49,16 +49,7 @@ ht-degree: 25%
 + 릴리스 {#releases}
    + [최신 릴리스](releases/latest.md)
    + [2023 릴리스](releases/2023.md)
-   + [릴리스 프로세스](releases/releases.md)
 
 + [용어집](glossary.md)
 
 
-<!-- Admin integration with AEP not part of first release
-
-+ Administration {#administration}
-  + [Overview](administration/overview.md)
-  + [Policies](administration/policies.md)
-  + [Audits](administration/audits.md)
-  
--->
