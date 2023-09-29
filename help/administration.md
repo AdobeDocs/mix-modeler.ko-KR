@@ -1,10 +1,10 @@
 ---
-title: 계획 비교
-description: Adobe 믹스 모델러에서 계획을 비교하는 방법에 대해 알아봅니다.
-source-git-commit: 1eaebc6f6178270a9e8aebb6b250e0b0a6289f52
+title: 관리
+description: Adobe Mix Modeler 관리 방법을 알아봅니다.
+source-git-commit: 4a6cbda1ff0a779ebf8a38a4de3f797ed9e54b00
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 7%
+source-wordcount: '158'
+ht-degree: 8%
 
 ---
 
@@ -17,11 +17,11 @@ Adobe Mix Modeler이 제대로 작동하려면 올바른 권한을 설정해야 
 
 Adobe Experience Cloud UI에서,
 
-1. 선택 **[!UICONTROL Permissions]** 왼쪽 난간부터 제대로 작동하지 않음 **[!UICONTROL ADMINISTRATION]**.
+1. 선택 **[!UICONTROL Permissions]** 왼쪽 레일에서 아래 **[!UICONTROL ADMINISTRATION]**.
 
 1. 선택 ![개인](assets/icons/User.svg) **[!UICONTROL Roles]** 왼쪽 패널에서 가져옵니다.
 
-1. 기존 역할을 선택하거나 다음을 사용하여 역할을 만듭니다 **[!UICONTROL Create role]**. 기존 역할을 선택한 경우 다음을 선택합니다 ![편집](assets/icons/Edit.svg) **[!UICONTROL Edit]** 을 눌러 역할에 대한 권한을 편집합니다. 다음을 참조하십시오 [역할 관리](https://helpx.adobe.com/enterprise/using/admin-console.html) 추가 정보.
+1. 기존 역할을 선택하거나 다음을 사용하여 역할을 만듭니다 **[!UICONTROL Create role]**. 기존 역할을 선택하는 경우 다음을 선택합니다 ![편집](assets/icons/Edit.svg) **[!UICONTROL Edit]** 을 눌러 역할에 대한 권한을 편집합니다. 다음을 참조하십시오 [역할 관리](https://helpx.adobe.com/enterprise/using/admin-console.html) 추가 정보.
 
 1. 역할에 대해 다음 권한을 선택해야 합니다.
 

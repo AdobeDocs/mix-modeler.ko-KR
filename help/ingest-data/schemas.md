@@ -1,8 +1,8 @@
 ---
 title: 스키마
 description: Adobe 믹스 모델러로 데이터를 수집하는 데 필요한 스키마를 관리하는 방법을 알아봅니다.
-feature: Datasets
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+feature: Schemas
+source-git-commit: 4a6cbda1ff0a779ebf8a38a4de3f797ed9e54b00
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 1%
