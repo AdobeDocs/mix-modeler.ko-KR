@@ -1,11 +1,11 @@
 ---
 title: Adobe 믹스 모델러 개요
-description: Adobe 믹스 모델러의 기능과 성능에 대한 개요를 살펴보십시오.
+description: Adobe Mix Modeler의 기능 및 성능에 대한 개요를 살펴봅니다.
 feature: Plans, Harmonized Data, Models
 source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 

@@ -1,11 +1,11 @@
 ---
-user-guide-title: 혼합 모델러
-breadcrumb-title: 혼합 모델러
-user-guide-description: 혼합 모델러를 사용하는 방법을 알아봅니다.
+user-guide-title: Mixed Modeler
+breadcrumb-title: Mixed Modeler
+user-guide-description: Mixed Modeler를 사용하는 방법에 대해 알아봅니다.
 source-git-commit: 1eaebc6f6178270a9e8aebb6b250e0b0a6289f52
 workflow-type: tm+mt
 source-wordcount: '66'
-ht-degree: 27%
+ht-degree: 42%
 
 ---
 

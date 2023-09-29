@@ -1,10 +1,10 @@
 ---
 title: Adobe 믹스 모델러 개요
-description: Adobe 믹스 모델러를 사용하여 캠페인을 측정하고 모든 채널에서 전체적으로 계획을 최적화하는 방법을 알아봅니다.
+description: Adobe Mix Modeler를 사용하여 모든 채널에서 캠페인을 측정하고 계획 수립을 전체적으로 최적화하는 방법에 대해 알아봅니다.
 source-git-commit: 9e89d9820c28021e151ad31874ac3bcbaa008f9c
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 2%
+ht-degree: 18%
 
 ---
 
