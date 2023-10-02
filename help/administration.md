@@ -1,9 +1,10 @@
 ---
 title: 관리
-description: Adobe Mix Modeler 관리 방법을 알아봅니다.
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+description: Mix Modeler 관리 방법을 알아봅니다.
+feature: Administration
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '154'
 ht-degree: 8%
 
 ---
@@ -11,9 +12,9 @@ ht-degree: 8%
 
 # 관리
 
-사용 [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) Adobe Mix Modeler 제품 및 사용자를 관리합니다.
+사용 [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) Mix Modeler 제품 및 사용자를 관리합니다.
 
-Adobe Mix Modeler이 제대로 작동하려면 올바른 권한을 설정해야 합니다.
+Mix Modeler이 제대로 작동하려면 올바른 권한을 설정해야 합니다.
 
 Adobe Experience Cloud UI에서,
 
@@ -47,4 +48,4 @@ Adobe Experience Cloud UI에서,
 
    선택 **[!UICONTROL Save]** 사용 권한을 저장합니다.
 
-1. 위치 **[!UICONTROL Details]** 다음 범위 내 **[!UICONTROL Role]**&#x200B;을 클릭하고 적절한 을(를) 추가합니다. **[!UICONTROL Users]** 및/또는 **[!UICONTROL User groups]** 사용자에게 Adobe Mix Modeler에 대한 액세스 권한을 제공합니다.
+1. 위치 **[!UICONTROL Details]** 다음 범위 내 **[!UICONTROL Role]**&#x200B;을 클릭하고 적절한 을(를) 추가합니다. **[!UICONTROL Users]** 및/또는 **[!UICONTROL User groups]** 사용자에게 Mix Modeler에 대한 액세스 권한을 제공합니다.

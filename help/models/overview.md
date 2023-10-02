@@ -1,10 +1,10 @@
 ---
 title: 모델
-description: Adobe 믹스 모델러에서 모델을 구성하고 사용하는 방법에 대해 알아봅니다.
+description: Mix Modeler에서 모델을 구성하고 사용하는 방법에 대해 알아봅니다.
 feature: Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '346'
 ht-degree: 0%
 
 ---
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 # 모델
 
-Adobe 믹스 모델러의 모델 기능을 통해 비즈니스 목표에 맞고 멀티터치 속성 및 마케팅 믹스 모델링 간 AI 기반 전환 학습이 지원되는 AI/ML 모델을 구성, 트레이닝 및 평가할 수 있습니다.
+Mix Modeler의 모델 기능을 사용하면 비즈니스 목표에 맞고 멀티터치 속성 및 마케팅 믹스 모델링 간 AI 기반 전환 학습이 지원되는 AI/ML 모델을 구성, 트레이닝 및 평가할 수 있습니다.
 
-이 모델은 Adobe 믹스 모델러 애플리케이션 워크플로의 일부로 생성하는 조화로운 데이터를 기반으로 합니다.
+이 모델은 Mix Modeler 애플리케이션 워크플로의 일부로 만드는 통합 데이터를 기반으로 합니다.
 
 모델을 생성하려면 다음을 선택할 때 사용할 수 있는 Mix Modeler 단계별 안내식 모델 구성 플로우를 사용합니다 **[!UICONTROL Guide me]**. 다음을 참조하십시오 [모델 만들기](create.md) 을 참조하십시오.
 
 ## 모델 관리
 
-Adobe 믹스 모델러 인터페이스에서 현재 모델의 테이블을 보려면 다음을 수행합니다.
+Mix Modeler 인터페이스에서 현재 모델의 테이블을 보려면 다음을 수행합니다.
 
 1. 선택 ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** 왼쪽 레일에서.
 
@@ -64,14 +64,14 @@ Adobe 믹스 모델러 인터페이스에서 현재 모델의 테이블을 보�
 
 >[!NOTE]
 >
->이 선택은 성공적인 교육을 받은 모델(마지막 실행 상태가 성공인 모델)에서만 사용할 수 있습니다.
+>이 선택은 교육을 받은 성공적인 모델에서만 사용할 수 있습니다.
 >
 
-Adobe 믹스 모델러 인터페이스에서 모델의 통찰력을 보려면 다음을 수행합니다.
+Mix Modeler 인터페이스에서 모델의 통찰력을 보려면 다음을 수행하십시오.
 
 1. 선택 ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** 왼쪽 레일에서.
 
-1. 을(를) 가진 모델 이름 선택 **[!UICONTROL Last run status]** / <span style="color:green">●</span> **[!UICONTROL Success]** 다음에서 **[!UICONTROL Models]** 표
+1. 을(를) 가진 모델 이름 선택 **[!UICONTROL Last run status]** / <span style="color:green">●</span> **[!UICONTROL Success]** 다음에서 **[!UICONTROL Models]** 테이블.
 
 1. 컨텍스트 메뉴에서 을(를) 선택합니다 **[!UICONTROL Model Insights]**. (으)로 리디렉션됩니다. [모델 인사이트](insights.md).
 

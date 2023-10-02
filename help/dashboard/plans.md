@@ -1,10 +1,10 @@
 ---
 title: 플랜 개요
-description: Adobe 믹스 모델러에서 계획 개요를 사용하는 방법에 대해 알아봅니다.
+description: Mix Modeler에서 계획 개요를 사용하는 방법에 대해 알아봅니다.
 feature: Dashboard, Plans, Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!BADGE Alpha]{type=Informative}
 
 
-Adobe 믹스 모델러 개요의 계획 탭에는 다음에 대한 위젯이 표시됩니다 [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] 및 [!UICONTROL KPI].
+Mix Modeler 개요 의 플랜 탭에는 다음에 대한 위젯이 표시됩니다. [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] 및 [!UICONTROL KPI].
 
 위젯에 대해 표시되는 데이터는 다음에 의해 결정됩니다.
 

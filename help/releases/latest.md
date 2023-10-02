@@ -1,18 +1,20 @@
 ---
-title: 현재 Adobe 믹스 모델러 릴리스 정보 보기
+title: 현재 Mix Modeler 릴리스 정보 보기
 description: 최신 Mix Modeler 릴리스 정보
-source-git-commit: 592d85cf9b1dfde8a9ca087d14445339fb64ecc7
+feature-set: Experience Cloud
+feature: Release Notes
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '179'
 ht-degree: 6%
 
 ---
 
-# 현재 Adobe Mix Modeler 릴리스 정보
+# 현재 Mix Modeler 릴리스 정보
 
 **마지막 업데이트**: 2023년 10월 4일
 
-이 릴리스 노트는 Adobe Mix Modeler의 초기 릴리스를 다룹니다. Adobe Mix Modeler 릴리스는 대략적인 월별 릴리스 케이던스를 허용하는 연속 게재 모델에서 작동합니다. 따라서 이 릴리스 정보는 업데이트되므로 정기적으로 확인하십시오.
+이 릴리스 노트는 Mix Modeler의 초기 릴리스를 다룹니다. Mix Modeler 릴리스는 대략적인 월별 릴리스 케이던스를 허용하는 연속 게재 모델에서 작동합니다. 따라서 이 릴리스 정보는 업데이트되므로 정기적으로 확인하십시오.
 
 
 ## 새로운 기능 또는 업데이트된 기능
@@ -29,8 +31,8 @@ ht-degree: 6%
 
 >[!MORELIKETHIS]
 >
->* [Adobe Mix Modeler 소개](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
->* [Adobe Mix Modeler Experience League 설명서](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=en)
+>* [Mix Modeler 소개](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
+>* [Mix Modeler Experience League 설명서](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=en)
 
 
 

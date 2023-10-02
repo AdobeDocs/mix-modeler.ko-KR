@@ -1,15 +1,15 @@
 ---
-title: Adobe 믹스 모델러 용어집
-description: Adobe 혼합 모델러 용어집입니다.
+title: Mix Modeler 용어집
+description: Mix Modeler 용어집입니다.
 feature: Datasets, Conversions, Marketing Touch Points, Harmonized Data
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 1%
 
 ---
 
-# Adobe 믹스 모델러 용어집
+# Mix Modeler 용어집
 
 설명서에는 다음 용어와 약어가 사용됩니다.
 

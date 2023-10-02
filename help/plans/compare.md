@@ -1,18 +1,18 @@
 ---
 title: 계획 비교
-description: Adobe 믹스 모델러에서 계획을 비교하는 방법에 대해 알아봅니다.
+description: Mix Modeler에서 플랜을 비교하는 방법을 알아봅니다.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 1%
+source-wordcount: '100'
+ht-degree: 2%
 
 ---
 
 
 # 계획 비교
 
-Adobe 혼합 모델러 계획 인터페이스에서 계획을 비교하려면
+Mix Modeler 계획 인터페이스에서 계획을 비교하려면
 
 * 선택 ![비교](../assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**. 계획 비교에서 각각에 대한 계획을 선택합니다 **[!UICONTROL _플랜 선택_]**.
 

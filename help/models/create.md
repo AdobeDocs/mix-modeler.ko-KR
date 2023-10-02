@@ -1,10 +1,10 @@
 ---
 title: 모델 만들기
-description: Adobe 믹스 모델러에서 모델을 만드는 방법을 알아봅니다.
+description: Mix Modeler에서 모델을 만드는 방법을 알아봅니다.
 feature: Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 모델 만들기
 
-모델을 만들려면 ![모델](../assets/icons/FileData.svg) **[!UICONTROL Models]** Adobe 믹스 모델러에서 인터페이스, 선택 **[!UICONTROL Guide me]**.
+모델을 만들려면 ![모델](../assets/icons/FileData.svg) **[!UICONTROL Models]** Mix Modeler에서 인터페이스, 선택 **[!UICONTROL Guide me]**.
 
 사용자 지정 AI 기반 모델을 구축하기 위해 인터페이스는 단계별 가이드 모델 구성 플로우를 제공합니다.
 
 1. 다음에서 **[!UICONTROL Setup]** 단계:
 
-   1. 모델 입력 **[!UICONTROL Name]**, 예 `Demo model`. 입력 **[!UICONTROL Description]**, 예 `Demo model to explore AI featues of Adobe Mix Modeler`.
+   1. 모델 입력 **[!UICONTROL Name]**, 예 `Demo model`. 입력 **[!UICONTROL Description]**, 예 `Demo model to explore AI featues of Mix Modeler`.
 
       ![모델 이름 및 설명](../assets/model-name-description.png)
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
    1. 다음에서 **[!UICONTROL Define training window]** 섹션, 다음 중 선택
 
-      * **[!UICONTROL Have Adobe Mix Modeler select a helpful training window]** 및
+      * **[!UICONTROL Have Mix Modeler select a helpful training window]** 및
 
       * **[!UICONTROL Manually input a training window]** 질문에 답합니다. 선택한 경우, 연도 수를 정의합니다. **[!UICONTROL Include events the following years prior to a conversion]**.
 

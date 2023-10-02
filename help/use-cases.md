@@ -1,18 +1,18 @@
 ---
-title: Adobe 믹스 모델러 사용 사례
-description: Adobe 믹스 모델러 사용 사례.
+title: Mix Modeler 사용 사례
+description: Mix Modeler 사용 사례.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
-source-git-commit: 5d86d07562deeb200d418000a73390616c916d7e
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '625'
 ht-degree: 3%
 
 ---
 
 
-# Adobe 믹스 모델러 사용 사례
+# Mix Modeler 사용 사례
 
-Adobe 믹스 모델러는 다음과 같은 주요 사용 사례를 활성화합니다.
+Mix Modeler은 다음과 같은 주요 사용 사례를 활성화합니다.
 
 ## 옴니채널 증분 성능 이해
 

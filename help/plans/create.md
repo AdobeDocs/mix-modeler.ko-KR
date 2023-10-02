@@ -1,10 +1,10 @@
 ---
 title: 계획 만들기
-description: Adobe 믹스 모델러에서 플랜을 만드는 방법을 알아봅니다.
+description: Mix Modeler에서 계획을 만드는 방법을 알아봅니다.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 계획 만들기
 
-Adobe 믹스 모델러에서는 계획 캔버스를 사용하여 계획을 생성합니다. 계획 캔버스에서 계획에 사용할 기본 모델과 계획의 세부 정보와 예산을 설정할 수 있습니다. 세부 정보, 예산 및 모델을 지정하면 AI 추천 플랜을 진행하거나 채널별 지출을 편집할 수 있습니다.
+Mix Modeler에서 계획 캔버스를 사용하여 계획을 생성합니다. 계획 캔버스에서 계획에 사용할 기본 모델과 계획의 세부 정보와 예산을 설정할 수 있습니다. 세부 정보, 예산 및 모델을 지정하면 AI 추천 플랜을 진행하거나 채널별 지출을 편집할 수 있습니다.
 
-계획을 생성하려면 ![피판](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** Adobe 믹스 모델러에서 인터페이스, 선택 **[!UICONTROL Open plan canvas]**.
+계획을 생성하려면 ![피판](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** Mix Modeler에서 인터페이스, 선택 **[!UICONTROL Open plan canvas]**.
 
 1. 계획 생성 화면에서 다음을 수행합니다.
 

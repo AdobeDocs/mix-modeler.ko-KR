@@ -2,20 +2,20 @@
 user-guide-title: Mixed Modeler
 breadcrumb-title: Mixed Modeler
 user-guide-description: Mixed Modeler를 사용하는 방법에 대해 알아봅니다.
-source-git-commit: 1eaebc6f6178270a9e8aebb6b250e0b0a6289f52
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 42%
+source-wordcount: '63'
+ht-degree: 53%
 
 ---
 
 
-# Adobe 믹스 모델러 안내서 {#using}
+# Mix Modeler 안내서 {#using}
 
-+ [Adobe 믹스 모델러 안내서](overview.md)
++ [Mix Modeler 안내서](overview.md)
 
 + 시작하기 {#get-started}
-   + [Adobe 믹스 모델러란 무엇입니까?](get-started/about.md)
+   + [Mix Modeler이란?](get-started/about.md)
    + [애플리케이션 워크플로우](get-started/workflow.md)
 
 + 대시보드 {#dashboard}

@@ -1,8 +1,8 @@
 ---
 title: 모델 인사이트
-description: Adobe 믹스 모델러의 내역 개요, 모델 통찰력 및 모델 품질과 같은 모델에 대한 세부 정보를 얻는 방법에 대해 알아봅니다.
+description: Mix Modeler 시 기록 개요, 모델 통찰력 및 모델 품질과 같은 모델에 대한 세부 정보를 얻는 방법에 대해 알아봅니다.
 feature: Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 모델 인사이트
 
-모델 인사이트를 보려면 ![모델](../assets/icons/FileData.svg) **[!UICONTROL Models]** Adobe 믹스 모델러의 인터페이스:
+모델 인사이트를 보려면 ![모델](../assets/icons/FileData.svg) **[!UICONTROL Models]** Mix Modeler 인터페이스:
 
 1. 을(를) 가진 모델 이름 선택 **[!UICONTROL Last run status]** / <span style="color:green">●</span> **[!UICONTROL Success]** 다음에서 **[!UICONTROL Models]** 테이블.
 
@@ -68,5 +68,7 @@ ht-degree: 0%
 * MAPE(Mean Absolute Percentage Error): 예측 정확도를 측정하기 위해 가장 일반적으로 사용되는 KPI 중 하나이며 예측 오류를 실제 값의 백분율로 표시합니다.
 
 * RMSE(제곱 평균 제곱근 오차): 오차의 제곱에 따라 가중치가 적용된 평균 &quot;오차&quot;를 표시합니다.
+
+![모델 품질](../assets/model-quality.png)
 
 

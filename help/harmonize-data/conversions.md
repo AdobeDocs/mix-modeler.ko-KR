@@ -1,10 +1,10 @@
 ---
 title: 전환
-description: Adobe 믹스 모델러에서 데이터를 조화시키는 과정의 일부로 사용할 전환을 만드는 방법을 알아봅니다.
+description: Mix Modeler에서 데이터를 조화시키는 과정에서 사용할 전환을 만드는 방법을 알아봅니다.
 feature: Harmonized Data, Conversions
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '241'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 ## 전환 관리
 
-Adobe 믹스 모델러 인터페이스에서 사용 가능한 전환의 표를 보려면 다음을 수행하십시오.
+Mix Modeler 인터페이스에서 사용 가능한 전환의 표를 보려면 다음을 수행하십시오.
 
 1. 선택 ![데이터 검색](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 왼쪽 레일에서.
 
@@ -38,7 +38,7 @@ Adobe 믹스 모델러 인터페이스에서 사용 가능한 전환의 표를 �
 
 ## 전환 추가
 
-변환을 추가하려면 ![데이터 검색](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** Adobe 믹스 모델러의 인터페이스:
+변환을 추가하려면 ![데이터 검색](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** Mix Modeler 인터페이스:
 
 1. 선택 ![추가](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 

@@ -1,19 +1,20 @@
 ---
-title: Adobe 믹스 모델러 개요
-description: Adobe Mix Modeler를 사용하여 모든 채널에서 캠페인을 측정하고 계획 수립을 전체적으로 최적화하는 방법에 대해 알아봅니다.
-source-git-commit: 9e89d9820c28021e151ad31874ac3bcbaa008f9c
+title: Mix Modeler 개요
+description: Mix Modeler를 사용하여 모든 채널에서 캠페인을 측정하고 계획 수립을 전체적으로 최적화하는 방법에 대해 알아봅니다.
+feature: Harmonized Data, Models, Plans
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '96'
 ht-degree: 18%
 
 ---
 
 
-# Adobe 믹스 모델러 안내서
+# AdobeMix Modeler 안내서
 
 ![배너](assets/mix-modeler-banner.png)
 
-이 기술 설명서 가이드는 다음을 위한 자가 진단 지원을 제공합니다. **Adobe 믹스 모델러**. Adobe 믹스 모델러는 유료, 획득 및 소유와 같은 모든 채널에서 캠페인을 측정하고 계획을 전체적으로 최적화하는 Adobe Experience Cloud 애플리케이션입니다. Adobe Mix Modeler는 Adobe Experience Platform의 맨 위에 구축되며 Adobe Sensei에서 지원합니다.
+이 기술 설명서 가이드는 다음을 위한 자가 진단 지원을 제공합니다. **Adobe 믹스 모델러**. Mix Modeler은 캠페인을 측정하고 유료, 수익 및 소유 등 모든 채널에서 전체적으로 계획을 최적화하는 Adobe Experience Cloud 애플리케이션입니다. Mix Modeler은 Adobe Experience Platform의 맨 위에 구축되며 Adobe Sensei에서 지원합니다.
 
 >[!AVAILABILITY]
 >
@@ -21,7 +22,7 @@ ht-degree: 18%
 
 ## 시작
 
-* 이란? [Adobe 믹스 모델러](get-started/about.md)?
+* 이란? [혼합 모델러](get-started/about.md)?
 
 * 일반적인 사항 [응용 프로그램 워크플로](get-started/workflow.md)?
 

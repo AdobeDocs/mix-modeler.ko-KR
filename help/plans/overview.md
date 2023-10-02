@@ -1,10 +1,10 @@
 ---
 title: 플랜
-description: Adobe 믹스 모델러에서 플랜을 보고, 선택하고, 실행하는 방법을 알아봅니다.
+description: Mix Modeler에서 플랜을 보고, 선택하고, 실행하는 방법을 알아봅니다.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '293'
 ht-degree: 2%
 
 ---
@@ -12,12 +12,12 @@ ht-degree: 2%
 
 # 플랜
 
-Adobe 믹스 모델러의 계획을 통해 비즈니스 단위 및 채널별로 예산을 할당할 수 있습니다. 계획 기능은 조정된 데이터를 기반으로 훈련된 모델의 결과와 통합되어 있습니다.
+Mix Modeler의 플랜을 사용하면 비즈니스 단위 및 채널별로 예산을 할당할 수 있습니다. 계획 기능은 조정된 데이터를 기반으로 훈련된 모델의 결과와 통합되어 있습니다.
 
 
 ## 계획 보기
 
-Adobe 혼합 모델러 인터페이스에서 현재 계획의 테이블을 보려면 다음을 수행합니다.
+Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음을 수행합니다.
 
 1. 선택 ![](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** 왼쪽 레일에서.
 

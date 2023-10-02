@@ -1,10 +1,10 @@
 ---
 title: 스키마
-description: Adobe 믹스 모델러로 데이터를 수집하는 데 필요한 스키마를 관리하는 방법을 알아봅니다.
+description: 데이터를 Mix Modeler에 수집하는 데 필요한 스키마를 관리하는 방법을 알아봅니다.
 feature: Schemas
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '344'
 ht-degree: 6%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 6%
 
 # 스키마
 
-Adobe Experience Platform에서 수집하고 Adobe 믹스 모델러에서 사용할 데이터를 지원하여 스키마를 관리하려면 다음 작업을 수행하십시오.
+Adobe Experience Platform에서 수집하고 Mix Modeler에서 사용할 데이터를 지원하는 스키마를 관리하려면 다음을 수행하십시오.
 
-1. Adobe 믹스 모델러 인터페이스로 이동합니다.
+1. Mix Modeler 인터페이스로 이동합니다.
 
 1. 선택 ![스키마](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, 그 아래 **[!UICONTROL DATA MANAGEMENT]**.
 
@@ -22,7 +22,7 @@ Adobe Experience Platform에서 수집하고 Adobe 믹스 모델러에서 사용
 
 ## 집계 또는 요약 데이터
 
-XDM 요약 지표 클래스를 Experience Platform에서 수집하고 Adobe 믹스 모델러에서 사용할 집계 또는 요약 데이터의 기초가 되는 스키마의 기반으로 사용하는 것이 좋습니다.
+XDM 요약 지표 클래스를 Experience Platform에 수집하고 Mix Modeler에 사용할 집계 또는 요약 데이터의 기초가 되는 스키마의 기반으로 사용하는 것이 좋습니다.
 
 XDM 요약 지표 클래스 사용:
 

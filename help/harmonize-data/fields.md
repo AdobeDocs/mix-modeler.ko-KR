@@ -1,10 +1,10 @@
 ---
 title: 조화된 필드
-description: Adobe 믹스 모델러에서 데이터를 조화시키는 과정의 일부로 사용할 필드를 정의하는 방법에 대해 알아봅니다.
-feature: Harmonized Data
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+description: Mix Modeler에서 데이터를 조화시키는 과정에서 사용할 필드를 정의하는 방법에 대해 알아봅니다.
+feature: Harmonized Data, Harmonized Fields
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '655'
 ht-degree: 10%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 10%
 
 ## 전역 조화 필드
 
-Adobe 믹스 모델러에서 사용할 수 있는 기본 전역 조화 필드는 다음과 같습니다.
+Mix Modeler에서 기본적으로 사용할 수 있는 전역 조화 필드는 다음과 같습니다.
 
 
 | 필드 이름 | 표시 이름 | 카테고리 | 데이터 유형 | 댓글 |
@@ -53,7 +53,7 @@ Adobe 믹스 모델러에서 사용할 수 있는 기본 전역 조화 필드는
 
 ## 조화로운 필드 관리
 
-Adobe 믹스 모델러 인터페이스에서 사용 가능한 harmonized 필드의 표를 보려면 다음을 수행하십시오.
+Mix Modeler 인터페이스에서 사용 가능한 조화 필드의 표를 보려면 다음을 수행하십시오.
 
 1. 선택 ![데이터 검색](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 왼쪽 레일에서.
 
@@ -81,7 +81,7 @@ Adobe 믹스 모델러 인터페이스에서 사용 가능한 harmonized 필드�
 
 ### 조화로운 필드 추가
 
-조화로운 필드를 추가하려면 ![데이터 검색](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Adobe 믹스 모델러의 인터페이스:
+조화로운 필드를 추가하려면 ![데이터 검색](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler 인터페이스:
 
 1. 선택 ![추가](../assets/icons/AddCircle.svg)필드를 추가합니다.
 
@@ -107,7 +107,7 @@ Adobe 믹스 모델러 인터페이스에서 사용 가능한 harmonized 필드�
 
 이전에 만든 조화 필드만 편집할 수 있습니다. 전역 조화 필드를 편집할 수 없습니다.
 
-조화된 필드를 편집하려면 ![데이터 검색](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Adobe 믹스 모델러의 인터페이스:
+조화된 필드를 편집하려면 ![데이터 검색](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler 인터페이스:
 
 1. 편집할 조화로운 필드를 선택합니다. For example, **[!UICONTROL Region]**.
 
@@ -121,7 +121,7 @@ Adobe 믹스 모델러 인터페이스에서 사용 가능한 harmonized 필드�
 
 이전에 만든 harmonized 필드만 삭제할 수 있습니다. 전역 조화된 필드는 삭제할 수 없습니다.
 
-조화된 필드를 삭제하려면 ![데이터 검색](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Adobe 믹스 모델러의 인터페이스:
+조화된 필드를 삭제하려면 ![데이터 검색](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler 인터페이스:
 
 1. 삭제할 조화로운 필드를 선택합니다(예: ). **[!UICONTROL Region]**.
 

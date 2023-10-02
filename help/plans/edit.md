@@ -1,10 +1,10 @@
 ---
 title: 플랜 편집
-description: Adobe 믹스 모델러에서 플랜을 편집하는 방법을 알아봅니다.
+description: Mix Modeler에서 플랜을 편집하는 방법을 알아봅니다.
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 플랜 편집
 
-계획을 편집하려면 ![피판](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** Adobe 믹스 모델러에서 이름별로 계획을 선택합니다.
+계획을 편집하려면 ![피판](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** Mix Modeler에서 이름별로 계획을 선택합니다.
 
 위치 [!UICONTROL Plan insights], 플랜 인사이트가 생성되어 [!UICONTROL Model], [!UICONTROL Data range], 및 [!UICONTROL Total budget] 플랜의 기반이 되는 항목.
 

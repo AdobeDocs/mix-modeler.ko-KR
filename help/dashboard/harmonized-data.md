@@ -1,10 +1,10 @@
 ---
 title: Harmonized data overview 대시보드
-description: Adobe 믹스 모델러에서 Harmonized Data Overview 대시보드를 사용하는 방법에 대해 알아봅니다.
+description: Mix Modeler에서 Harmonized Data Overview 대시보드를 사용하는 방법에 대해 알아봅니다.
 feature: Dashboard, Harmonized Data
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Harmonized data 개요
 
-Adobe 믹스 모델러 개요의 통합 데이터 탭은 수집된 데이터 및 통합 데이터 설정의 일부로 사용하도록 구성한 통합 데이터에 대한 통찰력을 제공합니다.
+Mix Modeler 개요의 통합 데이터 탭은 수집된 데이터 및 통합 데이터 설정의 일부로 사용하도록 구성한 통합 데이터에 대한 통찰력을 제공합니다.
 
 개요는 4개의 KPI 상태 카드 위젯(상단 행)과 6개의 다른 구성 가능한 위젯을 보여 줍니다.
 
