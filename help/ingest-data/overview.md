@@ -2,9 +2,9 @@
 title: 데이터 수집
 description: 데이터를 Mix Modeler에 수집하는 방법에 대해 알아봅니다.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+source-git-commit: 7778c235b4d34bc91869098961b053b2455ff5b3
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 14%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 14%
 
 # 데이터 수집
 
-Adobe Mix Modeler은 이벤트 수준 데이터, 다양한 담벼락 정원의 총 마케팅 노력 데이터, 오프라인 광고, 내부 요소 또는 외부 요소와 같은 다른 소스의 집계 또는 요약 데이터로 작동합니다.
+Mix Modeler은 이벤트 수준 데이터, 다양한 담벼락 정원의 총 마케팅 노력 데이터, 오프라인 광고, 내부 요소 또는 외부 요소와 같은 다른 소스의 집계 또는 요약 데이터로 작동합니다.
 
 고객은 XDM ExperienceEvent 또는 XDM 요약 지표를 기본 클래스로 사용하여 스키마를 기반으로 하는 데이터 세트로 Adobe Experience Platform에 수집되는 모든 종류의 데이터를 사용할 수 있습니다.
 
