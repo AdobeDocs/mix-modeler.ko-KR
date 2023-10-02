@@ -2,15 +2,15 @@
 title: Mix Modeler 개요
 description: Mix Modeler를 사용하여 모든 채널에서 캠페인을 측정하고 계획 수립을 전체적으로 최적화하는 방법에 대해 알아봅니다.
 feature: Harmonized Data, Models, Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+source-git-commit: d02cfdf3ad5a0872a0f9c2c9f98973e79f1a9de8
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '97'
 ht-degree: 18%
 
 ---
 
 
-# AdobeMix Modeler 안내서
+# Adobe 믹스 모델러 안내서
 
 ![배너](assets/mix-modeler-banner.png)
 

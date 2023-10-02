@@ -1,11 +1,11 @@
 ---
-user-guide-title: Mixed Modeler
-breadcrumb-title: Mixed Modeler
-user-guide-description: Mixed Modeler를 사용하는 방법에 대해 알아봅니다.
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+user-guide-title: Adobe 믹스 모델러 안내서
+breadcrumb-title: Mix Modeler 안내서
+user-guide-description: Adobe Mix Modeler 사용 방법을 알아봅니다.
+source-git-commit: d02cfdf3ad5a0872a0f9c2c9f98973e79f1a9de8
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 53%
+source-wordcount: '67'
+ht-degree: 40%
 
 ---
 
