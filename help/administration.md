@@ -1,7 +1,7 @@
 ---
 title: 관리
 description: Adobe Mix Modeler 관리 방법을 알아봅니다.
-source-git-commit: 4a6cbda1ff0a779ebf8a38a4de3f797ed9e54b00
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 8%
@@ -35,9 +35,15 @@ Adobe Experience Cloud UI에서,
 
    * **[!UICONTROL Data Ingestion]**: 다음을 선택해야 합니다. **[!UICONTROL View Sources]** 및 **[!UICONTROL Manage Sources]**.
 
+   <!--
+    * **[!UICONTROL Data Governance]**: ensure you select **[!UICONTROL View User Activity Log]** and **[!UICONTROL View Data Usage Policies]**.
+    -->
+
    역할에 대해 설정된 권한은 다음과 같아야 합니다.
 
    ![권한](assets/permissions.png)
+
+   <!--![Permissions](assets/permissions-including-privacy.png)-->
 
    선택 **[!UICONTROL Save]** 사용 권한을 저장합니다.
 

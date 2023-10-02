@@ -2,9 +2,9 @@
 title: 데이터 조화
 description: Adobe 믹스 모델러에서 데이터를 조화롭게 구성하는 방법에 대해 알아봅니다.
 feature: Harmonized Data
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '804'
 ht-degree: 16%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 Adobe 믹스 모델러의 데이터는 데이터 소스에 따라 성격이 다릅니다. 데이터는 다음과 같을 수 있습니다.
 
-* 집계된 데이터(예: 담으로 둘러싸인 정원 데이터 소스에서 수집한 데이터)
+* 집계된 데이터(예: 벽으로 둘러싸인 정원 데이터 소스에서 수집되거나 빌보드 캠페인, 이벤트 또는 물리적 광고 캠페인을 실행하여 수집된(지출 등) 오프라인 광고 데이터)
 * 이벤트 데이터(예: 자사 데이터 소스). 이 이벤트 데이터는 Adobe Analytics의 Adobe Analytics 소스 커넥터, Adobe Experience Platform 웹 또는 Mobile SDK 또는 Edge Network API를 통해 수집된 데이터 또는 소스 커넥터를 사용하여 수집된 데이터일 수 있습니다.
 
 Adobe 믹스 모델러의 조화 서비스는 집계 및 이벤트 데이터를 일관된 데이터 보기로 통합합니다. 이 데이터 보기는 Adobe 믹스 모델러의 계획 및 모델에 대한 소스입니다.
