@@ -2,20 +2,20 @@
 title: 데이터 조화
 description: Mix Modeler에서 데이터를 조화롭게 구성하는 방법에 대해 알아봅니다.
 feature: Harmonized Data
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '801'
 ht-degree: 16%
 
 ---
-
 
 # 데이터 조화
 
 Mix Modeler의 데이터는 데이터 소스에 따라 그 성격이 다르다. 데이터는 다음과 같을 수 있습니다.
 
-* 집계된 데이터(예: 벽으로 둘러싸인 정원 데이터 소스에서 수집되거나 빌보드 캠페인, 이벤트 또는 물리적 광고 캠페인을 실행하여 수집된(지출 등) 오프라인 광고 데이터)
-* 이벤트 데이터(예: 자사 데이터 소스). 이 이벤트 데이터는 Adobe Analytics의 Adobe Analytics 소스 커넥터, Adobe Experience Platform 웹 또는 Mobile SDK 또는 Edge Network API를 통해 수집된 데이터 또는 소스 커넥터를 사용하여 수집된 데이터일 수 있습니다.
+* 집계 또는 요약 데이터(예: 담으로 둘러싸인 정원 데이터 소스에서 수집되거나 빌보드 캠페인, 이벤트 또는 물리적 광고 캠페인을 실행하여 수집된(지출) 오프라인 광고 데이터)
+* 이벤트 데이터(예: 자사 데이터 소스). 이 이벤트 데이터는 Adobe Analytics의 Adobe Analytics 소스 커넥터, Experience Platform 웹 또는 Mobile SDK 또는 Edge Network API를 통해 수집된 데이터 또는 소스 커넥터를 사용하여 수집된 데이터일 수 있습니다.
 
 Mix Modeler의 조화 서비스는 집계 및 이벤트 데이터를 일관된 데이터 보기로 통합합니다. 이 데이터 보기는 Mix Modeler의 계획 및 모델에 대한 소스입니다.
 
@@ -122,7 +122,7 @@ Mix Modeler 인터페이스에서 조정된 데이터를 보려면 다음을 수
 
    1. 결합된 데이터의 요약의 기반이 되는 기간을 재정의하려면 날짜 범위를 입력합니다. **[!UICONTROL Date range]** 또는 사용 ![캘린더](../assets/icons/Calendar.svg) 데이터 범위를 선택합니다.
 
-   1. Harmonized Data 테이블에 표시되는 열을 수정하려면 다음을 사용합니다. ![설정](../assets/icons/Setting.svg) 을(를) 열려면 **[!UICONTROL Column settings]** 대화 상자.
+   1. Harmonized Data 테이블에 표시되는 Harmonized 필드 열을 수정하려면 다음을 사용합니다. ![설정](../assets/icons/Setting.svg) 을(를) 열려면 **[!UICONTROL Column settings]** 대화 상자.
 
       1. 선택 ![SelectBox](../assets/icons/SelectBox.svg) 하나 이상의 열 위치 **[!UICONTROL AVAILABLE COLUMNS]** 및 사용 ![V자형 화살표 오른쪽](../assets/icons/ChevronRight.svg) 이 열을 추가할 위치: **[!UICONTROL SELECTED COLUMNS]**.
 
@@ -133,5 +133,3 @@ Mix Modeler 인터페이스에서 조정된 데이터를 보려면 다음을 수
       1. 표시되는 열의 순서를 변경하기 위해에서 열을 이동할 수 있습니다 **[!UICONTROL SELECTED COLUMNS]** 을(를) 끌어다 놓기 위해 위아래로 움직입니다.
 
    1. 선택 **[!UICONTROL Submit]** 을 클릭하여 열 설정 변경 사항을 제출합니다. 선택 **[!UICONTROL Close]** 을 클릭하여 변경 내용을 취소합니다.
-
-

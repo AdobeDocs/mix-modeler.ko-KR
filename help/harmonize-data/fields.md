@@ -2,13 +2,13 @@
 title: 조화된 필드
 description: Mix Modeler에서 데이터를 조화시키는 과정에서 사용할 필드를 정의하는 방법에 대해 알아봅니다.
 feature: Harmonized Data, Harmonized Fields
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 10%
 
 ---
-
 
 # 조화된 필드
 
@@ -126,5 +126,3 @@ Mix Modeler 인터페이스에서 사용 가능한 조화 필드의 표를 보�
 1. 삭제할 조화로운 필드를 선택합니다(예: ). **[!UICONTROL Region]**.
 
 1. 선택 ![삭제](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 다음에서 **[!UICONTROL Edit harmonization values]** 왼쪽 창입니다.
-
-

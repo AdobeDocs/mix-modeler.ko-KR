@@ -2,13 +2,13 @@
 title: 플랜
 description: Mix Modeler에서 플랜을 보고, 선택하고, 실행하는 방법을 알아봅니다.
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 2%
 
 ---
-
 
 # 플랜
 
@@ -69,7 +69,8 @@ Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음
 계획을 삭제하려면
 
 1. 테이블에서 하나 이상의 계획을 선택합니다.
-1. 선택 ![삭제](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 작업 표시줄에서 플랜이 즉시 삭제됩니다.
+1. 선택 ![삭제](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 작업 표시줄에서
 
-
-
+   >[!WARNING]
+   >
+   >   선택한 플랜이 즉시 삭제됩니다.

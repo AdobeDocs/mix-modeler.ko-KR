@@ -2,13 +2,13 @@
 title: Mix Modeler 워크플로
 description: Mix Modeler의 일반적인 워크플로를 이해합니다.
 feature: Ingest Data, Plans, Harmonized Data, Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 3%
+source-wordcount: '171'
+ht-degree: 2%
 
 ---
-
 
 # Mix Modeler 워크플로
 
@@ -18,7 +18,7 @@ Mix Modeler의 일반적인 워크플로우는 다음과 같습니다.
 
 |  | 활동 | 설명 |
 |---|---|---|
-| ![데이터](../assets/icons/Data.svg){width="100"} | [**데이터 수집**](../ingest-data/overview.md) | Adobe Experience Platform(예: Adobe Analytics, Web SDK, 기타 소스)의 이벤트 데이터, 마케팅 채널의 집계 데이터(예: TV, 벽으로 둘러싸인 정원, 이메일, 소유 및 운영되는 활동) 및 고객의 외부 요인 데이터(예: 구독 서비스의 가격 변경)를 수집합니다. |
+| ![데이터](../assets/icons/Data.svg){width="100"} | [**데이터 수집**](../ingest-data/overview.md) | Experience Platform(예: Adobe Analytics, Web SDK, 기타 소스)의 이벤트 데이터, 마케팅 채널의 집계 데이터(예: TV, 담벼락 정원, 이메일, 소유 및 운영 활동), 고객의 외부 요인 데이터(예: 구독 서비스의 가격 변경) 및 내부 요인 데이터(예: 휴일 플랜)를 수집합니다. |
 | ![DataCheck](../assets/icons/DataCheck.svg){width="100"} | [**데이터 조화**](../harmonize-data/overview.md) | 매핑 규칙 및 충돌 해결 규칙을 구성하여 Mix Modeler에서 캠페인 성과를 측정하고 계획하는 데 필요한 다양한 마케팅 데이터 세트를 병합합니다. |
 | ![파일 구성](../assets/icons/FileGear.svg){width="100"} | [**모델 구성**](../models/create.md) | 마케팅 접점(예: 채널) 및 전환 정의를 사용하여 모델 인스턴스를 구성합니다. |
 | ![파일 데이터](../assets/icons/FileData.svg){width="100"} | [**교육 및 점수 모델**](../models/overview.md) | 머신 러닝 교육 및 채점을 사용하여 집계 및 이벤트 수준 점수를 만드십시오. |
@@ -26,4 +26,3 @@ Mix Modeler의 일반적인 워크플로우는 다음과 같습니다.
 | ![대시보드](../assets/icons/Dashboard.svg){width="100"} | [**개요 대시보드**](../dashboard/overview.md) | 다양한 구성 가능한 위젯을 사용하여 결합된 데이터, 모델 및 플랜에 대한 통찰력을 얻으십시오. |
 
 {style="table-layout:auto"}
-

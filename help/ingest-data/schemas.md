@@ -2,17 +2,17 @@
 title: 스키마
 description: 데이터를 Mix Modeler에 수집하는 데 필요한 스키마를 관리하는 방법을 알아봅니다.
 feature: Schemas
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '345'
 ht-degree: 6%
 
 ---
 
-
 # 스키마
 
-Adobe Experience Platform에서 수집하고 Mix Modeler에서 사용할 데이터를 지원하는 스키마를 관리하려면 다음을 수행하십시오.
+Experience Platform에서 수집하고 Mix Modeler에서 사용할 데이터를 지원하는 스키마를 관리하려면 다음을 수행하십시오.
 
 1. Mix Modeler 인터페이스로 이동합니다.
 
@@ -40,7 +40,7 @@ XDM 요약 지표 클래스 사용:
 
 ![외부 요인 스키마](../assets/external-factors-schema.png)
 
-이 간단한 스키마를 사용하여 다음에 대한 데이터가 포함된 데이터 세트를 수집할 수 있습니다.
+이 간단한 스키마를 사용하여 다음과 같은 데이터를 포함하는 데이터 세트를 수집할 수 있습니다.
 
 - 경쟁업체 인덱스 데이터
 

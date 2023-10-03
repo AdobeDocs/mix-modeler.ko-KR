@@ -2,13 +2,13 @@
 title: 데이터 세트 규칙
 description: Mix Modeler에서 데이터를 조화롭게 만드는 과정에서 사용할 데이터 세트 규칙을 정의하는 방법을 알아봅니다.
 feature: Harmonized Data, Dataset Rules
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '798'
 ht-degree: 0%
 
 ---
-
 
 # 데이터 세트 규칙
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
       ![데이터 세트 규칙 만들기](../assets/dataset-create-summary.png)
 
-1. 데이터 세트의 이벤트 유형을 선택한 경우 아래의 음영처리된 상자에서 **[!UICONTROL Map to harmonized fields]**:
+1. 데이터 세트의 이벤트 유형을 선택한 경우(**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**), 아래에 있는 음영처리된 상자에서 **[!UICONTROL Map to harmonized fields]**:
 
    1. 다음 위치에서 조화로운 필드 선택 **[!UICONTROL Standard harmonized field]**.
 
@@ -132,4 +132,3 @@ ht-degree: 0%
 1. 선택 **[!UICONTROL Sync]** 데이터 세트에 있는 데이터와 조정된 데이터 간에 정의된 데이터 세트 규칙을 기반으로 동기화를 시작합니다. 동기화를 취소하려면 다음을 선택합니다 **[!UICONTROL Cancel]**.
 
    ![데이터 동기화](../assets/sync-data.png)
-
