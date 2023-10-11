@@ -2,13 +2,13 @@
 title: 모델 만들기
 description: Mix Modeler에서 모델을 만드는 방법을 알아봅니다.
 feature: Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
+source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
-
 
 # 모델 만들기
 
@@ -127,9 +127,9 @@ ht-degree: 0%
 
       1. **[!UICONTROL Rule type]**&#x200B;을(를) 선택합니다.
 
-      1. 아래 나열된 각 채널에 대해 백분율 배포 **[!UICONTROL Name]**, 사용 **[!UICONTROL Contribution proportion]** 열. 백분율의 전체 분포를 100%까지 합산해야 합니다.
+      1. 아래 나열된 채널에 대한 기여도 백분율을 지정합니다. **[!UICONTROL Name]**, 사용 **[!UICONTROL Contribution proportion]** 열.
 
-      1. 각 채널에 대해 를 추가할 수 있습니다. **[!UICONTROL Level of confidence]** 백분율.
+      1. 필요한 경우 각 채널에 대해 를 추가할 수 있습니다. **[!UICONTROL Level of confidence]** 백분율.
 
       1. 필요한 경우 다음을 사용하십시오. **[!UICONTROL Clear all]** 에 대한 모든 입력 값을 지우려면 **[!UICONTROL Contribution proportion]** 및 **[!UICONTROL Level of confidence]** 열.
 
@@ -146,4 +146,3 @@ ht-degree: 0%
    선택 **[!UICONTROL Back]** 이전 단계로 돌아갑니다.
 
    선택 **[!UICONTROL Cancel]** 모델 구성을 취소합니다.
-
