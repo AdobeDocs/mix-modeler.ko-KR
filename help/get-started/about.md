@@ -4,14 +4,18 @@ description: Mix Modeler의 기능 및 성능에 대한 개요를 살펴봅니�
 short-description: Mix Modeler의 기능 및 성능에 대한 개요를 살펴봅니다.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '282'
 ht-degree: 8%
 
 ---
 
 # Mix Modeler 개요
+
+Mix Modeler 기능에 대한 빠른 개요는 이 비디오 를 참조하십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
 
 Adobe Sensei을 기반으로 하는 Mix Modeler을 통해 마케터는 캠페인을 측정하고 유료, 획득 및 소유의 모든 채널에서 전체적으로 계획을 최적화할 수 있습니다. 통합된 방법론은 마케팅 접점 및 집계 수준 모두에서 점진적으로 측정되면서 완전히 일관된 결과를 보장합니다.
 

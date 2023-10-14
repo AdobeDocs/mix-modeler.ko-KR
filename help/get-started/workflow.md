@@ -3,16 +3,21 @@ title: Mix Modeler 워크플로
 description: Mix Modeler의 일반적인 워크플로를 이해합니다.
 feature: Ingest Data, Plans, Harmonized Data, Models
 exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '191'
 ht-degree: 2%
 
 ---
 
 # Mix Modeler 워크플로
 
-Mix Modeler의 일반적인 워크플로우는 다음과 같습니다.
+Mix Modeler의 사용자 워크플로에 대한 소개는 이 비디오 를 참조하십시오.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
+
+
+기능적 관점에서 볼 때 Mix Modeler의 일반적인 워크플로는 다음 활동으로 구성됩니다.
 
 ![대체 텍스트](../assets/ApplicationWorkflow.svg)
 
