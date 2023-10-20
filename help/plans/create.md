@@ -2,7 +2,8 @@
 title: 계획 만들기
 description: Mix Modeler에서 계획을 만드는 방법을 알아봅니다.
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
+source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -70,6 +71,3 @@ Mix Modeler에서 계획 캔버스를 사용하여 계획을 생성합니다. �
    1. 완료되면 다음을 선택합니다. **[!UICONTROL Create]**.
 
    1. 다음에서 **[!UICONTROL Create plan]** 대화 상자, 선택 **[!UICONTROL Create plan]** 을 클릭하여 플랜을 만듭니다. 선택 **[!UICONTROL Cancel]** 플랜 만들기를 취소합니다.
-
-
-
