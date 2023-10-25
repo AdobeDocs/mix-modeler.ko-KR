@@ -3,16 +3,16 @@ title: 데이터 수집
 description: 데이터를 Mix Modeler에 수집하는 방법에 대해 알아봅니다.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 1dbdee00f518d98241fc042e2aabc0e40d5a9153
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '457'
 ht-degree: 14%
 
 ---
 
 # 데이터 수집
 
-Mix Modeler은 이벤트 수준 데이터, 다양한 담벼락 정원의 총 마케팅 노력 데이터, 오프라인 광고, 내부 요소 또는 외부 요소와 같은 다른 소스의 집계 또는 요약 데이터로 작동합니다.
+Mix Modeler은 이벤트 수준 데이터, 다양한 담벼락 정원의 한 가지 요약 마케팅 노력 데이터 집계, 오프라인 광고, 내부 요인 또는 외부 요인과 같은 다른 소스의 집계 또는 요약 데이터로 작동합니다.
 
 고객은 XDM ExperienceEvent 또는 XDM 요약 지표를 기본 클래스로 사용하여 스키마를 기반으로 하는 데이터 세트로 Experience Platform에 수집되는 모든 종류의 데이터를 사용할 수 있습니다.
 
@@ -20,8 +20,8 @@ For example:
 
 * Adobe Analytics 소스 커넥터를 사용하여 수집된 데이터는 Adobe Analytics 스키마의 기본값 또는 사용자 지정 버전에 맞는 데이터 세트로 변환되거나
 * 웹, 모바일 또는 기타 유형의 디바이스에서 고객 상호 작용을 수집하기 위해 Experience Platform Web SDK, Mobile SDK 또는 Edge Network Server API를 사용하여 수집된 데이터
-* 벽으로 둘러싸인 정원(예: Facebook, YouTube), 트래픽 소스 또는 오프라인 광고 데이터의 데이터 집계
-* 모델 구축에 유용한 내부 또는 외부 요소를 포함하는 비마케팅 집계 또는 요약 데이터.
+* 벽으로 둘러싸인 정원(예: Facebook, YouTube), 트래픽 소스 또는 오프라인 광고 데이터의 집계 또는 요약 데이터,
+* 모델 구축에 유용한 내부 또는 외부 요인이 포함된 비마케팅 집계 또는 요약 데이터입니다.
 
 Experience Platform에서 지원하는 모든 종류의 메커니즘을 사용하여 경험 이벤트 수준, 총 마케팅 활동 데이터 및 다른 소스의 데이터를 수집할 수 있습니다. Experience Platform SDK, API, 소스 커넥터, 스트리밍 및 일괄 처리 수집 등.
 
