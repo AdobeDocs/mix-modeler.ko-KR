@@ -2,13 +2,13 @@
 title: 모델 인사이트
 description: Mix Modeler 시 기록 개요, 모델 통찰력 및 모델 품질과 같은 모델에 대한 세부 정보를 얻는 방법에 대해 알아봅니다.
 feature: Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
-
 
 # 모델 인사이트
 
@@ -27,36 +27,37 @@ ht-degree: 0%
 
 내역 개요 탭에는 다음에 대한 위젯이 표시됩니다.
 
-* 회계 분기 및 제품별 전환 및 지출
+* 회계 분기 및 제품별 전환 및 소비.
 
-* 채널별 소비
+* 채널별 소비.
 
-* 접점 사용
+* 접점 사용.
 
   이 위젯에 대해 표시할 대체 지출 기반 채널을 선택할 수 있습니다. 다음 위치에서 채널 선택 **[!UICONTROL Channels]**.
 
-* 접점 볼륨
+* 접점 볼륨.
 
   이 위젯에 대해 표시할 대체 볼륨 기반 채널을 선택할 수 있습니다. 다음 위치에서 채널 선택 **[!UICONTROL Channels]**.
 
-
-
 ![모델 - 기록 개요](../assets/model-historical-overview.png)
-
 
 ## 모델 인사이트
 
 모델 인사이트 탭에는 다음에 대한 위젯이 표시됩니다.
 
-* 날짜 및 기본 미디어별 기여도
+* 날짜 및 기본 미디어별 기여도. 누적 그래프는 맨 아래에 기준, 중간에 비 지출 채널 및 맨 위에 지출 채널의 순서로 정렬됩니다.
 
-* 채널별 기여도
+* 채널별 기여도.
 
-* 마케팅 성과 요약
-
-각 위젯의 개별 차트 요소 위로 마우스를 가져가면 자세한 내용이 포함된 팝오버를 볼 수 있습니다.
+* 마케팅 성과 요약.
 
 ![모델 - 모델 인사이트](../assets/model-model-insights.png)
+
+각 위젯의 개별 차트 요소 위로 마우스를 가져가면 자세한 내용과 함께 팝오버를 표시할 수 있습니다.
+
+위젯에 대한 데이터가 포함된 CSV 파일을 다운로드하려면 을 선택합니다. ![다운로드](../assets/icons/Download.svg).
+
+
 
 
 ## 모델 품질
@@ -71,4 +72,4 @@ ht-degree: 0%
 
 ![모델 품질](../assets/model-quality.png)
 
-
+위젯에 대한 데이터가 포함된 CSV 파일을 다운로드하려면 을 선택합니다. ![자세히](../assets/icons/More.svg) 위젯 및 컨텍스트 메뉴에서 ![다운로드](../assets/icons/Download.svg) **[!UICONTROL Download as CSV]**.

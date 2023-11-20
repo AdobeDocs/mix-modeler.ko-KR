@@ -3,7 +3,7 @@ title: 모델 만들기
 description: Mix Modeler에서 모델을 만드는 방법을 알아봅니다.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 모델 만들기
 
-모델을 만들려면 ![모델](../assets/icons/FileData.svg) **[!UICONTROL Models]** Mix Modeler에서 인터페이스, 선택 **[!UICONTROL Guide me]**.
+모델을 만들려면 ![모델](../assets/icons/FileData.svg) **[!UICONTROL Models]** Mix Modeler에서 인터페이스, 선택 **[!UICONTROL Open model canvas]**.
 
 사용자 지정 AI 기반 모델을 구축하기 위해 인터페이스는 단계별 가이드 모델 구성 플로우를 제공합니다.
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    1. 선택 **[!UICONTROL Next]** 을 클릭하여 다음 단계로 이동합니다. 선택 **[!UICONTROL Cancel]** 모델 구성을 취소합니다.
 
-1. 다음에서 **[!UICONTROL Configure]** 단계:
+1. 다음에서 **[!UICONTROL Configured]** 단계:
 
    1. 다음에서 **[!UICONTROL Conversion goal]** 섹션, 컨테이너 내:
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
       * 마케팅 접점 컨테이너를 추가하려면 ![추가](../assets/icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]**.
 
-      * 마케팅 접점 컨테이너를 제거하려면 컨테이너 내에서 을 선택합니다. ![자세히](../assets/icons/More.svg) 및 선택 **[!UICONTROL Remove container]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
+      * 마케팅 접점 컨테이너를 제거하려면 컨테이너 내에서 을 선택합니다. ![자세히](../assets/icons/More.svg), 및 선택 **[!UICONTROL Remove container]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
 
         ![모델 - 마케팅 접점-단계](../assets/model-marketing-touchpoint-step.png)
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
       * 적격한 데이터 모집단 컨테이너를 추가하려면 다음을 선택합니다. ![추가](../assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
-      * 적격한 데이터 채우기 컨테이너를 제거하려면 컨테이너 내에서 을 선택합니다. ![자세히](../assets/icons/More.svg) 및 선택 **[!UICONTROL Remove container]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
+      * 적격한 데이터 채우기 컨테이너를 제거하려면 컨테이너 내에서 을 선택합니다. ![자세히](../assets/icons/More.svg), 및 선택 **[!UICONTROL Remove container]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
 
         ![모델 - 적격 데이터 채우기](../assets/model-eligible-data-population-step.png)
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
       * 외부 요인 데이터 세트 컨테이너를 추가하려면 다음을 선택합니다. ![추가](../assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 
-      * 외부 요인 데이터 세트 컨테이너를 제거하려면 컨테이너 내에서 을 선택합니다. ![자세히](../assets/icons/More.svg) 및 선택 **[!UICONTROL Remove container]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
+      * 외부 요인 데이터 세트 컨테이너를 제거하려면 컨테이너 내에서 을 선택합니다. ![자세히](../assets/icons/More.svg), 및 선택 **[!UICONTROL Remove container]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
 
         ![모델 - 외부 요인 데이터 세트](../assets/model-external-factors-dataset-step.png)
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 
       * 추가 내부 요소 데이터 세트 컨테이너를 추가하려면 다음을 선택합니다. ![추가](../assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
 
-      * 추가 내부 요소 데이터 세트 컨테이너를 제거하려면 컨테이너 내에서 을 선택합니다. ![자세히](../assets/icons/More.svg) 및 **[!UICONTROL Remove container]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
+      * 추가 내부 요소 데이터 세트 컨테이너를 제거하려면 컨테이너 내에서 을 선택합니다. ![자세히](../assets/icons/More.svg), 및 **[!UICONTROL Remove container]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
 
         ![모델 - 내부 요소 데이터 세트](../assets/model-internal-factors-dataset-step.png)
 

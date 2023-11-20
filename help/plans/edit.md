@@ -2,13 +2,13 @@
 title: 플랜 편집
 description: Mix Modeler에서 플랜을 편집하는 방법을 알아봅니다.
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 91385595-284f-4fcb-b54b-9539905e552b
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
-
 
 # 플랜 편집
 
@@ -16,13 +16,24 @@ ht-degree: 0%
 
 위치 [!UICONTROL Plan insights], 플랜 인사이트가 생성되어 [!UICONTROL Model], [!UICONTROL Data range], 및 [!UICONTROL Total budget] 플랜의 기반이 되는 항목.
 
-검색을 마치면 다음에 대한 시각화가 포함된 플랜 개요가 표시됩니다. [!UICONTROL Forecasted ROI] 및 [!UICONTROL Forecasted revenue].
+검색을 마치면 다음으로 구성된 계획의 개요가 표시됩니다.
+
+- [!UICONTROL Forecasted paid channel ROI] 시각화
+- [!UICONTROL Forecasted revenue] 시각화
+- [!UICONTROL Data range breakdown] 다음에 대한 열을 표시하는 플랜 테이블
+
+   - 채널
+   - ROI
+   - CPA
+   - 매출 
+   - 전환 목표
+   - 지출
+
+![플랜 개요](../assets/overview-plan.png)
 
 1. 선택 **[!UICONTROL Close]** 계획 인터페이스로 돌아갑니다.
 
-1. (선택 사항) 선택 **[!UICONTROL Plan breakdown]** 을 클릭하여 플랜의 분류 테이블을 확인합니다.
-
-   ![플랜 개요](../assets/overview-plan.png)
+1. 날짜 범위 분류의 데이터가 포함된 CSV 파일을 다운로드하려면 다음을 선택합니다. ![다운로드](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
 1. 플랜을 편집하려면 다음을 선택합니다. **[!UICONTROL Edit plan]**:
 
@@ -65,4 +76,3 @@ ht-degree: 0%
 1. 플랜 업데이트를 취소하려면 다음을 선택합니다. **[!UICONTROL Cancel]**.
 
    다음에서 **[!UICONTROL No work will be saved]** 대화 상자, 선택 **[!UICONTROL Cancel]** 을(를) 사용하여 플랜을 계속 진행하거나 **[!UICONTROL OK]** 를 눌러 계획 인터페이스로 돌아갑니다.
-

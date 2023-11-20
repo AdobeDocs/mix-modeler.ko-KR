@@ -3,9 +3,9 @@ title: 플랜
 description: Mix Modeler에서 플랜을 보고, 선택하고, 실행하는 방법을 알아봅니다.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '417'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,6 @@ Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음
    | 열 이름 | 세부 사항 |
    |---|---|
    | 이름 | 플랜 이름 |
-   | 설명 | 모델에 대한 설명 |
    | 모델 | 계획의 기반으로 사용되는 모델입니다. |
    | 날짜 범위 | 플랜에 대한 전체 날짜 범위입니다. |
    | 예산 | 플랜에 대한 총 예산. |
@@ -62,6 +61,7 @@ Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음
 ## 플랜 편집
 
 계획을 편집하려면 테이블에서 계획명을 선택합니다. 다음을 참조하십시오 [플랜 편집](edit.md) 추가 정보.
+
 
 ## 플랜에 대한 선택 및 조치
 
