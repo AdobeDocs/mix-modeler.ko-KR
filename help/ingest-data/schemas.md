@@ -3,10 +3,10 @@ title: 스키마
 description: 데이터를 Mix Modeler에 수집하는 데 필요한 스키마를 관리하는 방법을 알아봅니다.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: e40d1eb484f3ee6d289adbe1355455bbb202825a
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 6%
+source-wordcount: '377'
+ht-degree: 3%
 
 ---
 
@@ -68,3 +68,18 @@ XDM 요약 지표 클래스 사용:
 ![요약 스키마](../assets/summary-schema.png)
 
 프로필 수집의 비동기적 특성을 고려하여 외부 소스에서 합계 또는 요약 데이터를 수집할 때 외부 소스 시스템 감사 세부 정보 필드 그룹을 스키마의 일부로 사용하는 것이 좋습니다. 이 필드 그룹은 외부 소스에 대한 감사 속성 집합을 정의합니다.
+
+
+## 지원되는 데이터 유형
+
+현재 Mix Modeler은 Experience Platform 데이터 유형의 하위 집합을 지원합니다. 에 언급된 다음과 같은 기본 데이터 유형(필드) [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), 지원:
+
+- 문자열
+- 정수
+- Double
+- 부울
+- 길게
+- 짧음
+- 바이트
+- 날짜
+- 날짜-시간
