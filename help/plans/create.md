@@ -3,9 +3,9 @@ title: 계획 만들기
 description: Mix Modeler에서 계획을 만드는 방법을 알아봅니다.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Mix Modeler에서 계획 캔버스를 사용하여 계획을 생성합니다. �
 
       1. 입력 **[!UICONTROL Plan name]**, 예 `Demo plan`. 입력 **[!UICONTROL Description]**, 예 `Demo plan for Luma company`.
       1. 선택 **[!UICONTROL Model]** 출처: **[!UICONTROL _옵션 선택.._.]**.
-      1. 다음을 선택할 수 있습니다. ![링크 아웃](../assets/icons/LinkOut.svg) **[!UICONTROL Create model]** 를 사용하여 계획 생성 내에서 직접 모델을 생성할 수 있습니다.
+      1. 다음을 선택할 수 있습니다. ![링크 아웃](../assets/icons/LinkOut.svg) **[!UICONTROL Create model]** 를 사용하여 계획 생성 내에서 직접 모델을 생성할 수 있습니다. 그러면 브라우저에서 새 탭이 열리고 [모델](../models/overview.md) 인터페이스.
 
          ![플랜 설정](../assets/plan-setup.png)
 
@@ -51,7 +51,7 @@ Mix Modeler에서 계획 캔버스를 사용하여 계획을 생성합니다. �
 
    * 선택 <img src="../assets/icons/NewPlan.svg" width="25" /> **[!UICONTROL Create plan now]** roi가 예측된 AI 추천 플랜을 생성하려는 경우.
 
-     **[!UICONTROL OK]**&#x200B;를 선택합니다. 플랜이 생성되었습니다.
+     선택 **[!UICONTROL OK]**. 플랜이 생성되었습니다.
 
 
    * 선택 ![테이블 편집](../assets/icons/TableEdit.svg) **[!UICONTROL Edit channel budgets first]** 예상 ROI로 계획을 세우기 전에 채널 예산을 편집하려는 경우.
@@ -70,4 +70,4 @@ Mix Modeler에서 계획 캔버스를 사용하여 계획을 생성합니다. �
 
    1. 완료되면 다음을 선택합니다. **[!UICONTROL Create]**.
 
-   1. 다음에서 **[!UICONTROL Create plan]** 대화 상자, 선택 **[!UICONTROL Create plan]** 을 클릭하여 플랜을 만듭니다. 선택 **[!UICONTROL Cancel]** 플랜 만들기를 취소합니다.
+   1. 다음에서 **[!UICONTROL Create plan]** 대화 상자, 선택 **[!UICONTROL Create plan]** 을 클릭하여 플랜을 만듭니다. 선택 **[!UICONTROL Cancel]** 플랜 만들기를 취소합니다. A **[!UICONTROL No work is saved]** 확인할 수 있는 대화 상자가 표시됩니다.

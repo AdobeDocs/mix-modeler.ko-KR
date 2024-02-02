@@ -2,13 +2,13 @@
 title: Harmonized data overview 대시보드
 description: Mix Modeler에서 Harmonized Data Overview 대시보드를 사용하는 방법에 대해 알아봅니다.
 feature: Dashboard, Harmonized Data
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
 
 ---
-
 
 # Harmonized data 개요
 
@@ -20,9 +20,9 @@ Mix Modeler 개요의 통합 데이터 탭은 수집된 데이터 및 통합 데
 
 ## 데이터 필터
 
-를 사용하여 모든 위젯에 대해 표시되는 데이터를 필터링할 수 있습니다. ![필터](../assets/icons/Filter.svg) **[!UICONTROL Data Filters]** 창.
+를 사용하여 모든 위젯에 대해 표시되는 데이터를 필터링할 수 있습니다. ![필터](../assets/icons/Filter.svg) **[!UICONTROL Category Filters]** 창.
 
-각 카테고리에 대해 하나 이상의 필터를 선택합니다(**[!UICONTROL Channel]**, **[!UICONTROL Brand]**, **[!UICONTROL Source Type]**, 및 **[!UICONTROL Traffic Source]**).
+각 카테고리에 대해 하나 이상의 필터를 선택합니다(**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Cannels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]**, 및 **[!UICONTROL Traffic Source]**).
 
 선택한 필터는 다음 위젯의 맨 위에 표시됩니다. **[!UICONTROL FILTERING BY:]**.
 
@@ -39,7 +39,7 @@ Mix Modeler 개요의 통합 데이터 탭은 수집된 데이터 및 통합 데
 
 * KPI 상태 카드 위젯에서:
 
-   1. 선택 ![편집](../assets/icons/Edit.svg) 및 ![편집](../assets/icons/Edit.svg) **[!UICONTROL Edit Data]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
+   1. 선택 ![편집](../assets/icons/Edit.svg) 및 ![편집](../assets/icons/Edit.svg) **[!UICONTROL Edit data]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
 
    1. 다음에서 **[!UICONTROL KPI status card]** 대화 상자:
 
@@ -49,13 +49,13 @@ Mix Modeler 개요의 통합 데이터 탭은 수집된 데이터 및 통합 데
 
 * 기타 구성 가능한 위젯의 경우:
 
-   1. 선택 ![편집](../assets/icons/Edit.svg) 및 ![편집](../assets/icons/Edit.svg) **[!UICONTROL Edit Data]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
+   1. 선택 ![편집](../assets/icons/Edit.svg) 및 ![편집](../assets/icons/Edit.svg) **[!UICONTROL Edit data]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
 
    1. 다음에서 **[!UICONTROL Edit Data]** 대화 상자:
 
       1. 다음에서 지표 선택 **[!UICONTROL Select a metric]**, 예 **[!UICONTROL Impressions]**.
-      1. 다음에서 범주 선택 **[!UICONTROL Select category]**, 예 **[!UICONTROL Media Type]**.
-      1. (선택 사항) 다음 중에서 두 번째 범주를 선택합니다. **[!UICONTROL Select second category (optional)]**, 예 **[!UICONTROL Traffic Source]**.
+      1. 다음에서 범주 선택 **[!UICONTROL Select category]**, 예 **[!UICONTROL Media types]**.
+      1. (선택 사항) 다음 중에서 두 번째 범주를 선택합니다. **[!UICONTROL Select second category (optional)]**, 예 **[!UICONTROL Traffic sources]**.
       1. 선택 ![시계](../assets/icons/Clock.svg) **[!UICONTROL Time]** 또는 ![계산기](../assets/icons/Calculator.svg) **[!UICONTROL Total]** 의 분석 유형으로 **[!UICONTROL Select analysis type]**.
 
          다음을 선택하는 경우 ![시계](../assets/icons/Clock.svg) **[!UICONTROL Time]**&#x200B;시간 빈도를 지정할 수 있습니다. 선택 **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** 또는 **[!UICONTROL Quarterly]** 출처: **[!UICONTROL Select time frequency]**.
@@ -67,4 +67,3 @@ Mix Modeler 개요의 통합 데이터 탭은 수집된 데이터 및 통합 데
          데이터를 사용할 수 없어 미리보기를 렌더링할 수 없는 경우 ![데이터 오류](../assets/icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available].
 
       1. 선택 **[!UICONTROL Apply]** 위젯에 변경 내용을 적용합니다. 선택 **[!UICONTROL Cancel]** 를 클릭하여 현재 위젯에 대한 모든 변경 사항을 취소합니다.
-

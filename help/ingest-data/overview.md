@@ -3,10 +3,10 @@ title: 데이터 수집
 description: 데이터를 Mix Modeler에 수집하는 방법에 대해 알아봅니다.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 1dbdee00f518d98241fc042e2aabc0e40d5a9153
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 14%
+source-wordcount: '459'
+ht-degree: 8%
 
 ---
 
@@ -56,7 +56,7 @@ Mix Modeler에 사용할 데이터를 Experience Platform에 수집하려면 다
 
 +++ 전환 데이터 집계
 
-| 지역 | 날짜 | 날짜 유형 | 제품 | 판매 수량 | 매출  |
+| 지역 | 날짜 | 날짜 유형 | 제품 | 판매 수량 | 매출 |
 |---|:---|:---:|---|--:|--:|
 | EMEA | 2021-09-13 | 일 | 크리에이터 경제 | 603 | 36537.68 |
 | EMEA | 2021-09-13 | 일 | 메타버스 | 55 | 21704.37 |
@@ -71,16 +71,16 @@ Mix Modeler에 사용할 데이터를 Experience Platform에 수집하려면 다
 
 | 데이터 | 날짜 유형 | 요소 | 값 |
 |---|:---:|:---:|:---|
-| 2020-08-02 | 주 | SPX | 3325.866 |
-| 2020-08-09 | 주 | SPX | 3364.158 |
+| 2020년 8월 2일 | 주 | SPX | 3325.866 |
+| 2020년 8월 9일 | 주 | SPX | 3364.158 |
 | 2020-08-16 | 주 | SPX | 3385.858 |
-| 2020-08-23 | 주 | SPX | 3497.965 |
+| 2020년 8월 23일 | 주 | SPX | 3497.965 |
 
 {style="table-layout:auto"}
 
 +++
 
-Mix Modeler의 데이터로 작업하려면 데이터 세트에서 데이터를 수집하고 Experience Platform의 스키마를 모델로 모델링해야 합니다. Mix Modeler 인터페이스를 사용하면 스키마와 데이터 세트 UI 모두에 쉽게 액세스할 수 있습니다.
+Mix Modeler의 데이터로 작업하려면 데이터 세트에서 데이터를 수집하고 Experience Platform의 스키마를 모델로 모델링해야 합니다. Mix Modeler 인터페이스를 사용하면 Experience Platform 스키마와 데이터 세트 UI 모두에 쉽게 액세스할 수 있습니다.
 
 
 >[!MORELIKETHIS]

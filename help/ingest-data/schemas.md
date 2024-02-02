@@ -3,7 +3,7 @@ title: 스키마
 description: 데이터를 Mix Modeler에 수집하는 데 필요한 스키마를 관리하는 방법을 알아봅니다.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: e40d1eb484f3ee6d289adbe1355455bbb202825a
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 3%
@@ -16,7 +16,7 @@ Experience Platform에서 수집하고 Mix Modeler에서 사용할 데이터를 
 
 1. Mix Modeler 인터페이스로 이동합니다.
 
-1. 선택 ![스키마](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, 그 아래 **[!UICONTROL DATA MANAGEMENT]**.
+1. 선택 ![스키마](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**, 그 아래 **[!UICONTROL SETUP]**.
 
 다음을 참조하십시오. [스키마 UI 개요](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) 추가 정보.
 

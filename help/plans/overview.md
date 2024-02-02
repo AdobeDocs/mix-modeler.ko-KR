@@ -3,10 +3,10 @@ title: 플랜
 description: Mix Modeler에서 플랜을 보고, 선택하고, 실행하는 방법을 알아봅니다.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 1%
+source-wordcount: '496'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +47,7 @@ Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음
    | 예산 | 플랜에 대한 총 예산. |
    | 예측 반환 | 플랜에 대한 예측 반환 |
    | 예측된 ROI | 플랜에 대한 예측된 ROI. |
-   | 상태 | 플랜의 상태입니다. |
+   | 상태 | 플랜 상태: <p><span style="color:red">●</span> 실패, <p><span style="color:blue">●</span> 처리 중 또는 <p><span style="color:green">●</span> 완료. |
 
    {style="table-layout:auto"}
 
@@ -78,6 +78,11 @@ Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음
 1. 테이블에서 단일 계획을 선택합니다.
 1. 선택 ![복사](../assets/icons/Copy.svg) **[!UICONTROL Duplicate]** 작업 표시줄에서 원래 계획명에 덧붙여진 이름으로 구성된 새 계획 **[!UICONTROL (Copy)]**&#x200B;가 표의 맨 위에 추가됩니다.
 
+또는
+
+1. 선택 ![자세히](../assets/icons/More.svg) 테이블에 있는 플랜에 대해.
+1. 선택 **[!UICONTROL Duplicate]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다. 원래 계획명에 덧붙여진 이름으로 구성된 새 계획 **[!UICONTROL (Copy)]**&#x200B;가 표의 맨 위에 추가됩니다.
+
 ### 계획 비교
 
 계획을 비교하려면
@@ -92,6 +97,11 @@ Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음
 
 1. 테이블에서 하나 이상의 계획을 선택합니다.
 1. 선택 ![삭제](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 작업 표시줄에서
+
+또는
+
+1. 선택 ![자세히](../assets/icons/More.svg) 테이블에 있는 플랜에 대해.
+1. 선택 **[!UICONTROL Delete]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다. 원래 계획명에 덧붙여진 이름으로 구성된 새 계획 **[!UICONTROL (Copy)]**&#x200B;가 표의 맨 위에 추가됩니다.
 
    >[!WARNING]
    >

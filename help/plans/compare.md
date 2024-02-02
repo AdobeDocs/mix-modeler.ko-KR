@@ -2,13 +2,13 @@
 title: 계획 비교
 description: Mix Modeler에서 플랜을 비교하는 방법을 알아봅니다.
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 2%
+source-wordcount: '102'
+ht-degree: 1%
 
 ---
-
 
 # 계획 비교
 
@@ -23,9 +23,9 @@ Mix Modeler 계획 인터페이스에서 계획을 비교하려면
 * 플랜
 * 날짜 범위
 * 모델
-* 예산
-* 혼합 유형
-* 지출 분류
+* 총 예산
+* 채널 버스팅: **[!UICONTROL AI automated]** 또는 **[!UICONTROL Custom + AI]**
+* 계획된 지출
 * 예측된 ROI
 * ROI 분류
 * 예측 반환

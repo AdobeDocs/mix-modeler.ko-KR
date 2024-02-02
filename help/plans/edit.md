@@ -3,9 +3,9 @@ title: 플랜 편집
 description: Mix Modeler에서 플랜을 편집하는 방법을 알아봅니다.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: cbe4b4bf17773a42e4a13d4777443e5f1f50dc6e
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
    - 채널
    - ROI
    - CPA
-   - 매출 
+   - 매출
    - 전환 목표
    - 지출
 
@@ -33,7 +33,11 @@ ht-degree: 0%
 
 1. 선택 **[!UICONTROL Close]** 계획 인터페이스로 돌아갑니다.
 
+1. 선택 **[!UICONTROL X]** 또는 **[!UICONTROL  %]** 방법 **[!UICONTROL View ROI]**.
+
 1. 날짜 범위 분류의 데이터가 포함된 CSV 파일을 다운로드하려면 다음을 선택합니다. ![다운로드](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
+
+1. 채널 범주별 날짜 범위 분류를 보려면 다음을 선택합니다. **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]**, 또는 **[!UICONTROL Non-paid channels]** 다음에서 **[!UICONTROL View]** 선택 항목.
 
 1. 플랜을 편집하려면 다음을 선택합니다. **[!UICONTROL Edit plan]**:
 
@@ -53,7 +57,7 @@ ht-degree: 0%
 
          1. 수정 **[!UICONTROL Date range]** 하나 이상의 플랜 날짜 범위에 대해, 날짜를 입력하거나 다음을 사용하여 날짜 범위를 선택하여 ![캘린더](../assets/icons/Calendar.svg).
 
-         1. 수정 **[!UICONTROL Budget]** 하나 이상의 플랜 날짜 범위.
+         1. 수정 **[!UICONTROL Budget]** 하나 이상의 플랜 날짜 범위에 대해.
 
          예산을 각각 사용하여 날짜 범위를 추가하려면 다음을 선택합니다. ![캘린더 추가](../assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
 
