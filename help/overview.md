@@ -4,10 +4,10 @@ description: Mix Modeler를 사용하여 모든 채널에서 캠페인을 측정
 short-description: Mix Modeler를 사용하여 모든 채널에서 캠페인을 측정하고 계획 수립을 전체적으로 최적화하는 방법에 대해 알아봅니다.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: fbfc1bbc4fbaacdaf264102f6914b5ecbd2625f9
+source-git-commit: 18bb0bb50d5045536a58cb36cc9b99ccb9b17e25
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 18%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 18%
 <table style="table-layout:fixed">
   <tr style="border: 0;">
     <td>
-    <a href="/help/overview.md"><img src="./assets/whatis-mm.png"></a>
+    <a href="/help/get-started/about.md"><img src="./assets/whatis-mm.png"></a>
     <div><strong>빠른 시작</strong><br/>Mix Modeler 워크플로에 대한 개요 및 통찰력을 얻으십시오.</div>
     </td>
     <td>
@@ -38,7 +38,7 @@ ht-degree: 18%
     </td>
   </tr>
   <tr style="border: 0;">
-    <td align="center"><a href="/help/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
+    <td align="center"><a href="/help/get-started/about.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/ingest-data/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/harmonize-data/overview.md"><img src="./assets/learn-more-button.svg"></a></td>
     <td align="center"><a href="/help/models/overview.md"><img src="./assets/learn-more-button.svg"></a></td>

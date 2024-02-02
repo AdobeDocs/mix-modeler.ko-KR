@@ -4,16 +4,16 @@ description: Mix Modeler의 기능 및 성능에 대한 개요를 살펴봅니�
 short-description: Mix Modeler의 기능 및 성능에 대한 개요를 살펴봅니다.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
+source-git-commit: 18bb0bb50d5045536a58cb36cc9b99ccb9b17e25
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Mix Modeler 개요
 
-Mix Modeler 기능에 대한 빠른 개요는 이 비디오 를 참조하십시오.
+Mix Modeler 기능에 대한 간략한 개요는 이 비디오 를 참조하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
 
@@ -50,3 +50,7 @@ Mix Modeler은 다음 기능을 제공합니다.
 | **예산 시나리오 만들기 및 비교** | 여러 예산 계획을 개발하고 그 영향을 비교하여 비즈니스에 최적의 결정을 내릴 수 있습니다. |
 
 {style="table-layout:auto"}
+
+>[!MORELIKETHIS]
+>
+>[Mix Modeler 워크플로우 이해](workflow.md)
