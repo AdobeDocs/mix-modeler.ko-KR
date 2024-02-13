@@ -4,10 +4,10 @@ description: 최신 Mix Modeler 릴리스 정보
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 4fa5798dd6b51cc44ac9bb063c87765e6d1c85e0
+source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 7%
+source-wordcount: '166'
+ht-degree: 6%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 7%
 
 | 기능 | 설명 | 일반 가용성 |
 |---|---|---|
+| **다운로드 향상** | 이제 다음을 수행할 수 있습니다. [전체 모델 인사이트 다운로드](../models/insights.md) Microsoft® Excel 형식으로 | 2024년 1월 31일 |
+| **한계 반응 곡선** | [모델 인사이트](../models/insights.md) 에서는 한계 응답 곡선을 표시하는 추가 위젯을 제공합니다. | 2024년 1월 31일 |
 | **데이터 병합 환경 설정** | 다음을 정의할 수 있습니다. [데이터 병합 환경 설정](../harmonize-data/dataset-rules.md#data-merge-preferences) 를 참조하십시오. | 2024년 1월 31일 |
 | **사용 보고서** | Harmonized dataset UI에는 추가 기능이 있습니다 [사용 보고서](../harmonize-data/usage-report.md) 모델 및 전환 사용에 대한 추가 인사이트를 제공하는 탭입니다. | 202년 1월 31일 |
 | **플랜 통찰력 UI 업데이트됨** | 플랜 인사이트 UI가 업데이트되어 보고할 ROI와 채널을 선택할 수 있습니다. | 2024년 1월 31일 |
@@ -32,4 +34,4 @@ ht-degree: 7%
 >[!MORELIKETHIS]
 >
 >* [Mix Modeler 소개](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
->* [Mix Modeler Experience League 설명서](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=ko)
+>* [Mix Modeler Experience League 설명서](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=ko-KR)

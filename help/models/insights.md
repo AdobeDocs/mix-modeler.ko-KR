@@ -3,9 +3,9 @@ title: 모델 인사이트
 description: Mix Modeler 시 기록 개요, 모델 통찰력 및 모델 품질과 같은 모델에 대한 세부 정보를 얻는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,15 @@ ht-degree: 0%
 
 * 마케팅 성과 요약.
 
+* 한계 응답 곡선.
+
 ![모델 - 모델 인사이트](../assets/model-model-insights.png)
 
 각 위젯의 개별 차트 요소 위로 마우스를 가져가면 자세한 내용과 함께 팝오버를 표시할 수 있습니다.
 
 위젯에 대한 데이터가 포함된 CSV 파일을 다운로드하려면 을 선택합니다. ![다운로드](../assets/icons/Download.svg).
+
+Microsoft® Excel 형식으로 전체 모델 통찰력 데이터를 다운로드하려면 다음을 선택합니다. ![다운로드](../assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
 
