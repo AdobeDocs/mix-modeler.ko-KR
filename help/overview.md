@@ -4,16 +4,16 @@ description: Mix Modeler를 사용하여 모든 채널에서 캠페인을 측정
 short-description: Mix Modeler를 사용하여 모든 채널에서 캠페인을 측정하고 계획 수립을 전체적으로 최적화하는 방법에 대해 알아봅니다.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: 18bb0bb50d5045536a58cb36cc9b99ccb9b17e25
+source-git-commit: 1e5bfe6901332f5545e6bdeea46da96d475b3ce1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '205'
+ht-degree: 18%
 
 ---
 
 # Adobe Mix Modeler 안내서
 
-이 기술 설명서 안내서에서는 Adobe에 대한 자가 진단 지원을 제공합니다 **Mix Modeler**. Mix Modeler은 캠페인을 측정하고 유료, 수익 및 소유 등 모든 채널에서 전체적으로 계획을 최적화하는 Adobe Experience Cloud 애플리케이션입니다. Mix Modeler은 Adobe Experience Platform의 맨 위에 구축되며 Adobe Sensei에서 지원합니다.
+이 기술 설명서 안내서에서는 Adobe에 대한 자가 진단 지원을 제공합니다 **Mix Modeler**. Mix Modeler은 캠페인을 측정하고 유료, 수익 및 소유 등 모든 채널에서 전체적으로 계획을 최적화하는 Adobe Experience Cloud 애플리케이션입니다. Mix Modeler은 Adobe Experience Platform의 맨 위에 구축되었으며 Adobe Sensei에서 지원합니다.
 
 ## 기본 사항부터 시작
 
