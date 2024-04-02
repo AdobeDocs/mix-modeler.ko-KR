@@ -3,9 +3,9 @@ title: 데이터 조화
 description: Mix Modeler에서 데이터를 조화롭게 구성하는 방법에 대해 알아봅니다.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '893'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ Mix Modeler의 데이터는 데이터 소스에 따라 그 성격이 다르다. 
 * 집계 또는 요약 데이터(예: 담으로 둘러싸인 정원 데이터 소스에서 수집되거나 빌보드 캠페인, 이벤트 또는 물리적 광고 캠페인을 실행하여 수집된(지출) 오프라인 광고 데이터)
 * 이벤트 데이터(예: 자사 데이터 소스). 이 이벤트 데이터는 Adobe Analytics의 Adobe Analytics 소스 커넥터, Experience Platform 웹 또는 Mobile SDK 또는 Edge Network API를 통해 수집된 데이터 또는 소스 커넥터를 사용하여 수집된 데이터일 수 있습니다.
 
-Mix Modeler의 조화 서비스는 집계 및 이벤트 데이터를 일관된 데이터 보기로 통합합니다. 내부 및 외부 요인 데이터와 결합된 이 데이터 보기는 Mix Modeler의 모델에 대한 소스입니다.
+Mix Modeler의 조화 서비스는 집계 및 이벤트 데이터를 일관된 데이터 보기로 통합합니다. 내부 및 외부 요인 데이터와 결합된 이 데이터 보기는 Mix Modeler의 모델에 대한 소스입니다. 이 서비스는 여러 데이터 세트에서 가장 높은 세부 기간을 사용합니다. 예를 들어, 한 데이터 세트에 월간 세부 기간이 있고 나머지 데이터 세트에 주별 및 일별 세부 기간이 있는 경우, 조화 서비스는 월간 세부 기간을 사용하여 데이터 보기를 만듭니다.
 
 ## 조정된 데이터의 예
 
@@ -118,7 +118,7 @@ Mix Modeler 인터페이스에서 조정된 데이터를 보려면 다음을 수
 
 1. 선택 ![데이터 검색](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** 왼쪽 레일에서.
 
-1. 선택 **[!UICONTROL Harmonized Data]** 을 클릭합니다. 정의한 필드, 데이터 세트 규칙, 마케팅 접점 및 전환을 기반으로 조화된 데이터의 요약 정보를 볼 수 있습니다.
+1. 선택 **[!UICONTROL Harmonized Data]** 을 클릭합니다. 정의한 필드, 데이터 세트 규칙, 마케팅 접점 및 전환을 기반으로 조정된 데이터의 요약이 표시됩니다.
 
    1. 결합된 데이터의 요약의 기반이 되는 기간을 재정의하려면 날짜 범위를 입력합니다. **[!UICONTROL Date range]** 또는 사용 ![캘린더](../assets/icons/Calendar.svg) 데이터 범위를 선택합니다.
 

@@ -3,9 +3,9 @@ title: 데이터 세트 규칙
 description: Mix Modeler에서 데이터를 조화롭게 만드는 과정에서 사용할 데이터 세트 규칙을 정의하는 방법을 알아봅니다.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 다음에서 **[!UICONTROL Create]** 화면,
 
-1. 위치 **[!UICONTROL Dataset details]**, 데이터 세트 선택 **[!UICONTROL Select dataset]** 구성을 시작합니다. 목록에서 데이터 세트는 다음과 같이 분류됩니다 **[!UICONTROL Consumer Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]** 및 **[!UICONTROL Summary]**.
+1. 위치 **[!UICONTROL Dataset details]**, 데이터 세트 선택 **[!UICONTROL Select dataset]** 구성을 시작합니다. 목록에서 데이터 세트는 다음과 같이 분류됩니다 **[!UICONTROL Consumer Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]** 및, **[!UICONTROL Summary]**.
 
 1. 에 대한 날짜 선택 **[!UICONTROL Start of the week]**.
 
@@ -54,11 +54,13 @@ ht-degree: 0%
 
 1. 다음의 데이터 세트를 선택한 경우 **[!UICONTROL Summary]** 범주:
 
+   1. 데이터 세트에 대한 데이터를 집계해야 하는지 또는 기존 데이터를 대체하고 있는지 여부를 정의하려면 을(를) 선택합니다 **[!UICONTROL Aggregation]** 또는 **[!UICONTROL Replacement]** 대상 **[!UICONTROL Data restatement is by]**.
+
    1. 각 를 매핑합니다. **[!UICONTROL Available dataset fields]** 해당 항목에 **[!UICONTROL Standard harmonized fields]** 위치: **[!UICONTROL Map to harmonized fields]**. 데이터 세트 필드를 조정된 필드에 매핑하지 않으려면 을(를) 명시적으로 선택합니다. **[!UICONTROL -- None --]**.
 
    1. 목록에서 사용할 수 없는 새 조화로운 필드가 필요한 경우 다음을 선택합니다. **[!UICONTROL Create New]** 새로운 조화로운 필드를 만들 수 있습니다. 대화 상자에 요약되어 있습니다. [새 조화로운 필드 추가](fields.md#add-a-harmonized-field) 을 사용하면 새로운 조화로운 필드를 빠르게 추가할 수 있습니다.
 
-   1. 규칙의 모든 필드에 대한 매핑이 완료되면 다음을 선택합니다. **[!UICONTROL Save as draft]** 규칙의 초안 버전 저장하기 또는 **[!UICONTROL Save]** 을 클릭하여 규칙을 저장하고 활성화합니다.  선택 **[!UICONTROL Cancel]** 규칙 구성을 취소합니다.
+   1. 규칙의 모든 필드에 대한 매핑이 완료되면 다음을 선택합니다. **[!UICONTROL Save as draft]** 규칙의 초안 버전 저장하기 또는 **[!UICONTROL Save]** 을 클릭하여 규칙을 저장하고 활성화합니다. 선택 **[!UICONTROL Cancel]** 규칙 구성을 취소합니다.
 
       ![데이터 세트 규칙 만들기](../assets/dataset-create-summary.png)
 
@@ -103,7 +105,7 @@ ht-degree: 0%
 
 1. 선택 ![추가](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]** 추가 필드를 정의합니다.
 
-완료되면 다음을 선택합니다. **[!UICONTROL Save as draft]** 규칙의 초안 버전 저장하기 또는 **[!UICONTROL Save]** 을 클릭하여 규칙을 저장하고 활성화합니다.  선택 **[!UICONTROL Cancel]** 규칙 구성을 취소합니다.
+완료되면 다음을 선택합니다. **[!UICONTROL Save as draft]** 규칙의 초안 버전 저장하기 또는 **[!UICONTROL Save]** 을 클릭하여 규칙을 저장하고 활성화합니다. 선택 **[!UICONTROL Cancel]** 규칙 구성을 취소합니다.
 
 
 ### 데이터 세트 규칙 편집
@@ -119,7 +121,7 @@ ht-degree: 0%
 데이터 세트 규칙을 삭제하려면 ![데이터 검색](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Mix Modeler 인터페이스:
 
 1. 선택 ![자세히](../assets/icons/More.svg) 다음에서 **[!UICONTROL Dataset]** 삭제할 데이터 세트 규칙에 대한 열입니다.
-1. 컨텍스트 메뉴에서 을(를) 선택합니다 ![삭제](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 데이터 세트 규칙을 삭제합니다. 확인을 묻는 메시지가 표시됩니다. 선택 **[!UICONTROL Delete]** 선택한 데이터 세트 규칙을 영구적으로 삭제하려면 다음 작업을 수행하십시오.
+1. 컨텍스트 메뉴에서 을(를) 선택합니다 ![삭제](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 데이터 세트 규칙을 삭제합니다. 확인을 묻는 메시지가 표시됩니다. 선택 **[!UICONTROL Delete]** 선택한 데이터 세트 규칙을 영구적으로 삭제합니다.
 
 
 ## 데이터 동기화
@@ -130,7 +132,7 @@ ht-degree: 0%
 
 1. 다음에서 **[!UICONTROL Sync data for dataset rules]** 대화 상자에서 다음 중 하나를 선택합니다 **[!UICONTROL Refresh harmonized data for summary datasets]**, **[!UICONTROL Refresh harmonized data for event datasets]**, 또는 **[!UICONTROL Refresh harmonized data for both summary + event datasets]**.
 
-1. 선택 **[!UICONTROL Sync]** 데이터 세트에 있는 데이터와 조정된 데이터 간에 정의된 데이터 세트 규칙을 기반으로 동기화를 시작합니다. 동기화를 취소하려면 다음을 선택합니다 **[!UICONTROL Cancel]**.
+1. 데이터 세트의 데이터와 조정된 데이터 간에 정의된 데이터 세트 규칙을 기반으로 동기화를 시작하려면 다음을 선택합니다. **[!UICONTROL Sync]**. 동기화를 취소하려면 다음을 선택합니다 **[!UICONTROL Cancel]**.
 
    ![데이터 동기화](../assets/sync-data.png)
 
