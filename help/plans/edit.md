@@ -3,9 +3,9 @@ title: 플랜 편집
 description: Mix Modeler에서 플랜을 편집하는 방법을 알아봅니다.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: cbe4b4bf17773a42e4a13d4777443e5f1f50dc6e
+source-git-commit: b2719da8b49441c00d86f47596546fd7341f16bd
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. 선택 **[!UICONTROL X]** 또는 **[!UICONTROL  %]** 방법 **[!UICONTROL View ROI]**.
 
-1. 날짜 범위 분류의 데이터가 포함된 CSV 파일을 다운로드하려면 다음을 선택합니다. ![다운로드](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
+1. 날짜 범위 분류의 데이터가 포함된 CSV 파일을 다운로드하려면 다음을 선택합니다. ![다운로드](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. 컨텍스트 메뉴에서 을(를) 선택합니다 ![다운로드](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** CSV 형식으로 세부 정보가 포함된 경우 또는 ![다운로드](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** csv 형식의 요약 데이터용.
 
 1. 채널 범주별 날짜 범위 분류를 보려면 다음을 선택합니다. **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]**, 또는 **[!UICONTROL Non-paid channels]** 다음에서 **[!UICONTROL View]** 선택 항목.
 
