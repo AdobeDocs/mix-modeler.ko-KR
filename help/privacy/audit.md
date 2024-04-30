@@ -2,7 +2,7 @@
 title: 감사
 description: Mix Modeler을 감사하는 방법을 알아봅니다.
 feature: Administration
-source-git-commit: 44e37f385241d90da87e1fd85fb4ce9024b67250
+source-git-commit: e1ef6f2b54ae7c80cb115b417909b154b6153ce2
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 6%
@@ -50,3 +50,4 @@ Experience Platform의 감사 인터페이스 부분을 사용하고 Mix Modeler
 1. 작업 로그에 표시되는 열을 수정하려면 다음을 선택합니다. ![열](../assets/icons/ColumnSetting.svg) 및 **[!UICONTROL Customize table]** 대화 상자에서 표시할 열을 선택합니다. 선택 **[!UICONTROL Apply]** 선택 항목을 적용하려면 **[!UICONTROL Cancel]** 선택 항목을 취소합니다.
 
 1. 감사 로그를 다운로드하려면 다음을 선택합니다. ![다운로드](../assets/icons/Download.svg) **[!UICONTROL Download log]**. 다음에서 **[!UICONTROL Download log]** 대화 상자에서 다음 중 하나를 선택합니다. **[!UICONTROL CSV]** 또는 **[!UICONTROL JSON]** 을(를) 형식으로 설정하고 을(를) 선택합니다. **[!UICONTROL Download]**.
+
