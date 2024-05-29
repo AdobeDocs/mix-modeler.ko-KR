@@ -4,18 +4,25 @@ description: 최신 Mix Modeler 릴리스 정보
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
+source-git-commit: e90ddd25ba7b78bd360096dda4e3af80304a5176
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 7%
+source-wordcount: '260'
+ht-degree: 9%
 
 ---
 
 # 현재 Mix Modeler 릴리스 정보
 
-**마지막 업데이트**: 2024년 4월 1일
+**마지막 업데이트**: 2024년 5월 29일
 
 이 릴리스 노트는 Mix Modeler의 최신 릴리스를 다룹니다. Mix Modeler 릴리스는 대략적인 월별 릴리스 케이던스를 허용하는 연속 게재 모델에서 작동합니다. 따라서 이 릴리스 정보는 업데이트되므로 정기적으로 확인하십시오.
+
+## 2024년 5월
+
+| 기능 | 설명 | 일반 가용성 |
+|---|---|---|
+| **데이터 병합 환경 설정** [!BADGE 베타] | [데이터 병합 환경 설정](../harmonize-data/dataset-rules.md#data-merge-preferences) 요약된 데이터와 이벤트 데이터 소스의 데이터가 병합될 때 충돌을 해결하는 데 도움이 됩니다. | 2024년 5월 29일 |
+| **필드 수준 액세스 제어** | 데이터 세트 규칙을 정의할 때 Experience Platform의 [속성 기반 액세스 제어](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) 이(가) 다음에 강제 적용됩니다. [필드 수준](../harmonize-data/dataset-rules.md#field-level-access-control). | 2024년 5월 29일 |
 
 
 ## 2024년 4월
@@ -42,4 +49,4 @@ ht-degree: 7%
 >[!MORELIKETHIS]
 >
 >* [Mix Modeler 소개](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
->* [Mix Modeler Experience League 설명서](https://experienceleague.adobe.com/en/docs/mix-modeler)
+>* [Mix Modeler Experience League 설명서](https://experienceleague.adobe.com/ko/docs/mix-modeler)
