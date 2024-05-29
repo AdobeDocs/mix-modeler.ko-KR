@@ -3,9 +3,9 @@ title: 데이터 세트 규칙
 description: Mix Modeler에서 데이터를 조화롭게 만드는 과정에서 사용할 데이터 세트 규칙을 정의하는 방법을 알아봅니다.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: e86e0d64db01eb98c68c3f6877f5a7cc8b855b88
+source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!BADGE Beta]{type=Informative}
+>[!BADGE 베타]{type=Informative}
 
 데이터 병합 환경 설정은 요약된 데이터와 이벤트 데이터 소스가 병합될 때 충돌을 해결하는 데 도움이 됩니다. 사용 사례는 다음과 같습니다.
 
@@ -153,9 +153,9 @@ ht-degree: 0%
 
 정확한 모델 예측을 위해 데이터 병합 환경 설정을 정의할 수 있습니다.
 
-1. 선택 ![데이터 병합 환경 설정](../assets/icons/Merge.svg) [!BADGE 베타] **데이터 병합 환경 설정**.
+1. 선택 ![데이터 병합 환경 설정](../assets/icons/Merge.svg) [!BADGE 베타].
 
-1. 다음에서 **[!UICONTROL Data merge preferences]** 대화 상자:
+1. 다음에서 **[!UICONTROL Data merge preferences]** [!BADGE 베타]{type=Informative}
 
    ![데이터 병합 환경 설정](../assets/data-merge-preferences.png)
 
@@ -168,12 +168,12 @@ ht-degree: 0%
          1. 선택 **[!UICONTROL CHANNELS]** 또는 **[!UICONTROL CONVERSION TYPES]**. 목록에서 를 선택합니다. **[!UICONTROL All]** 또는 특정 채널 또는 전환 유형을 지정할 수 있습니다.
          1. 선택 **[!UICONTROL Summary]** 또는 **[!UICONTROL Event]** 데이터를 병합할 때 지표(및 모든 또는 선택한 채널)에 대해 요약 데이터나 이벤트 데이터를 선호하는지 여부를 지정합니다.
 
-하나 이상의 채널 또는 전환 유형을 추가하려면 다음을 수행합니다.
+         하나 이상의 채널 또는 전환 유형을 추가하려면 다음을 수행합니다.
 
          1. 선택 ![플러스](../assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** 또는 ![플러스](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
          1. **[!UICONTROL Summary]** 또는&#x200B;**[!UICONTROL Event]**&#x200B;를 선택합니다.
 
-채널 또는 전환 유형을 삭제하려면 select ![교차](../assets/icons/Close.svg).
+         채널 또는 전환 유형을 삭제하려면 ![교차](../assets/icons/Close.svg).
 
       1. 더 구체적인 지표 기반 환경 설정을 추가하려면 이전 단계를 반복합니다.
 
@@ -181,10 +181,13 @@ ht-degree: 0%
 
 1. 선택 **[!UICONTROL Save]** 데이터 병합 환경 설정을 저장합니다. 데이터 재동기화가 시작됩니다. <br/>선택 **[!UICONTROL Cancel]** 취소합니다.
 
-## 필드 수준 액세스 제어
+<!--
+## Field-level access control
 
-조화된 데이터 세트에 대한 데이터 세트 규칙을 구성할 때 Experience Platform의 [속성 기반 액세스 제어](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) 는 필드 수준에서 강제 적용됩니다. 레이블이 스키마 필드에 첨부되고 해당 필드에 대한 액세스를 거부하는 활성 정책이 활성화되면 필드가 제한됩니다. 그 결과는 다음과 같습니다.
+When configuring dataset rules for harmonized datasets, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a field-level. A field is restricted when a label is attached to a schema field and an active policy is enabled that denies access for you to that field. As a result:
 
-* 데이터 세트 규칙을 만들 때 제한된 스키마 필드는 표시되지 않습니다.
-* 제한된 하나 이상의 스키마 필드의 매핑을 보거나 편집할 수 없습니다. 이러한 제한된 필드가 포함된 데이터 세트 규칙을 편집하거나 볼 때 다음 화면이 표시됩니다.
-  ![액션이 허용되지 않음](../assets/action-not-permitted.png)
+* you do not see the schema fields that are restricted for you when you create a dataset rule, 
+* you are not able to view or edit the mapping of one or more schema fields that are restricted for you. When you edit or view a dataset rule containing such restricted fields, you see the following screen.
+  ![Action not permitted](../assets/action-not-permitted.png)
+
+-->
