@@ -3,9 +3,9 @@ title: 데이터 세트 규칙
 description: Mix Modeler에서 데이터를 조화롭게 만드는 과정에서 사용할 데이터 세트 규칙을 정의하는 방법을 알아봅니다.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
+source-git-commit: a066cdff03eade86b09f03209a08ebfa2ab32e8e
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1210'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ ht-degree: 0%
 
    ![데이터 병합 환경 설정](../assets/data-merge-preferences.png)
 
-   * 선택 **[!UICONTROL Default metric preference]**. 선택한 기본 지표 환경 설정은 조화 중에 여러 데이터 소스가 지정된 채널에 대한 지표 필드를 업데이트할 때 적용됩니다. 특정 지표 기반 환경 설정에 대해 재정의되지 않는 한 환경 설정은 샌드박스 수준에서 적용됩니다.
+   * 선택 **[!UICONTROL Default metric preference]**. 선택한 기본 지표 환경 설정은 조화 중에 여러 데이터 소스가 지정된 채널에 대한 지표 필드를 업데이트할 때 적용됩니다. 특정 지표 기반 환경 설정에 대해 재정의되지 않는 한 환경 설정은 샌드박스 수준에서 적용됩니다. 다음 중 하나를 선택할 수 있습니다. **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** 및 **[!UICONTROL Sum of summmary and event data]**.
 
    * 특정 지표 기반 환경 설정을 추가하려면 다음 작업을 수행하십시오.
 
@@ -181,13 +181,11 @@ ht-degree: 0%
 
 1. 선택 **[!UICONTROL Save]** 데이터 병합 환경 설정을 저장합니다. 데이터 재동기화가 시작됩니다. <br/>선택 **[!UICONTROL Cancel]** 취소합니다.
 
-<!--
-## Field-level access control
 
-When configuring dataset rules for harmonized datasets, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a field-level. A field is restricted when a label is attached to a schema field and an active policy is enabled that denies access for you to that field. As a result:
+## 필드 수준 액세스 제어
 
-* you do not see the schema fields that are restricted for you when you create a dataset rule, 
-* you are not able to view or edit the mapping of one or more schema fields that are restricted for you. When you edit or view a dataset rule containing such restricted fields, you see the following screen.
-  ![Action not permitted](../assets/action-not-permitted.png)
+조화된 데이터 세트에 대한 데이터 세트 규칙을 구성할 때 Experience Platform의 [속성 기반 액세스 제어](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) 는 필드 수준에서 강제 적용됩니다. 레이블이 스키마 필드에 첨부되고 해당 필드에 대한 액세스를 거부하는 활성 정책이 활성화되면 필드가 제한됩니다. 그 결과는 다음과 같습니다.
 
--->
+* 데이터 세트 규칙을 만들 때 제한된 스키마 필드는 표시되지 않습니다.
+* 제한된 하나 이상의 스키마 필드의 매핑을 보거나 편집할 수 없습니다. 이러한 제한된 필드가 포함된 데이터 세트 규칙을 편집하거나 볼 때 다음 화면이 표시됩니다.
+  ![액션이 허용되지 않음](../assets/action-not-permitted.png)

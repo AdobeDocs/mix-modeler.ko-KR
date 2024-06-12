@@ -3,9 +3,9 @@ title: 조화된 필드
 description: Mix Modeler에서 데이터를 조화시키는 과정에서 사용할 필드를 정의하는 방법에 대해 알아봅니다.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: fecb122f6e2e8ae532babd0e2964ad200174a032
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '687'
 ht-degree: 8%
 
 ---
@@ -35,10 +35,10 @@ Mix Modeler에서 기본적으로 사용할 수 있는 전역 조화 필드는 �
 | 데이터 세트 | 데이터 세트 | 차원 | 문자열 |           |
 | date_type | 날짜 유형 | 차원 | 문자열 | 일, 주 |
 | emailsent | 이메일 전송됨 | 지표 | 숫자 |           |
-| event_date | 날짜 | 차원 | DateTime |           |
+| event_date | 날짜 | 차원 | 날짜 시간 |           |
 | gross_demand | 총 수요 | 지표 | 통화 |           |
 | 노출 횟수 | 노출 횟수 | 지표 | 숫자 |           |
-| last_updated_date | 마지막으로 업데이트한 날짜 | 차원 | DateTime |           |
+| last_updated_date | 마지막으로 업데이트한 날짜 | 차원 | 날짜 시간 |           |
 | linkvisits | 방문 횟수 연결 | 지표 | 숫자 |           |
 | mediatype | 미디어 유형 | 차원 | 문자열 |           |
 | net_sales | 순 판매 | 지표 | 통화 |           |
@@ -66,7 +66,7 @@ Mix Modeler 인터페이스에서 사용 가능한 조화 필드의 표를 보�
    | 필드 이름 | 조화된 필드의 이름. |
    | 표시 이름 | 조화된 필드의 표시 이름입니다. 이 표시 이름은 데이터 세트 규칙, 마케팅 접점 및 전환 정의를 정의할 때 사용됩니다. |
    | 카테고리 | Harmonized 데이터 필드가 인지 여부 지정 [!UICONTROL Dimension], a [!UICONTROL Metric] 또는 [!UICONTROL Derived]. 파생 카테고리는 지표 기반 공식 정의를 사용하는 조화로운 필드입니다. |
-   | 데이터 유형 | 데이터 형식을 지정합니다([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL DateTime]). |
+   | 데이터 유형 | 데이터 형식을 지정합니다([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL Date time]). |
    | 제작일 | 조화로운 필드를 만든 날짜 및 시간입니다. |
    | 소유자 | 조화 필드가 기본 필드인지 여부를 나타냅니다. ([!UICONTROL Global]) 또는 는 사용자가 정의합니다([!UICONTROL Client]). |
    | 마지막으로 수정한 날짜 | 조화 필드의 마지막 수정 날짜 및 시간입니다. |
@@ -93,7 +93,7 @@ Mix Modeler 인터페이스에서 사용 가능한 조화 필드의 표를 보�
 
    1. 선택 **[!UICONTROL Data type]**.
 
-      - **[!UICONTROL String]** 또는 **[!UICONTROL DateTime]**: 선택한 카테고리가 Dimension 인 경우.
+      - **[!UICONTROL String]** 또는 **[!UICONTROL Date time]**: 선택한 카테고리가 Dimension 인 경우.
       - **[!UICONTROL Number]** 또는 **[!UICONTROL Currency]** 선택한 범주가 지표 또는 파생인 경우.
 
    1. 선택 **[!UICONTROL Submit]** 을 클릭하여 harmonized 필드를 추가합니다. 선택 **[!UICONTROL Close]** 을 클릭하여 harmonized 필드를 추가하지 않고 대화 상자를 닫습니다.
