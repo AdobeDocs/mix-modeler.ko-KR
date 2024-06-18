@@ -4,9 +4,9 @@ description: 최신 Mix Modeler 릴리스 정보
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: cefa5ccc8850e4931b2d0acffe9ca5e8c3f92e00
+source-git-commit: 23c83cd3576951eb5f8d64bd98f8a5b9e57286a5
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '308'
 ht-degree: 9%
 
 ---
@@ -21,8 +21,10 @@ ht-degree: 9%
 
 | 기능 | 설명 | 일반 가용성 |
 |---|---|---|
+| **MTA 시각화** | 모델 인사이트가 포괄적으로 업데이트되었습니다. [MTA 시각화](../models/insights.md#attribution). | 2024년 6월 18일 |
+| **CPA 지표** | CPA(작업당 비용) 지표는에서 사용할 수 있습니다. [플랜 비교](../plans/compare.md). | 2024년 6월 18일 |
 | **필드 수준 액세스 제어** | 데이터 세트 규칙을 정의할 때 Experience Platform의 [속성 기반 액세스 제어](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) 이(가) 다음에 강제 적용됩니다. [필드 수준](../harmonize-data/dataset-rules.md#field-level-access-control). | 2024년 6월 12일 |
-| P **라이어 지식 터치포인트** | 에 지정된 마케팅 터치포인트만 [!UICONTROL Configure] 단계, 다음에서 선택할 수 있습니다. [[!UICONTROL Prior Knowledge]](../models/create.md) 섹션. | 2024년 6월 12일 |
+| **사전 지식 접점** | 에 지정된 마케팅 터치포인트만 [!UICONTROL Configure] 단계, 다음에서 선택할 수 있습니다. [[!UICONTROL Prior Knowledge]](../models/create.md) 섹션. | 2024년 6월 12일 |
 
 {style="table-layout:auto"}
 
