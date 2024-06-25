@@ -3,10 +3,10 @@ title: 감사
 description: Mix Modeler에서 감사에 액세스하는 방법을 알아봅니다.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 28ab9273c1f606c8b685225f412d51ee305b5f31
+source-git-commit: c45f4e4412258f959726c49129c6b9b6fff48f4a
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 7%
+source-wordcount: '315'
+ht-degree: 6%
 
 ---
 
@@ -22,21 +22,30 @@ Mix Modeler UI에 포함된 Experience Platform의 일부인 감사 인터페이
 
    | 카테고리 | 작업 | 상태 |
    |---|---|---|
-   | Mix Modeler 데이터 세트 규칙 | 만들기 | 허용 또는 거부됨 |
-   | Mix Modeler 데이터 세트 규칙 | 업데이트 | 허용 또는 거부됨 |
-   | Mix Modeler 데이터 세트 규칙 | 삭제 | 허용 또는 거부됨 |
-   | Mix Modeler 필드 | 만들기 | 허용 또는 거부됨 |
-   | Mix Modeler 필드 | 업데이트 | 허용 또는 거부됨 |
-   | Mix Modeler 필드 | 삭제 | 허용 또는 거부됨 |
-   | Mix Modeler 마케팅 접점 | 만들기 | 허용 또는 거부됨 |
-   | Mix Modeler 마케팅 접점 | 업데이트 | 허용 또는 거부됨 |
-   | Mix Modeler 마케팅 접점 | 삭제 | 허용 또는 거부됨 |
-   | Mix Modeler 전환 | 만들기 | 허용 또는 거부됨 |
-   | Mix Modeler 전환 | 업데이트 | 허용 또는 거부됨 |
-   | Mix Modeler 전환 | 삭제 | 허용 또는 거부됨 |
-   | Mix Modeler 모델 | 만들기 | 허용 또는 거부됨 |
-   | Mix Modeler 모델 | 업데이트 | 허용 또는 거부됨 |
-   | Mix Modeler 모델 | 삭제 | 허용 또는 거부됨 |
+   | Mix Modeler 데이터 세트 규칙 | 만들기 | 허용 또는 거부 |
+   | Mix Modeler 데이터 세트 규칙 | 업데이트 | 허용 또는 거부 |
+   | Mix Modeler 데이터 세트 규칙 | 삭제 | 허용 또는 거부 |
+   | Mix Modeler 필드 | 만들기 | 허용 또는 거부 |
+   | Mix Modeler 필드 | 업데이트 | 허용 또는 거부 |
+   | Mix Modeler 필드 | 삭제 | 허용 또는 거부 |
+   | Mix Modeler 마케팅 접점 | 만들기 | 허용 또는 거부 |
+   | Mix Modeler 마케팅 접점 | 업데이트 | 허용 또는 거부 |
+   | Mix Modeler 마케팅 접점 | 삭제 | 허용 또는 거부 |
+   | Mix Modeler 전환 | 만들기 | 허용 또는 거부 |
+   | Mix Modeler 전환 | 업데이트 | 허용 또는 거부 |
+   | Mix Modeler 전환 | 삭제 | 허용 또는 거부 |
+   | Mix Modeler 모델 | 만들기 | 허용 또는 거부 |
+   | Mix Modeler 모델 | 업데이트 | 허용 또는 거부 |
+   | Mix Modeler 모델 | 삭제 | 허용 또는 거부 |
+   | Mix Modeler 모델 | 재채점 | 허용 또는 거부 |
+   | Mix Modeler 모델 | 복제 | 허용 또는 거부 |
+   | Mix Modeler 모델 | 교육 / 재교육 | 허용 또는 거부 |
+   | Mix Modeler 모델 | 메타데이터 다운로드/저장 | 허용 또는 거부 |
+   | Mix Modeler 플랜 | 만들기 | 허용 또는 거부 |
+   | Mix Modeler 플랜 | 업데이트 | 허용 또는 거부 |
+   | Mix Modeler 플랜 | 관련 모델 변경 | 허용 또는 거부 |
+   | Mix Modeler 데이터 조화 | 동기화 트리거 | 허용 또는 거부 |
+
 
 1. 자세한 내용을 보려면 활동 로그에서 항목을 선택하여 패널을 엽니다.
 
