@@ -3,7 +3,7 @@ title: 전환
 description: Mix Modeler에서 데이터를 조화시키는 과정에서 사용할 전환을 만드는 방법을 알아봅니다.
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Mix Modeler 인터페이스에서 사용 가능한 전환의 표를 보려면 다음을 수행하십시오.
 
-1. 선택 ![데이터 검색](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 왼쪽 레일에서.
+1. 선택 ![데이터 검색](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 왼쪽 레일에서.
 
 1. 선택 **[!UICONTROL Conversions]** 을 클릭합니다. 전환 테이블이 표시됩니다.
 
@@ -39,9 +39,9 @@ Mix Modeler 인터페이스에서 사용 가능한 전환의 표를 보려면 �
 
 ## 전환 추가
 
-변환을 추가하려면 ![데이터 검색](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** Mix Modeler 인터페이스:
+변환을 추가하려면 ![데이터 검색](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** Mix Modeler 인터페이스:
 
-1. 선택 ![추가](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
+1. 선택 ![추가](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
 1. 다음에서 **[!UICONTROL Create conversion]** 대화 상자:
 
@@ -51,7 +51,7 @@ Mix Modeler 인터페이스에서 사용 가능한 전환의 표를 보려면 �
 
       1. 다음에서 값 선택 **[!UICONTROL *조화 선택...*]**, 예 `Conversion types`.
 
-      1. 연산자 값 선택 ![펼침](../assets/icons/ChevronDown.svg), 예 **[!UICONTROL is]**.
+      1. 연산자 값 선택 ![펼침](/help/assets//icons/ChevronDown.svg), 예 **[!UICONTROL is]**.
 
       1. 다음에서 값 선택 **[!UICONTROL *값 선택&#x200B;*]**또는 값을 입력합니다(예: ).**[!UICONTROL Store]**.
 
@@ -61,7 +61,7 @@ Mix Modeler 인터페이스에서 사용 가능한 전환의 표를 보려면 �
 
    1. 변환을 만들려면 다음을 선택합니다. **[!UICONTROL Create]**. 변환 생성을 취소하려면 **[!UICONTROL Cancel]**.
 
-      ![대체 텍스트](../assets/create-conversion.png)
+      ![대체 텍스트](/help/assets//create-conversion.png)
 
 1. 이 필드를 만들면 전환 표에 전환이 추가됩니다.
 
@@ -70,14 +70,14 @@ Mix Modeler 인터페이스에서 사용 가능한 전환의 표를 보려면 �
 
 전환을 보려면 다음 작업을 수행하십시오.
 
-1. 선택 ![자세히](../assets/icons/More.svg) 마우스로 테이블의 전환 이름을 가리키면
+1. 선택 ![자세히](/help/assets//icons/More.svg) 마우스로 테이블의 전환 이름을 가리키면
 
-1. 선택 ![보기](../assets/icons/ViewDetail.svg) **보기**. 대화 상자에 전환에 대한 세부 정보가 표시됩니다. 다음을 참조하십시오 [전환 추가](#add-a-conversion) 추가 정보. 선택 **[!UICONTROL Cancel]** 대화 상자를 닫습니다.
+1. 선택 ![보기](/help/assets//icons/ViewDetail.svg) **보기**. 대화 상자에 전환에 대한 세부 정보가 표시됩니다. 다음을 참조하십시오 [전환 추가](#add-a-conversion) 추가 정보. 선택 **[!UICONTROL Cancel]** 대화 상자를 닫습니다.
 
 
 ## 전환 삭제
 
 변환을 삭제하려면 다음 작업을 수행하십시오.
 
-1. 선택 ![삭제](../assets/icons/Delete.svg) **삭제** 마우스로 테이블의 전환 이름을 가리키면
+1. 선택 ![삭제](/help/assets//icons/Delete.svg) **삭제** 마우스로 테이블의 전환 이름을 가리키면
 1. 다음에서 **[!UICONTROL Delete conversion]** 대화 상자 확인 대화 상자 선택 **[!UICONTROL Delete]** 변환 삭제.

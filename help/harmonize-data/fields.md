@@ -3,7 +3,7 @@ title: 조화된 필드
 description: Mix Modeler에서 데이터를 조화시키는 과정에서 사용할 필드를 정의하는 방법에 대해 알아봅니다.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: fecb122f6e2e8ae532babd0e2964ad200174a032
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 8%
@@ -27,7 +27,7 @@ Mix Modeler에서 기본적으로 사용할 수 있는 전역 조화 필드는 �
 | campaign | Campaign | 차원 | 문자열 |           |
 | channel | 채널 | 차원 | 문자열 |           |
 | channel_id | 채널 ID | 차원 | 문자열 |           |
-| channel_type_at_source | 소스에서의 채널 유형 | 차원 | 문자열 |           |
+| channel_type_at_source | Source의 채널 유형 | 차원 | 문자열 |           |
 | channel | 채널 | 차원 | 문자열 |           |
 | 클릭수 | 클릭수 | 지표 | 숫자 |           |
 | 전환 유형 | 전환 유형 | 차원 | 문자열 |           |
@@ -43,7 +43,7 @@ Mix Modeler에서 기본적으로 사용할 수 있는 전역 조화 필드는 �
 | mediatype | 미디어 유형 | 차원 | 문자열 |           |
 | net_sales | 순 판매 | 지표 | 통화 |           |
 | 주문 수 | 주문 수 | 지표 | 숫자 |           |
-| sourcetype | 소스 유형 | 차원 | 문자열 |           |
+| sourcetype | Source 유형 | 차원 | 문자열 |           |
 | 지출 | 지출 | 지표 | 통화 |           |
 | trafficsource | 트래픽 소스 | 차원 | 문자열 |           |
 
@@ -55,9 +55,9 @@ Mix Modeler에서 기본적으로 사용할 수 있는 전역 조화 필드는 �
 
 Mix Modeler 인터페이스에서 사용 가능한 조화 필드의 표를 보려면 다음을 수행하십시오.
 
-1. 선택 ![데이터 검색](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 왼쪽 레일에서.
+1. 선택 ![데이터 검색](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 왼쪽 레일에서.
 
-1. 선택 **[!UICONTROL Fields]** 을 클릭합니다. 여러분은 조화된 들판의 표를 볼 수 있습니다. 사용 가능한 페이지가 더 있으면 다음을 사용합니다. ![왼쪽 화살표](../assets/icons/ChevronLeft.svg) 또는 ![오른쪽 화살표](../assets/icons/ChevronRight.svg) 위치: **[!UICONTROL Page _x _/_x_]** 을 눌러 테이블의 페이지 사이를 이동합니다.
+1. 선택 **[!UICONTROL Fields]** 을 클릭합니다. 여러분은 조화된 들판의 표를 볼 수 있습니다. 사용 가능한 페이지가 더 있으면 다음을 사용합니다. ![왼쪽 화살표](/help/assets//icons/ChevronLeft.svg) 또는 ![오른쪽 화살표](/help/assets//icons/ChevronRight.svg) 위치: **[!UICONTROL Page _x _/_x_]** 을 눌러 테이블의 페이지 사이를 이동합니다.
 
    테이블 열은 조화된 필드에 대한 세부 사항을 지정합니다
 
@@ -74,14 +74,14 @@ Mix Modeler 인터페이스에서 사용 가능한 조화 필드의 표를 보�
 
    {style="table-layout:auto"}
 
-1. 특정 조화로운 필드를 검색하려면 ![검색](../assets/icons/Search.svg) **[!UICONTROL *Harmonized 필드 검색&#x200B;*]**.
+1. 특정 조화로운 필드를 검색하려면 ![검색](/help/assets//icons/Search.svg) **[!UICONTROL *Harmonized 필드 검색&#x200B;*]**.
 
 
 ### 조화로운 필드 추가
 
-조화로운 필드를 추가하려면 ![데이터 검색](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler 인터페이스:
+조화로운 필드를 추가하려면 ![데이터 검색](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler 인터페이스:
 
-1. 선택 ![추가](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]**.
+1. 선택 ![추가](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
 1. 다음에서 **[!UICONTROL Create]** 대화 상자:
 
@@ -98,14 +98,14 @@ Mix Modeler 인터페이스에서 사용 가능한 조화 필드의 표를 보�
 
    1. 선택 **[!UICONTROL Submit]** 을 클릭하여 harmonized 필드를 추가합니다. 선택 **[!UICONTROL Close]** 을 클릭하여 harmonized 필드를 추가하지 않고 대화 상자를 닫습니다.
 
-      ![필드 만들기](../assets/create-field.png)
+      ![필드 만들기](/help/assets//create-field.png)
 
 
 ### 조화로운 필드 편집
 
 이전에 만든 통합 필드만 편집할 수 있습니다(소유자는 클라이언트임). 전역 조화 필드를 편집할 수 없습니다.
 
-조화된 필드를 편집하려면 ![데이터 검색](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler 인터페이스:
+조화된 필드를 편집하려면 ![데이터 검색](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler 인터페이스:
 
 1. 편집할 조화로운 필드를 선택합니다. 예: **[!UICONTROL Region]**.
 
@@ -113,17 +113,17 @@ Mix Modeler 인터페이스에서 사용 가능한 조화 필드의 표를 보�
 
 1. 선택 **[!UICONTROL Submit]** 를 클릭하여 변경 내용을 harmonized 필드에 적용합니다.
 
-   ![필드 편집](../assets/edit-field.png)
+   ![필드 편집](/help/assets//edit-field.png)
 
 ### 조화로운 필드 삭제
 
 이전에 만든 조화로운 필드만 삭제할 수 있습니다(소유자는 클라이언트임). 전역 조화된 필드는 삭제할 수 없습니다.
 
-조화된 필드를 삭제하려면 ![데이터 검색](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler 인터페이스:
+조화된 필드를 삭제하려면 ![데이터 검색](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler 인터페이스:
 
 1. 삭제할 조화로운 필드를 선택합니다(예: ). **[!UICONTROL Region]**.
 
-1. 선택 ![삭제](../assets/icons/Delete.svg) **[!UICONTROL Delete]** 다음에서 **[!UICONTROL Edit harmonization values]** 왼쪽 창입니다.
+1. 선택 ![삭제](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** 다음에서 **[!UICONTROL Edit harmonization values]** 왼쪽 창입니다.
 
    >[!WARNING]
    >

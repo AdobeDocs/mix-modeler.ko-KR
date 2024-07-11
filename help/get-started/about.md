@@ -4,7 +4,7 @@ description: Mix Modeler의 기능 및 성능에 대한 개요를 살펴봅니�
 short-description: Mix Modeler의 기능 및 성능에 대한 개요를 살펴봅니다.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 59869553c4a5856e897aded441520dd8938eb8c1
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 3%
@@ -35,7 +35,7 @@ Mix Modeler은 전략적 및 전술적 수준에서 다음 유형의 최적화�
 
 AI/ML 양방향 전송 학습은 마케팅 믹스 모델링(MMM)과 멀티 터치 속성(MTA) 결과를 통합하여 쿠키가 없는 환경에서 측정 및 계획 전반에 걸쳐 일관된 결과를 보장합니다.
 
-![양방향 전송 학습](../assets/birdirectional-transfer-learning.png){width="500" align="center"}
+![양방향 전송 학습](/help/assets//birdirectional-transfer-learning.png){width="500" align="center"}
 
 
 ## 기능

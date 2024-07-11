@@ -3,7 +3,7 @@ title: 플랜 편집
 description: Mix Modeler에서 플랜을 편집하는 방법을 알아봅니다.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 128a548af9b22e6b14794b1ba94def6431e97c51
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 플랜 편집
 
-계획을 편집하려면 ![피판](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** Mix Modeler에서 이름별로 계획을 선택합니다.
+계획을 편집하려면 ![피판](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** Mix Modeler에서 이름별로 계획을 선택합니다.
 
 위치 [!UICONTROL Plan insights], 플랜 인사이트가 생성되어 [!UICONTROL Model], [!UICONTROL Data range], 및 [!UICONTROL Total budget] 플랜의 기반이 되는 항목.
 
@@ -29,16 +29,16 @@ ht-degree: 0%
    - 전환 목표
    - 지출
 
-![플랜 개요](../assets/overview-plan.png)
+![플랜 개요](/help/assets//overview-plan.png)
 
 1. 선택 **[!UICONTROL Close]** 계획 인터페이스로 돌아갑니다.
 
 1. 선택 **[!UICONTROL X]** 또는 **[!UICONTROL  %]** 방법 **[!UICONTROL View ROI]**.
 
-1. 날짜 범위 분류의 데이터가 포함된 CSV 파일을 다운로드하려면 다음을 선택합니다. ![다운로드](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. 컨텍스트 메뉴에서:
+1. 날짜 범위 분류의 데이터가 포함된 CSV 파일을 다운로드하려면 다음을 선택합니다. ![다운로드](/help/assets//icons/Download.svg) **[!UICONTROL Download CSV]**. 컨텍스트 메뉴에서:
 
-   - 선택 ![다운로드](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** csv 형식으로 된 자세한 데이터입니다.
-   - 선택 ![다운로드](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** csv 형식의 요약 데이터용.
+   - 선택 ![다운로드](/help/assets//icons/Download.svg) **[!UICONTROL Detailed CSV]** csv 형식으로 된 자세한 데이터입니다.
+   - 선택 ![다운로드](/help/assets//icons/Download.svg) **[!UICONTROL Summary CSV]** csv 형식의 요약 데이터용.
 
    세부 데이터는 주별로 입력된 세부 데이터입니다. 요약 데이터는 모델이 제공한 날짜 범위에 의해 입력된 데이터입니다.
 
@@ -46,13 +46,13 @@ ht-degree: 0%
 
 1. 플랜을 편집하려면 다음을 선택합니다. **[!UICONTROL Edit plan]**:
 
-   1. 다음에서 **[!UICONTROL Spend selection]** 섹션, 각 예산 일자 범위에 대해 ![펼침](../assets/icons/ChevronRight.svg) 을 클릭하여 해당 데이터 범위에 대한 채널 배포 보기를 엽니다.
+   1. 다음에서 **[!UICONTROL Spend selection]** 섹션, 각 예산 일자 범위에 대해 ![펼침](/help/assets//icons/ChevronRight.svg) 을 클릭하여 해당 데이터 범위에 대한 채널 배포 보기를 엽니다.
 
    1. 각 채널에 대한 예산을 수정하려면 **[!UICONTROL Min]** 및 **[!UICONTROL Max]** 또는 슬라이더를 사용하십시오.
 
    1. 통화 또는 백분율 입력 간을 전환하려면 다음을 선택합니다 **[!UICONTROL $]** 또는 **[!UICONTROL %]** 대상 **[!UICONTROL View spend by]**.
 
-      ![비용 선택](../assets/spend-selection.png)
+      ![비용 선택](/help/assets//spend-selection.png)
 
    1. 플랜 세부 정보를 편집하려면 다음을 선택합니다. **[!UICONTROL Edit details]**:
 
@@ -60,13 +60,13 @@ ht-degree: 0%
 
       1. 다음에서 **[!UICONTROL Budget]** 섹션:
 
-         1. 수정 **[!UICONTROL Date range]** 하나 이상의 플랜 날짜 범위에 대해, 날짜를 입력하거나 다음을 사용하여 날짜 범위를 선택하여 ![캘린더](../assets/icons/Calendar.svg).
+         1. 수정 **[!UICONTROL Date range]** 하나 이상의 플랜 날짜 범위에 대해, 날짜를 입력하거나 다음을 사용하여 날짜 범위를 선택하여 ![캘린더](/help/assets//icons/Calendar.svg).
 
          1. 수정 **[!UICONTROL Budget]** 하나 이상의 플랜 날짜 범위에 대해.
 
-         예산을 각각 사용하여 날짜 범위를 추가하려면 다음을 선택합니다. ![캘린더 추가](../assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
+         예산을 각각 사용하여 날짜 범위를 추가하려면 다음을 선택합니다. ![캘린더 추가](/help/assets//icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
 
-         일자 범위 및 관련 예산을 삭제하려면 ![닫기](../assets/icons/Close.svg).
+         일자 범위 및 관련 예산을 삭제하려면 ![닫기](/help/assets//icons/Close.svg).
 
          최대 예산을 정의하려면
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
       1. 선택 **[!UICONTROL Next]** (으)로 돌아가기 **[!UICONTROL Spend]** 섹션. 선택 **[!UICONTROL Cancel]** 을 클릭하여 플랜 개요로 돌아갑니다.
 
-         ![플랜 세부 정보](../assets/plan-details.png)
+         ![플랜 세부 정보](/help/assets//plan-details.png)
 
 
 1. 플랜 편집이 완료되면 다음을 선택합니다. **[!UICONTROL Edit]**.

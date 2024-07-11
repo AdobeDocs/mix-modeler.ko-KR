@@ -3,7 +3,7 @@ title: 모델 만들기
 description: Mix Modeler에서 모델을 만드는 방법을 알아봅니다.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 모델 만들기
 
-모델을 만들려면 ![모델](../assets/icons/FileData.svg) **[!UICONTROL Models]** Mix Modeler에서 인터페이스, 선택 **[!UICONTROL Open model canvas]**.
+모델을 만들려면 ![모델](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** Mix Modeler에서 인터페이스, 선택 **[!UICONTROL Open model canvas]**.
 
 사용자 지정 AI 기반 모델을 구축하기 위해 인터페이스는 단계별 가이드 모델 구성 플로우를 제공합니다.
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
    1. 모델 입력 **[!UICONTROL Name]**, 예 `Demo model`. 입력 **[!UICONTROL Description]**, 예 `Demo model to explore AI featues of Mix Modeler`.
 
-      ![모델 이름 및 설명](../assets/model-name-description.png)
+      ![모델 이름 및 설명](/help/assets//model-name-description.png)
 
    1. 선택 **[!UICONTROL Next]** 을 클릭하여 다음 단계로 이동합니다. 선택 **[!UICONTROL Cancel]** 모델 구성을 취소합니다.
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
       1. 다음에서 전환 선택 **[!UICONTROL *Harmonized 필드 선택&#x200B;*]**를 포함하며, 의 일부로 정의한 사용 가능한 전환을 포함합니다. [전환](../harmonize-data/conversions.md) 위치: [!UICONTROL Harmonized datasets]. 예:**[!UICONTROL Online Conversion]**.
 
-      1. 다음을 선택할 수 있습니다. ![답변](../assets/icons/Reply.svg) **[!UICONTROL Create new conversion]** 모델 구성 내에서 직접 변환을 만들 수 있습니다.
+      1. 다음을 선택할 수 있습니다. ![답변](/help/assets//icons/Reply.svg) **[!UICONTROL Create new conversion]** 모델 구성 내에서 직접 변환을 만들 수 있습니다.
 
-         ![모델 - 전환 단계](../assets/model-conversion-step.png)
+         ![모델 - 전환 단계](/help/assets//model-conversion-step.png)
 
    1. 다음에서 **[!UICONTROL Marketing touchpoints]** 섹션에는 일부로 정의한 마케팅 터치포인트에 해당하는 많은 마케팅 터치포인트 컨테이너가 표시됩니다. [마케팅 접점](../harmonize-data/marketing-touchpoints.md) 위치: [!UICONTROL Harmonized datasets].
 
@@ -44,13 +44,13 @@ ht-degree: 0%
 
          1. 에서 마케팅 접점 선택 **[!UICONTROL _마케팅 접점 선택_]**.
 
-         1. 다음을 선택할 수 있습니다. ![답변](../assets/icons/Reply.svg) **[!UICONTROL Create new marketing touchpoint]** 모델 구성 내에서 직접 마케팅 접점을 만듭니다.
+         1. 다음을 선택할 수 있습니다. ![답변](/help/assets//icons/Reply.svg) **[!UICONTROL Create new marketing touchpoint]** 모델 구성 내에서 직접 마케팅 접점을 만듭니다.
 
-      * 마케팅 접점 컨테이너를 추가하려면 ![추가](../assets/icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]**.
+      * 마케팅 접점 컨테이너를 추가하려면 ![추가](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]**.
 
-      * 마케팅 접점 컨테이너를 제거하려면 컨테이너 내에서 을 선택합니다. ![자세히](../assets/icons/More.svg), 및 선택 **[!UICONTROL Remove container]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
+      * 마케팅 접점 컨테이너를 제거하려면 컨테이너 내에서 을 선택합니다. ![자세히](/help/assets//icons/More.svg), 및 선택 **[!UICONTROL Remove container]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-        ![모델 - 마케팅 접점-단계](../assets/model-marketing-touchpoint-step.png)
+        ![모델 - 마케팅 접점-단계](/help/assets//model-marketing-touchpoint-step.png)
 
    1. 기본적으로 점수는 사용자의 조화로운 보기에 있는 모든 데이터에 대해 생성됩니다. 모집단의 하위 집합에만 점수를 매기려면 **[!UICONTROL Eligible data population]** 섹션.
 
@@ -64,17 +64,17 @@ ht-degree: 0%
 
             1. 다음 위치에 값을 입력하거나 선택합니다. **[!UICONTROL _값 입력 또는 선택_]**.
 
-         1. 컨테이너에 이벤트를 추가하려면 ![추가](../assets/icons/AddCircle.svg) **[!UICONTROL Add event]**.
+         1. 컨테이너에 이벤트를 추가하려면 ![추가](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add event]**.
 
-         1. 컨테이너에서 이벤트를 제거하려면 다음을 선택합니다 ![닫기](../assets/icons/Close.svg).
+         1. 컨테이너에서 이벤트를 제거하려면 다음을 선택합니다 ![닫기](/help/assets//icons/Close.svg).
 
          1. 컨테이너에 정의된 모든 이벤트 또는 여러 이벤트를 사용하여 필터링하려면 다음을 선택합니다 **[!UICONTROL Any of]** 또는 **[!UICONTROL All of]**. 레이블은에서 상응하게 변경됩니다. **[!UICONTROL Include ... Or ...]** 끝 **[!UICONTROL Include ... And ...]**.
 
-      * 적격한 데이터 모집단 컨테이너를 추가하려면 다음을 선택합니다. ![추가](../assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
+      * 적격한 데이터 모집단 컨테이너를 추가하려면 다음을 선택합니다. ![추가](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
-      * 적격한 데이터 채우기 컨테이너를 제거하려면 컨테이너 내에서 을 선택합니다. ![자세히](../assets/icons/More.svg), 및 선택 **[!UICONTROL Remove marketing touchpoint]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
+      * 적격한 데이터 채우기 컨테이너를 제거하려면 컨테이너 내에서 을 선택합니다. ![자세히](/help/assets//icons/More.svg), 및 선택 **[!UICONTROL Remove marketing touchpoint]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-        ![모델 - 적격 데이터 채우기](../assets/model-eligible-data-population-step.png)
+        ![모델 - 적격 데이터 채우기](/help/assets//model-eligible-data-population-step.png)
 
    1. 외부 요소가 포함된 데이터 세트를 모델에 추가하려면 **[!UICONTROL External factors dataset]** 섹션.
 
@@ -82,13 +82,13 @@ ht-degree: 0%
 
          1. 입력 **[!UICONTROL Factor name]** 위치: **[!UICONTROL _요소 입력_]**.
 
-         1. 다음에서 데이터 세트 선택 **[!UICONTROL _데이터 세트 선택_]**. 다음을 선택할 수 있습니다. ![데이터](../assets/icons/Data.svg) 데이터 세트를 관리합니다. 다음을 참조하십시오 [데이터 세트](../ingest-data/datasets.md) 추가 정보.
+         1. 다음에서 데이터 세트 선택 **[!UICONTROL _데이터 세트 선택_]**. 다음을 선택할 수 있습니다. ![데이터](/help/assets//icons/Data.svg) 데이터 세트를 관리합니다. 다음을 참조하십시오 [데이터 세트](../ingest-data/datasets.md) 추가 정보.
 
-      * 외부 요인 데이터 세트 컨테이너를 추가하려면 다음을 선택합니다. ![추가](../assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
+      * 외부 요인 데이터 세트 컨테이너를 추가하려면 다음을 선택합니다. ![추가](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 
-      * 외부 요인 데이터 세트 컨테이너를 제거하려면 컨테이너 내에서 을 선택합니다. ![자세히](../assets/icons/More.svg), 및 선택 **[!UICONTROL Remove external factor]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
+      * 외부 요인 데이터 세트 컨테이너를 제거하려면 컨테이너 내에서 을 선택합니다. ![자세히](/help/assets//icons/More.svg), 및 선택 **[!UICONTROL Remove external factor]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-        ![모델 - 외부 요인 데이터 세트](../assets/model-external-factors-dataset-step.png)
+        ![모델 - 외부 요인 데이터 세트](/help/assets//model-external-factors-dataset-step.png)
 
 
    1. 내부 요소가 포함된 데이터 세트를 모델에 추가하려면 **[!UICONTROL Internal factors dataset]** 섹션.
@@ -97,13 +97,13 @@ ht-degree: 0%
 
          1. 입력 **[!UICONTROL Factor name]** 위치: **[!UICONTROL _요소 입력_]**.
 
-         1. 다음에서 데이터 세트 선택 **[!UICONTROL _데이터 세트 선택_]**. 다음을 선택할 수 있습니다. ![데이터](../assets/icons/Data.svg) 데이터 세트를 관리합니다. 다음을 참조하십시오 [데이터 세트](../ingest-data/datasets.md) 추가 정보.
+         1. 다음에서 데이터 세트 선택 **[!UICONTROL _데이터 세트 선택_]**. 다음을 선택할 수 있습니다. ![데이터](/help/assets//icons/Data.svg) 데이터 세트를 관리합니다. 다음을 참조하십시오 [데이터 세트](../ingest-data/datasets.md) 추가 정보.
 
-      * 추가 내부 요소 데이터 세트 컨테이너를 추가하려면 다음을 선택합니다. ![추가](../assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
+      * 추가 내부 요소 데이터 세트 컨테이너를 추가하려면 다음을 선택합니다. ![추가](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
 
-      * 추가 내부 요소 데이터 세트 컨테이너를 제거하려면 컨테이너 내에서 을 선택합니다. ![자세히](../assets/icons/More.svg), 및 **[!UICONTROL Remove internal factor]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
+      * 추가 내부 요소 데이터 세트 컨테이너를 제거하려면 컨테이너 내에서 을 선택합니다. ![자세히](/help/assets//icons/More.svg), 및 **[!UICONTROL Remove internal factor]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다.
 
-        ![모델 - 내부 요소 데이터 세트](../assets/model-internal-factors-dataset-step.png)
+        ![모델 - 내부 요소 데이터 세트](/help/assets//model-internal-factors-dataset-step.png)
 
    1. 모델에 대한 전환 확인 기간을 정의하려면 다음 사이의 값을 입력합니다. `1` 및 `52` 위치: **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]**.
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
       * **[!UICONTROL Manually input a training window]** 질문에 답합니다. 선택한 경우, 연도 수를 정의합니다. **[!UICONTROL Include events the following years prior to a conversion]**.
 
-        ![모델 - 교육 기간 정의](../assets/model-define-training-window.png)
+        ![모델 - 교육 기간 정의](/help/assets//model-define-training-window.png)
 
    1. 다음에서 **[!UICONTROL Spend share]** 섹션:
 
@@ -133,7 +133,7 @@ ht-degree: 0%
 
       1. 필요한 경우 다음을 사용하십시오. **[!UICONTROL Clear all]** 에 대한 모든 입력 값을 지우려면 **[!UICONTROL Contribution proportion]** 및 **[!UICONTROL Level of confidence]** 열.
 
-         ![모델 - 사전 지식](../assets/model-prior-knowledge-step.png)
+         ![모델 - 사전 지식](/help/assets//model-prior-knowledge-step.png)
 
 1. 선택 **[!UICONTROL Finish]** 모델 구성을 완료합니다.
 

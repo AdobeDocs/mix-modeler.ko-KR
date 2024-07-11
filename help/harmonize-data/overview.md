@@ -3,7 +3,7 @@ title: 데이터 조화
 description: Mix Modeler에서 데이터를 조화롭게 구성하는 방법에 대해 알아봅니다.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 7%
@@ -116,17 +116,17 @@ Mix Modeler에 사용할 수 있는 데이터 세트가 다음과 같다고 가�
 
 Mix Modeler 인터페이스에서 조정된 데이터를 보려면 다음을 수행하십시오.
 
-1. 선택 ![데이터 검색](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** 왼쪽 레일에서.
+1. 선택 ![데이터 검색](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** 왼쪽 레일에서.
 
 1. 선택 **[!UICONTROL Harmonized Data]** 을 클릭합니다. 정의한 필드, 데이터 세트 규칙, 마케팅 접점 및 전환을 기반으로 조정된 데이터의 요약이 표시됩니다.
 
-   1. 결합된 데이터의 요약의 기반이 되는 기간을 재정의하려면 날짜 범위를 입력합니다. **[!UICONTROL Date range]** 또는 사용 ![캘린더](../assets/icons/Calendar.svg) 데이터 범위를 선택합니다.
+   1. 결합된 데이터의 요약의 기반이 되는 기간을 재정의하려면 날짜 범위를 입력합니다. **[!UICONTROL Date range]** 또는 사용 ![캘린더](/help/assets//icons/Calendar.svg) 데이터 범위를 선택합니다.
 
-   1. Harmonized 데이터 테이블에 표시되는 Harmonized 필드 열을 수정하려면 다음을 사용합니다. ![설정](../assets/icons/Setting.svg) 을(를) 열려면 **[!UICONTROL Column settings]** 대화 상자.
+   1. Harmonized 데이터 테이블에 표시되는 Harmonized 필드 열을 수정하려면 다음을 사용합니다. ![설정](/help/assets//icons/Setting.svg) 을(를) 열려면 **[!UICONTROL Column settings]** 대화 상자.
 
-      1. 선택 ![SelectBox](../assets/icons/SelectBox.svg) 하나 이상의 열 위치 **[!UICONTROL AVAILABLE COLUMNS]** 및 사용 ![V자형 화살표 오른쪽](../assets/icons/ChevronRight.svg) 이 열을 추가할 위치: **[!UICONTROL SELECTED COLUMNS]**.
+      1. 선택 ![SelectBox](/help/assets//icons/SelectBox.svg) 하나 이상의 열 위치 **[!UICONTROL AVAILABLE COLUMNS]** 및 사용 ![V자형 화살표 오른쪽](/help/assets//icons/ChevronRight.svg) 이 열을 추가할 위치: **[!UICONTROL SELECTED COLUMNS]**.
 
-      1. 선택 ![SelectBox](../assets/icons/SelectBox.svg) 하나 이상의 열 위치 **[!UICONTROL SELECTED COLUMNS]** 및 사용 ![V자형 화살표 왼쪽](../assets/icons/ChevronLeft.svg) 선택한 열을 제거하고 이 열을 다시 로 되돌리려면 **[!UICONTROL AVAILABLE COLUMNS]**.
+      1. 선택 ![SelectBox](/help/assets//icons/SelectBox.svg) 하나 이상의 열 위치 **[!UICONTROL SELECTED COLUMNS]** 및 사용 ![V자형 화살표 왼쪽](/help/assets//icons/ChevronLeft.svg) 선택한 열을 제거하고 이 열을 다시 로 되돌리려면 **[!UICONTROL AVAILABLE COLUMNS]**.
 
       1. 다음 위치에서 열 선택 **[!UICONTROL DEFAULT SORT]** 및 간 전환 **[!UICONTROL Ascending]** 또는 **[!UICONTROL Descending]**.
 
@@ -134,4 +134,4 @@ Mix Modeler 인터페이스에서 조정된 데이터를 보려면 다음을 수
 
    1. 선택 **[!UICONTROL Submit]** 을 클릭하여 열 설정 변경 사항을 제출합니다. 선택 **[!UICONTROL Close]** 을 클릭하여 변경 내용을 취소합니다.
 
-1. 사용 가능한 페이지가 더 있으면 다음을 사용합니다. ![왼쪽 화살표](../assets/icons/ChevronLeft.svg) 또는 ![오른쪽 화살표](../assets/icons/ChevronRight.svg) 위치: **[!UICONTROL Page _x _/_x_]** 을 클릭하여 페이지 사이를 이동합니다.
+1. 사용 가능한 페이지가 더 있으면 다음을 사용합니다. ![왼쪽 화살표](/help/assets//icons/ChevronLeft.svg) 또는 ![오른쪽 화살표](/help/assets//icons/ChevronRight.svg) 위치: **[!UICONTROL Page _x _/_x_]** 을 클릭하여 페이지 사이를 이동합니다.

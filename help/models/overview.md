@@ -3,7 +3,7 @@ title: 모델
 description: Mix Modeler에서 모델을 구성하고 사용하는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Mix Modeler의 모델은 마케터의 투자를 기반으로 지정된 결과를
 
 Mix Modeler 인터페이스에서 현재 모델의 테이블을 보려면 다음을 수행합니다.
 
-1. 선택 ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** 왼쪽 레일에서.
+1. 선택 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** 왼쪽 레일에서.
 
 1. 현재 모델의 표가 표시됩니다.
 
@@ -58,14 +58,14 @@ Mix Modeler 인터페이스에서 현재 모델의 테이블을 보려면 다음
 
    {style="table-layout:auto"}
 
-1. 목록에 표시되는 열을 변경하려면 다음을 선택합니다 ![열 설정](../assets/icons/ColumnSetting.svg) 열 켜기/끄기 ![확인](../assets/icons/Checkmark.svg) 또는 끔.
+1. 목록에 표시되는 열을 변경하려면 다음을 선택합니다 ![열 설정](/help/assets//icons/ColumnSetting.svg) 열 켜기/끄기 ![확인](/help/assets//icons/Checkmark.svg) 또는 끔.
 
 
 ### 모델의 세부 정보 보기
 
 모델의 세부 정보를 보려면 다음 작업을 수행하십시오.
 
-1. 선택 ![정보](../assets/icons/Info.svg) 모델의 경우 세부 정보가 포함된 팝업을 표시할 수 있습니다.
+1. 선택 ![정보](/help/assets//icons/Info.svg) 모델의 경우 세부 정보가 포함된 팝업을 표시할 수 있습니다.
 
 
 
@@ -73,7 +73,7 @@ Mix Modeler 인터페이스에서 현재 모델의 테이블을 보려면 다음
 
 Mix Modeler 인터페이스에서 모델의 통찰력을 보려면 다음을 수행하십시오.
 
-1. 선택 ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** 왼쪽 레일에서.
+1. 선택 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** 왼쪽 레일에서.
 
 1. 을(를) 가진 모델 이름 선택 **[!UICONTROL Last run status]** / <span style="color:green">●</span> **[!UICONTROL Success]** 다음에서 **[!UICONTROL Models]** 테이블. 모델 인사이트는 정상적으로 훈련된 모델에서만 사용할 수 있습니다.
 
@@ -85,7 +85,7 @@ Mix Modeler 인터페이스에서 모델의 통찰력을 보려면 다음을 수
 
 Mix Modeler 인터페이스에서 모델을 다시 평가하려면 다음을 수행하십시오.
 
-1. 선택 ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** 왼쪽 레일에서.
+1. 선택 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** 왼쪽 레일에서.
 
 1. 을(를) 가진 모델 이름 선택 **[!UICONTROL Last run status]** / <span style="color:green">●</span> **[!UICONTROL Success]** 다음에서 **[!UICONTROL Models]** 테이블. 재점수는 성공적으로 훈련된 모델에서만 사용할 수 있습니다.
 
