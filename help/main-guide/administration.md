@@ -3,9 +3,9 @@ title: 관리
 description: Mix Modeler 관리 방법을 알아봅니다.
 feature: Administration
 exl-id: 76d6d15d-a838-4ee2-9929-e55ea8946b80
-source-git-commit: 995f15b6d2dd99d5304a4cda7b1fa5f8a1d00023
+source-git-commit: 4d84c93121fc476cc6610ad572bab161bbacfc23
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '184'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ Adobe Experience Cloud UI에서:
 
 1. 선택 **[!UICONTROL Permissions]** 왼쪽 레일에서 아래 **[!UICONTROL ADMINISTRATION]**.
 
-1. 선택 {{user}} **[!UICONTROL Roles]** 왼쪽 패널에서 가져옵니다.
+1. 선택 ![사용자](/help/assets/icons/User.svg) **[!UICONTROL Roles]** 왼쪽 패널에서 가져옵니다.
 
-1. 기존 역할을 선택하거나 다음을 사용하여 역할을 만듭니다 **[!UICONTROL Create role]** (예: **Mix Modeler**). 기존 역할을 선택하는 경우 다음을 선택합니다 {{edit}} **[!UICONTROL Edit]** 을 눌러 역할에 대한 권한을 편집합니다. 다음을 참조하십시오 [역할 관리](https://helpx.adobe.com/enterprise/using/admin-console.html) 추가 정보.
+1. 기존 역할을 선택하거나 다음을 사용하여 역할을 만듭니다 **[!UICONTROL Create role]** (예: **Mix Modeler**). 기존 역할을 선택하는 경우 다음을 선택합니다 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** 을 눌러 역할에 대한 권한을 편집합니다. 다음을 참조하십시오 [역할 관리](https://helpx.adobe.com/enterprise/using/admin-console.html) 추가 정보.
 
 1. 역할에 대해 하나 이상의 샌드박스를 선택했는지 확인합니다.
 
