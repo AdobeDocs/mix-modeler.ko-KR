@@ -14,9 +14,9 @@ ht-degree: 1%
 
 Mix Modeler 계획 인터페이스에서 계획을 비교하려면
 
-* 선택 ![비교](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**. 계획 비교에서 각각에 대한 계획을 선택합니다 **[!UICONTROL _플랜 선택_]**.
+* ![비교](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**&#x200B;을(를) 선택합니다. 계획 비교에서 각 **[!UICONTROL _계획 선택_]**&#x200B;에 대한 계획을 선택합니다.
 
-* 또는 계획 테이블에서 두 개의 계획을 선택하고 작업 표시줄에서 을 선택할 수 있습니다 ![비교](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]**.
+* 또는 플랜 테이블에서 두 개의 플랜을 선택하고 작업 표시줄에서 ![비교](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]**&#x200B;을(를) 선택할 수 있습니다.
 
 계획 비교 인터페이스에는 다음에 대한 정보 및 위젯이 표시됩니다.
 
@@ -40,4 +40,4 @@ Mix Modeler 계획 인터페이스에서 계획을 비교하려면
 
 각 위젯의 개별 차트 요소 위로 마우스를 가져가면 자세한 내용이 포함된 팝오버를 볼 수 있습니다.
 
-선택 **[!UICONTROL Close]** 계획 개요로 돌아갑니다.
+플랜 개요로 돌아가려면 **[!UICONTROL Close]**&#x200B;을(를) 선택하십시오.

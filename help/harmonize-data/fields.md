@@ -55,9 +55,9 @@ Mix Modeler에서 기본적으로 사용할 수 있는 전역 조화 필드는 �
 
 Mix Modeler 인터페이스에서 사용 가능한 조화 필드의 표를 보려면 다음을 수행하십시오.
 
-1. 선택 ![데이터 검색](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 왼쪽 레일에서.
+1. 왼쪽 레일에서 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]**&#x200B;을(를) 선택합니다.
 
-1. 선택 **[!UICONTROL Fields]** 을 클릭합니다. 여러분은 조화된 들판의 표를 볼 수 있습니다. 사용 가능한 페이지가 더 있으면 다음을 사용합니다. ![왼쪽 화살표](/help/assets//icons/ChevronLeft.svg) 또는 ![오른쪽 화살표](/help/assets//icons/ChevronRight.svg) 위치: **[!UICONTROL Page _x _/_x_]** 을 눌러 테이블의 페이지 사이를 이동합니다.
+1. 상단 표시줄에서 **[!UICONTROL Fields]**&#x200B;을(를) 선택합니다. 여러분은 조화된 들판의 표를 볼 수 있습니다. 사용할 수 있는 페이지가 더 있는 경우 ![왼쪽 화살표](/help/assets//icons/ChevronLeft.svg) 또는 ![오른쪽 화살표](/help/assets//icons/ChevronRight.svg)(**[!UICONTROL Page _x _/_x_]**)을(를) 사용하여 테이블의 페이지 간에 이동합니다.
 
    테이블 열은 조화된 필드에 대한 세부 사항을 지정합니다
 
@@ -65,38 +65,38 @@ Mix Modeler 인터페이스에서 사용 가능한 조화 필드의 표를 보�
    | ---------------------- | ----------|
    | 필드 이름 | 조화된 필드의 이름. |
    | 표시 이름 | 조화된 필드의 표시 이름입니다. 이 표시 이름은 데이터 세트 규칙, 마케팅 접점 및 전환 정의를 정의할 때 사용됩니다. |
-   | 카테고리 | Harmonized 데이터 필드가 인지 여부 지정 [!UICONTROL Dimension], a [!UICONTROL Metric] 또는 [!UICONTROL Derived]. 파생 카테고리는 지표 기반 공식 정의를 사용하는 조화로운 필드입니다. |
-   | 데이터 유형 | 데이터 형식을 지정합니다([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL Date time]). |
+   | 카테고리 | Harmonized 데이터 필드가 [!UICONTROL Dimension], [!UICONTROL Metric] 또는 [!UICONTROL Derived]인지 여부를 지정합니다. 파생 카테고리는 지표 기반 공식 정의를 사용하는 조화로운 필드입니다. |
+   | 데이터 유형 | 데이터 형식([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL Date time])을 지정합니다. |
    | 제작일 | 조화로운 필드를 만든 날짜 및 시간입니다. |
-   | 소유자 | 조화 필드가 기본 필드인지 여부를 나타냅니다. ([!UICONTROL Global]) 또는 는 사용자가 정의합니다([!UICONTROL Client]). |
+   | 소유자 | 조화된 필드가 기본 필드인지([!UICONTROL Global]) 또는 사용자가 정의한 필드인지([!UICONTROL Client])를 나타냅니다. |
    | 마지막으로 수정한 날짜 | 조화 필드의 마지막 수정 날짜 및 시간입니다. |
    | 공식 | 파생 범주를 기반으로 조화 필드의 수식을 지정합니다. |
 
    {style="table-layout:auto"}
 
-1. 특정 조화로운 필드를 검색하려면 ![검색](/help/assets//icons/Search.svg) **[!UICONTROL *Harmonized 필드 검색&#x200B;*]**.
+1. 특정 Harmonized 필드를 검색하려면 ![Search](/help/assets//icons/Search.svg) **[!UICONTROL *Search harmonized 필드&#x200B;*]**를 사용하십시오.
 
 
 ### 조화로운 필드 추가
 
-조화로운 필드를 추가하려면 ![데이터 검색](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler 인터페이스:
+조화롭게 구성된 필드를 추가하려면 Mix Modeler의 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** 인터페이스에서 다음을 수행합니다.
 
-1. 선택 ![추가](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**.
+1. ![추가](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**&#x200B;을(를) 선택합니다.
 
-1. 다음에서 **[!UICONTROL Create]** 대화 상자:
+1. **[!UICONTROL Create]** 대화 상자에서:
 
-   1. 입력 **[!UICONTROL Field name]**, 예 `region`.
-   1. 입력 **[!UICONTROL Display name]**, 예 `Region`.
-   1. 선택 **[!UICONTROL Category]**: **[!UICONTROL Dimension]**, **[!UICONTROL Metric]** 또는 **[!UICONTROL Derived]**.
+   1. **[!UICONTROL Field name]**(예: `region`)을(를) 입력하십시오.
+   1. **[!UICONTROL Display name]**(예: `Region`)을(를) 입력하십시오.
+   1. **[!UICONTROL Category]**: **[!UICONTROL Dimension]**, **[!UICONTROL Metric]** 또는 **[!UICONTROL Derived]**&#x200B;을(를) 선택하십시오.
 
-      다음을 선택할 때 **[!UICONTROL Derived]**, 지정 **[!UICONTROL Formula]**. 유효한 산술 표현식을 작성하려면 다음 위치에서 하나 이상의 지표를 결합하십시오. **[!UICONTROL Insert Metric]** 하나 이상의 연산자 사용 **[!UICONTROL + - * / ( )]** . For example, `[orders]/[impressions]`
+      **[!UICONTROL Derived]**&#x200B;을(를) 선택하면 **[!UICONTROL Formula]**&#x200B;을(를) 지정하십시오. 올바른 산술 식을 작성하려면 **[!UICONTROL Insert Metric]**&#x200B;에서 하나 이상의 지표를 하나 이상의 연산자 **[!UICONTROL + - * / ( )]**&#x200B;과(와) 결합하십시오. For example, `[orders]/[impressions]`
 
-   1. 선택 **[!UICONTROL Data type]**.
+   1. **[!UICONTROL Data type]** 선택.
 
-      - **[!UICONTROL String]** 또는 **[!UICONTROL Date time]**: 선택한 카테고리가 Dimension 인 경우.
-      - **[!UICONTROL Number]** 또는 **[!UICONTROL Currency]** 선택한 범주가 지표 또는 파생인 경우.
+      - 선택한 범주가 Dimension 상태인 경우 **[!UICONTROL String]** 또는 **[!UICONTROL Date time]**.
+      - 선택한 범주가 지표 또는 파생인 경우 **[!UICONTROL Number]** 또는 **[!UICONTROL Currency]**.
 
-   1. 선택 **[!UICONTROL Submit]** 을 클릭하여 harmonized 필드를 추가합니다. 선택 **[!UICONTROL Close]** 을 클릭하여 harmonized 필드를 추가하지 않고 대화 상자를 닫습니다.
+   1. **[!UICONTROL Submit]**&#x200B;을(를) 선택하여 통합 필드를 추가합니다. **[!UICONTROL Close]**&#x200B;을(를) 선택하여 통합 필드를 추가하지 않고 대화 상자를 닫습니다.
 
       ![필드 만들기](/help/assets//create-field.png)
 
@@ -105,13 +105,13 @@ Mix Modeler 인터페이스에서 사용 가능한 조화 필드의 표를 보�
 
 이전에 만든 통합 필드만 편집할 수 있습니다(소유자는 클라이언트임). 전역 조화 필드를 편집할 수 없습니다.
 
-조화된 필드를 편집하려면 ![데이터 검색](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler 인터페이스:
+조화된 필드를 편집하려면 Mix Modeler의 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** 인터페이스에서 다음을 수행하십시오.
 
 1. 편집할 조화로운 필드를 선택합니다. 예: **[!UICONTROL Region]**.
 
-1. 다음에서 **[!UICONTROL Edit harmonization values]** 창, 값 수정 **[!UICONTROL Display name]**, **[!UICONTROL Category]**, 및 **[!UICONTROL Data type]**. 다음을 참조하십시오 [조화로운 필드 추가](#add-a-harmonized-field) 추가 정보.
+1. **[!UICONTROL Edit harmonization values]** 창에서 **[!UICONTROL Display name]**, **[!UICONTROL Category]** 및 **[!UICONTROL Data type]**&#x200B;의 값을 수정합니다. 자세한 내용은 [통합 필드 추가](#add-a-harmonized-field)를 참조하십시오.
 
-1. 선택 **[!UICONTROL Submit]** 를 클릭하여 변경 내용을 harmonized 필드에 적용합니다.
+1. **[!UICONTROL Submit]**&#x200B;을(를) 선택하여 조화된 필드에 변경 내용을 적용합니다.
 
    ![필드 편집](/help/assets//edit-field.png)
 
@@ -119,11 +119,11 @@ Mix Modeler 인터페이스에서 사용 가능한 조화 필드의 표를 보�
 
 이전에 만든 조화로운 필드만 삭제할 수 있습니다(소유자는 클라이언트임). 전역 조화된 필드는 삭제할 수 없습니다.
 
-조화된 필드를 삭제하려면 ![데이터 검색](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modeler 인터페이스:
+조화된 필드를 삭제하려면 Mix Modeler의 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** 인터페이스에서 다음을 수행하십시오.
 
-1. 삭제할 조화로운 필드를 선택합니다(예: ). **[!UICONTROL Region]**.
+1. 삭제할 조화된 필드를 선택합니다(예: **[!UICONTROL Region]**).
 
-1. 선택 ![삭제](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** 다음에서 **[!UICONTROL Edit harmonization values]** 왼쪽 창입니다.
+1. **[!UICONTROL Edit harmonization values]** 왼쪽 창에서 ![삭제](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택합니다.
 
    >[!WARNING]
    >

@@ -14,7 +14,7 @@ ht-degree: 6%
 
 ## ThreeDMaerial {#threedmaterial}
 
-![3DMaerial](/help/assets/icons/3DMaterial.svg)
+![3DMmaterial](/help/assets/icons/3DMaterial.svg)
 
 ## ABC {#abc}
 
@@ -54,7 +54,7 @@ ht-degree: 6%
 
 ## Adobe 로고 {#adobelogo}
 
-![Adobe 로고](/help/assets/icons/AdobeLogo.svg)
+![AdobeLogo](/help/assets/icons/AdobeLogo.svg)
 
 ## 비행기 {#airplane}
 
@@ -86,7 +86,7 @@ ht-degree: 6%
 
 ## 별칭 {#alias}
 
-![알리아](/help/assets/icons/Alias.svg)
+![별칭](/help/assets/icons/Alias.svg)
 
 ## 아래쪽 정렬 {#alignbottom}
 
@@ -146,11 +146,11 @@ ht-degree: 6%
 
 ## 앱 새로 고침 {#apprefresh}
 
-![앱 새로 고침](/help/assets/icons/AppRefresh.svg)
+![AppRefresh](/help/assets/icons/AppRefresh.svg)
 
 ## Apple 파일 {#applefile}
 
-![Apple 파일](/help/assets/icons/AppleFile.svg)
+![AppleFile](/help/assets/icons/AppleFile.svg)
 
 ## ApplicationDelivery {#applicationdelivery}
 
@@ -158,7 +158,7 @@ ht-degree: 6%
 
 ## 승인 거부 {#approvereject}
 
-![승인 거부](/help/assets/icons/ApproveReject.svg)
+![ApproveReject](/help/assets/icons/ApproveReject.svg)
 
 ## 보관 {#archive}
 
@@ -194,7 +194,7 @@ ht-degree: 6%
 
 ## 문서 {#article}
 
-![기사](/help/assets/icons/Article.svg)
+![문서](/help/assets/icons/Article.svg)
 
 ## 자산 {#asset}
 
@@ -202,19 +202,19 @@ ht-degree: 6%
 
 ## AssetCheck {#assetcheck}
 
-![AssetCheck](/help/assets/icons/AssetCheck.svg)
+![자산 확인](/help/assets/icons/AssetCheck.svg)
 
 ## 자산이 추가됨 {#assetsadded}
 
-![자산이 추가됨](/help/assets/icons/AssetsAdded.svg)
+![자산추가됨](/help/assets/icons/AssetsAdded.svg)
 
 ## 에셋 다운로드됨 {#assetsdownloaded}
 
-![에셋 다운로드됨](/help/assets/icons/AssetsDownloaded.svg)
+![AssetsDownloaded](/help/assets/icons/AssetsDownloaded.svg)
 
 ## 자산이 만료됨 {#assetsexpired}
 
-![자산이 만료됨](/help/assets/icons/AssetsExpired.svg)
+![AssetsExpired](/help/assets/icons/AssetsExpired.svg)
 
 ## AssetsLinkedPublish {#assetslinkedpublished}
 
@@ -222,11 +222,11 @@ ht-degree: 6%
 
 ## 자산수정됨 {#assetsmodified}
 
-![자산수정됨](/help/assets/icons/AssetsModified.svg)
+![AssetsModified](/help/assets/icons/AssetsModified.svg)
 
 ## 에셋이 게시됨 {#assetspublished}
 
-![에셋이 게시됨](/help/assets/icons/AssetsPublished.svg)
+![자산게시됨](/help/assets/icons/AssetsPublished.svg)
 
 ## 별표 {#asterisk}
 
@@ -234,7 +234,7 @@ ht-degree: 6%
 
 ## 위치 {#at}
 
-![위치](/help/assets/icons/At.svg)
+![시간](/help/assets/icons/At.svg)
 
 ## 첨부 {#attach}
 
@@ -246,7 +246,7 @@ ht-degree: 6%
 
 ## 속성 {#attribute}
 
-![속성](/help/assets/icons/Attribute.svg)
+![특성](/help/assets/icons/Attribute.svg)
 
 ## 오디오 {#audio}
 
@@ -254,7 +254,7 @@ ht-degree: 6%
 
 ## Automated Segment {#automatedsegment}
 
-![Automated Segment](/help/assets/icons/AutomatedSegment.svg)
+![AutomatedSegment](/help/assets/icons/AutomatedSegment.svg)
 
 ## 뒤로 {#back}
 
@@ -278,7 +278,7 @@ ht-degree: 6%
 
 ## 비커쉐어 {#beakershare}
 
-![비커쉐어](/help/assets/icons/BeakerShare.svg)
+![BeakerShare](/help/assets/icons/BeakerShare.svg)
 
 ## 벨 {#bell}
 
@@ -294,7 +294,7 @@ ht-degree: 6%
 
 ## 블로워 {#blower}
 
-![블로워](/help/assets/icons/Blower.svg)
+![송풍기](/help/assets/icons/Blower.svg)
 
 ## 흐림 효과 {#blur}
 
@@ -314,7 +314,7 @@ ht-degree: 6%
 
 ## 책갈피 단일 윤곽선 {#bookmarksingleoutline}
 
-![책갈피 단일 윤곽선](/help/assets/icons/BookmarkSingleOutline.svg)
+![BookmarkSingleOutline](/help/assets/icons/BookmarkSingleOutline.svg)
 
 ## BookmarkSmall {#bookmarksmall}
 
@@ -322,7 +322,7 @@ ht-degree: 6%
 
 ## 북마크작은 윤곽선 {#bookmarksmalloutline}
 
-![북마크작은 윤곽선](/help/assets/icons/BookmarkSmallOutline.svg)
+![BookmarkSmallOutline](/help/assets/icons/BookmarkSmallOutline.svg)
 
 ## 부울 {#boolean}
 
@@ -334,7 +334,7 @@ ht-degree: 6%
 
 ## Box {#box}
 
-![Box](/help/assets/icons/Box.svg)
+![상자](/help/assets/icons/Box.svg)
 
 ## BoxAdd {#boxadd}
 
@@ -350,27 +350,27 @@ ht-degree: 6%
 
 ## 괄호 {#bracket}
 
-![괄호](/help/assets/icons/Bracket.svg)
+![대괄호](/help/assets/icons/Bracket.svg)
 
 ## 대괄호 사각형 {#bracketssquare}
 
-![대괄호 사각형](/help/assets/icons/BracketsSquare.svg)
+![대괄호](/help/assets/icons/BracketsSquare.svg)
 
 ## Branch1 {#branch1}
 
-![Branch1](/help/assets/icons/Branch1.svg)
+![분기1](/help/assets/icons/Branch1.svg)
 
 ## Branch2 {#branch2}
 
-![Branch2](/help/assets/icons/Branch2.svg)
+![분기2](/help/assets/icons/Branch2.svg)
 
 ## Branch3 {#branch3}
 
-![Branch3](/help/assets/icons/Branch3.svg)
+![분기3](/help/assets/icons/Branch3.svg)
 
 ## 분기원 {#branchcircle}
 
-![분기원](/help/assets/icons/BranchCircle.svg)
+![BranchCircle](/help/assets/icons/BranchCircle.svg)
 
 ## 탐색 표시 {#breadcrumbnavigation}
 
@@ -382,7 +382,7 @@ ht-degree: 6%
 
 ## 분류 추가 {#breakdownadd}
 
-![분류 추가](/help/assets/icons/BreakdownAdd.svg)
+![BreakdownAdd](/help/assets/icons/BreakdownAdd.svg)
 
 ## 서류 가방 {#briefcase}
 
@@ -402,7 +402,7 @@ ht-degree: 6%
 
 ## 빌드 중 {#building}
 
-![빌드 중](/help/assets/icons/Building.svg)
+![빌드](/help/assets/icons/Building.svg)
 
 ## BulkEditUser {#bulkedituser}
 
@@ -422,15 +422,15 @@ ht-degree: 6%
 
 ## 캘린더 {#calendar}
 
-![캘린더](/help/assets/icons/Calendar.svg)
+![일정](/help/assets/icons/Calendar.svg)
 
 ## 캘린더 추가 {#calendaradd}
 
-![캘린더 추가](/help/assets/icons/CalendarAdd.svg)
+![CalendarAdd](/help/assets/icons/CalendarAdd.svg)
 
 ## 캘린더 잠김 {#calendarlocked}
 
-![캘린더 잠김](/help/assets/icons/CalendarLocked.svg)
+![캘린더 잠금](/help/assets/icons/CalendarLocked.svg)
 
 ## 캘린더 잠금 해제 {#calendarunlocked}
 
@@ -438,7 +438,7 @@ ht-degree: 6%
 
 ## 콜센터 {#callcenter}
 
-![콜센터](/help/assets/icons/CallCenter.svg)
+![CallCenter](/help/assets/icons/CallCenter.svg)
 
 ## 카메라 {#camera}
 
@@ -458,11 +458,11 @@ ht-degree: 6%
 
 ## 캠페인 추가 {#campaignadd}
 
-![캠페인 추가](/help/assets/icons/CampaignAdd.svg)
+![CampaignAdd](/help/assets/icons/CampaignAdd.svg)
 
 ## 캠페인 닫기 {#campaignclose}
 
-![캠페인 닫기](/help/assets/icons/CampaignClose.svg)
+![CampaignClose](/help/assets/icons/CampaignClose.svg)
 
 ## CampaignDelete {#campaigndelete}
 
@@ -470,7 +470,7 @@ ht-degree: 6%
 
 ## 캠페인 편집 {#campaignedit}
 
-![캠페인 편집](/help/assets/icons/CampaignEdit.svg)
+![CampaignEdit](/help/assets/icons/CampaignEdit.svg)
 
 ## 취소 {#cancel}
 
@@ -514,19 +514,19 @@ ht-degree: 6%
 
 ## 확인 표시 원 {#checkmarkcircle}
 
-![확인 표시 원](/help/assets/icons/CheckmarkCircle.svg)
+![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)
 
 ## 확인 표시 원형 윤곽선 {#checkmarkcircleoutline}
 
-![확인 표시 원형 윤곽선](/help/assets/icons/CheckmarkCircleOutline.svg)
+![CheckmarkCircleOutline](/help/assets/icons/CheckmarkCircleOutline.svg)
 
 ## V자형 왼쪽 화살표 {#chevrondoubleleft}
 
-![V자형 왼쪽 화살표](/help/assets/icons/ChevronDoubleLeft.svg)
+![V자형 화살표](/help/assets/icons/ChevronDoubleLeft.svg)
 
 ## V자형 화살표 오른쪽 {#chevrondoubleright}
 
-![V자형 화살표 오른쪽](/help/assets/icons/ChevronDoubleRight.svg)
+![V자형 화살표](/help/assets/icons/ChevronDoubleRight.svg)
 
 ## V자형 화살표 {#chevrondown}
 
@@ -534,11 +534,11 @@ ht-degree: 6%
 
 ## V자형 화살표 왼쪽 {#chevronleft}
 
-![V자형 화살표 왼쪽](/help/assets/icons/ChevronLeft.svg)
+![V자형 화살표](/help/assets/icons/ChevronLeft.svg)
 
 ## V자형 화살표 오른쪽 {#chevronright}
 
-![V자형 화살표 오른쪽](/help/assets/icons/ChevronRight.svg)
+![V자형 화살표](/help/assets/icons/ChevronRight.svg)
 
 ## V자형 화살표 {#chevronup}
 
@@ -586,7 +586,7 @@ ht-degree: 6%
 
 ## 클라우드 연결 끊김 {#clouddisconnected}
 
-![클라우드 연결 끊김](/help/assets/icons/CloudDisconnected.svg)
+![CloudDisconnected](/help/assets/icons/CloudDisconnected.svg)
 
 ## CloudError {#clouderror}
 
@@ -610,7 +610,7 @@ ht-degree: 6%
 
 ## 컬렉션 추가 {#collectionaddto}
 
-![컬렉션 추가](/help/assets/icons/CollectionAddTo.svg)
+![CollectionAddTo](/help/assets/icons/CollectionAddTo.svg)
 
 ## CollectionCheck {#collectioncheck}
 
@@ -618,7 +618,7 @@ ht-degree: 6%
 
 ## 컬렉션 편집 {#collectionedit}
 
-![컬렉션 편집](/help/assets/icons/CollectionEdit.svg)
+![CollectionEdit](/help/assets/icons/CollectionEdit.svg)
 
 ## CollectionExclude {#collectionexclude}
 
@@ -630,7 +630,7 @@ ht-degree: 6%
 
 ## 색상 채우기 {#colorfill}
 
-![색상 채우기](/help/assets/icons/ColorFill.svg)
+![색 채우기](/help/assets/icons/ColorFill.svg)
 
 ## 색상 팔레트 {#colorpalette}
 
@@ -646,15 +646,15 @@ ht-degree: 6%
 
 ## 열 두 개 {#columntwoa}
 
-![열 두 개](/help/assets/icons/ColumnTwoA.svg)
+![ColumnTwoA](/help/assets/icons/ColumnTwoA.svg)
 
 ## 열 2B {#columntwob}
 
-![열 2B](/help/assets/icons/ColumnTwoB.svg)
+![ColumnTwoB](/help/assets/icons/ColumnTwoB.svg)
 
 ## 열 두 개 {#columntwoc}
 
-![열 두 개](/help/assets/icons/ColumnTwoC.svg)
+![ColumnTwoC](/help/assets/icons/ColumnTwoC.svg)
 
 ## 댓글 {#comment}
 
@@ -666,7 +666,7 @@ ht-degree: 6%
 
 ## Compas {#compas}
 
-![Compas](/help/assets/icons/Compas.svg)
+![비교](/help/assets/icons/Compas.svg)
 
 ## 조건 {#condition}
 
@@ -674,19 +674,19 @@ ht-degree: 6%
 
 ## 신뢰도Four {#confidencefour}
 
-![신뢰도Four](/help/assets/icons/ConfidenceFour.svg)
+![ConfidenceFour](/help/assets/icons/ConfidenceFour.svg)
 
 ## 신뢰도 {#confidenceone}
 
-![신뢰도](/help/assets/icons/ConfidenceOne.svg)
+![ConfidenceOne](/help/assets/icons/ConfidenceOne.svg)
 
 ## ConfidenceThree {#confidencethree}
 
-![ConfidenceThree](/help/assets/icons/ConfidenceThree.svg)
+![신뢰도 3](/help/assets/icons/ConfidenceThree.svg)
 
 ## 신뢰도Two {#confidencetwo}
 
-![신뢰도Two](/help/assets/icons/ConfidenceTwo.svg)
+![ConfidenceTwo](/help/assets/icons/ConfidenceTwo.svg)
 
 ## 대비 {#contrast}
 
@@ -702,7 +702,7 @@ ht-degree: 6%
 
 ## 커버 이미지 {#coverimage}
 
-![커버 이미지](/help/assets/icons/CoverImage.svg)
+![표지 이미지](/help/assets/icons/CoverImage.svg)
 
 ## 신용 카드 {#creditcard}
 
@@ -718,11 +718,11 @@ ht-degree: 6%
 
 ## 자르기 회전 {#croprotate}
 
-![자르기 회전](/help/assets/icons/CropRotate.svg)
+![회전 자르기](/help/assets/icons/CropRotate.svg)
 
 ## 십자선 {#crosshair}
 
-![십자선](/help/assets/icons/Crosshair.svg)
+![십자 모양](/help/assets/icons/Crosshair.svg)
 
 ## 조정 {#curate}
 
@@ -754,7 +754,7 @@ ht-degree: 6%
 
 ## 데이터 상관 관계 {#datacorrelated}
 
-![데이터 상관 관계](/help/assets/icons/DataCorrelated.svg)
+![상관 관계가 있는 데이터](/help/assets/icons/DataCorrelated.svg)
 
 ## 데이터 다운로드 {#datadownload}
 
@@ -762,7 +762,7 @@ ht-degree: 6%
 
 ## DataEdit {#dataedit}
 
-![DataEdit](/help/assets/icons/DataEdit.svg)
+![데이터 편집](/help/assets/icons/DataEdit.svg)
 
 ## 데이터 매핑 {#datamapping}
 
@@ -774,7 +774,7 @@ ht-degree: 6%
 
 ## DataRemove {#dataremove}
 
-![DataRemove](/help/assets/icons/DataRemove.svg)
+![데이터 제거](/help/assets/icons/DataRemove.svg)
 
 ## 데이터 설정 {#datasetting}
 
@@ -798,7 +798,7 @@ ht-degree: 6%
 
 ## DateInput {#dateinput}
 
-![DateInput](/help/assets/icons/DateInput.svg)
+![날짜 입력](/help/assets/icons/DateInput.svg)
 
 ## 중복 제거 {#deduplication}
 
@@ -806,7 +806,7 @@ ht-degree: 6%
 
 ## 위임 {#delegate}
 
-![위임](/help/assets/icons/Delegate.svg)
+![대리인](/help/assets/icons/Delegate.svg)
 
 ## 삭제 {#delete}
 
@@ -818,19 +818,19 @@ ht-degree: 6%
 
 ## 인구 통계학 {#demographic}
 
-![인구 통계학](/help/assets/icons/Demographic.svg)
+![인구 통계](/help/assets/icons/Demographic.svg)
 
 ## 선택 취소 {#deselect}
 
-![선택 취소](/help/assets/icons/Deselect.svg)
+![선택 해제](/help/assets/icons/Deselect.svg)
 
 ## 순환 선택 해제 {#deselectcircular}
 
-![순환 선택 해제](/help/assets/icons/DeselectCircular.svg)
+![DeselectCircular](/help/assets/icons/DeselectCircular.svg)
 
 ## 데스크탑 및 모바일 {#desktopandmobile}
 
-![데스크탑 및 모바일](/help/assets/icons/DesktopAndMobile.svg)
+![DesktopAndMobile](/help/assets/icons/DesktopAndMobile.svg)
 
 ## 디바이스 {#device}
 
@@ -854,11 +854,11 @@ ht-degree: 6%
 
 ## 장치 미리 보기 {#devicepreview}
 
-![장치 미리 보기](/help/assets/icons/DevicePreview.svg)
+![DevicePreview](/help/assets/icons/DevicePreview.svg)
 
 ## 디바이스 회전 가로 {#devicerotatelandscape}
 
-![디바이스 회전 가로](/help/assets/icons/DeviceRotateLandscape.svg)
+![DeviceRotateLandscape](/help/assets/icons/DeviceRotateLandscape.svg)
 
 ## DeviceRotatePortrait {#devicerotateportrait}
 
@@ -866,7 +866,7 @@ ht-degree: 6%
 
 ## 디바이스 TV {#devicetv}
 
-![디바이스 TV](/help/assets/icons/DeviceTV.svg)
+![장치 TV](/help/assets/icons/DeviceTV.svg)
 
 ## DeviceTablet {#devicetablet}
 
@@ -882,11 +882,11 @@ ht-degree: 6%
 
 ## 아래쪽 가장자리 분산 {#distributebottomedge}
 
-![아래쪽 가장자리 분산](/help/assets/icons/DistributeBottomEdge.svg)
+![DistributeBottomEdge](/help/assets/icons/DistributeBottomEdge.svg)
 
 ## 가로 가운데 배치 {#distributehorizontalcenter}
 
-![가로 가운데 배치](/help/assets/icons/DistributeHorizontalCenter.svg)
+![DistributeHorizontalCenter](/help/assets/icons/DistributeHorizontalCenter.svg)
 
 ## 가로 분포 {#distributehorizontally}
 
@@ -894,31 +894,31 @@ ht-degree: 6%
 
 ## 왼쪽 가장자리 분산 {#distributeleftedge}
 
-![왼쪽 가장자리 분산](/help/assets/icons/DistributeLeftEdge.svg)
+![DistributeLeftEdge](/help/assets/icons/DistributeLeftEdge.svg)
 
 ## 오른쪽 가장자리 배포 {#distributerightedge}
 
-![오른쪽 가장자리 배포](/help/assets/icons/DistributeRightEdge.svg)
+![DistributeRightEdge](/help/assets/icons/DistributeRightEdge.svg)
 
 ## 분산 공간 가로 {#distributespacehoriz}
 
-![분산 공간 가로](/help/assets/icons/DistributeSpaceHoriz.svg)
+![DistributeSpaceHoriz](/help/assets/icons/DistributeSpaceHoriz.svg)
 
 ## 스페이스버트 배포 {#distributespacevert}
 
-![스페이스버트 배포](/help/assets/icons/DistributeSpaceVert.svg)
+![배포](/help/assets/icons/DistributeSpaceVert.svg)
 
 ## 위쪽 가장자리 분산 {#distributetopedge}
 
-![위쪽 가장자리 분산](/help/assets/icons/DistributeTopEdge.svg)
+![DistributeTopEdge](/help/assets/icons/DistributeTopEdge.svg)
 
 ## 세로로 가운데 맞춤 {#distributeverticalcenter}
 
-![세로로 가운데 맞춤](/help/assets/icons/DistributeVerticalCenter.svg)
+![DistributeVerticalCenter](/help/assets/icons/DistributeVerticalCenter.svg)
 
 ## 세로 분포 {#distributevertically}
 
-![세로 분포](/help/assets/icons/DistributeVertically.svg)
+![세로 배포](/help/assets/icons/DistributeVertically.svg)
 
 ## 나누기 {#divide}
 
@@ -926,7 +926,7 @@ ht-degree: 6%
 
 ## 패스 나누기 {#dividepath}
 
-![패스 나누기](/help/assets/icons/DividePath.svg)
+![나누기 경로](/help/assets/icons/DividePath.svg)
 
 ## 문서 {#document}
 
@@ -958,7 +958,7 @@ ht-degree: 6%
 
 ## DownloadFromCloud {#downloadfromcloud}
 
-![DownloadFromCloud](/help/assets/icons/DownloadFromCloud.svg)
+![클라우드에서 다운로드](/help/assets/icons/DownloadFromCloud.svg)
 
 ## DownloadFromCloudOutline {#downloadfromcloudoutline}
 
@@ -974,7 +974,7 @@ ht-degree: 6%
 
 ## Draw {#draw}
 
-![Draw](/help/assets/icons/Draw.svg)
+![그리기](/help/assets/icons/Draw.svg)
 
 ## 드롭다운 {#dropdown}
 
@@ -998,11 +998,11 @@ ht-degree: 6%
 
 ## 편집 {#editin}
 
-![편집](/help/assets/icons/EditIn.svg)
+![EditIn](/help/assets/icons/EditIn.svg)
 
 ## 편집 {#editinlight}
 
-![편집](/help/assets/icons/EditInLight.svg)
+![EditInLight](/help/assets/icons/EditInLight.svg)
 
 ## 교육 {#education}
 
@@ -1026,11 +1026,11 @@ ht-degree: 6%
 
 ## 이메일 취소 {#emailcancel}
 
-![이메일 취소](/help/assets/icons/EmailCancel.svg)
+![EmailCancel](/help/assets/icons/EmailCancel.svg)
 
 ## EmailCheck {#emailcheck}
 
-![EmailCheck](/help/assets/icons/EmailCheck.svg)
+![전자 메일 확인](/help/assets/icons/EmailCheck.svg)
 
 ## EmailExclude {#emailexclude}
 
@@ -1050,11 +1050,11 @@ ht-degree: 6%
 
 ## EmailKey {#emailkey}
 
-![EmailKey](/help/assets/icons/EmailKey.svg)
+![전자 메일 키](/help/assets/icons/EmailKey.svg)
 
 ## 이메일 키 개요 {#emailkeyoutline}
 
-![이메일 키 개요](/help/assets/icons/EmailKeyOutline.svg)
+![EmailKeyOutline](/help/assets/icons/EmailKeyOutline.svg)
 
 ## EmailLightning {#emaillightning}
 
@@ -1062,7 +1062,7 @@ ht-degree: 6%
 
 ## EmailNotification {#emailnotification}
 
-![EmailNotification](/help/assets/icons/EmailNotification.svg)
+![전자 메일 알림](/help/assets/icons/EmailNotification.svg)
 
 ## EmailOutline {#emailoutline}
 
@@ -1070,11 +1070,11 @@ ht-degree: 6%
 
 ## 이메일 새로 고침 {#emailrefresh}
 
-![이메일 새로 고침](/help/assets/icons/EmailRefresh.svg)
+![전자 메일 새로 고침](/help/assets/icons/EmailRefresh.svg)
 
 ## 이메일 예약 {#emailschedule}
 
-![이메일 예약](/help/assets/icons/EmailSchedule.svg)
+![전자 메일 예약](/help/assets/icons/EmailSchedule.svg)
 
 ## 참여 {#engagement}
 
@@ -1082,7 +1082,7 @@ ht-degree: 6%
 
 ## 엔터프라이즈 {#enterprise}
 
-![엔터프라이즈](/help/assets/icons/Enterprise.svg)
+![Enterprise](/help/assets/icons/Enterprise.svg)
 
 ## 지우기 {#erase}
 
@@ -1098,11 +1098,11 @@ ht-degree: 6%
 
 ## 이벤트 제외 {#eventexclude}
 
-![이벤트 제외](/help/assets/icons/EventExclude.svg)
+![EventExclude](/help/assets/icons/EventExclude.svg)
 
 ## EventShare {#eventshare}
 
-![EventShare](/help/assets/icons/EventShare.svg)
+![이벤트 공유](/help/assets/icons/EventShare.svg)
 
 ## ExcludeOverlap {#excludeoverlap}
 
@@ -1114,11 +1114,11 @@ ht-degree: 6%
 
 ## 경험 추가 {#experienceadd}
 
-![경험 추가](/help/assets/icons/ExperienceAdd.svg)
+![ExperienceAdd](/help/assets/icons/ExperienceAdd.svg)
 
 ## 경험 추가 {#experienceaddto}
 
-![경험 추가](/help/assets/icons/ExperienceAddTo.svg)
+![ExperienceAddTo](/help/assets/icons/ExperienceAddTo.svg)
 
 ## ExperienceExport {#experienceexport}
 
@@ -1146,7 +1146,7 @@ ht-degree: 6%
 
 ## 빠름 {#fast}
 
-![빠름](/help/assets/icons/Fast.svg)
+![빠르게](/help/assets/icons/Fast.svg)
 
 ## 빨리 감기 {#fastforward}
 
@@ -1166,7 +1166,7 @@ ht-degree: 6%
 
 ## FeedAdd {#feedadd}
 
-![FeedAdd](/help/assets/icons/FeedAdd.svg)
+![피드 추가](/help/assets/icons/FeedAdd.svg)
 
 ## FeedManagement {#feedmanagement}
 
@@ -1186,7 +1186,7 @@ ht-degree: 6%
 
 ## 파일 캠페인 {#filecampaign}
 
-![파일 캠페인](/help/assets/icons/FileCampaign.svg)
+![FileCampaign](/help/assets/icons/FileCampaign.svg)
 
 ## 파일 차트 {#filechart}
 
@@ -1194,11 +1194,11 @@ ht-degree: 6%
 
 ## 파일 체크 아웃됨 {#filecheckedout}
 
-![파일 체크 아웃됨](/help/assets/icons/FileCheckedOut.svg)
+![FileCheckedOut](/help/assets/icons/FileCheckedOut.svg)
 
 ## 파일 코드 {#filecode}
 
-![파일 코드](/help/assets/icons/FileCode.svg)
+![FileCode](/help/assets/icons/FileCode.svg)
 
 ## 파일 데이터 {#filedata}
 
@@ -1206,7 +1206,7 @@ ht-degree: 6%
 
 ## 파일 이메일 {#fileemail}
 
-![파일 이메일](/help/assets/icons/FileEmail.svg)
+![FileEmail](/help/assets/icons/FileEmail.svg)
 
 ## 파일 폴더 {#filefolder}
 
@@ -1222,11 +1222,11 @@ ht-degree: 6%
 
 ## 파일 HTML {#filehtml}
 
-![파일 HTML](/help/assets/icons/FileHTML.svg)
+![파일HTML](/help/assets/icons/FileHTML.svg)
 
 ## 파일중요 {#fileimportant}
 
-![파일중요](/help/assets/icons/FileImportant.svg)
+![FileImportant](/help/assets/icons/FileImportant.svg)
 
 ## FileJson {#filejson}
 
@@ -1246,7 +1246,7 @@ ht-degree: 6%
 
 ## 파일 단일 웹 페이지 {#filesinglewebpage}
 
-![파일 단일 웹 페이지](/help/assets/icons/FileSingleWebPage.svg)
+![FileSingleWebPage](/help/assets/icons/FileSingleWebPage.svg)
 
 ## 파일 공간 {#filespace}
 
@@ -1254,7 +1254,7 @@ ht-degree: 6%
 
 ## 파일 템플릿 {#filetemplate}
 
-![파일 템플릿](/help/assets/icons/FileTemplate.svg)
+![FileTemplate](/help/assets/icons/FileTemplate.svg)
 
 ## FileTxt {#filetxt}
 
@@ -1262,7 +1262,7 @@ ht-degree: 6%
 
 ## 파일 사용자 {#fileuser}
 
-![파일 사용자](/help/assets/icons/FileUser.svg)
+![FileUser](/help/assets/icons/FileUser.svg)
 
 ## FileWorkflow {#fileworkflow}
 
@@ -1278,7 +1278,7 @@ ht-degree: 6%
 
 ## 파일링 캐비닛 {#filingcabinet}
 
-![파일링 캐비닛](/help/assets/icons/FilingCabinet.svg)
+![캐비닛 정리](/help/assets/icons/FilingCabinet.svg)
 
 ## 필름롤 {#filmroll}
 
@@ -1302,7 +1302,7 @@ ht-degree: 6%
 
 ## 필터 삭제 {#filterdelete}
 
-![필터 삭제](/help/assets/icons/FilterDelete.svg)
+![FilterDelete](/help/assets/icons/FilterDelete.svg)
 
 ## 필터 편집 {#filteredit}
 
@@ -1310,11 +1310,11 @@ ht-degree: 6%
 
 ## 필터하트 {#filterheart}
 
-![필터하트](/help/assets/icons/FilterHeart.svg)
+![FilterHeart](/help/assets/icons/FilterHeart.svg)
 
 ## 필터 제거 {#filterremove}
 
-![필터 제거](/help/assets/icons/FilterRemove.svg)
+![FilterRemove](/help/assets/icons/FilterRemove.svg)
 
 ## 필터 별 {#filterstar}
 
@@ -1330,7 +1330,7 @@ ht-degree: 6%
 
 ## FlagExclude {#flagexclude}
 
-![FlagExclude](/help/assets/icons/FlagExclude.svg)
+![플래그 제외](/help/assets/icons/FlagExclude.svg)
 
 ## FlashAuto {#flashauto}
 
@@ -1358,7 +1358,7 @@ ht-degree: 6%
 
 ## 가로 뒤집기 {#fliphorizontal}
 
-![가로 뒤집기](/help/assets/icons/FlipHorizontal.svg)
+![수평 뒤집기](/help/assets/icons/FlipHorizontal.svg)
 
 ## 세로 뒤집기 {#flipvertical}
 
@@ -1378,27 +1378,27 @@ ht-degree: 6%
 
 ## 폴더 추가 {#folderaddto}
 
-![폴더 추가](/help/assets/icons/FolderAddTo.svg)
+![FolderAddTo](/help/assets/icons/FolderAddTo.svg)
 
 ## 폴더 보관 {#folderarchive}
 
-![폴더 보관](/help/assets/icons/FolderArchive.svg)
+![FolderArchive](/help/assets/icons/FolderArchive.svg)
 
 ## FolderDelete {#folderdelete}
 
-![FolderDelete](/help/assets/icons/FolderDelete.svg)
+![폴더 삭제](/help/assets/icons/FolderDelete.svg)
 
 ## 폴더 기어 {#foldergear}
 
-![폴더 기어](/help/assets/icons/FolderGear.svg)
+![FolderGear](/help/assets/icons/FolderGear.svg)
 
 ## 폴더 잠김 {#folderlocked}
 
-![폴더 잠김](/help/assets/icons/FolderLocked.svg)
+![폴더 잠금](/help/assets/icons/FolderLocked.svg)
 
 ## FolderOpen {#folderopen}
 
-![FolderOpen](/help/assets/icons/FolderOpen.svg)
+![폴더 열기](/help/assets/icons/FolderOpen.svg)
 
 ## FolderOpenOutline {#folderopenoutline}
 
@@ -1418,7 +1418,7 @@ ht-degree: 6%
 
 ## 폴더 사용자 {#folderuser}
 
-![폴더 사용자](/help/assets/icons/FolderUser.svg)
+![FolderUser](/help/assets/icons/FolderUser.svg)
 
 ## 팔로우 {#follow}
 
@@ -1450,7 +1450,7 @@ ht-degree: 6%
 
 ## 전체 화면 종료 {#fullscreenexit}
 
-![전체 화면 종료](/help/assets/icons/FullScreenExit.svg)
+![FullScreenExit](/help/assets/icons/FullScreenExit.svg)
 
 ## 함수 {#function}
 
@@ -1462,19 +1462,19 @@ ht-degree: 6%
 
 ## 게이지1 {#gauge1}
 
-![게이지1](/help/assets/icons/Gauge1.svg)
+![측정1](/help/assets/icons/Gauge1.svg)
 
 ## 게이지2 {#gauge2}
 
-![게이지2](/help/assets/icons/Gauge2.svg)
+![측정2](/help/assets/icons/Gauge2.svg)
 
 ## 게이지3 {#gauge3}
 
-![게이지3](/help/assets/icons/Gauge3.svg)
+![측정3](/help/assets/icons/Gauge3.svg)
 
 ## 게이지4 {#gauge4}
 
-![게이지4](/help/assets/icons/Gauge4.svg)
+![측정4](/help/assets/icons/Gauge4.svg)
 
 ## 게이지5 {#gauge5}
 
@@ -1486,7 +1486,7 @@ ht-degree: 6%
 
 ## 기어추가 {#gearsadd}
 
-![기어추가](/help/assets/icons/GearsAdd.svg)
+![GearsAdd](/help/assets/icons/GearsAdd.svg)
 
 ## GearsDelete {#gearsdelete}
 
@@ -1498,11 +1498,11 @@ ht-degree: 6%
 
 ## 젠더여성 {#genderfemale}
 
-![젠더여성](/help/assets/icons/GenderFemale.svg)
+![GenderFemale](/help/assets/icons/GenderFemale.svg)
 
 ## 젠더맨 {#gendermale}
 
-![젠더맨](/help/assets/icons/GenderMale.svg)
+![남성](/help/assets/icons/GenderMale.svg)
 
 ## 선물 {#gift}
 
@@ -1510,7 +1510,7 @@ ht-degree: 6%
 
 ## 글로브 {#globe}
 
-![글로브](/help/assets/icons/Globe.svg)
+![지구](/help/assets/icons/Globe.svg)
 
 ## GlobeCheck {#globecheck}
 
@@ -1518,11 +1518,11 @@ ht-degree: 6%
 
 ## 글로브시계 {#globeclock}
 
-![글로브시계](/help/assets/icons/GlobeClock.svg)
+![GlobeClock](/help/assets/icons/GlobeClock.svg)
 
 ## 글로브 엔터 {#globeenter}
 
-![글로브 엔터](/help/assets/icons/GlobeEnter.svg)
+![GlobeEnter](/help/assets/icons/GlobeEnter.svg)
 
 ## GlobeExit {#globeexit}
 
@@ -1530,11 +1530,11 @@ ht-degree: 6%
 
 ## 글로브 그리드 {#globegrid}
 
-![글로브 그리드](/help/assets/icons/GlobeGrid.svg)
+![GlobeGrid](/help/assets/icons/GlobeGrid.svg)
 
 ## 글로브 윤곽선 {#globeoutline}
 
-![글로브 윤곽선](/help/assets/icons/GlobeOutline.svg)
+![GlobeOutline](/help/assets/icons/GlobeOutline.svg)
 
 ## GlobeRemove {#globeremove}
 
@@ -1546,11 +1546,11 @@ ht-degree: 6%
 
 ## 글로브스트라이크 {#globestrike}
 
-![글로브스트라이크](/help/assets/icons/GlobeStrike.svg)
+![GlobeStrike](/help/assets/icons/GlobeStrike.svg)
 
 ## 글로브 스트라이크 클럭 {#globestrikeclock}
 
-![글로브 스트라이크 클럭](/help/assets/icons/GlobeStrikeClock.svg)
+![GlobeStrikeClock](/help/assets/icons/GlobeStrikeClock.svg)
 
 ## 정부 {#government}
 
@@ -1558,11 +1558,11 @@ ht-degree: 6%
 
 ## 그레이디언트 {#gradient}
 
-![그레이디언트](/help/assets/icons/Gradient.svg)
+![그라데이션](/help/assets/icons/Gradient.svg)
 
 ## 그래프 영역 {#grapharea}
 
-![그래프 영역](/help/assets/icons/GraphArea.svg)
+![GraphArea](/help/assets/icons/GraphArea.svg)
 
 ## 그래프 영역 스택 {#graphareastacked}
 
@@ -1570,27 +1570,27 @@ ht-degree: 6%
 
 ## 그래프 가로 {#graphbarhorizontal}
 
-![그래프 가로](/help/assets/icons/GraphBarHorizontal.svg)
+![GraphBarhorizontal](/help/assets/icons/GraphBarHorizontal.svg)
 
 ## 그래프 가로 추가 {#graphbarhorizontaladd}
 
-![그래프 가로 추가](/help/assets/icons/GraphBarHorizontalAdd.svg)
+![GraphBarHorizontalAdd](/help/assets/icons/GraphBarHorizontalAdd.svg)
 
 ## 그래프 가로 스택 {#graphbarhorizontalstacked}
 
-![그래프 가로 스택](/help/assets/icons/GraphBarHorizontalStacked.svg)
+![GraphBarHorizontalStack](/help/assets/icons/GraphBarHorizontalStacked.svg)
 
 ## 세로 그래프 막대 {#graphbarvertical}
 
-![세로 그래프 막대](/help/assets/icons/GraphBarVertical.svg)
+![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg)
 
 ## 그래프 막대 세로 추가 {#graphbarverticaladd}
 
-![그래프 막대 세로 추가](/help/assets/icons/GraphBarVerticalAdd.svg)
+![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg)
 
 ## 그래프 막대 세로 스택 {#graphbarverticalstacked}
 
-![그래프 막대 세로 스택](/help/assets/icons/GraphBarVerticalStacked.svg)
+![GraphBarVerticalStack](/help/assets/icons/GraphBarVerticalStacked.svg)
 
 ## 그래프 버블 {#graphbubble}
 
@@ -1610,7 +1610,7 @@ ht-degree: 6%
 
 ## 그래프 도넛 추가 {#graphdonutadd}
 
-![그래프 도넛 추가](/help/assets/icons/GraphDonutAdd.svg)
+![GraphDonutAdd](/help/assets/icons/GraphDonutAdd.svg)
 
 ## GraphGantt {#graphgantt}
 
@@ -1618,7 +1618,7 @@ ht-degree: 6%
 
 ## 그래프 막대 그래프 {#graphhistogram}
 
-![그래프 막대 그래프](/help/assets/icons/GraphHistogram.svg)
+![그래프 히스토그램](/help/assets/icons/GraphHistogram.svg)
 
 ## GraphPathing {#graphpathing}
 
@@ -1626,11 +1626,11 @@ ht-degree: 6%
 
 ## 그래프 파이 {#graphpie}
 
-![그래프 파이](/help/assets/icons/GraphPie.svg)
+![그래프파이](/help/assets/icons/GraphPie.svg)
 
 ## 그래프 이익 곡선 {#graphprofitcurve}
 
-![그래프 이익 곡선](/help/assets/icons/GraphProfitCurve.svg)
+![GraphProfitCurve](/help/assets/icons/GraphProfitCurve.svg)
 
 ## 그래프 분산 {#graphscatter}
 
@@ -1638,15 +1638,15 @@ ht-degree: 6%
 
 ## 그래프 스트림 {#graphstream}
 
-![그래프 스트림](/help/assets/icons/GraphStream.svg)
+![GraphStream](/help/assets/icons/GraphStream.svg)
 
 ## 그래프 스트림 등급 {#graphstreamranked}
 
-![그래프 스트림 등급](/help/assets/icons/GraphStreamRanked.svg)
+![GraphStreamRanked](/help/assets/icons/GraphStreamRanked.svg)
 
 ## 그래프 스트림 등급 추가 {#graphstreamrankedadd}
 
-![그래프 스트림 등급 추가](/help/assets/icons/GraphStreamRankedAdd.svg)
+![GraphStreamRankedAdd](/help/assets/icons/GraphStreamRankedAdd.svg)
 
 ## GraphSunburst {#graphsunburst}
 
@@ -1654,7 +1654,7 @@ ht-degree: 6%
 
 ## 그래프 트리 {#graphtree}
 
-![그래프 트리](/help/assets/icons/GraphTree.svg)
+![GraphTree](/help/assets/icons/GraphTree.svg)
 
 ## 그래프 트렌드 {#graphtrend}
 
@@ -1662,11 +1662,11 @@ ht-degree: 6%
 
 ## 그래프 트렌드 추가 {#graphtrendadd}
 
-![그래프 트렌드 추가](/help/assets/icons/GraphTrendAdd.svg)
+![GraphTrendAdd](/help/assets/icons/GraphTrendAdd.svg)
 
 ## 그래프 트렌드 경고 {#graphtrendalert}
 
-![그래프 트렌드 경고](/help/assets/icons/GraphTrendAlert.svg)
+![GraphTrendAlert](/help/assets/icons/GraphTrendAlert.svg)
 
 ## 그래픽 {#graphic}
 
@@ -1706,11 +1706,11 @@ ht-degree: 6%
 
 ## 치유 {#heal}
 
-![치유](/help/assets/icons/Heal.svg)
+![복구](/help/assets/icons/Heal.svg)
 
 ## 하트 {#heart}
 
-![하트](/help/assets/icons/Heart.svg)
+![심장](/help/assets/icons/Heart.svg)
 
 ## 도움말 {#help}
 
@@ -1718,11 +1718,11 @@ ht-degree: 6%
 
 ## 도움말 개요 {#helpoutline}
 
-![도움말 개요](/help/assets/icons/HelpOutline.svg)
+![HelpOutline](/help/assets/icons/HelpOutline.svg)
 
 ## 막대 그래프 {#histogram}
 
-![막대 그래프](/help/assets/icons/Histogram.svg)
+![히스토그램](/help/assets/icons/Histogram.svg)
 
 ## 기록 {#history}
 
@@ -1734,7 +1734,7 @@ ht-degree: 6%
 
 ## 홈페이지 {#homepage}
 
-![홈페이지](/help/assets/icons/Homepage.svg)
+![홈 페이지](/help/assets/icons/Homepage.svg)
 
 ## 핫픽스 {#hotfixe}
 
@@ -1742,7 +1742,7 @@ ht-degree: 6%
 
 ## 호텔베드 {#hotelbed}
 
-![호텔베드](/help/assets/icons/HotelBed.svg)
+![HotelBed](/help/assets/icons/HotelBed.svg)
 
 ## IdentityService {#identityservice}
 
@@ -1766,31 +1766,31 @@ ht-degree: 6%
 
 ## 이미지 자동 모드 {#imageautomode}
 
-![이미지 자동 모드](/help/assets/icons/ImageAutoMode.svg)
+![ImageAutoMode](/help/assets/icons/ImageAutoMode.svg)
 
 ## 이미지 회전 {#imagecarousel}
 
-![이미지 회전](/help/assets/icons/ImageCarousel.svg)
+![ImageCarousel](/help/assets/icons/ImageCarousel.svg)
 
 ## ImageCheck {#imagecheck}
 
-![ImageCheck](/help/assets/icons/ImageCheck.svg)
+![이미지 검사](/help/assets/icons/ImageCheck.svg)
 
 ## 이미지 체크아웃 {#imagecheckedout}
 
-![이미지 체크아웃](/help/assets/icons/ImageCheckedOut.svg)
+![ImageCheckedOut](/help/assets/icons/ImageCheckedOut.svg)
 
 ## 이미지 맵 서클 {#imagemapcircle}
 
-![이미지 맵 서클](/help/assets/icons/ImageMapCircle.svg)
+![ImageMapCircle](/help/assets/icons/ImageMapCircle.svg)
 
 ## 이미지 맵 다각형 {#imagemappolygon}
 
-![이미지 맵 다각형](/help/assets/icons/ImageMapPolygon.svg)
+![ImageMapPolygon](/help/assets/icons/ImageMapPolygon.svg)
 
 ## 이미지 맵 사각형 {#imagemaprectangle}
 
-![이미지 맵 사각형](/help/assets/icons/ImageMapRectangle.svg)
+![ImageMapRectangle](/help/assets/icons/ImageMapRectangle.svg)
 
 ## ImageNext {#imagenext}
 
@@ -1830,11 +1830,11 @@ ht-degree: 6%
 
 ## 교차 오버랩 {#intersectoverlap}
 
-![교차 오버랩](/help/assets/icons/IntersectOverlap.svg)
+![IntersectOverlap](/help/assets/icons/IntersectOverlap.svg)
 
 ## 반전 조정 {#invertadj}
 
-![반전 조정](/help/assets/icons/InvertAdj.svg)
+![InvertAdj](/help/assets/icons/InvertAdj.svg)
 
 ## 초대 {#invite}
 
@@ -1850,7 +1850,7 @@ ht-degree: 6%
 
 ## JourneyData {#journeydata}
 
-![JourneyData](/help/assets/icons/JourneyData.svg)
+![여정 데이터](/help/assets/icons/JourneyData.svg)
 
 ## JourneyEvent {#journeyevent}
 
@@ -1878,7 +1878,7 @@ ht-degree: 6%
 
 ## 키 시계 {#keyclock}
 
-![키 시계](/help/assets/icons/KeyClock.svg)
+![KeyClock](/help/assets/icons/KeyClock.svg)
 
 ## KeyExclude {#keyexclude}
 
@@ -1914,19 +1914,19 @@ ht-degree: 6%
 
 ## 레이어 뒤로 {#layersbackward}
 
-![레이어 뒤로](/help/assets/icons/LayersBackward.svg)
+![LayersBackward](/help/assets/icons/LayersBackward.svg)
 
 ## 레이어 가져오기 전면 {#layersbringtofront}
 
-![레이어 가져오기 전면](/help/assets/icons/LayersBringToFront.svg)
+![LayersBringToFront](/help/assets/icons/LayersBringToFront.svg)
 
 ## 레이어 앞으로 {#layersforward}
 
-![레이어 앞으로](/help/assets/icons/LayersForward.svg)
+![앞으로](/help/assets/icons/LayersForward.svg)
 
 ## 레이어 전송 {#layerssendtoback}
 
-![레이어 전송](/help/assets/icons/LayersSendToBack.svg)
+![LayersSendToBack](/help/assets/icons/LayersSendToBack.svg)
 
 ## 학습 {#learn}
 
@@ -1934,7 +1934,7 @@ ht-degree: 6%
 
 ## 왼쪽 오른쪽 {#leftright}
 
-![왼쪽 오른쪽](/help/assets/icons/LeftRight.svg)
+![왼쪽](/help/assets/icons/LeftRight.svg)
 
 ## 밝게 {#light}
 
@@ -1942,7 +1942,7 @@ ht-degree: 6%
 
 ## 라인 {#line}
 
-![라인](/help/assets/icons/Line.svg)
+![줄](/help/assets/icons/Line.svg)
 
 ## 선 높이 {#lineheight}
 
@@ -1974,11 +1974,11 @@ ht-degree: 6%
 
 ## 링크 아웃 {#linkout}
 
-![링크 아웃](/help/assets/icons/LinkOut.svg)
+![LinkOut](/help/assets/icons/LinkOut.svg)
 
 ## 링크아웃라이트 {#linkoutlight}
 
-![링크아웃라이트](/help/assets/icons/LinkOutLight.svg)
+![LinkOutLight](/help/assets/icons/LinkOutLight.svg)
 
 ## LinkPage {#linkpage}
 
@@ -1994,19 +1994,19 @@ ht-degree: 6%
 
 ## 위치 기반 날짜 {#locationbaseddate}
 
-![위치 기반 날짜](/help/assets/icons/LocationBasedDate.svg)
+![LocationBasedDate](/help/assets/icons/LocationBasedDate.svg)
 
 ## 위치 기반 이벤트 {#locationbasedevent}
 
-![위치 기반 이벤트](/help/assets/icons/LocationBasedEvent.svg)
+![LocationBasedEvent](/help/assets/icons/LocationBasedEvent.svg)
 
 ## 위치 기여도 {#locationcontribution}
 
-![위치 기여도](/help/assets/icons/LocationContribution.svg)
+![LocationContribution](/help/assets/icons/LocationContribution.svg)
 
 ## 잠금 닫힘 {#lockclosed}
 
-![잠금 닫힘](/help/assets/icons/LockClosed.svg)
+![닫힘](/help/assets/icons/LockClosed.svg)
 
 ## LockOpen {#lockopen}
 
@@ -2022,11 +2022,11 @@ ht-degree: 6%
 
 ## Look {#look}
 
-![Look](/help/assets/icons/Look.svg)
+![보기](/help/assets/icons/Look.svg)
 
 ## 확대/축소 보기 {#loupeview}
 
-![확대/축소 보기](/help/assets/icons/LoupeView.svg)
+![전체 보기](/help/assets/icons/LoupeView.svg)
 
 ## MBox {#mbox}
 
@@ -2086,11 +2086,11 @@ ht-degree: 6%
 
 ## 레이어 병합 {#mergelayer}
 
-![레이어 병합](/help/assets/icons/MergeLayer.svg)
+![MergeLayer](/help/assets/icons/MergeLayer.svg)
 
 ## Messenger {#messenger}
 
-![Messenger](/help/assets/icons/Messenger.svg)
+![메신저](/help/assets/icons/Messenger.svg)
 
 ## 최소화 {#minimize}
 
@@ -2098,15 +2098,15 @@ ht-degree: 6%
 
 ## 모바일 서비스 {#mobileservice}
 
-![모바일 서비스](/help/assets/icons/MobileService.svg)
+![MobileService](/help/assets/icons/MobileService.svg)
 
 ## 모던 격자 보기 {#moderngridview}
 
-![모던 격자 보기](/help/assets/icons/ModernGridView.svg)
+![ModernGridView](/help/assets/icons/ModernGridView.svg)
 
 ## Money {#money}
 
-![Money](/help/assets/icons/Money.svg)
+![돈](/help/assets/icons/Money.svg)
 
 ## 모니터링 {#monitoring}
 
@@ -2134,11 +2134,11 @@ ht-degree: 6%
 
 ## 더 작은 목록 세로 {#moresmalllistvert}
 
-![더 작은 목록 세로](/help/assets/icons/MoreSmallListVert.svg)
+![MoreSmallListVersion](/help/assets/icons/MoreSmallListVert.svg)
 
 ## 자세히 세로 {#morevertical}
 
-![자세히 세로](/help/assets/icons/MoreVertical.svg)
+![자세히](/help/assets/icons/MoreVertical.svg)
 
 ## 이동 {#move}
 
@@ -2150,11 +2150,11 @@ ht-degree: 6%
 
 ## 이동 위치 {#moveto}
 
-![이동 위치](/help/assets/icons/MoveTo.svg)
+![이동](/help/assets/icons/MoveTo.svg)
 
 ## 위로 이동 {#moveupdown}
 
-![위로 이동](/help/assets/icons/MoveUpDown.svg)
+![MoveUpDown](/help/assets/icons/MoveUpDown.svg)
 
 ## MovieCamera {#moviecamera}
 
@@ -2162,15 +2162,15 @@ ht-degree: 6%
 
 ## 다수 {#multiple}
 
-![복수](/help/assets/icons/Multiple.svg)
+![다중](/help/assets/icons/Multiple.svg)
 
 ## MultipleAdd {#multipleadd}
 
-![MultipleAdd](/help/assets/icons/MultipleAdd.svg)
+![다중 추가](/help/assets/icons/MultipleAdd.svg)
 
 ## 다중 검사 {#multiplecheck}
 
-![다중 검사](/help/assets/icons/MultipleCheck.svg)
+![다중 확인](/help/assets/icons/MultipleCheck.svg)
 
 ## 다중 제외 {#multipleexclude}
 
@@ -2178,7 +2178,7 @@ ht-degree: 6%
 
 ## 이름 지정 순서 {#namingorder}
 
-![이름 지정 순서](/help/assets/icons/NamingOrder.svg)
+![명명 순서](/help/assets/icons/NamingOrder.svg)
 
 ## 새로운 기능 {#new}
 
@@ -2194,11 +2194,11 @@ ht-degree: 6%
 
 ## NewsAdd {#newsadd}
 
-![NewsAdd](/help/assets/icons/NewsAdd.svg)
+![뉴스 추가](/help/assets/icons/NewsAdd.svg)
 
 ## NoEdit {#noedit}
 
-![NoEdit](/help/assets/icons/NoEdit.svg)
+![편집 안 함](/help/assets/icons/NoEdit.svg)
 
 ## 참고 {#note}
 
@@ -2218,7 +2218,7 @@ ht-degree: 6%
 
 ## 오퍼 활동 {#offeractivities}
 
-![오퍼 활동](/help/assets/icons/OfferActivities.svg)
+![OfferActivities](/help/assets/icons/OfferActivities.svg)
 
 ## OfferDelete {#offerdelete}
 
@@ -2230,15 +2230,15 @@ ht-degree: 6%
 
 ## 온에어 {#onair}
 
-![온에어](/help/assets/icons/OnAir.svg)
+![OnAir](/help/assets/icons/OnAir.svg)
 
 ## 오픈인 {#openin}
 
-![오픈인](/help/assets/icons/OpenIn.svg)
+![OpenIn](/help/assets/icons/OpenIn.svg)
 
 ## 오픈인라이트 {#openinlight}
 
-![오픈인라이트](/help/assets/icons/OpenInLight.svg)
+![OpenInLight](/help/assets/icons/OpenInLight.svg)
 
 ## OpenRecent {#openrecent}
 
@@ -2262,23 +2262,23 @@ ht-degree: 6%
 
 ## 윤곽선 경로 {#outlinepath}
 
-![윤곽선 경로](/help/assets/icons/OutlinePath.svg)
+![OutlinePath](/help/assets/icons/OutlinePath.svg)
 
 ## 아래쪽 패딩 {#paddingbottom}
 
-![아래쪽 패딩](/help/assets/icons/PaddingBottom.svg)
+![PaddingBottom](/help/assets/icons/PaddingBottom.svg)
 
 ## 왼쪽 패딩 {#paddingleft}
 
-![왼쪽 패딩](/help/assets/icons/PaddingLeft.svg)
+![패딩 왼쪽](/help/assets/icons/PaddingLeft.svg)
 
 ## 오른쪽 패딩 {#paddingright}
 
-![오른쪽 패딩](/help/assets/icons/PaddingRight.svg)
+![패딩 오른쪽](/help/assets/icons/PaddingRight.svg)
 
 ## 위쪽 패딩 {#paddingtop}
 
-![위쪽 패딩](/help/assets/icons/PaddingTop.svg)
+![패딩 상단](/help/assets/icons/PaddingTop.svg)
 
 ## 페이지 나누기 {#pagebreak}
 
@@ -2298,7 +2298,7 @@ ht-degree: 6%
 
 ## PageShare {#pageshare}
 
-![PageShare](/help/assets/icons/PageShare.svg)
+![페이지 공유](/help/assets/icons/PageShare.svg)
 
 ## PageTag {#pagetag}
 
@@ -2306,7 +2306,7 @@ ht-degree: 6%
 
 ## 페이지 제외 {#pagesexclude}
 
-![페이지 제외](/help/assets/icons/PagesExclude.svg)
+![PagesExclude](/help/assets/icons/PagesExclude.svg)
 
 ## 패닝 {#pan}
 
@@ -2354,7 +2354,7 @@ ht-degree: 6%
 
 ## 사용자 그룹 {#peoplegroup}
 
-![사용자 그룹](/help/assets/icons/PeopleGroup.svg)
+![PeopleGroup](/help/assets/icons/PeopleGroup.svg)
 
 ## 개인화 필드 {#personalizationfield}
 
@@ -2362,7 +2362,7 @@ ht-degree: 6%
 
 ## 원근감 {#perspective}
 
-![원근감](/help/assets/icons/Perspective.svg)
+![관점](/help/assets/icons/Perspective.svg)
 
 ## 고정 해제 {#pinoff}
 
@@ -2402,7 +2402,7 @@ ht-degree: 6%
 
 ## 다각형 선택 {#polygonselect}
 
-![다각형 선택](/help/assets/icons/PolygonSelect.svg)
+![PolygonSelect](/help/assets/icons/PolygonSelect.svg)
 
 ## PopIn {#popin}
 
@@ -2462,7 +2462,7 @@ ht-degree: 6%
 
 ## PublishPending {#publishpending}
 
-![PublishPending](/help/assets/icons/PublishPending.svg)
+![게시 보류 중](/help/assets/icons/PublishPending.svg)
 
 ## PublishReject {#publishreject}
 
@@ -2502,11 +2502,11 @@ ht-degree: 6%
 
 ## 레일 바닥 {#railbottom}
 
-![레일 바닥](/help/assets/icons/RailBottom.svg)
+![RailBottom](/help/assets/icons/RailBottom.svg)
 
 ## 레일 왼쪽 {#railleft}
 
-![레일 왼쪽](/help/assets/icons/RailLeft.svg)
+![왼쪽 레일](/help/assets/icons/RailLeft.svg)
 
 ## 오른쪽 레일 {#railright}
 
@@ -2514,15 +2514,15 @@ ht-degree: 6%
 
 ## 오른쪽 레일 닫기 {#railrightclose}
 
-![오른쪽 레일 닫기](/help/assets/icons/RailRightClose.svg)
+![RailRightClose](/help/assets/icons/RailRightClose.svg)
 
 ## 오른쪽 레일 열기 {#railrightopen}
 
-![오른쪽 레일 열기](/help/assets/icons/RailRightOpen.svg)
+![RailRightOpen](/help/assets/icons/RailRightOpen.svg)
 
 ## 레일 상단 {#railtop}
 
-![레일 상단](/help/assets/icons/RailTop.svg)
+![RailTop](/help/assets/icons/RailTop.svg)
 
 ## RangeMask {#rangemask}
 
@@ -2530,7 +2530,7 @@ ht-degree: 6%
 
 ## RealTimeCustomerProfile {#realtimecustomerprofile}
 
-![RealTimeCustomerProfile](/help/assets/icons/RealTimeCustomerProfile.svg)
+![실시간 고객 프로필](/help/assets/icons/RealTimeCustomerProfile.svg)
 
 ## RectSelect {#rectselect}
 
@@ -2578,15 +2578,15 @@ ht-degree: 6%
 
 ## 답변 {#replie}
 
-![답변](/help/assets/icons/Replie.svg)
+![회신](/help/assets/icons/Replie.svg)
 
 ## 답변 {#reply}
 
-![답변](/help/assets/icons/Reply.svg)
+![회신](/help/assets/icons/Reply.svg)
 
 ## 전체 회신 {#replyall}
 
-![전체 회신](/help/assets/icons/ReplyAll.svg)
+![모두 회신](/help/assets/icons/ReplyAll.svg)
 
 ## 보고서 {#report}
 
@@ -2602,7 +2602,7 @@ ht-degree: 6%
 
 ## ResolveComment {#resolvedcomment}
 
-![ResolveComment](/help/assets/icons/ResolvedComment.svg)
+![ResolvedComment](/help/assets/icons/ResolvedComment.svg)
 
 ## 리트윗 {#retweet}
 
@@ -2626,7 +2626,7 @@ ht-degree: 6%
 
 ## 원 되감기 {#rewindcircle}
 
-![원 되감기](/help/assets/icons/RewindCircle.svg)
+![되감기 순환](/help/assets/icons/RewindCircle.svg)
 
 ## 리본 {#ribbon}
 
@@ -2634,7 +2634,7 @@ ht-degree: 6%
 
 ## 회전 CCW {#rotateccw}
 
-![회전 CCW](/help/assets/icons/RotateCCW.svg)
+![CCW 회전](/help/assets/icons/RotateCCW.svg)
 
 ## RotateCCWBold {#rotateccwbold}
 
@@ -2642,7 +2642,7 @@ ht-degree: 6%
 
 ## 회전 CW {#rotatecw}
 
-![회전 CW](/help/assets/icons/RotateCW.svg)
+![RotateCW](/help/assets/icons/RotateCW.svg)
 
 ## RotateCWBold {#rotatecwbold}
 
@@ -2694,7 +2694,7 @@ ht-degree: 6%
 
 ## SaveAsFlop {#saveasfloppy}
 
-![SaveAsFlop](/help/assets/icons/SaveAsFloppy.svg)
+![SaveAsFloppy](/help/assets/icons/SaveAsFloppy.svg)
 
 ## SaveFloppy {#savefloppy}
 
@@ -2706,7 +2706,7 @@ ht-degree: 6%
 
 ## 조명 저장 {#savetolight}
 
-![조명 저장](/help/assets/icons/SaveToLight.svg)
+![SaveToLight](/help/assets/icons/SaveToLight.svg)
 
 ## 스키마 {#schemas}
 
@@ -2742,7 +2742,7 @@ ht-degree: 6%
 
 ## SelectAdd {#selectadd}
 
-![SelectAdd](/help/assets/icons/SelectAdd.svg)
+![추가 선택](/help/assets/icons/SelectAdd.svg)
 
 ## SelectBox {#selectbox}
 
@@ -2758,15 +2758,15 @@ ht-degree: 6%
 
 ## 컨테이너 선택 {#selectcontainer}
 
-![컨테이너 선택](/help/assets/icons/SelectContainer.svg)
+![SelectContainer](/help/assets/icons/SelectContainer.svg)
 
 ## 톱니바퀴 {#selectgear}
 
-![톱니바퀴](/help/assets/icons/SelectGear.svg)
+![SelectGear](/help/assets/icons/SelectGear.svg)
 
 ## 교차 선택 {#selectintersect}
 
-![교차 선택](/help/assets/icons/SelectIntersect.svg)
+![SelectIntersect](/help/assets/icons/SelectIntersect.svg)
 
 ## SelectSubtract {#selectsubtract}
 
@@ -2774,11 +2774,11 @@ ht-degree: 6%
 
 ## 선택 항목 {#selection}
 
-![선택 항목](/help/assets/icons/Selection.svg)
+![선택](/help/assets/icons/Selection.svg)
 
 ## 선택 선택됨 {#selectionchecked}
 
-![선택 선택됨](/help/assets/icons/SelectionChecked.svg)
+![SelectionChecked](/help/assets/icons/SelectionChecked.svg)
 
 ## SelectionMove {#selectionmove}
 
@@ -2794,7 +2794,7 @@ ht-degree: 6%
 
 ## SentimentNeutral {#sentimentneutral}
 
-![SentimentNeutral](/help/assets/icons/SentimentNeutral.svg)
+![감정 중립](/help/assets/icons/SentimentNeutral.svg)
 
 ## SentimentPositive {#sentimentpositive}
 
@@ -2802,7 +2802,7 @@ ht-degree: 6%
 
 ## 분리자 {#separator}
 
-![분리자](/help/assets/icons/Separator.svg)
+![구분 기호](/help/assets/icons/Separator.svg)
 
 ## 서버 {#server}
 
@@ -2814,7 +2814,7 @@ ht-degree: 6%
 
 ## 모양 {#shape}
 
-![모양](/help/assets/icons/Shape.svg)
+![도형](/help/assets/icons/Shape.svg)
 
 ## 공유 {#share}
 
@@ -2838,11 +2838,11 @@ ht-degree: 6%
 
 ## 선명하게 {#sharpen}
 
-![선명하게](/help/assets/icons/Sharpen.svg)
+![선명](/help/assets/icons/Sharpen.svg)
 
 ## 방패 {#shield}
 
-![방패](/help/assets/icons/Shield.svg)
+![실드](/help/assets/icons/Shield.svg)
 
 ## 배송 {#ship}
 
@@ -2858,7 +2858,7 @@ ht-degree: 6%
 
 ## 모두 표시 레이어 {#showalllayer}
 
-![모두 표시 레이어](/help/assets/icons/ShowAllLayer.svg)
+![모두 표시](/help/assets/icons/ShowAllLayer.svg)
 
 ## ShowMenu {#showmenu}
 
@@ -2866,7 +2866,7 @@ ht-degree: 6%
 
 ## 레이어 표시 {#showonelayer}
 
-![레이어 표시](/help/assets/icons/ShowOneLayer.svg)
+![ShowOneLayer](/help/assets/icons/ShowOneLayer.svg)
 
 ## 무작위 재생 {#shuffle}
 
@@ -2874,7 +2874,7 @@ ht-degree: 6%
 
 ## 분할 영역 {#slice}
 
-![분할 영역](/help/assets/icons/Slice.svg)
+![슬라이스](/help/assets/icons/Slice.svg)
 
 ## 느림 {#slow}
 
@@ -2882,11 +2882,11 @@ ht-degree: 6%
 
 ## SmallCap {#smallcap}
 
-![SmallCap](/help/assets/icons/SmallCap.svg)
+![작은 대문자](/help/assets/icons/SmallCap.svg)
 
 ## 스냅샷 {#snapshot}
 
-![스냅샷](/help/assets/icons/Snapshot.svg)
+![스냅숏](/help/assets/icons/Snapshot.svg)
 
 ## 소셜 네트워크 {#socialnetwork}
 
@@ -2894,11 +2894,11 @@ ht-degree: 6%
 
 ## 정렬 순서 아래로 {#sortorderdown}
 
-![정렬 순서 아래로](/help/assets/icons/SortOrderDown.svg)
+![SortOrderDown](/help/assets/icons/SortOrderDown.svg)
 
 ## 정렬 순서 {#sortorderup}
 
-![정렬 순서](/help/assets/icons/SortOrderUp.svg)
+![SortOrderUp](/help/assets/icons/SortOrderUp.svg)
 
 ## 스팸 {#spam}
 
@@ -2914,7 +2914,7 @@ ht-degree: 6%
 
 ## 분할보기 {#splitview}
 
-![분할보기](/help/assets/icons/SplitView.svg)
+![SplitView](/help/assets/icons/SplitView.svg)
 
 ## SpotHeal {#spotheal}
 
@@ -2922,7 +2922,7 @@ ht-degree: 6%
 
 ## 스타디움 {#stadium}
 
-![스타디움](/help/assets/icons/Stadium.svg)
+![경기장](/help/assets/icons/Stadium.svg)
 
 ## 단계 {#stage}
 
@@ -2938,7 +2938,7 @@ ht-degree: 6%
 
 ## 별모양 {#staroutline}
 
-![별모양](/help/assets/icons/StarOutline.svg)
+![StarOutline](/help/assets/icons/StarOutline.svg)
 
 ## Starburst {#starburst}
 
@@ -2970,19 +2970,19 @@ ht-degree: 6%
 
 ## 스톱워치 {#stopwatch}
 
-![스톱워치](/help/assets/icons/Stopwatch.svg)
+![초시계](/help/assets/icons/Stopwatch.svg)
 
 ## 똑바르게 {#straighten}
 
-![똑바르게](/help/assets/icons/Straighten.svg)
+![펴기](/help/assets/icons/Straighten.svg)
 
 ## 윤곽선 펴기 {#straightenoutline}
 
-![윤곽선 펴기](/help/assets/icons/StraightenOutline.svg)
+![StraightenOutline](/help/assets/icons/StraightenOutline.svg)
 
 ## 획 폭 {#strokewidth}
 
-![획 폭](/help/assets/icons/StrokeWidth.svg)
+![획 너비](/help/assets/icons/StrokeWidth.svg)
 
 ## 구독 {#subscribe}
 
@@ -2990,7 +2990,7 @@ ht-degree: 6%
 
 ## SubtractBackpath {#subtractbackpath}
 
-![SubtractBackpath](/help/assets/icons/SubtractBackPath.svg)
+![뒤로 이동 경로](/help/assets/icons/SubtractBackPath.svg)
 
 ## SubtractFromSelection {#subtractfromselection}
 
@@ -3002,7 +3002,7 @@ ht-degree: 6%
 
 ## 성공 지표 {#successmetric}
 
-![성공 지표](/help/assets/icons/SuccessMetric.svg)
+![SuccessMetric](/help/assets/icons/SuccessMetric.svg)
 
 ## 요약 {#summarize}
 
@@ -3038,11 +3038,11 @@ ht-degree: 6%
 
 ## 테이블 열 추가 왼쪽 {#tablecolumnaddleft}
 
-![테이블 열 추가 왼쪽](/help/assets/icons/TableColumnAddLeft.svg)
+![TableColumnAddLeft](/help/assets/icons/TableColumnAddLeft.svg)
 
 ## 테이블 열 추가 오른쪽 {#tablecolumnaddright}
 
-![테이블 열 추가 오른쪽](/help/assets/icons/TableColumnAddRight.svg)
+![TableColumnAddRight](/help/assets/icons/TableColumnAddRight.svg)
 
 ## 테이블 열 병합 {#tablecolumnmerge}
 
@@ -3062,7 +3062,7 @@ ht-degree: 6%
 
 ## 표 히스토그램 {#tablehistogram}
 
-![표 히스토그램](/help/assets/icons/TableHistogram.svg)
+![테이블 히스토그램](/help/assets/icons/TableHistogram.svg)
 
 ## TableMergeCell {#tablemergecell}
 
@@ -3070,19 +3070,19 @@ ht-degree: 6%
 
 ## 아래쪽 테이블 행 추가 {#tablerowaddbottom}
 
-![아래쪽 테이블 행 추가](/help/assets/icons/TableRowAddBottom.svg)
+![TableRowAddBottom](/help/assets/icons/TableRowAddBottom.svg)
 
 ## 테이블 행 추가 {#tablerowaddtop}
 
-![테이블 행 추가](/help/assets/icons/TableRowAddTop.svg)
+![TableRowAddTop](/help/assets/icons/TableRowAddTop.svg)
 
 ## 테이블 행 병합 {#tablerowmerge}
 
-![테이블 행 병합](/help/assets/icons/TableRowMerge.svg)
+![TableRowMerge](/help/assets/icons/TableRowMerge.svg)
 
 ## 테이블 행 가운데 제거 {#tablerowremovecenter}
 
-![테이블 행 가운데 제거](/help/assets/icons/TableRowRemoveCenter.svg)
+![TableRowRemoveCenter](/help/assets/icons/TableRowRemoveCenter.svg)
 
 ## 테이블 행 분할 {#tablerowsplit}
 
@@ -3090,11 +3090,11 @@ ht-degree: 6%
 
 ## 테이블 선택 열 {#tableselectcolumn}
 
-![테이블 선택 열](/help/assets/icons/TableSelectColumn.svg)
+![TableSelectColumn](/help/assets/icons/TableSelectColumn.svg)
 
 ## 테이블 선택 행 {#tableselectrow}
 
-![테이블 선택 행](/help/assets/icons/TableSelectRow.svg)
+![TableSelectRow](/help/assets/icons/TableSelectRow.svg)
 
 ## 타블로 {#tableau}
 
@@ -3110,7 +3110,7 @@ ht-degree: 6%
 
 ## 태그 밑줄 {#tagunderline}
 
-![태그 밑줄](/help/assets/icons/TagUnderline.svg)
+![TagUnderline](/help/assets/icons/TagUnderline.svg)
 
 ## Target {#target}
 
@@ -3118,7 +3118,7 @@ ht-degree: 6%
 
 ## 타깃팅됨 {#targeted}
 
-![타깃팅됨](/help/assets/icons/Targeted.svg)
+![타깃팅](/help/assets/icons/Targeted.svg)
 
 ## 작업 목록 {#tasklist}
 
@@ -3162,7 +3162,7 @@ ht-degree: 6%
 
 ## 가운데 맞춤 {#textaligncenter}
 
-![가운데 맞춤](/help/assets/icons/TextAlignCenter.svg)
+![TextAlignCenter](/help/assets/icons/TextAlignCenter.svg)
 
 ## 텍스트 정렬 양쪽 맞춤 {#textalignjustify}
 
@@ -3170,15 +3170,15 @@ ht-degree: 6%
 
 ## 왼쪽으로 텍스트 정렬 {#textalignleft}
 
-![왼쪽으로 텍스트 정렬](/help/assets/icons/TextAlignLeft.svg)
+![왼쪽 텍스트 정렬](/help/assets/icons/TextAlignLeft.svg)
 
 ## 오른쪽으로 정렬 {#textalignright}
 
-![오른쪽으로 정렬](/help/assets/icons/TextAlignRight.svg)
+![오른쪽 텍스트 정렬](/help/assets/icons/TextAlignRight.svg)
 
 ## 텍스트 기준선 이동 {#textbaselineshift}
 
-![텍스트 기준선 이동](/help/assets/icons/TextBaselineShift.svg)
+![TextBaselineShift](/help/assets/icons/TextBaselineShift.svg)
 
 ## 텍스트 굵게 {#textbold}
 
@@ -3194,7 +3194,7 @@ ht-degree: 6%
 
 ## 텍스트 글머리 기호 계층 {#textbulletedhierarchy}
 
-![텍스트 글머리 기호 계층](/help/assets/icons/TextBulletedHierarchy.svg)
+![TextBulletedHierarchy](/help/assets/icons/TextBulletedHierarchy.svg)
 
 ## TextBulletedHierarchyExclude {#textbulletedhierarchyexclude}
 
@@ -3214,7 +3214,7 @@ ht-degree: 6%
 
 ## 텍스트 제외 {#textexclude}
 
-![텍스트 제외](/help/assets/icons/TextExclude.svg)
+![TextExclude](/help/assets/icons/TextExclude.svg)
 
 ## 텍스트 증가 {#textincrease}
 
@@ -3222,7 +3222,7 @@ ht-degree: 6%
 
 ## 텍스트 들여쓰기/축소 {#textindentdecrease}
 
-![텍스트 들여쓰기/축소](/help/assets/icons/TextIndentDecrease.svg)
+![텍스트 들여쓰기 감소](/help/assets/icons/TextIndentDecrease.svg)
 
 ## 텍스트 들여쓰기 증가 {#textindentincrease}
 
@@ -3230,7 +3230,7 @@ ht-degree: 6%
 
 ## 텍스트 기울임체 {#textitalic}
 
-![텍스트 기울임체](/help/assets/icons/TextItalic.svg)
+![TextItalic](/help/assets/icons/TextItalic.svg)
 
 ## 텍스트 커닝 {#textkerning}
 
@@ -3254,11 +3254,11 @@ ht-degree: 6%
 
 ## 텍스트로마자 소문자 {#textromanlowercase}
 
-![텍스트로마자 소문자](/help/assets/icons/TextRomanLowercase.svg)
+![TextRomanLowercase](/help/assets/icons/TextRomanLowercase.svg)
 
 ## 텍스트 로마자 대문자 {#textromanuppercase}
 
-![텍스트 로마자 대문자](/help/assets/icons/TextRomanUppercase.svg)
+![TextRomanUppercase](/help/assets/icons/TextRomanUppercase.svg)
 
 ## 텍스트 크기 {#textsize}
 
@@ -3274,7 +3274,7 @@ ht-degree: 6%
 
 ## 다음 앞 텍스트 공백 {#textspacebefore}
 
-![다음 앞 텍스트 공백](/help/assets/icons/TextSpaceBefore.svg)
+![TextSpaceBefore](/help/assets/icons/TextSpaceBefore.svg)
 
 ## 텍스트 취소선 {#textstrikethrough}
 
@@ -3282,7 +3282,7 @@ ht-degree: 6%
 
 ## 텍스트 획 {#textstroke}
 
-![텍스트 획](/help/assets/icons/TextStroke.svg)
+![텍스트 스트로크](/help/assets/icons/TextStroke.svg)
 
 ## 텍스트 스타일 {#textstyle}
 
@@ -3290,15 +3290,15 @@ ht-degree: 6%
 
 ## 아래 첨자 텍스트 {#textsubscript}
 
-![아래 첨자 텍스트](/help/assets/icons/TextSubscript.svg)
+![TextSubscript](/help/assets/icons/TextSubscript.svg)
 
 ## 텍스트 위 첨자 {#textsuperscript}
 
-![텍스트 위 첨자](/help/assets/icons/TextSuperscript.svg)
+![TextSuperscript](/help/assets/icons/TextSuperscript.svg)
 
 ## 텍스트 추적 {#texttracking}
 
-![텍스트 추적](/help/assets/icons/TextTracking.svg)
+![TextTracking](/help/assets/icons/TextTracking.svg)
 
 ## 텍스트 밑줄 {#textunderline}
 
@@ -3306,11 +3306,11 @@ ht-degree: 6%
 
 ## 아래로 {#thumbdown}
 
-![아래로](/help/assets/icons/ThumbDown.svg)
+![ThumbDown](/help/assets/icons/ThumbDown.svg)
 
 ## 축소판 그림 {#thumbdownoutline}
 
-![축소판 그림](/help/assets/icons/ThumbDownOutline.svg)
+![ThumbDownOutline](/help/assets/icons/ThumbDownOutline.svg)
 
 ## ThumbUp {#thumbup}
 
@@ -3326,7 +3326,7 @@ ht-degree: 6%
 
 ## 전송 플랫폼 {#transfertoplatform}
 
-![전송 플랫폼](/help/assets/icons/TransferToPlatform.svg)
+![TransferToPlatform](/help/assets/icons/TransferToPlatform.svg)
 
 ## 투명도 {#transparency}
 
@@ -3350,11 +3350,11 @@ ht-degree: 6%
 
 ## 트리 확장 {#treeexpandall}
 
-![트리 확장](/help/assets/icons/TreeExpandAll.svg)
+![TreeExpandAll](/help/assets/icons/TreeExpandAll.svg)
 
 ## 트리 뷰 {#treeview}
 
-![트리 뷰](/help/assets/icons/TreeView.svg)
+![트리 보기](/help/assets/icons/TreeView.svg)
 
 ## TrendInspect {#trendinspect}
 
@@ -3362,7 +3362,7 @@ ht-degree: 6%
 
 ## 트리밍 경로 {#trimpath}
 
-![트리밍 경로](/help/assets/icons/TrimPath.svg)
+![TrimPath](/help/assets/icons/TrimPath.svg)
 
 ## 트로피 {#trophy}
 
@@ -3386,7 +3386,7 @@ ht-degree: 6%
 
 ## 그룹화 해제 {#ungroup}
 
-![그룹화 해제](/help/assets/icons/Ungroup.svg)
+![그룹 해제](/help/assets/icons/Ungroup.svg)
 
 ## 연결 해제 {#unlink}
 
@@ -3402,7 +3402,7 @@ ht-degree: 6%
 
 ## UploadTocloud {#uploadtocloud}
 
-![UploadTocloud](/help/assets/icons/UploadToCloud.svg)
+![UploadToCloud](/help/assets/icons/UploadToCloud.svg)
 
 ## UploadToCloudOutline {#uploadtocloudoutline}
 
@@ -3430,7 +3430,7 @@ ht-degree: 6%
 
 ## 사용자 체크아웃 {#usercheckedout}
 
-![사용자 체크아웃](/help/assets/icons/UserCheckedOut.svg)
+![UserCheckedOut](/help/assets/icons/UserCheckedOut.svg)
 
 ## UserDeveloper {#userdeveloper}
 
@@ -3466,11 +3466,11 @@ ht-degree: 6%
 
 ## UsersLock {#userslock}
 
-![UsersLock](/help/assets/icons/UsersLock.svg)
+![사용자 잠금](/help/assets/icons/UsersLock.svg)
 
 ## UsersShare {#usersshare}
 
-![UsersShare](/help/assets/icons/UsersShare.svg)
+![사용자 공유](/help/assets/icons/UsersShare.svg)
 
 ## 변수 {#variable}
 
@@ -3478,7 +3478,7 @@ ht-degree: 6%
 
 ## 벡터 그리기 {#vectordraw}
 
-![벡터 그리기](/help/assets/icons/VectorDraw.svg)
+![VectorDraw](/help/assets/icons/VectorDraw.svg)
 
 ## VerticalMasonryGridView {#verticalmasonrygridview}
 
@@ -3486,7 +3486,7 @@ ht-degree: 6%
 
 ## 비디오 체크아웃 {#videocheckedout}
 
-![비디오 체크아웃](/help/assets/icons/VideoCheckedOut.svg)
+![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)
 
 ## VideoFilled {#videofilled}
 
@@ -3498,7 +3498,7 @@ ht-degree: 6%
 
 ## ViewAllTag {#viewalltag}
 
-![ViewAllTag](/help/assets/icons/ViewAllTag.svg)
+![모두 보기](/help/assets/icons/ViewAllTag.svg)
 
 ## ViewBiWeek {#viewbiweek}
 
@@ -3514,7 +3514,7 @@ ht-degree: 6%
 
 ## 열 보기 {#viewcolumn}
 
-![열 보기](/help/assets/icons/ViewColumn.svg)
+![ViewColumn](/help/assets/icons/ViewColumn.svg)
 
 ## ViewDay {#viewday}
 
@@ -3522,7 +3522,7 @@ ht-degree: 6%
 
 ## ViewDetail {#viewdetail}
 
-![ViewDetail](/help/assets/icons/ViewDetail.svg)
+![세부 정보 보기](/help/assets/icons/ViewDetail.svg)
 
 ## ViewGrid {#viewgrid}
 
@@ -3530,7 +3530,7 @@ ht-degree: 6%
 
 ## ViewList {#viewlist}
 
-![ViewList](/help/assets/icons/ViewList.svg)
+![보기 목록](/help/assets/icons/ViewList.svg)
 
 ## ViewRow {#viewrow}
 
@@ -3538,7 +3538,7 @@ ht-degree: 6%
 
 ## 단일 보기 {#viewsingle}
 
-![단일 보기](/help/assets/icons/ViewSingle.svg)
+![ViewSingle](/help/assets/icons/ViewSingle.svg)
 
 ## ViewStack {#viewstack}
 
@@ -3546,7 +3546,7 @@ ht-degree: 6%
 
 ## ViewTable {#viewtable}
 
-![ViewTable](/help/assets/icons/ViewTable.svg)
+![테이블 보기](/help/assets/icons/ViewTable.svg)
 
 ## ViewWeek {#viewweek}
 
@@ -3554,7 +3554,7 @@ ht-degree: 6%
 
 ## 조회함 표시 {#viewedmarka}
 
-![조회함 표시](/help/assets/icons/ViewedMarkA.svg)
+![ViewedMarkA](/help/assets/icons/ViewedMarkA.svg)
 
 ## 비네팅 {#vignette}
 
@@ -3566,7 +3566,7 @@ ht-degree: 6%
 
 ## 가시성 해제 {#visibilityoff}
 
-![가시성 해제](/help/assets/icons/VisibilityOff.svg)
+![VisibilityOff](/help/assets/icons/VisibilityOff.svg)
 
 ## 방문 {#visit}
 
@@ -3578,7 +3578,7 @@ ht-degree: 6%
 
 ## 보이스오버 {#voiceover}
 
-![보이스오버](/help/assets/icons/VoiceOver.svg)
+![VoiceOver](/help/assets/icons/VoiceOver.svg)
 
 ## 볼륨 음소거 {#volumemute}
 
@@ -3594,7 +3594,7 @@ ht-degree: 6%
 
 ## 볼륨 2 {#volumetwo}
 
-![볼륨 2](/help/assets/icons/VolumeTwo.svg)
+![VolumeTwo](/help/assets/icons/VolumeTwo.svg)
 
 ## 시청 {#watch}
 
@@ -3614,7 +3614,7 @@ ht-degree: 6%
 
 ## WorkflowAdd {#workflowadd}
 
-![WorkflowAdd](/help/assets/icons/WorkflowAdd.svg)
+![워크플로 추가](/help/assets/icons/WorkflowAdd.svg)
 
 ## 렌치 {#wrench}
 

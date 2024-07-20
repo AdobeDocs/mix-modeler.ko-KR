@@ -16,9 +16,9 @@ Experience Platform에 수집하고 Mix Modeler에 사용할 데이터가 포함
 
 1. Mix Modeler 인터페이스로 이동합니다.
 
-1. 선택 ![데이터](/help/assets//icons/Data.svg) **[!UICONTROL Datasets]**, 그 아래 **[!UICONTROL SETUP]**.
+1. **[!UICONTROL SETUP]** 아래의 ![데이터](/help/assets//icons/Data.svg) **[!UICONTROL Datasets]**&#x200B;을(를) 선택하십시오.
 
-다음을 참조하십시오. [데이터 세트 UI 안내서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) 추가 정보.
+자세한 내용은 [데이터 세트 UI 안내서](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en)를 참조하십시오.
 
 >[!MORELIKETHIS]
 >

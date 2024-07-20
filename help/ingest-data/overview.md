@@ -19,7 +19,7 @@ Mix Modeler은 이벤트 수준 데이터, 다양한 담벼락 정원의 한 가
 For example:
 
 * Adobe Analytics 소스 커넥터를 사용하여 수집된 데이터는 Adobe Analytics 스키마의 기본값 또는 사용자 지정 버전에 맞는 데이터 세트로 변환되거나
-* 웹, 모바일 또는 기타 유형의 디바이스에서 고객 상호 작용을 수집하기 위해 Experience Platform Web SDK, Mobile SDK 또는 Edge Network Server API를 사용하여 수집된 데이터
+* 웹, 모바일 또는 기타 모든 유형의 디바이스에서 고객 상호 작용을 수집하기 위해 Experience Platform Web SDK, Mobile SDK 또는 Edge Network 서버 API를 사용하여 수집된 데이터
 * 벽으로 둘러싸인 정원(예: Facebook, YouTube), 트래픽 소스 또는 오프라인 광고 데이터의 집계 또는 요약 데이터,
 * 모델 구축에 유용한 내부 또는 외부 요인이 포함된 비마케팅 집계 또는 요약 데이터입니다.
 

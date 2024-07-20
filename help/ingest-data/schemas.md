@@ -16,9 +16,9 @@ Experience Platform에서 수집하고 Mix Modeler에서 사용할 데이터를 
 
 1. Mix Modeler 인터페이스로 이동합니다.
 
-1. 선택 ![스키마](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**, 그 아래 **[!UICONTROL SETUP]**.
+1. **[!UICONTROL SETUP]** 아래의 ![스키마](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**&#x200B;을(를) 선택하십시오.
 
-다음을 참조하십시오. [스키마 UI 개요](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en) 추가 정보.
+자세한 내용은 [스키마 UI 개요](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en)를 참조하십시오.
 
 ## 집계 또는 요약 데이터
 
@@ -36,9 +36,9 @@ XDM 요약 지표 클래스 사용:
 >
 >수집된 데이터에 필요한 지표를 지원하려면 스키마 정의에 하나 이상의 숫자 필드(정수, Double, 부울 또는 기타 숫자 유형 사용)가 포함되어야 합니다.
 
-를 사용하는 스키마 **[!DNL XDM Summary Metrics]** 기본 클래스는 다음과같이 간단할 수 있습니다. **[!DNL ExternalFactorSummarySchema]** 아래요.
+아래 **[!DNL ExternalFactorSummarySchema]**&#x200B;에 표시된 대로 **[!DNL XDM Summary Metrics]** 기본 클래스를 사용하는 스키마는 간단할 수 있습니다.
 
-![외부 요인 스키마](/help/assets//external-factors-schema.png)
+![외부 요소 스키마](/help/assets//external-factors-schema.png)
 
 이 간단한 스키마를 사용하여 다음과 같은 데이터를 포함하는 데이터 세트를 수집할 수 있습니다.
 
@@ -46,24 +46,24 @@ XDM 요약 지표 클래스 사용:
 
   | 타임스탬프 | date_type | 요소 | 값 |
   |---|---|---|--:|
-  | 2020년 11월 28일:00:00.000Z | 주 | competitor_index | 289.8 |
-  | 2020년 12월 5일:00:00.000Z | 주 | competitor_index | 291.2 |
-  | 2020년 12월 12일:00:00.000Z | 주 | competitor_index | 280.07 |
+  | 2020-11-28T00:00:00.000Z | 주 | competitor_index | 289.8 |
+  | 2020-12-05T00:00:00.000Z | 주 | competitor_index | 291.2 |
+  | 2020-12-12T00:00:00.000Z | 주 | competitor_index | 280.07 |
   | ... | ... | ... | ... |
 
 - 공휴일 데이터
 
   | 타임스탬프 | date_type | 요소 | 값 |
   |---|---|---|--:|
-  | 2020년 11월 28일:00:00.000Z | 주 | all_holidays_flag | 0.0 |
-  | 2020년 12월 5일:00:00.000Z | 주 | all_holidays_flag | 0.0 |
-  | 2020년 12월 12일:00:00.000Z | 주 | all_holidays_flag | 0.0 |
-  | 2020년 12월 19일:00:00.000Z | 주 | all_holidays_flag | 0.0 |
-  | 2020년 12월 26일:00:00.000Z | 주 | all_holidays_flag | 1.0 |
+  | 2020-11-28T00:00:00.000Z | 주 | all_holidays_flag | 0.0 |
+  | 2020-12-05T00:00:00.000Z | 주 | all_holidays_flag | 0.0 |
+  | 2020-12-12T00:00:00.000Z | 주 | all_holidays_flag | 0.0 |
+  | 2020-12-19T00:00:00.000Z | 주 | all_holidays_flag | 0.0 |
+  | 2020-12-26T00:00:00.000Z | 주 | all_holidays_flag | 1.0 |
   | ... | ... | ... | ... |
 
 
-의 보다 포괄적인 예는 아래 를 참조하십시오. **[!DNL LumaPaidMarketingSchema]** 사용 **[!DNL XDM Summary Metrics]** 를 기본 클래스로 사용합니다. 스키마는 지표 ( )에 전용 필드 그룹 ( 색상으로 주석 처리 됨)을 사용합니다.**[!DNL AMMMetrics]**), 차원 (**[!DNL AMMDimensions]**) 및 기타 고객별 정보(**[!DNL CustomerSpecific]**).
+**[!DNL XDM Summary Metrics]**&#x200B;을(를) 기본 클래스로 사용하는 **[!DNL LumaPaidMarketingSchema]**&#x200B;에 대한 보다 포괄적인 예제는 아래를 참조하십시오. 스키마는 지표(**[!DNL AMMMetrics]**), 차원(**[!DNL AMMDimensions]**) 및 기타 고객별 정보(**[!DNL CustomerSpecific]**)에 대해 색상 주석이 있는 전용 필드 그룹을 사용합니다.
 
 ![요약 스키마](/help/assets//summary-schema.png)
 
@@ -72,7 +72,7 @@ XDM 요약 지표 클래스 사용:
 
 ## 지원되는 데이터 유형
 
-현재 Mix Modeler은 Experience Platform 데이터 유형의 하위 집합을 지원합니다. 에 언급된 다음과 같은 기본 데이터 유형(필드) [스키마 컴포지션 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type), 지원:
+현재 Mix Modeler은 Experience Platform 데이터 유형의 하위 집합을 지원합니다. [스키마 컴포지션의 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)에 언급된 다음 기본 데이터 형식(필드)이 지원됩니다.
 
 - 문자열
 - 정수

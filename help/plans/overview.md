@@ -33,7 +33,7 @@ Mix Modeler의 플랜을 사용하면 비즈니스 단위 및 채널별로 예�
 
 Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음을 수행합니다.
 
-1. 선택 ![](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** 왼쪽 레일에서.
+1. 왼쪽 레일에서 ![](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]**&#x200B;을(를) 선택합니다.
 
 1. 현재 플랜과 해당 상태에 대한 표가 표시됩니다.
 
@@ -47,27 +47,27 @@ Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음
    | 예산 | 플랜에 대한 총 예산. |
    | 예측 반환 | 플랜에 대한 예측 반환 |
    | 예측된 ROI | 플랜에 대한 예측된 ROI. |
-   | 상태 | 플랜 상태: <p><span style="color:red">●</span> 실패, <p><span style="color:blue">●</span> 처리 중 또는 <p><span style="color:green">●</span> 완료. |
+   | 상태 | 플랜 상태: <p><span style="color:red">●</span> 실패, <p><span style="color:blue">●</span> 처리 중, 또는 <p><span style="color:green">●</span>이(가) 완료되었습니다. |
 
    {style="table-layout:auto"}
 
-1. 사용 ![검색](/help/assets//icons/Search.svg) 하나 이상의 특정 플랜에 대해 테이블을 검색하고 필터링합니다.
+1. ![검색](/help/assets//icons/Search.svg)을 사용하여 하나 이상의 특정 계획에 대한 테이블을 검색하고 필터링합니다.
 
 ## 계획 만들기
 
-계획을 생성하려면 Mix Modeler 계획 생성 마법사를 사용합니다. 다음을 참조하십시오 [계획 만들기](create.md) 을 참조하십시오.
+계획을 생성하려면 Mix Modeler 계획 생성 마법사를 사용합니다. 자세한 내용은 [계획 만들기](create.md)를 참조하십시오.
 
 
 ## 플랜 편집
 
-계획을 편집하려면 테이블에서 계획명을 선택합니다. 다음을 참조하십시오 [플랜 편집](edit.md) 추가 정보.
+계획을 편집하려면 테이블에서 계획명을 선택합니다. 자세한 내용은 [플랜 편집](edit.md)을 참조하십시오.
 
 
 ## 플랜에 대한 선택 및 조치
 
 하나 이상의 플랜을 선택할 수 있으며, 이렇게 하면 플랜 작업 표시줄이 표시됩니다. 작업 표시줄을 사용하여 계획을 삭제, 비교 또는 복제할 수 있습니다.
 
-계획 테이블에서 모든 선택사항을 제거하려면 다음을 선택합니다 ![닫기](/help/assets//icons/Close.svg) 작업 표시줄에서
+계획 테이블에서 모든 선택 항목을 제거하려면 작업 표시줄에서 ![닫기](/help/assets//icons/Close.svg)를 선택합니다
 
 ![플랜 작업 표시줄](/help/assets//plans-action-bar.png)
 
@@ -76,19 +76,19 @@ Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음
 계획을 복제하려면
 
 1. 테이블에서 단일 계획을 선택합니다.
-1. 선택 ![복사](/help/assets//icons/Copy.svg) **[!UICONTROL Duplicate]** 작업 표시줄에서 원래 계획명에 덧붙여진 이름으로 구성된 새 계획 **[!UICONTROL (Copy)]**&#x200B;가 표의 맨 위에 추가됩니다.
+1. 작업 표시줄에서 ![복사](/help/assets//icons/Copy.svg) **[!UICONTROL Duplicate]**&#x200B;을(를) 선택합니다. 원래 계획 이름에 **[!UICONTROL (Copy)]**&#x200B;을(를) 추가한 새 계획이 테이블 맨 위에 추가됩니다.
 
 또는
 
-1. 선택 ![자세히](/help/assets//icons/More.svg) 테이블에 있는 플랜에 대해.
-1. 선택 **[!UICONTROL Duplicate]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다. 원래 계획명에 덧붙여진 이름으로 구성된 새 계획 **[!UICONTROL (Copy)]**&#x200B;가 표의 맨 위에 추가됩니다.
+1. 테이블의 플랜에 대해 ![자세히](/help/assets//icons/More.svg)을(를) 선택하십시오.
+1. 상황에 맞는 메뉴에서 **[!UICONTROL Duplicate]**&#x200B;을(를) 선택합니다. 원래 계획 이름에 **[!UICONTROL (Copy)]**&#x200B;을(를) 추가한 새 계획이 테이블 맨 위에 추가됩니다.
 
 ### 계획 비교
 
 계획을 비교하려면
 
 1. 테이블에서 두 개의 계획을 선택합니다.
-1. 선택 ![비교](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]** 작업 표시줄에서 다음을 볼 수 있습니다. **[!UICONTROL Compare plans]** UI.
+1. 작업 표시줄에서 ![비교](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]**&#x200B;을(를) 선택합니다. **[!UICONTROL Compare plans]** UI가 표시됩니다.
 
 
 ### 계획 삭제
@@ -96,12 +96,12 @@ Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음
 계획을 삭제하려면
 
 1. 테이블에서 하나 이상의 계획을 선택합니다.
-1. 선택 ![삭제](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** 작업 표시줄에서
+1. 작업 표시줄에서 ![삭제](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택합니다.
 
 또는
 
-1. 선택 ![자세히](/help/assets//icons/More.svg) 테이블에 있는 플랜에 대해.
-1. 선택 **[!UICONTROL Delete]** 컨텍스트 메뉴 아래의 제품에서 사용할 수 있습니다. 원래 계획명에 덧붙여진 이름으로 구성된 새 계획 **[!UICONTROL (Copy)]**&#x200B;가 표의 맨 위에 추가됩니다.
+1. 테이블의 플랜에 대해 ![자세히](/help/assets//icons/More.svg)을(를) 선택하십시오.
+1. 상황에 맞는 메뉴에서 **[!UICONTROL Delete]**&#x200B;을(를) 선택합니다. 원래 계획 이름에 **[!UICONTROL (Copy)]**&#x200B;을(를) 추가한 새 계획이 테이블 맨 위에 추가됩니다.
 
    >[!WARNING]
    >

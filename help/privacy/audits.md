@@ -16,9 +16,9 @@ Mix Modeler UI에 포함된 Experience Platform의 일부인 감사 인터페이
 
 감사 로그를 검사하려면 Mix Modeler 인터페이스에서 다음을 수행합니다.
 
-1. 선택 ![작업 목록](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]** 출처: **[!UICONTROL PRIVACY]**.
+1. **[!UICONTROL PRIVACY]**&#x200B;에서 ![작업 목록](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]**&#x200B;을(를) 선택하십시오.
 
-1. 위치 **[!UICONTROL Audits]**, 다음을 찾을 수 있습니다. **[!UICONTROL Activity log]**. 활동 로그에는 다음 Mix Modeler 범주, 작업 및 상태에 대한 항목이 표시됩니다.
+1. **[!UICONTROL Audits]**&#x200B;에서 **[!UICONTROL Activity log]**&#x200B;을(를) 찾을 수 있습니다. 활동 로그에는 다음 Mix Modeler 범주, 작업 및 상태에 대한 항목이 표시됩니다.
 
    | 카테고리 | 작업 | 상태 |
    |---|---|---|
@@ -51,9 +51,9 @@ Mix Modeler UI에 포함된 Experience Platform의 일부인 감사 인터페이
 
    ![Mix Modeler 감사](/help/assets/mix-modeler-audit.png)
 
-1. 필터링 대상 **[!UICONTROL Category]**, **[!UICONTROL Action]**, **[!UICONTROL Request ID]**, **[!UICONTROL User]**, **[!UICONTROL Status]** 또는 **[!UICONTROL Date]** 범위, 선택 ![필터](/help/assets/icons/Filter.svg).
+1. **[!UICONTROL Category]**, **[!UICONTROL Action]**, **[!UICONTROL Request ID]**, **[!UICONTROL User]**, **[!UICONTROL Status]** 또는 **[!UICONTROL Date]** 범위를 필터링하려면 ![필터](/help/assets/icons/Filter.svg)를 선택하십시오.
 
-1. 작업 로그에 표시되는 열을 수정하려면 다음을 선택합니다. ![열](/help/assets/icons/ColumnSetting.svg) 및 **[!UICONTROL Customize table]** 대화 상자에서 표시할 열을 선택합니다. 선택 **[!UICONTROL Apply]** 선택 항목을 적용하려면 **[!UICONTROL Cancel]** 선택 항목을 취소합니다.
+1. 활동 로그에 표시되는 열을 수정하려면 ![열](/help/assets/icons/ColumnSetting.svg)을 선택하고 **[!UICONTROL Customize table]** 대화 상자에서 표시할 열을 선택합니다. 선택 항목을 적용하려면 **[!UICONTROL Apply]**&#x200B;을(를) 선택하고 선택 항목을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택합니다.
 
-1. 감사 로그를 다운로드하려면 다음을 선택합니다. ![다운로드](/help/assets/icons/Download.svg) **[!UICONTROL Download log]**. 다음에서 **[!UICONTROL Download log]** 대화 상자에서 다음 중 하나를 선택합니다. **[!UICONTROL CSV]** 또는 **[!UICONTROL JSON]** 을(를) 형식으로 설정하고 을(를) 선택합니다. **[!UICONTROL Download]**.
+1. 감사 로그를 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg) **[!UICONTROL Download log]**&#x200B;를 선택하십시오. **[!UICONTROL Download log]** 대화 상자에서 **[!UICONTROL CSV]** 또는 **[!UICONTROL JSON]**&#x200B;을(를) 형식으로 선택하고 **[!UICONTROL Download]**&#x200B;을(를) 선택합니다.
 

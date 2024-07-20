@@ -24,8 +24,8 @@ Mix Modeler의 일반적인 워크플로우는 다음 활동으로 구성됩니�
 |  | 활동 | 설명 |
 |---|---|---|
 | ![데이터](/help/assets//icons/Data.svg){width="100"} | [**데이터 수집**](../ingest-data/overview.md) | Experience Platform(예: Adobe Analytics, Web SDK, 기타 소스)의 이벤트 데이터, 마케팅 채널의 집계 데이터(예: TV, 담벼락 정원, 이메일, 소유 및 운영 활동), 고객의 외부 요인 데이터(예: 구독 서비스의 가격 변경) 및 내부 요인 데이터(예: 휴일 플랜)를 수집합니다. |
-| ![DataCheck](/help/assets//icons/DataCheck.svg){width="100"} | [**데이터 조화**](../harmonize-data/overview.md) | 매핑 규칙 및 충돌 해결 규칙을 구성하여 Mix Modeler에서 캠페인 성과를 측정하고 계획하는 데 필요한 다양한 마케팅 데이터 세트를 병합합니다. |
-| ![파일 구성](/help/assets//icons/FileGear.svg){width="100"} | [**모델 구성**](../models/create.md) | 마케팅 접점(예: 채널), 전환 정의 및 내부 및 외부 요인으로 모델 인스턴스를 구성합니다. |
+| ![DataCheck](/help/assets//icons/DataCheck.svg){width="100"} | [**데이터 통합**](../harmonize-data/overview.md) | 매핑 규칙 및 충돌 해결 규칙을 구성하여 Mix Modeler에서 캠페인 성과를 측정하고 계획하는 데 필요한 다양한 마케팅 데이터 세트를 병합합니다. |
+| ![FileConfig](/help/assets//icons/FileGear.svg){width="100"} | [**모델 구성**](../models/create.md) | 마케팅 접점(예: 채널), 전환 정의 및 내부 및 외부 요인으로 모델 인스턴스를 구성합니다. |
 | ![파일 데이터](/help/assets//icons/FileData.svg){width="100"} | [**교육 및 점수 모델**](../models/overview.md) | 머신 러닝 교육 및 채점을 사용하여 집계 및 이벤트 수준 점수를 만드십시오. |
 | ![파일 차트](/help/assets//icons/FileChart.svg){width="100"} | [**계획 만들기**](../plans/overview.md) | Mix Modeler 모델의 결과를 사용하여 비즈니스 목표를 달성하기 위한 마케팅 자금의 최상의 할당을 결정합니다. |
 | ![대시보드](/help/assets//icons/Dashboard.svg){width="100"} | [**개요 대시보드**](../dashboard/overview.md) | 다양한 구성 가능한 위젯을 사용하여 결합된 데이터, 모델 및 플랜에 대한 통찰력을 얻으십시오. |
@@ -47,4 +47,4 @@ Mix Modeler의 일반적인 워크플로우는 다음 활동으로 구성됩니�
 
 * 다중 터치 속성 이벤트 점수는 후속 모델 구성, 교육 및 점수에 사용하기 위해 Experience Platform 데이터 레이크로 피드백될 수 있습니다.
 
-![포괄적인 워크플로우](/help/assets//comprehensive-workflow.svg)
+![전체 워크플로](/help/assets//comprehensive-workflow.svg)

@@ -35,13 +35,13 @@ Mix Modeler의 모델은 마케터의 투자를 기반으로 지정된 결과를
 
 ## 모델 만들기
 
-모델을 생성하려면 다음을 선택할 때 사용할 수 있는 Mix Modeler 단계별 안내식 모델 구성 흐름을 사용하십시오 **[!UICONTROL Open model canvas]**. 다음을 참조하십시오 [모델 만들기](create.md) 을 참조하십시오.
+모델을 만들려면 **[!UICONTROL Open model canvas]**&#x200B;을(를) 선택할 때 사용할 수 있는 Mix Modeler 단계별 안내식 모델 구성 흐름을 사용하십시오. 자세한 내용은 [모델 만들기](create.md)를 참조하십시오.
 
 ## 모델 관리
 
 Mix Modeler 인터페이스에서 현재 모델의 테이블을 보려면 다음을 수행합니다.
 
-1. 선택 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** 왼쪽 레일에서.
+1. 왼쪽 레일에서 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
 
 1. 현재 모델의 표가 표시됩니다.
 
@@ -54,18 +54,18 @@ Mix Modeler 인터페이스에서 현재 모델의 테이블을 보려면 다음
    | 전환 이벤트 | 모델에 대해 선택한 변환입니다. |
    | 실행 빈도 | 모델 교육의 실행 빈도입니다. |
    | 마지막 실행 | 모델의 마지막 교육 날짜 및 시간입니다. |
-   | 상태 | 모델 교육의 마지막 실행 상태입니다. <br/><span style="color:green">●</span> 성공<br/><span style="color:orange">●</span> 교육 문제<br/> <span style="color:orange">●</span> 교육 대기 중 <br/><span style="color:red">●</span> 실패 <br/><span style="color:gray">●</span> _ (마지막 실행이 진행 중인 경우) |
+   | 상태 | 모델 교육의 마지막 실행 상태입니다. <br/><span style="color:green">●</span> 성공<br/><span style="color:orange">●</span> 교육 문제<br/> <span style="color:orange">●</span> 교육 대기 중 <br/><span style="color:red">●</span> 실패 <br/><span style="color:gray">●</span> _(마지막 실행이 진행 중인 경우) |
 
    {style="table-layout:auto"}
 
-1. 목록에 표시되는 열을 변경하려면 다음을 선택합니다 ![열 설정](/help/assets//icons/ColumnSetting.svg) 열 켜기/끄기 ![확인](/help/assets//icons/Checkmark.svg) 또는 끔.
+1. 목록에 표시되는 열을 변경하려면 ![열 설정](/help/assets//icons/ColumnSetting.svg)을 선택하고 ![확인](/help/assets//icons/Checkmark.svg)을 설정하거나 해제합니다.
 
 
 ### 모델의 세부 정보 보기
 
 모델의 세부 정보를 보려면 다음 작업을 수행하십시오.
 
-1. 선택 ![정보](/help/assets//icons/Info.svg) 모델의 경우 세부 정보가 포함된 팝업을 표시할 수 있습니다.
+1. 세부 정보가 포함된 팝업을 표시하려면 모델에 대한 ![정보](/help/assets//icons/Info.svg)을(를) 선택하십시오.
 
 
 
@@ -73,11 +73,11 @@ Mix Modeler 인터페이스에서 현재 모델의 테이블을 보려면 다음
 
 Mix Modeler 인터페이스에서 모델의 통찰력을 보려면 다음을 수행하십시오.
 
-1. 선택 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** 왼쪽 레일에서.
+1. 왼쪽 레일에서 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
 
-1. 을(를) 가진 모델 이름 선택 **[!UICONTROL Last run status]** / <span style="color:green">●</span> **[!UICONTROL Success]** 다음에서 **[!UICONTROL Models]** 테이블. 모델 인사이트는 정상적으로 훈련된 모델에서만 사용할 수 있습니다.
+1. **[!UICONTROL Last run status]**&#x200B;이(가) <span style="color:green">●</span>인 모델 이름 선택 **[!UICONTROL Models]** 테이블의 **[!UICONTROL Success]**. 모델 인사이트는 정상적으로 훈련된 모델에서만 사용할 수 있습니다.
 
-1. 컨텍스트 메뉴에서 을(를) 선택합니다 **[!UICONTROL Model Insights]**. (으)로 리디렉션됩니다. [모델 인사이트](insights.md).
+1. 컨텍스트 메뉴에서 **[!UICONTROL Model Insights]**&#x200B;을(를) 선택합니다. [모델 인사이트](insights.md)(으)로 리디렉션되었습니다.
 
 
 ### 재채점
@@ -85,11 +85,11 @@ Mix Modeler 인터페이스에서 모델의 통찰력을 보려면 다음을 수
 
 Mix Modeler 인터페이스에서 모델을 다시 평가하려면 다음을 수행하십시오.
 
-1. 선택 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** 왼쪽 레일에서.
+1. 왼쪽 레일에서 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
 
-1. 을(를) 가진 모델 이름 선택 **[!UICONTROL Last run status]** / <span style="color:green">●</span> **[!UICONTROL Success]** 다음에서 **[!UICONTROL Models]** 테이블. 재점수는 성공적으로 훈련된 모델에서만 사용할 수 있습니다.
+1. **[!UICONTROL Last run status]**&#x200B;이(가) <span style="color:green">●</span>인 모델 이름 선택 **[!UICONTROL Models]** 테이블의 **[!UICONTROL Success]**. 재점수는 성공적으로 훈련된 모델에서만 사용할 수 있습니다.
 
-1. 컨텍스트 메뉴에서 을(를) 선택합니다 **[!UICONTROL Re-score]**. 모델에 대한 업데이트된 상태를 표시하는 데 몇 분 정도 걸릴 수 있습니다.
+1. 컨텍스트 메뉴에서 **[!UICONTROL Re-score]**&#x200B;을(를) 선택합니다. 모델에 대한 업데이트된 상태를 표시하는 데 몇 분 정도 걸릴 수 있습니다.
 
 
 ### 모델 삭제
@@ -98,7 +98,7 @@ Mix Modeler 인터페이스에서 모델을 다시 평가하려면 다음을 수
 
 1. 삭제할 모델의 이름을 선택합니다.
 
-1. 컨텍스트 메뉴에서 을(를) 선택합니다 **[!UICONTROL Delete]** 모델을 삭제합니다.
+1. 컨텍스트 메뉴에서 **[!UICONTROL Delete]**&#x200B;을(를) 선택하여 모델을 삭제합니다.
 
    >[!WARNING]
    >

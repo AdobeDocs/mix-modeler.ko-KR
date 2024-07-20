@@ -16,12 +16,12 @@ ht-degree: 0%
 
 조정된 데이터의 사용 보고서를 보려면 다음 작업을 수행하십시오.
 
-1. 선택 ![데이터 검색](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 왼쪽 레일에서.
+1. 왼쪽 레일에서 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]**&#x200B;을(를) 선택합니다.
 
-1. 선택 **[!UICONTROL Usage report]** 을 클릭합니다.
+1. 상단 표시줄에서 **[!UICONTROL Usage report]**&#x200B;을(를) 선택합니다.
 
 사용 보고서는 다음을 표시합니다.
 
-* 다음을 나열하는 테이블 **[!UICONTROL # of Models]** 통합 데이터를 사용했습니다.
+* 통합 데이터를 사용한 **[!UICONTROL # of Models]**&#x200B;을(를) 나열하는 테이블입니다.
 
-* 다음을 나열하는 테이블 **[!UICONTROL # of Conversions (last 5 years)]** 통합 데이터를 사용했습니다. 표의 세부기간을 선택하려면 다음을 선택합니다 **[!UICONTROL Year]** 또는 **[!UICONTROL Month]** 다음에서 **[!UICONTROL View by selection]**.
+* 통합 데이터를 사용한 **[!UICONTROL # of Conversions (last 5 years)]**&#x200B;을(를) 나열하는 테이블입니다. 표의 세부기간을 선택하려면 **[!UICONTROL View by selection]**&#x200B;에서 **[!UICONTROL Year]** 또는 **[!UICONTROL Month]**&#x200B;을(를) 선택하십시오.

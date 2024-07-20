@@ -17,12 +17,12 @@ ht-degree: 0%
 >[!BADGE Alpha]{type=Informative}
 
 
-Mix Modeler 개요 의 플랜 탭에는 다음에 대한 위젯이 표시됩니다. [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] 및 [!UICONTROL KPI].
+Mix Modeler 개요의 플랜 탭에는 [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] 및 [!UICONTROL KPI]에 대한 위젯이 표시됩니다.
 
 위젯에 대해 표시되는 데이터는 다음에 의해 결정됩니다.
 
-* 계획이요 다음에서 플랜 선택 **[!UICONTROL Plan name]** 사용 **[!UICONTROL _옵션 선택..._]**.
+* 계획이요 **[!UICONTROL _옵션 선택..._]**&#x200B;을(를) 사용하여 **[!UICONTROL Plan name]**&#x200B;에서 플랜을 선택하십시오.
 
-* 지정된 날짜 기간입니다. 일자 기간을 변경하려면 시작 일자와 종료 일자를 수동으로 입력하거나 다음을 사용하여 일자 기간을 선택합니다 ![캘린더](/help/assets//icons/Calendar.svg).
+* 지정된 날짜 기간입니다. 날짜 기간을 변경하려면 시작 날짜와 종료 날짜를 수동으로 입력하거나 ![달력](/help/assets//icons/Calendar.svg)을 사용하여 날짜 기간을 선택하십시오.
 
 
