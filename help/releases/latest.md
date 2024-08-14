@@ -4,10 +4,10 @@ description: 최신 Mix Modeler 릴리스 정보
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 23c83cd3576951eb5f8d64bd98f8a5b9e57286a5
+source-git-commit: 7793d32d2b2cb8ede80df9d8e3ea4df5c92d26aa
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 9%
+source-wordcount: '431'
+ht-degree: 8%
 
 ---
 
@@ -15,7 +15,18 @@ ht-degree: 9%
 
 **마지막 업데이트**: 2024년 5월 29일.
 
-이 릴리스 노트는 Mix Modeler의 최신 릴리스를 다룹니다. Mix Modeler 릴리스는 대략적인 월별 릴리스 케이던스를 허용하는 연속 게재 모델에서 작동합니다. 따라서 이 릴리스 정보는 업데이트되므로 정기적으로 확인하십시오.
+이 릴리스 노트는 Mix Modeler의 최신 릴리스를 다룹니다. Mix Modeler 릴리스는 연속 게재 모델에서 작동하므로 대략적인 월별 릴리스 케이던스를 사용할 수 있습니다. 따라서 이 릴리스 정보는 업데이트되므로 정기적으로 확인하십시오.
+
+## 2024년 8월
+
+| 기능 | 설명 | 일반 가용성 |
+|---|---|---|
+| **[!UICONTROL Ad-hoc training and scoring]** | 모델 인터페이스에서 모델 [다시 교육](/help/models/overview.md#re-train), [점수(새 마케팅 데이터의 경우) 또는 다시 점수](/help/models/overview.md#score-or-re-score)를 시작할 수 있습니다. | 2024년 8월 13일 |
+| **[!UICONTROL Policy enforcement]** | Experience Platform 정책은 데이터 세트 규칙을 구성할 때와 Mix Modeler에서 사용되는 기본 데이터로 레이블을 수정할 때 적용됩니다. 자세한 내용은 [정책](../data-governance/policies.md)을 참조하세요. | 2024년 8월 13일 |
+| **데이터 위생** | 데이터 위생 규칙은 소스 데이터를 삭제할 때 준수됩니다. [원본 데이터 집합 삭제](../harmonize-data/dataset-rules.md#delete-a-source-dataset)를 참조하세요. | 2024년 8월 13일 |
+| **인자 기여도 인사이트** | [!UICONTROL Model insights]에서 [[!UICONTROL Factors]](/help/models/insights.md#factors) 탭은 외부 요소 관련 통찰력을 제공합니다. | 2024년 8월 13일 |
+| **한계 응답 곡선** | Model Insights의 [한계 응답 곡선](/help/models/insights.md#model-insights-1) 위젯은 이제 선택한 데이터 범위의 변경 사항에 따라 곡선 및 해당 값을 업데이트합니다. 또한, 위젯은 한계 손익 분기점과 감소 수익률을 보여줍니다. | 2024년 8월 20일 |
+
 
 ## 2024년 6월
 

@@ -3,16 +3,16 @@ title: 모델
 description: Mix Modeler에서 모델을 구성하고 사용하는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: d5d9ec6b7b1222b3da9dcecaf3fa1cf2b2198881
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
 
 # 모델
 
-Mix Modeler의 모델 기능을 사용하면 비즈니스 목표에 맞고 멀티터치 속성 및 마케팅 믹스 모델링 간 AI 기반 전환 학습이 지원되는 AI/ML 모델을 구성, 트레이닝 및 평가할 수 있습니다.
+Mix Modeler의 모델 기능을 사용하면 비즈니스 목표와 관련된 AI/ML 모델을 구성하고, 교육하고, 평가할 수 있습니다. 교육 및 점수는 멀티터치 기여도 분석과 마케팅 믹스 모델링 간의 AI 기반 전환 학습을 지원합니다.
 
 이 모델은 Mix Modeler 애플리케이션 워크플로의 일부로 만드는 통합 데이터를 기반으로 합니다.
 
@@ -20,17 +20,17 @@ Mix Modeler의 모델은 마케터의 투자를 기반으로 지정된 결과를
 
 모델은 다음을 필요로 합니다.
 
-* 한 번의 전환,
-* 요약 수준 데이터, 마케팅 접점 데이터(이벤트 데이터) 또는 둘 다로 구성된 하나 이상의 마케팅 접점(채널)
-* 구성 가능한 전환 확인 기간
+* 전환 1개.
+* 요약 수준 데이터, 마케팅 접점 데이터(이벤트 데이터) 또는 둘 다로 구성된 하나 이상의 마케팅 접점(채널).
+* 구성 가능한 전환 확인 기간.
 * 구성 가능한 교육 창.
 
 모델은 다음을 선택적으로 포함할 수 있습니다.
 
-* 외부 요인,
-* 내부 요인,
-* 채널별로 사전 변환을 색인화하는 소위 &#39;priors&#39;(해당 데이터를 관찰하기 전이나 전에 데이터의 지식 또는 불확실성을 나타내는 확률 분포)
-* 지출 공유 - 마케팅 데이터가 희소할 때 상대 지출 공유를 프록시로 사용합니다.
+* 외부 요인.
+* 내부 요인.
+* 과거 관련자 경험, 증분 테스트, 기타 모델 등 다른 소스의 마케팅 기여에 대한 사전 지식.
+* 마케팅 데이터가 희소할 때 상대 지출 공유를 프록시로 사용하는 지출 공유.
 
 
 ## 모델 만들기
@@ -54,51 +54,96 @@ Mix Modeler 인터페이스에서 현재 모델의 테이블을 보려면 다음
    | 전환 이벤트 | 모델에 대해 선택한 변환입니다. |
    | 실행 빈도 | 모델 교육의 실행 빈도입니다. |
    | 마지막 실행 | 모델의 마지막 교육 날짜 및 시간입니다. |
-   | 상태 | 모델 교육의 마지막 실행 상태입니다. <br/><span style="color:green">●</span> 성공<br/><span style="color:orange">●</span> 교육 문제<br/> <span style="color:orange">●</span> 교육 대기 중 <br/><span style="color:red">●</span> 실패 <br/><span style="color:gray">●</span> _(마지막 실행이 진행 중인 경우) |
+   | 상태 | 모델 교육의 마지막 실행 상태입니다. <br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) 성공<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) 교육 문제<br/> ![StatusOrange](/help/assets/icons/StatusOrange.svg) 교육 대기 중 <br/>![StatusRed](/help/assets/icons/StatusRed.svg) 실패 <br/>![StatusGreen](/help/assets/icons/StatusGray.svg) _(마지막 실행이 진행 중인 경우) |
 
    {style="table-layout:auto"}
 
 1. 목록에 표시되는 열을 변경하려면 ![열 설정](/help/assets//icons/ColumnSetting.svg)을 선택하고 ![확인](/help/assets//icons/Checkmark.svg)을 설정하거나 해제합니다.
 
+특정 모델에 대해 다음 작업을 수행할 수 있습니다.
 
-### 모델의 세부 정보 보기
+### 세부 정보 보기
 
 모델의 세부 정보를 보려면 다음 작업을 수행하십시오.
+
+1. 왼쪽 레일에서 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
 
 1. 세부 정보가 포함된 팝업을 표시하려면 모델에 대한 ![정보](/help/assets//icons/Info.svg)을(를) 선택하십시오.
 
 
 
+### 복제
+
+모델을 빠르게 복제할 수 있습니다.
+
+1. 왼쪽 레일에서 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
+
+1. 모델에 대해 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Duplicate]**&#x200B;을(를) 선택합니다.
+
+
 ### 모델 인사이트
 
-Mix Modeler 인터페이스에서 모델의 통찰력을 보려면 다음을 수행하십시오.
+모델 인사이트 기능은 성공적으로 교육되고 채점된 모델에서만 사용할 수 있습니다. 모델의 통찰력을 보려면 다음 작업을 수행하십시오.
 
 1. 왼쪽 레일에서 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Last run status]**&#x200B;이(가) <span style="color:green">●</span>인 모델 이름 선택 **[!UICONTROL Models]** 테이블의 **[!UICONTROL Success]**. 모델 인사이트는 정상적으로 훈련된 모델에서만 사용할 수 있습니다.
+1. 모델 이름을 선택합니다.
 
-1. 컨텍스트 메뉴에서 **[!UICONTROL Model Insights]**&#x200B;을(를) 선택합니다. [모델 인사이트](insights.md)(으)로 리디렉션되었습니다.
-
-
-### 재채점
+[모델 인사이트](insights.md)(으)로 리디렉션되었습니다.
 
 
-Mix Modeler 인터페이스에서 모델을 다시 평가하려면 다음을 수행하십시오.
+### 재교육
+
+모델 재교육은 성공적으로 교육된 모델에서만 사용할 수 있습니다. 모델을 재교육하려면
 
 1. 왼쪽 레일에서 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Last run status]**&#x200B;이(가) <span style="color:green">●</span>인 모델 이름 선택 **[!UICONTROL Models]** 테이블의 **[!UICONTROL Success]**. 재점수는 성공적으로 훈련된 모델에서만 사용할 수 있습니다.
+1. 모델에 대해 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Train]**&#x200B;을(를) 선택합니다. 또는 파란색 작업 표시줄에서 ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]**&#x200B;을(를) 선택하십시오.
 
-1. 컨텍스트 메뉴에서 **[!UICONTROL Re-score]**&#x200B;을(를) 선택합니다. 모델에 대한 업데이트된 상태를 표시하는 데 몇 분 정도 걸릴 수 있습니다.
+   **[!UICONTROL Train model]** 대화 상자에서 다음 옵션을 선택합니다.
+
+   * **[!UICONTROL Train model with last 2 years of marketing data]** 또는
+   * **[!UICONTROL Train model using specific date range of data]**.
+날짜 범위를 지정합니다. ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 범위를 선택할 수 있습니다. 최소 1년의 데이터 범위를 선택해야 합니다.
+
+   ![모델 다시 교육](../assets/re-train-model.png)
+
+1. 모델을 다시 교육하려면 **[!UICONTROL Train]**&#x200B;을(를) 선택하십시오.
+
+
+### 점수 또는 재점수
+
+
+새 마케팅 데이터를 기반으로 모델에 증분 점수를 매기거나 특정 날짜 범위에 대한 모델에 다시 점수를 매길 수 있습니다. 모델에 점수를 매기거나 다시 매기려면 다음을 수행합니다.
+
+1. 왼쪽 레일에서 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
+
+1. 모델에 대해 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Score]**&#x200B;을(를) 선택합니다. 또는 파란색 작업 표시줄에서 ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]**&#x200B;을(를) 선택하십시오.
+
+   **[!UICONTROL Score marketing data]** 대화 상자에서 다음 옵션을 선택합니다.
+
+   * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**, 새 마케팅 데이터를 사용하여 점진적으로 모델에 점수를 매기거나
+   * **[!UICONTROL Score specific date range of marketing data]**을(를) 입력하여 특정 날짜 범위에 대한 점수를 다시 매깁니다.
+날짜 범위를 지정합니다. ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 범위를 선택할 수 있습니다.
+
+   ![모델 다시 교육](../assets/re-score-model.png)
+
+1. **[!UICONTROL Score]**&#x200B;을(를) 선택합니다. 특정 데이터 범위를 사용하여 모델의 점수를 다시 매길 때 **[!UICONTROL Existing model is replaced]** 대화 상자가 표시되어 선택한 날짜 범위에 대해 모델을 새 점수로 바꾸도록 확인하는 메시지가 표시됩니다. **[!UICONTROL Replace model]**&#x200B;을(를) 선택하여 확인하십시오.
 
 
 ### 모델 삭제
 
 모델을 삭제하려면
 
-1. 삭제할 모델의 이름을 선택합니다.
+1. 왼쪽 레일에서 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
 
-1. 컨텍스트 메뉴에서 **[!UICONTROL Delete]**&#x200B;을(를) 선택하여 모델을 삭제합니다.
+1. 모델에 대해 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Delete]**&#x200B;을(를) 선택합니다. 또는 파란색 작업 표시줄에서 ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택합니다.
+
+여러 모델을 삭제하려면 다음을 수행합니다.
+
+1. 여러 모델을 선택합니다.
+
+1. 파란색 작업 표시줄에서 ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택하여 모델을 삭제합니다.
 
    >[!WARNING]
    >

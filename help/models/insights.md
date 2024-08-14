@@ -3,9 +3,9 @@ title: 모델 인사이트
 description: Mix Modeler 시 기록 개요, 모델 통찰력 및 모델 품질과 같은 모델에 대한 세부 정보를 얻는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 6897f27520705f54d3f23018903a52536083b339
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![모델 인사이트 탭 모음](/help/assets//model-insights-tabbar.png)
 
-지정된 모델이 마지막으로 새로 고침되고 위젯이 다음 네 개의 탭을 사용하여 표시되는지 확인합니다. [모델 인사이트](#model-insights), [속성](#attribution), [진단](#diagnostics) 및 [기록 개요](#historical-overview).
+지정된 모델이 마지막으로 새로 고침되고 위젯이 다음 네 개의 탭을 사용하여 표시되는지 확인합니다. [모델 인사이트](#model-insights), [속성](#attribution), [요소](#factors), [진단](#diagnostics) 및 [기록 개요](#historical-overview).
 
 각 탭의 위젯이 기반으로 하는 날짜 기간을 변경할 수 있습니다. 날짜 기간을 입력하거나 ![달력](/help/assets//icons/Calendar.svg)을 선택하여 날짜 기간을 선택하십시오.
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * 마케팅 성과 요약.
 
-* 한계 응답 곡선.
+* 한계 응답 곡선.  곡선 및 대응하는 값 둘 다는 선택된 데이터 범위를 기초로 계산된다. 또한 이 위젯은 한계 손익분기점과 수익률 감소 시점을 보여 줍니다.
   <br/>**[!UICONTROL Channel]** 드롭다운 목록에서 채널을 선택하여 특정 채널에 대한 위젯을 업데이트합니다.
 
 ![모델 - 모델 인사이트](/help/assets//model-insights-insights.png)
@@ -141,6 +141,15 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 * 각 채널에 대해 속성 모델 기여도 백분율 및
 * 이러한 채널 속성 모델 기여도의 합계입니다.
 
+## **[!UICONTROL Factors]**
+
+요소 탭에는 외부 요소 관련 통찰력이 표시됩니다.
+
+![요소](/help/assets/factors.png)
+
+테이블에 대한 데이터가 포함된 CSV 파일을 다운로드하려면 ![다운로드](/help/assets//icons/Download.svg)를 선택합니다.
+
+데이터를 사용할 수 없으면 ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]** 메시지가 표시됩니다.
 
 ## [!UICONTROL Diagnostics]
 

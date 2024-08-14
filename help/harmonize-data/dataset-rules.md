@@ -3,9 +3,9 @@ title: 데이터 세트 규칙
 description: Mix Modeler에서 데이터를 조화롭게 만드는 과정에서 사용할 데이터 세트 규칙을 정의하는 방법을 알아봅니다.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: a924eb080866595af3639c4976716e69ef5e7a20
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1313'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ## 데이터 동기화
 
-통합 데이터와 요약 및/또는 이벤트 데이터 세트 간에 데이터를 동기화하려면 데이터 세트 규칙의 모든 논리를 따르십시오.
+데이터 세트 규칙의 논리를 적용하면서 조화된 데이터와 요약 및/또는 이벤트 데이터 세트 간에 데이터를 동기화하려면 다음을 수행하십시오.
 
 1. **[!UICONTROL Sync data]**&#x200B;를 선택합니다.
 
@@ -159,7 +159,7 @@ ht-degree: 0%
 
    ![데이터 병합 환경 설정](/help/assets//data-merge-preferences.png)
 
-   * **[!UICONTROL Default metric preference]** 선택. 선택한 기본 지표 환경 설정은 조화 중에 여러 데이터 소스가 지정된 채널에 대한 지표 필드를 업데이트할 때 적용됩니다. 특정 지표 기반 환경 설정에 대해 재정의되지 않는 한 환경 설정은 샌드박스 수준에서 적용됩니다. **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** 및 **[!UICONTROL Sum of summmary and event data]** 중에서 선택할 수 있습니다.
+   * **[!UICONTROL Default metric preference]** 선택. 선택한 기본 지표 환경 설정은 조화 중에 여러 데이터 소스가 지정된 채널에 대한 지표 필드를 업데이트할 때 적용됩니다. 특정 지표 기반 환경 설정에 대해 재정의되지 않는 한 환경 설정은 샌드박스 수준에서 적용됩니다. **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** 및 **[!UICONTROL Sum of summary and event data]** 중에서 선택할 수 있습니다.
 
    * 특정 지표 기반 환경 설정을 추가하려면 다음 작업을 수행하십시오.
 
@@ -181,11 +181,13 @@ ht-degree: 0%
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 선택하여 데이터 병합 환경 설정을 저장합니다. 데이터 재동기화가 시작됩니다. <br/>취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
 
+## 소스 데이터 세트 삭제
 
-## 필드 수준 액세스 제어
+통합 데이터에서 사용되는 소스 데이터 집합을 삭제하면 해당 소스 데이터 집합의 기본 항목이 [[!UICONTROL Harmonized data]](/help/harmonize-data/overview.md)에서 제거됩니다. 그러나 삭제된 원본 데이터 집합이 있는 데이터 집합 규칙은 원본 데이터 집합이 삭제되었음을 나타내는 ![DataRemove](/help/assets/icons/DataRemove.svg) 아이콘과 함께 데이터 집합 규칙 구성 목록에 남아 있습니다. 자세한 내용을 보려면 다음 작업을 수행하십시오.
 
-조화된 데이터 세트에 대한 데이터 세트 규칙을 구성할 때 Experience Platform의 [특성 기반 액세스 제어](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview)가 필드 수준에서 적용됩니다. 레이블이 스키마 필드에 첨부되고 해당 필드에 대한 액세스를 거부하는 활성 정책이 활성화되면 필드가 제한됩니다. 그 결과는 다음과 같습니다.
+* 컨텍스트 메뉴에서 ![자세히](/help/assets/icons/More.svg) 및 ![미리 보기](/help/assets/icons/Preview.svg) **[!UICONTROL View]**을(를) 선택합니다.
+**[!UICONTROL Dataset rule mapping - Fields]** 대화 상자에는 삭제된 원본 데이터 집합과 데이터 집합 규칙 구성에 사용된 필드에 대한 정보가 표시됩니다.
 
-* 데이터 세트 규칙을 만들 때 제한된 스키마 필드는 표시되지 않습니다.
-* 제한된 하나 이상의 스키마 필드의 매핑을 보거나 편집할 수 없습니다. 이러한 제한된 필드가 포함된 데이터 세트 규칙을 편집하거나 볼 때 다음 화면이 표시됩니다.
-  ![액션이 허용되지 않음](/help/assets//action-not-permitted.png)
+**[!UICONTROL Dataset rules]** 구성으로 돌아가면 하나 이상의 소스 데이터 세트가 삭제되었음을 설명하는 대화 상자가 표시됩니다. 조화된 데이터는 다음 애드혹 또는 예약된 동기화의 영향을 받습니다. 데이터 세트 규칙 구성을 검토하십시오.
+
+다음 임시 동기화 또는 예약된 동기화 시 삭제된 소스 데이터 없이 조정된 데이터가 업데이트됩니다. 하지만 삭제된 소스 데이터 세트를 기준으로 데이터 세트 규칙을 삭제하라는 경고 대화 상자가 계속 표시됩니다. 이 경고를 통해 사용자는 삭제된 데이터 세트에서 영향을 받는 필드를 보고 평가할 수 있습니다. 또한 모든 모델에서 사용할 수 있는 마케팅 접점 또는 전환에 대한 영향을 결정합니다. 이 영향을 검토하고 완화했으면 데이터 세트 규칙 구성 목록에서 데이터 세트 규칙을 삭제해야 합니다.
