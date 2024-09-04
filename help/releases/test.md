@@ -5,7 +5,7 @@ feature-set: Experience Cloud
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 9d10ad0c225e579b7c58e85d1f74961f34807342
+source-git-commit: 72b4d3606316c254a9a3ea5909633d87eb9eada6
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 1%
@@ -22,6 +22,8 @@ ht-degree: 1%
 | 태그 목록을 제한하려면 ![검색](/help/assets/icons/Search.svg) *태그 검색*&#x200B;할 수 있습니다. <br/><br/>하나 이상의 태그를 선택하면 가능한 나머지 태그를 표시하도록 목록이 자동으로 제한됩니다. <br/><br/>**[!UICONTROL Tags]** **2︎**&#x200B;의 숫자는 사용 가능한 태그 수를 나타냅니다⃣ <br/><br/>**[!UICONTROL *tag *]**7︎⃣의 숫자는 특정 태그로 태그가 지정된 필터 수를 나타냅니다. | 데이터 보기 목록을 제한하려면 ![검색](/help/assets/icons/Search.svg) *데이터 보기 검색*&#x200B;할 수 있습니다. <br/>둘 이상의 데이터 보기를 선택하여 필터 목록을 필터링할 수 있습니다. <br/><br/>**[!UICONTROL Tags]** **2︎**&#x200B;의 숫자는 사용 가능한 태그 수를 나타냅니다⃣ <br/><br/>**[!UICONTROL *tag *]**7︎⃣의 숫자는 특정 태그로 태그가 지정된 필터 수를 나타냅니다. | 데이터 보기 목록을 제한하려면 ![검색](/help/assets/icons/Search.svg) *데이터 보기 검색*&#x200B;할 수 있습니다. <br/>둘 이상의 데이터 보기를 선택하여 필터 목록을 필터링할 수 있습니다. <br/><br/>**[!UICONTROL Tags]** **2︎**&#x200B;의 숫자는 사용 가능한 태그 수를 나타냅니다⃣ <br/><br/>**[!UICONTROL *tag *]**7︎⃣의 숫자는 특정 태그로 태그가 지정된 필터 수를 나타냅니다. | 데이터 보기 목록을 제한하려면 ![검색](/help/assets/icons/Search.svg) *데이터 보기 검색*&#x200B;할 수 있습니다. <br/>둘 이상의 데이터 보기를 선택하여 필터 목록을 필터링할 수 있습니다. <br/><br/>**[!UICONTROL Tags]** **2︎**&#x200B;의 숫자는 사용 가능한 태그 수를 나타냅니다⃣ <br/><br/>**[!UICONTROL *tag *]**7︎⃣의 숫자는 특정 태그로 태그가 지정된 필터 수를 나타냅니다. ?? ?? |
 
 {style="table-layout:fixed"}
+
+
 
 
 수식도 지원한다고요?
