@@ -3,20 +3,20 @@ title: 모델
 description: Mix Modeler에서 모델을 구성하고 사용하는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: d5d9ec6b7b1222b3da9dcecaf3fa1cf2b2198881
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
 
 # 모델
 
-Mix Modeler의 모델 기능을 사용하면 비즈니스 목표와 관련된 AI/ML 모델을 구성하고, 교육하고, 평가할 수 있습니다. 교육 및 점수는 멀티터치 기여도 분석과 마케팅 믹스 모델링 간의 AI 기반 전환 학습을 지원합니다.
+Mix Modeler의 모델 기능을 사용하면 비즈니스 목표에 맞는 모델을 구성하고, 교육하고, 평가할 수 있습니다. 교육 및 점수는 멀티터치 기여도 분석과 마케팅 믹스 모델링 간의 AI 기반 전환 학습을 지원합니다.
 
 이 모델은 Mix Modeler 애플리케이션 워크플로의 일부로 만드는 통합 데이터를 기반으로 합니다.
 
-Mix Modeler의 모델은 마케터의 투자를 기반으로 지정된 결과를 측정 및/또는 예측하기 위해 사용되는 머신 러닝 모델입니다. 마케팅 접점 및 요약 수준 데이터를 입력으로 사용할 수 있습니다. Mix Modeler을 사용하면 매출, 판매 수량, 리드 등과 같은 다양한 변수, 차원 및 결과 세트를 기반으로 모델의 변형을 만들 수 있습니다.
+Mix Modeler의 모델은 마케터의 투자를 기반으로 지정된 결과를 측정하고 예측하기 위해 사용되는 머신 러닝 모델입니다. 마케팅 접점 및 요약 수준 데이터를 입력으로 사용할 수 있습니다. Mix Modeler을 사용하면 매출, 판매 수량, 리드 등과 같은 다양한 변수, 차원 및 결과 세트를 기반으로 모델의 변형을 만들 수 있습니다.
 
 모델은 다음을 필요로 합니다.
 
@@ -41,7 +41,7 @@ Mix Modeler의 모델은 마케터의 투자를 기반으로 지정된 결과를
 
 Mix Modeler 인터페이스에서 현재 모델의 테이블을 보려면 다음을 수행합니다.
 
-1. 왼쪽 레일에서 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
+1. 왼쪽 레일에서 ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
 
 1. 현재 모델의 표가 표시됩니다.
 
@@ -58,7 +58,7 @@ Mix Modeler 인터페이스에서 현재 모델의 테이블을 보려면 다음
 
    {style="table-layout:auto"}
 
-1. 목록에 표시되는 열을 변경하려면 ![열 설정](/help/assets//icons/ColumnSetting.svg)을 선택하고 ![확인](/help/assets//icons/Checkmark.svg)을 설정하거나 해제합니다.
+1. 목록에 표시되는 열을 변경하려면 ![열 설정](/help/assets/icons/ColumnSetting.svg)을 선택하고 ![확인](/help/assets/icons/Checkmark.svg)을 설정하거나 해제합니다.
 
 특정 모델에 대해 다음 작업을 수행할 수 있습니다.
 
@@ -66,9 +66,9 @@ Mix Modeler 인터페이스에서 현재 모델의 테이블을 보려면 다음
 
 모델의 세부 정보를 보려면 다음 작업을 수행하십시오.
 
-1. 왼쪽 레일에서 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
+1. 왼쪽 레일에서 ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
 
-1. 세부 정보가 포함된 팝업을 표시하려면 모델에 대한 ![정보](/help/assets//icons/Info.svg)을(를) 선택하십시오.
+1. 세부 정보가 포함된 팝업을 표시하려면 모델에 대한 ![정보](/help/assets/icons/Info.svg)을(를) 선택하십시오.
 
 
 
@@ -76,16 +76,18 @@ Mix Modeler 인터페이스에서 현재 모델의 테이블을 보려면 다음
 
 모델을 빠르게 복제할 수 있습니다.
 
-1. 왼쪽 레일에서 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
+1. 왼쪽 레일에서 ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
 
 1. 모델에 대해 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Duplicate]**&#x200B;을(를) 선택합니다.
 
 
 ### 모델 인사이트
 
-모델 인사이트 기능은 성공적으로 교육되고 채점된 모델에서만 사용할 수 있습니다. 모델의 통찰력을 보려면 다음 작업을 수행하십시오.
+모델 인사이트 기능은 성공적으로 교육되고 채점된 모델에서만 사용할 수 있습니다.
 
-1. 왼쪽 레일에서 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
+모델의 통찰력을 보려면 다음 작업을 수행하십시오.
+
+1. 왼쪽 레일에서 ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
 
 1. 모델 이름을 선택합니다.
 
@@ -94,9 +96,16 @@ Mix Modeler 인터페이스에서 현재 모델의 테이블을 보려면 다음
 
 ### 재교육
 
-모델 재교육은 성공적으로 교육된 모델에서만 사용할 수 있습니다. 모델을 재교육하려면
 
-1. 왼쪽 레일에서 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
+모델 재교육은 성공적으로 교육된 모델에서만 사용할 수 있습니다.
+
+모델을 다시 교육하려면 다음을 수행하십시오.
+
+* 새로운 증분 마케팅 및 요소 데이터를 포함합니다. 예를 들어 지난 분기 동안 시장 동향이 변경되었거나 마케팅 데이터 배포가 크게 변경되었습니다.
+
+모델을 재교육하려면
+
+1. 왼쪽 레일에서 ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
 
 1. 모델에 대해 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Train]**&#x200B;을(를) 선택합니다. 또는 파란색 작업 표시줄에서 ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]**&#x200B;을(를) 선택하십시오.
 
@@ -114,9 +123,16 @@ Mix Modeler 인터페이스에서 현재 모델의 테이블을 보려면 다음
 ### 점수 또는 재점수
 
 
-새 마케팅 데이터를 기반으로 모델에 증분 점수를 매기거나 특정 날짜 범위에 대한 모델에 다시 점수를 매길 수 있습니다. 모델에 점수를 매기거나 다시 매기려면 다음을 수행합니다.
+새 마케팅 데이터를 기반으로 모델에 증분 점수를 매기거나 특정 날짜 범위에 대한 모델에 다시 점수를 매길 수 있습니다.
 
-1. 왼쪽 레일에서 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
+다음과 같은 작업을 수행할 때 모델에 다시 점수를 매기는 것이 좋습니다.
+
+* 잘못된 마케팅 데이터를 수정하십시오. 예를 들어 모델의 교육 및 점수에 포함한 최근 유료 검색 데이터에서 1주일 간의 데이터를 누락했습니다.
+* 통합 데이터의 일부로 구성한 데이터 세트에서 업데이트를 통해 사용할 수 있게 된 새로운 증분 마케팅 데이터를 사용합니다.
+
+모델에 점수를 매기거나 다시 매기려면 다음을 수행합니다.
+
+1. 왼쪽 레일에서 ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
 
 1. 모델에 대해 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Score]**&#x200B;을(를) 선택합니다. 또는 파란색 작업 표시줄에서 ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]**&#x200B;을(를) 선택하십시오.
 
@@ -135,7 +151,7 @@ Mix Modeler 인터페이스에서 현재 모델의 테이블을 보려면 다음
 
 모델을 삭제하려면
 
-1. 왼쪽 레일에서 ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
+1. 왼쪽 레일에서 ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
 
 1. 모델에 대해 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Delete]**&#x200B;을(를) 선택합니다. 또는 파란색 작업 표시줄에서 ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택합니다.
 

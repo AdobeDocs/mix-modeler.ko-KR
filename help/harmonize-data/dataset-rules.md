@@ -3,7 +3,7 @@ title: 데이터 세트 규칙
 description: Mix Modeler에서 데이터를 조화롭게 만드는 과정에서 사용할 데이터 세트 규칙을 정의하는 방법을 알아봅니다.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: a924eb080866595af3639c4976716e69ef5e7a20
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '1313'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 사용 가능한 데이터 세트 규칙의 표를 보려면 Mix Modeler 인터페이스에서 다음을 수행하십시오.
 
-1. 왼쪽 레일에서 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]**&#x200B;을(를) 선택합니다.
+1. 왼쪽 레일에서 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**&#x200B;을(를) 선택합니다.
 
 1. 상단 표시줄에서 **[!UICONTROL Dataset rules]**&#x200B;을(를) 선택합니다. 데이터 세트 규칙 표가 표시됩니다.
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 | ---------------------- | ----------|
 | 데이터 세트 | 데이터 세트의 이름입니다. |
 | 소스 | 데이터 세트의 소스: Adobe Analytics, 경험 이벤트, 요약(집계) 또는 소비자 경험 이벤트. |
-| 스키마 | 데이터 세트가 준수하는 스키마. 스키마 이름을 빠르게 선택하여 ![스키마](/help/assets//icons/Schemas.svg) [스키마](../ingest-data/schemas.md)의 스키마 편집기의 새 탭에서 스키마를 열 수 있습니다. |
+| 스키마 | 데이터 세트가 준수하는 스키마. 스키마 이름을 빠르게 선택하여 ![스키마](/help/assets/icons/Schemas.svg) [스키마](../ingest-data/schemas.md)의 스키마 편집기의 새 탭에서 스키마를 열 수 있습니다. |
 | 세부기간 | 데이터 집합에 있는 데이터의 세부기간입니다. 가능한 값은 일별, 주별, 월별 또는 연도별입니다. |
 | 주의 시작 | 특정 데이터 세트에 대해 새 주의 시작으로 간주되는 요일을 지정합니다. |
 | 상태 | 필드의 상태: <p><span style="color:gray">●</span> 초안 또는 <p><span style="color:green">●</span> 활성 |
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ### 데이터 세트 규칙 만들기
 
-데이터 집합 규칙을 만들려면 Mix Modeler의 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 인터페이스에서 **[!UICONTROL Dataset rules configuration]** 마법사의 **[!UICONTROL Create a dataset rule]**&#x200B;을(를) 선택합니다.
+데이터 집합 규칙을 만들려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 인터페이스에서 **[!UICONTROL Dataset rules configuration]** 마법사의 **[!UICONTROL Create a dataset rule]**&#x200B;을(를) 선택합니다.
 
 **[!UICONTROL Create]** 화면에서
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
    1. 규칙의 모든 필드에 대한 매핑이 완료되면 **[!UICONTROL Save as draft]**&#x200B;을(를) 선택하여 규칙의 초안 버전을 저장하거나 **[!UICONTROL Save]**&#x200B;을(를) 선택하여 규칙을 저장하고 활성화합니다. 규칙 구성을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
 
-      ![데이터 집합 규칙 만들기](/help/assets//dataset-create-summary.png)
+      ![데이터 집합 규칙 만들기](/help/assets/dataset-create-summary.png)
 
 1. **[!UICONTROL Map to harmonized fields]** 아래 상자에서 이벤트 범주 데이터 세트(**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**)를 선택한 경우:
 
@@ -84,9 +84,9 @@ ht-degree: 0%
 
          1. 값을 명시적으로 설정하려면 하나 이상의 조건으로 구성된 하나 이상의 사례를 정의합니다. 각 조건은 특정 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**에 대해&#x200B;**[!UICONTROL Exists]**또는&#x200B;**[!UICONTROL Not Exists]**인지 또는**[!UICONTROL *&#x200B;입력 값 입력&#x200B;*]**&#x200B;에 입력한 값이 **[!UICONTROL Contains]**, **[!UICONTROL Not Contains]**, **[!UICONTROL Equals]**, **[!UICONTROL Not Equals]**, **[!UICONTROL Starts With]** 또는 **[!UICONTROL Ends With]**&#x200B;인지 여부를 확인할 수 있습니다.
 
-         1. 다른 서비스 케이스를 추가하려면 ![추가](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add case]**&#x200B;를 선택하고 다른 조건을 추가하려면 ![추가](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add condition]**&#x200B;를 선택합니다.
+         1. 다른 서비스 케이스를 추가하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**&#x200B;를 선택하고 다른 조건을 추가하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**&#x200B;를 선택합니다.
 
-         1. 서비스 케이스 또는 조건을 삭제하려면 해당 컨테이너에서 ![닫기](/help/assets//icons/Close.svg)를 선택합니다.
+         1. 서비스 케이스 또는 조건을 삭제하려면 해당 컨테이너에서 ![닫기](/help/assets/icons/Close.svg)를 선택합니다.
 
          1. 서비스 케이스에 조건을 적용할지 또는 모두 적용할지 여부를 선택하려면 **[!UICONTROL Any of]** 또는 **[!UICONTROL All of]**&#x200B;을(를) 선택하십시오.
 
@@ -101,27 +101,27 @@ ht-degree: 0%
          * **[!UICONTROL marketing.campaignName]**&#x200B;이(가) `_black_friday` 또는 `BlackFriday`인 경우 `Black Friday`.
          * 다른 모든 경우에는 **[!UICONTROL marketing.campaignName]**&#x200B;의 값으로 설정됩니다.
 
-        ![데이터 집합 규칙 이벤트](/help/assets//dataset-create-event.png)
+        ![데이터 집합 규칙 이벤트](/help/assets/dataset-create-event.png)
 
-1. 추가 필드를 정의하려면 ![추가](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**&#x200B;을(를) 선택하십시오.
+1. 추가 필드를 정의하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**&#x200B;을(를) 선택하십시오.
 
 완료되면 규칙의 초안 버전을 저장하려면 **[!UICONTROL Save as draft]**&#x200B;을(를) 선택하고 규칙을 저장하고 활성화하려면 **[!UICONTROL Save]**&#x200B;을(를) 선택합니다. 규칙 구성을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
 
 
 ### 데이터 세트 규칙 편집
 
-데이터 집합 규칙을 편집하려면 Mix Modeler의 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 인터페이스에서 다음을 수행하십시오.
+데이터 집합 규칙을 편집하려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 인터페이스에서 다음을 수행하십시오.
 
-1. 편집할 데이터 세트 규칙에 대해 **[!UICONTROL Dataset]** 열에서 ![자세히](/help/assets//icons/More.svg)를 선택합니다.
-1. 컨텍스트 메뉴에서 ![편집](/help/assets//icons/Edit.svg) **[!UICONTROL Edit]**&#x200B;을(를) 선택하여 데이터 집합 규칙 편집을 시작합니다. 자세한 내용은 [데이터 집합 규칙 만들기](#create-a-dataset-rule)를 참조하세요.
+1. 편집할 데이터 세트 규칙에 대해 **[!UICONTROL Dataset]** 열에서 ![자세히](/help/assets/icons/More.svg)를 선택합니다.
+1. 컨텍스트 메뉴에서 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]**&#x200B;을(를) 선택하여 데이터 집합 규칙 편집을 시작합니다. 자세한 내용은 [데이터 집합 규칙 만들기](#create-a-dataset-rule)를 참조하세요.
 
 
 ### 데이터 세트 규칙 삭제
 
-데이터 집합 규칙을 삭제하려면 Mix Modeler의 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 인터페이스에서 다음을 수행합니다.
+데이터 집합 규칙을 삭제하려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 인터페이스에서 다음을 수행합니다.
 
-1. 삭제할 데이터 세트 규칙에 대해 **[!UICONTROL Dataset]** 열에서 ![자세히](/help/assets//icons/More.svg)를 선택하십시오.
-1. 컨텍스트 메뉴에서 ![삭제](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택하여 데이터 집합 규칙을 삭제합니다. 확인을 묻는 메시지가 표시됩니다. 선택한 데이터 집합 규칙을 영구적으로 삭제하려면 **[!UICONTROL Delete]**&#x200B;을(를) 선택하십시오.
+1. 삭제할 데이터 세트 규칙에 대해 **[!UICONTROL Dataset]** 열에서 ![자세히](/help/assets/icons/More.svg)를 선택하십시오.
+1. 컨텍스트 메뉴에서 ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택하여 데이터 집합 규칙을 삭제합니다. 확인을 묻는 메시지가 표시됩니다. 선택한 데이터 집합 규칙을 영구적으로 삭제하려면 **[!UICONTROL Delete]**&#x200B;을(를) 선택하십시오.
 
 
 ## 데이터 동기화
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 1. 통합 데이터와 데이터 집합의 데이터 간에 정의된 데이터 집합 규칙을 기반으로 동기화를 시작하려면 **[!UICONTROL Sync]**&#x200B;을(를) 선택하십시오. 동기화를 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
 
-   ![데이터 동기화](/help/assets//sync-data.png)
+   ![데이터 동기화](/help/assets/sync-data.png)
 
 
 ## 데이터 병합 환경 설정
@@ -153,31 +153,31 @@ ht-degree: 0%
 
 정확한 모델 예측을 위해 데이터 병합 환경 설정을 정의할 수 있습니다.
 
-1. ![데이터 병합 환경 설정](/help/assets//icons/Merge.svg) [!BADGE 베타]을(를) 선택하십시오.
+1. ![데이터 병합 환경 설정](/help/assets/icons/Merge.svg) [!BADGE 베타]을(를) 선택하십시오.
 
 1. **[!UICONTROL Data merge preferences]** [!BADGE 베타]에서{type=Informative}
 
-   ![데이터 병합 환경 설정](/help/assets//data-merge-preferences.png)
+   ![데이터 병합 환경 설정](/help/assets/data-merge-preferences.png)
 
    * **[!UICONTROL Default metric preference]** 선택. 선택한 기본 지표 환경 설정은 조화 중에 여러 데이터 소스가 지정된 채널에 대한 지표 필드를 업데이트할 때 적용됩니다. 특정 지표 기반 환경 설정에 대해 재정의되지 않는 한 환경 설정은 샌드박스 수준에서 적용됩니다. **[!UICONTROL Summary data]**, **[!UICONTROL Event data]** 및 **[!UICONTROL Sum of summary and event data]** 중에서 선택할 수 있습니다.
 
    * 특정 지표 기반 환경 설정을 추가하려면 다음 작업을 수행하십시오.
 
-      1. ![더하기](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a metric]**&#x200B;을(를) 선택합니다.
+      1. ![더하기](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**&#x200B;을(를) 선택합니다.
          1. **[!UICONTROL *지표 선택&#x200B;*]**목록에서 지표를 선택합니다.
          1. **[!UICONTROL CHANNELS]** 또는 **[!UICONTROL CONVERSION TYPES]**&#x200B;을(를) 선택하십시오. 목록에서 **[!UICONTROL All]** 또는 특정 채널 또는 전환 유형을 선택합니다.
          1. 데이터를 병합할 때 지표(및 모든 또는 선택한 채널)에 대해 요약 데이터나 이벤트 데이터를 선호하는지 여부를 지정하려면 **[!UICONTROL Summary]** 또는 **[!UICONTROL Event]**&#x200B;을(를) 선택하십시오.
 
          하나 이상의 채널 또는 전환 유형을 추가하려면 다음을 수행합니다.
 
-         1. ![Plus](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a channel]** 또는 ![Plus](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**&#x200B;을(를) 선택하십시오.
+         1. ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** 또는 ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**&#x200B;을(를) 선택하십시오.
          1. **[!UICONTROL Summary]** 또는&#x200B;**[!UICONTROL Event]**&#x200B;를 선택합니다.
 
-         채널 또는 전환 유형을 삭제하려면 ![교차](/help/assets//icons/Close.svg)를 선택하세요.
+         채널 또는 전환 유형을 삭제하려면 ![교차](/help/assets/icons/Close.svg)를 선택하세요.
 
       1. 더 구체적인 지표 기반 환경 설정을 추가하려면 이전 단계를 반복합니다.
 
-   * 기존의 특정 지표 기반 환경 설정을 삭제하려면 ![삭제](/help/assets//icons/Delete.svg)를 선택하십시오.
+   * 기존의 특정 지표 기반 환경 설정을 삭제하려면 ![삭제](/help/assets/icons/Delete.svg)를 선택하십시오.
 
 1. **[!UICONTROL Save]**&#x200B;을(를) 선택하여 데이터 병합 환경 설정을 저장합니다. 데이터 재동기화가 시작됩니다. <br/>취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
 

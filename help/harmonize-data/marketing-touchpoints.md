@@ -3,7 +3,7 @@ title: 마케팅 접점
 description: Mix Modeler에서 데이터를 조화롭게 만드는 과정의 일부로 사용할 마케팅 접점을 만드는 방법을 알아봅니다.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 Mix Modeler 인터페이스에서 사용 가능한 마케팅 접점 테이블을 보려면 다음을 수행하십시오.
 
-1. 왼쪽 레일에서 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]**&#x200B;을(를) 선택합니다.
+1. 왼쪽 레일에서 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**&#x200B;을(를) 선택합니다.
 
-1. 상단 표시줄에서 **[!UICONTROL Marketing touchpoint]**&#x200B;을(를) 선택합니다. 마케팅 접점 테이블이 표시됩니다. 사용할 수 있는 페이지가 더 있는 경우 ![왼쪽 화살표](/help/assets//icons/ChevronLeft.svg) 또는 ![오른쪽 화살표](/help/assets//icons/ChevronRight.svg)(**[!UICONTROL Page _x _/_x_]**)을(를) 사용하여 테이블의 페이지 간에 이동합니다.
+1. 상단 표시줄에서 **[!UICONTROL Marketing touchpoint]**&#x200B;을(를) 선택합니다. 마케팅 접점 테이블이 표시됩니다. 사용할 수 있는 페이지가 더 있는 경우 ![왼쪽 화살표](/help/assets/icons/ChevronLeft.svg) 또는 ![오른쪽 화살표](/help/assets/icons/ChevronRight.svg)(**[!UICONTROL Page _x _/_x_]**)을(를) 사용하여 테이블의 페이지 간에 이동합니다.
 
 테이블 열은 마케팅 접점에 대한 세부 사항을 지정합니다.
 
@@ -39,9 +39,9 @@ Mix Modeler 인터페이스에서 사용 가능한 마케팅 접점 테이블을
 
 ## 마케팅 접점 추가
 
-마케팅 접점을 추가하려면 Mix Modeler의 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** 인터페이스에서 다음을 수행합니다.
+마케팅 접점을 추가하려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** 인터페이스에서 다음을 수행합니다.
 
-1. ![추가](/help/assets//icons/AddCircle.svg) 마케팅 접점 추가를 선택합니다.
+1. ![추가](/help/assets/icons/AddCircle.svg) 마케팅 접점 추가를 선택합니다.
 
 1. **[!UICONTROL Marketing touchpoint]** 대화 상자에서 확인할 수 있습니다.
 
@@ -51,7 +51,7 @@ Mix Modeler 인터페이스에서 사용 가능한 마케팅 접점 테이블을
 
       1. **[!UICONTROL *조화롭게 선택&#x200B;*]**에서 값을 선택합니다(예:**[!UICONTROL Brand]**).
 
-      1. 연산자 ![V자형 화살표](/help/assets//icons/ChevronDown.svg)의 값을 선택하십시오(예: **[!UICONTROL is]**).
+      1. 연산자 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)의 값을 선택하십시오(예: **[!UICONTROL is]**).
 
       1. **[!UICONTROL *값 선택&#x200B;*]**에서 값을 선택하거나&#x200B;**[!DNL Luma]**과(와) 같은 값을 입력하십시오.
 
@@ -59,7 +59,7 @@ Mix Modeler 인터페이스에서 사용 가능한 마케팅 접점 테이블을
 
    1. **[!UICONTROL Touchpoint spend]**&#x200B;에서 조정된 필드를 선택합니다(예: **[!UICONTROL Cost]**).
 
-      ![마케팅 접점](/help/assets//create-touchpoint.png)
+      ![마케팅 접점](/help/assets/create-touchpoint.png)
 
    1. 마케팅 접점을 만들려면 **[!UICONTROL Create]**&#x200B;을(를) 선택합니다. 마케팅 접점 만들기를 취소하려면 **[!UICONTROL Cancel]** 을(를) 선택합니다.
 
@@ -70,15 +70,15 @@ Mix Modeler 인터페이스에서 사용 가능한 마케팅 접점 테이블을
 
 마케팅 접점을 보려면 다음을 수행하십시오.
 
-1. 테이블의 마케팅 접점 이름 위로 마우스를 가져가면 ![자세히](/help/assets//icons/More.svg)를 선택합니다.
+1. 테이블의 마케팅 접점 이름 위로 마우스를 가져가면 ![자세히](/help/assets/icons/More.svg)를 선택합니다.
 
-1. ![보기](/help/assets//icons/ViewDetail.svg) **보기**&#x200B;를 선택합니다. 대화 상자에 마케팅 접점의 세부 정보가 표시됩니다. 자세한 내용은 [마케팅 접점 추가](#add-a-marketing-touchpoint)를 참조하십시오. 대화 상자를 닫으려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
+1. ![보기](/help/assets/icons/ViewDetail.svg) **보기**&#x200B;를 선택합니다. 대화 상자에 마케팅 접점의 세부 정보가 표시됩니다. 자세한 내용은 [마케팅 접점 추가](#add-a-marketing-touchpoint)를 참조하십시오. 대화 상자를 닫으려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
 
 
 ## 마케팅 접점 삭제
 
 마케팅 접점 삭제 방법:
 
-1. 테이블의 마케팅 접점 이름 위로 마우스를 가져갈 때 ![삭제](/help/assets//icons/Delete.svg) **삭제**&#x200B;을(를) 선택합니다.
+1. 테이블의 마케팅 접점 이름 위로 마우스를 가져갈 때 ![삭제](/help/assets/icons/Delete.svg) **삭제**&#x200B;을(를) 선택합니다.
 1. **[!UICONTROL Delete touchpoint]** 대화 상자 확인 대화 상자에서 **[!UICONTROL Delete]**&#x200B;을(를) 선택하여 마케팅 접점을 영구적으로 삭제합니다.
 

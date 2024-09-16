@@ -3,7 +3,7 @@ title: 스키마
 description: 데이터를 Mix Modeler에 수집하는 데 필요한 스키마를 관리하는 방법을 알아봅니다.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 3%
@@ -16,7 +16,7 @@ Experience Platform에서 수집하고 Mix Modeler에서 사용할 데이터를 
 
 1. Mix Modeler 인터페이스로 이동합니다.
 
-1. **[!UICONTROL SETUP]** 아래의 ![스키마](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**&#x200B;을(를) 선택하십시오.
+1. **[!UICONTROL SETUP]** 아래의 ![스키마](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**&#x200B;을(를) 선택하십시오.
 
 자세한 내용은 [스키마 UI 개요](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en)를 참조하십시오.
 
@@ -38,7 +38,7 @@ XDM 요약 지표 클래스 사용:
 
 아래 **[!DNL ExternalFactorSummarySchema]**&#x200B;에 표시된 대로 **[!DNL XDM Summary Metrics]** 기본 클래스를 사용하는 스키마는 간단할 수 있습니다.
 
-![외부 요소 스키마](/help/assets//external-factors-schema.png)
+![외부 요소 스키마](/help/assets/external-factors-schema.png)
 
 이 간단한 스키마를 사용하여 다음과 같은 데이터를 포함하는 데이터 세트를 수집할 수 있습니다.
 
@@ -65,7 +65,7 @@ XDM 요약 지표 클래스 사용:
 
 **[!DNL XDM Summary Metrics]**&#x200B;을(를) 기본 클래스로 사용하는 **[!DNL LumaPaidMarketingSchema]**&#x200B;에 대한 보다 포괄적인 예제는 아래를 참조하십시오. 스키마는 지표(**[!DNL AMMMetrics]**), 차원(**[!DNL AMMDimensions]**) 및 기타 고객별 정보(**[!DNL CustomerSpecific]**)에 대해 색상 주석이 있는 전용 필드 그룹을 사용합니다.
 
-![요약 스키마](/help/assets//summary-schema.png)
+![요약 스키마](/help/assets/summary-schema.png)
 
 프로필 수집의 비동기적 특성을 고려할 때 외부 소스에서 합계 또는 요약 데이터를 수집할 때 외부 Source 시스템 감사 세부 정보 필드 그룹을 스키마의 일부로 사용하는 것이 좋습니다. 이 필드 그룹은 외부 소스에 대한 감사 속성 집합을 정의합니다.
 

@@ -5,7 +5,7 @@ feature: Harmonized Data
 hide: true
 hidefromtoc: true
 exl-id: 6c32f978-8a3e-4878-bb6b-550f1750d6b7
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 조정된 데이터의 사용 보고서를 보려면 다음 작업을 수행하십시오.
 
-1. 왼쪽 레일에서 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]**&#x200B;을(를) 선택합니다.
+1. 왼쪽 레일에서 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**&#x200B;을(를) 선택합니다.
 
 1. 상단 표시줄에서 **[!UICONTROL Usage report]**&#x200B;을(를) 선택합니다.
 

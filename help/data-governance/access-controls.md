@@ -2,7 +2,8 @@
 title: 액세스 제어
 description: Mix Modeler에서 액세스 제어를 구성하는 방법에 대해 알아봅니다.
 feature: Administration
-source-git-commit: 6776a91563f120db1341adef923aab4b0f582c9d
+exl-id: c9ec97d9-b9a2-41f5-8626-1cf967d5d7fe
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 1%
@@ -31,5 +32,4 @@ Experience Platform의 Mix Modeler 사용자 및 사용자 그룹에 대한 역�
 
 * 데이터 세트 규칙을 만들 때 제한된 스키마 필드는 표시되지 않습니다.
 * 제한된 하나 이상의 스키마 필드의 매핑을 보거나 편집할 수 없습니다. 이러한 제한된 필드가 포함된 데이터 세트 규칙을 편집하거나 볼 때 다음 화면이 표시됩니다.
-  ![액션이 허용되지 않음](/help/assets//action-not-permitted.png)
-
+  ![액션이 허용되지 않음](/help/assets/action-not-permitted.png)

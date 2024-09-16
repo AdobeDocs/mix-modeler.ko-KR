@@ -4,7 +4,7 @@ description: 최신 Mix Modeler 릴리스 정보
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 8e04509cbdbf82fcdf3d561a3e2ebfb4ecd3e2ee
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 8%
@@ -22,7 +22,7 @@ ht-degree: 8%
 | 기능 | 설명 | 일반 가용성 |
 |---|---|---|
 | **인자 기여도 인사이트** | [!UICONTROL Model insights]에서 [[!UICONTROL Factors]](/help/models/insights.md#factors) 탭은 외부 요소 관련 통찰력을 제공합니다. | 2024년 8월 20일 |
-| **한계 응답 곡선** | Model Insights의 [한계 응답 곡선](/help/models/insights.md#model-insights-1) 위젯은 이제 선택한 데이터 범위의 변경 사항에 따라 곡선 및 해당 값을 업데이트합니다. 또한, 위젯은 한계 손익 분기점과 감소 수익률을 보여줍니다. | 2024년 8월 20일 |
+| **한계 응답 곡선** | 이제 Model Insights의 [한계 응답 곡선](/help/models/insights.md#model-insights-1) 시각화는 선택한 데이터 범위의 변경 사항에 따라 곡선 및 해당 값을 업데이트합니다. 추가적으로, 시각화는 한계 단절의 점과 수익률 하락의 점을 보여준다. | 2024년 8월 20일 |
 | **임시 교육 및 채점** | 모델 인터페이스에서 모델 [다시 교육](/help/models/overview.md#re-train), [점수(새 마케팅 데이터의 경우) 또는 다시 점수](/help/models/overview.md#score-or-re-score)를 시작할 수 있습니다. | 2024년 8월 13일 |
 | **정책 적용** | Experience Platform 정책은 데이터 세트 규칙을 구성할 때와 Mix Modeler에서 사용되는 기본 데이터로 레이블을 수정할 때 적용됩니다. 자세한 내용은 [정책](../data-governance/policies.md)을 참조하세요. | 2024년 8월 13일 |
 | **데이터 위생** | 데이터 위생 규칙은 소스 데이터를 삭제할 때 준수됩니다. [원본 데이터 집합 삭제](../harmonize-data/dataset-rules.md#delete-a-source-dataset)를 참조하세요. | 2024년 8월 13일 |
@@ -62,7 +62,7 @@ ht-degree: 8%
 | 기능 | 설명 | 일반 가용성 |
 |---|---|---|
 | **향상된 다운로드** | Microsoft® Excel 형식으로 [전체 모델 인사이트를 다운로드](../models/insights.md)할 수 있습니다. | 2024년 1월 31일 |
-| **한계 응답 곡선** | [모델 인사이트](../models/insights.md)는 한계 응답 곡선을 표시하는 추가 위젯을 제공합니다. | 2024년 1월 31일 |
+| **한계 응답 곡선** | [모델 인사이트](../models/insights.md)는 한계 응답 곡선을 표시하는 추가 시각화를 제공합니다. | 2024년 1월 31일 |
 | **데이터 병합 환경 설정** | 조화된 데이터 세트에 대한 데이터 세트 규칙에 대해 [데이터 병합 환경 설정](../harmonize-data/dataset-rules.md#data-merge-preferences)을 정의할 수 있습니다. | 2024년 1월 31일 |
 | **사용량 보고서** | 통합 데이터 세트 UI에는 모델 및 전환 사용에 대한 추가 통찰력을 제공하는 추가 [사용 보고서](../harmonize-data/usage-report.md) 탭이 있습니다. | 2024년 1월 31일 |
 | **계획 통찰력 UI를 업데이트함** | 플랜 인사이트 UI가 업데이트되어 보고할 ROI와 채널을 선택할 수 있습니다. | 2024년 1월 31일 |

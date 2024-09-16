@@ -3,7 +3,7 @@ title: 조화된 필드
 description: Mix Modeler에서 데이터를 조화시키는 과정에서 사용할 필드를 정의하는 방법에 대해 알아봅니다.
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 8%
@@ -55,9 +55,9 @@ Mix Modeler에서 기본적으로 사용할 수 있는 전역 조화 필드는 �
 
 Mix Modeler 인터페이스에서 사용 가능한 조화 필드의 표를 보려면 다음을 수행하십시오.
 
-1. 왼쪽 레일에서 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]**&#x200B;을(를) 선택합니다.
+1. 왼쪽 레일에서 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**&#x200B;을(를) 선택합니다.
 
-1. 상단 표시줄에서 **[!UICONTROL Fields]**&#x200B;을(를) 선택합니다. 여러분은 조화된 들판의 표를 볼 수 있습니다. 사용할 수 있는 페이지가 더 있는 경우 ![왼쪽 화살표](/help/assets//icons/ChevronLeft.svg) 또는 ![오른쪽 화살표](/help/assets//icons/ChevronRight.svg)(**[!UICONTROL Page _x _/_x_]**)을(를) 사용하여 테이블의 페이지 간에 이동합니다.
+1. 상단 표시줄에서 **[!UICONTROL Fields]**&#x200B;을(를) 선택합니다. 여러분은 조화된 들판의 표를 볼 수 있습니다. 사용할 수 있는 페이지가 더 있는 경우 ![왼쪽 화살표](/help/assets/icons/ChevronLeft.svg) 또는 ![오른쪽 화살표](/help/assets/icons/ChevronRight.svg)(**[!UICONTROL Page _x _/_x_]**)을(를) 사용하여 테이블의 페이지 간에 이동합니다.
 
    테이블 열은 조화된 필드에 대한 세부 사항을 지정합니다
 
@@ -74,14 +74,14 @@ Mix Modeler 인터페이스에서 사용 가능한 조화 필드의 표를 보�
 
    {style="table-layout:auto"}
 
-1. 특정 Harmonized 필드를 검색하려면 ![Search](/help/assets//icons/Search.svg) **[!UICONTROL *Search harmonized 필드&#x200B;*]**를 사용하십시오.
+1. 특정 Harmonized 필드를 검색하려면 ![Search](/help/assets/icons/Search.svg) **[!UICONTROL *Search harmonized 필드&#x200B;*]**를 사용하십시오.
 
 
 ### 조화로운 필드 추가
 
-조화롭게 구성된 필드를 추가하려면 Mix Modeler의 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** 인터페이스에서 다음을 수행합니다.
+조화롭게 구성된 필드를 추가하려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** 인터페이스에서 다음을 수행합니다.
 
-1. ![추가](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**&#x200B;을(를) 선택합니다.
+1. ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Create]** 대화 상자에서:
 
@@ -98,14 +98,14 @@ Mix Modeler 인터페이스에서 사용 가능한 조화 필드의 표를 보�
 
    1. **[!UICONTROL Submit]**&#x200B;을(를) 선택하여 통합 필드를 추가합니다. **[!UICONTROL Close]**&#x200B;을(를) 선택하여 통합 필드를 추가하지 않고 대화 상자를 닫습니다.
 
-      ![필드 만들기](/help/assets//create-field.png)
+      ![필드 만들기](/help/assets/create-field.png)
 
 
 ### 조화로운 필드 편집
 
 이전에 만든 통합 필드만 편집할 수 있습니다(소유자는 클라이언트임). 전역 조화 필드를 편집할 수 없습니다.
 
-조화된 필드를 편집하려면 Mix Modeler의 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** 인터페이스에서 다음을 수행하십시오.
+조화된 필드를 편집하려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** 인터페이스에서 다음을 수행하십시오.
 
 1. 편집할 조화로운 필드를 선택합니다. 예: **[!UICONTROL Region]**.
 
@@ -113,17 +113,17 @@ Mix Modeler 인터페이스에서 사용 가능한 조화 필드의 표를 보�
 
 1. **[!UICONTROL Submit]**&#x200B;을(를) 선택하여 조화된 필드에 변경 내용을 적용합니다.
 
-   ![필드 편집](/help/assets//edit-field.png)
+   ![필드 편집](/help/assets/edit-field.png)
 
 ### 조화로운 필드 삭제
 
 이전에 만든 조화로운 필드만 삭제할 수 있습니다(소유자는 클라이언트임). 전역 조화된 필드는 삭제할 수 없습니다.
 
-조화된 필드를 삭제하려면 Mix Modeler의 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** 인터페이스에서 다음을 수행하십시오.
+조화된 필드를 삭제하려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** 인터페이스에서 다음을 수행하십시오.
 
 1. 삭제할 조화된 필드를 선택합니다(예: **[!UICONTROL Region]**).
 
-1. **[!UICONTROL Edit harmonization values]** 왼쪽 창에서 ![삭제](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Edit harmonization values]** 왼쪽 창에서 ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택합니다.
 
    >[!WARNING]
    >
