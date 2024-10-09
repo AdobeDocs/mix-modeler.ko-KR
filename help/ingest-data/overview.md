@@ -3,7 +3,7 @@ title: 데이터 수집
 description: 데이터를 Mix Modeler에 수집하는 방법에 대해 알아봅니다.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: ff120c9b1dea81a5dc998cbda008fa913504970e
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 8%
@@ -12,7 +12,7 @@ ht-degree: 8%
 
 # 데이터 수집
 
-Mix Modeler은 이벤트 수준 데이터, 다양한 담벼락 정원의 한 가지 요약 마케팅 노력 데이터 집계, 오프라인 광고, 내부 요인 또는 외부 요인과 같은 다른 소스의 집계 또는 요약 데이터로 작동합니다.
+Mix Modeler은 이벤트 수준 데이터, 다양한 담벼락 정원의 집계 또는 요약 마케팅 노력 데이터, 오프라인 광고, 내부 요소 또는 외부 요소와 같은 다른 소스의 집계 또는 요약 데이터로 작동합니다.
 
 고객은 XDM ExperienceEvent 또는 XDM 요약 지표를 기본 클래스로 사용하여 스키마를 기반으로 하는 데이터 세트로 Experience Platform에 수집되는 모든 종류의 데이터를 사용할 수 있습니다.
 
