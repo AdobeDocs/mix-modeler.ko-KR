@@ -3,9 +3,9 @@ title: 모델 만들기
 description: Mix Modeler에서 모델을 만드는 방법을 알아봅니다.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: d1de86d51b3e9914eb06b40aa2a26949a9b56cb0
+source-git-commit: 2fbf24f6ac72e24070d6c294bc25c112aeb8bdac
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 0%
 
    1. **[!UICONTROL MTA enabled]** 섹션에서:
 
-      * 생성된 모드에 대해 MTA 기능을 활성화하려면 **[!UICONTROL MTA enabled]**&#x200B;을(를) 활성화하십시오. 활성화하면
+      * 생성된 모드에 대해 MTA 기능을 활성화하려면 **[!UICONTROL MTA enabled]**&#x200B;을(를) 활성화하십시오. 활성화하면 [모델 인사이트](insights.md)의 [속성](insights.md#attribution) 탭을 통해 모델을 학습하고 채점한 다중 터치 속성 인사이트를 사용할 수 있습니다.
 
    1. **[!UICONTROL Prior knowledge]** 섹션에서:
 
