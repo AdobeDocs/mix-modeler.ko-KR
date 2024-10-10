@@ -3,9 +3,9 @@ title: 모델 인사이트
 description: Mix Modeler 시 기록 개요, 모델 통찰력 및 모델 품질과 같은 모델에 대한 세부 정보를 얻는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 72f122f1cdf7252dae9e93e5ea133e8cc76564dc
+source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 * Microsoft® Excel 형식으로 전체 모델 인사이트 데이터를 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**&#x200B;를 선택하십시오.
 
 
-### 날짜 및 기본 미디어별 기여도
+### 날짜 및 기본 미디어별 기여도.
 
 누적 그래프는 맨 아래에 기준, 중간에 비지출 채널 및 맨 위에 지출 채널의 순서로 정렬됩니다.
 
@@ -45,11 +45,11 @@ ht-degree: 0%
 
 도넛 시각화는 채널별 기여도 분포를 보여 줍니다.
 
-### 마케팅 성과 요약
+### 마케팅 성과 요약.
 
 채널별 ROI 성능을 표시하는 가로 막대 그래프입니다.
 
-### 한계 반응 곡선
+### 한계 응답 곡선.
 
 라인 차트는 마케팅 채널에 대한 투자로 생성된 한계 수익을 시각화하고 비교합니다.  증분 수익이 증분 지출보다 작은 손익분기점을 식별합니다. 따라서 이 시각화는 마케팅 투자의 영향이 감소하기 시작하는 시기를 이해하는 데 도움이 됩니다.
 
@@ -60,31 +60,17 @@ ht-degree: 0%
 * **[!UICONTROL Channel]** 드롭다운 메뉴에서 채널을 선택하여 특정 채널에 대한 시각화를 업데이트합니다.
 
 
-### 접점 분류
-
-접점 분류 테이블에는 주별 기준으로 모든 또는 선택한 채널에 대한 접점 분류가 표시됩니다.
-
-![접점 분류](../assets/touchpoint-breakdown.png)
-
-다음 열을 사용할 수 있습니다.
-
-| 열 | 설명 |
-|---|---|
-| **[!UICONTROL Date range]** | 보고할 주입니다. |
-| **[!UICONTROL Touchpoint]** | 특정 터치포인트 채널. |
-| **[!UICONTROL ROI]** | (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**&#x200B;의 백분율입니다. |
-| **[!UICONTROL Revenue]** | 날짜 범위에 대한 매출입니다. |
-| **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**. |
-| **[!UICONTROL Conversions]** | 날짜 범위에 대한 전환입니다. |
-| **[!UICONTROL Spend]** | 데이터 범위에 대한 지출입니다. |
-
-특정 채널 또는 모든 채널을 선택하려면 **[!UICONTROL View]** 드롭다운 메뉴에서 선택하십시오.
-
-접점 분류 테이블의 내용을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**&#x200B;을(를) 선택하십시오.
 
 ## [!UICONTROL Attribution]
 
-[!UICONTROL Attribution] 탭을 사용하여 이벤트 수준 데이터가 있는 터치포인트 및 마케팅 캠페인의 효과를 이해할 수 있습니다. 지원되는 속성 모델은 다음과 같습니다.
+>[!NOTE]
+>
+>속성 탭은 MTA 활성화 모델에만 사용할 수 있습니다.
+
+
+[!UICONTROL Attribution] 탭을 사용하여 이벤트 수준 데이터가 있는 터치포인트 및 마케팅 캠페인의 효과를 이해할 수 있습니다.  [모델 만들기](create.md)를 참조하세요.
+
+지원되는 속성 모델은 다음과 같습니다.
 
 * Mix Modeler에서 선택한 모델 기반:
    * 알고리즘 - 영향
