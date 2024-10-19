@@ -4,7 +4,7 @@ description: 최신 Mix Modeler 릴리스 정보
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 72f122f1cdf7252dae9e93e5ea133e8cc76564dc
+source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 11%
@@ -13,7 +13,7 @@ ht-degree: 11%
 
 # 현재 Mix Modeler 릴리스 정보
 
-**마지막 업데이트**: 2024년 8월 13일.
+**마지막 업데이트**: 2024년 10월 1일.
 
 이 릴리스 노트는 Mix Modeler의 최신 릴리스를 다룹니다. Mix Modeler 릴리스는 연속 게재 모델에서 작동하므로 대략적인 월별 릴리스 케이던스를 사용할 수 있습니다. 따라서 이 릴리스 정보는 업데이트되므로 정기적으로 확인하십시오.&#39;
 

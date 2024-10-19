@@ -3,9 +3,9 @@ title: 모델 인사이트
 description: Mix Modeler 시 기록 개요, 모델 통찰력 및 모델 품질과 같은 모델에 대한 세부 정보를 얻는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
+source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,28 @@ ht-degree: 0%
 
 * **[!UICONTROL Channel]** 드롭다운 메뉴에서 채널을 선택하여 특정 채널에 대한 시각화를 업데이트합니다.
 
+
+### 접점 분류
+
+접점 분류 테이블에는 주별 기준으로 모든 또는 선택한 채널에 대한 접점 분류가 표시됩니다.
+
+![접점 분류](../assets/touchpoint-breakdown.png)
+
+다음 열을 사용할 수 있습니다.
+
+| 열 | 설명 |
+|---|---|
+| **[!UICONTROL Date range]** | 보고할 주입니다. |
+| **[!UICONTROL Touchpoint]** | 특정 터치포인트 채널. |
+| **[!UICONTROL ROI]** | (**[!UICONTROL Revenue]** - **[!UICONTROL Spend]**) / **[!UICONTROL Spend]**&#x200B;의 백분율입니다. |
+| **[!UICONTROL Revenue]** | 날짜 범위에 대한 매출입니다. |
+| **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**. |
+| **[!UICONTROL Conversions]** | 날짜 범위에 대한 전환입니다. |
+| **[!UICONTROL Spend]** | 데이터 범위에 대한 지출입니다. |
+
+특정 채널 또는 모든 채널을 선택하려면 **[!UICONTROL View]** 드롭다운 메뉴에서 선택하십시오.
+
+접점 분류 테이블의 내용을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**&#x200B;을(를) 선택하십시오.
 
 
 ## [!UICONTROL Attribution]
