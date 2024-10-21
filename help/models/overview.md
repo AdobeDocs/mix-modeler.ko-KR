@@ -3,9 +3,9 @@ title: 모델
 description: Mix Modeler에서 모델을 구성하고 사용하는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 3801d6637fee491aa295ef586c2017a503466ffc
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -62,25 +62,6 @@ Mix Modeler 인터페이스에서 현재 모델의 테이블을 보려면 다음
 
 특정 모델에 대해 다음 작업을 수행할 수 있습니다.
 
-### 세부 정보 보기
-
-모델의 세부 정보를 보려면 다음 작업을 수행하십시오.
-
-1. 왼쪽 레일에서 ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
-
-1. 세부 정보가 포함된 팝업을 표시하려면 모델에 대한 ![정보](/help/assets/icons/Info.svg)을(를) 선택하십시오.
-
-
-
-### 복제
-
-모델을 빠르게 복제할 수 있습니다.
-
-1. 왼쪽 레일에서 ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
-
-1. 모델에 대해 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Duplicate]**&#x200B;을(를) 선택합니다.
-
-
 ### 모델 인사이트
 
 모델 인사이트 기능은 성공적으로 교육되고 채점된 모델에서만 사용할 수 있습니다.
@@ -92,6 +73,52 @@ Mix Modeler 인터페이스에서 현재 모델의 테이블을 보려면 다음
 1. 모델 이름을 선택합니다.
 
 [모델 인사이트](insights.md)(으)로 리디렉션되었습니다.
+
+
+### 세부 정보 보기
+
+모델의 세부 정보를 보려면 다음 작업을 수행하십시오.
+
+1. 왼쪽 레일에서 ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
+
+1. 세부 정보가 포함된 팝업을 표시하려면 모델에 대한 ![정보](/help/assets/icons/Info.svg)을(를) 선택하십시오.
+
+
+### 복제
+
+모델을 빠르게 복제할 수 있습니다.
+
+1. 왼쪽 레일에서 ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
+
+1. 모델에 대해 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Duplicate]**&#x200B;을(를) 선택합니다.
+
+
+### 편집
+
+모델의 이름, 설명 및 교육 및 채점 일정을 편집할 수 있습니다.
+
+1. 왼쪽 레일에서 ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
+
+1. 모델에 대해 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Edit]**&#x200B;을(를) 선택합니다.
+
+   **[!UICONTROL Edit model]** 대화 상자에서:
+
+   * 새 **[!UICONTROL Name]** 및 **[!UICONTROL Description]**&#x200B;을(를) 입력하십시오.
+
+   * 예약을 사용하려면 **[!UICONTROL Status]**&#x200B;을(를) 사용하도록 설정하십시오. 교육되고 점수가 매겨진 모델만 예약할 수 있습니다.
+
+      1. **[!UICONTROL Scoring frequency]** 선택:
+
+         * **[!UICONTROL Daily]**: 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하십시오.
+         * **[!UICONTROL Weekly]**: 요일을 선택하고 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하십시오.
+         * **[!UICONTROL Monthly]**: 모든 드롭다운 메뉴에서 요일을 선택하고 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하십시오.
+
+      1. 드롭다운 메뉴에서 **[!UICONTROL Training frequency]**&#x200B;을(를) 선택합니다. **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** 또는 **[!UICONTROL None]**.
+
+     ![모델 편집](../assets/model-edit.png)
+
+1. **[!UICONTROL Save]**&#x200B;를 선택합니다.
+
 
 
 ### 재교육

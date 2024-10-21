@@ -3,9 +3,9 @@ title: 모델 만들기
 description: Mix Modeler에서 모델을 만드는 방법을 알아봅니다.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 1327ef083cc681b38adc086ad4f7332fd83577b5
+source-git-commit: 91dec8849d0d6fe52974024d09012d9c40d36cec
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -121,14 +121,6 @@ ht-degree: 0%
 
 1. **[!UICONTROL Advanced]** 단계:
 
-   1. **[!UICONTROL Define training window]** 섹션에서 다음 중 하나를 선택합니다.
-
-      * **[!UICONTROL Have Mix Modeler select a helpful training window]** 및
-
-      * **[!UICONTROL Manually input a training window]** 질문에 답합니다. 선택한 경우 **[!UICONTROL Include events the following years prior to a conversion]**&#x200B;의 연도 수를 정의합니다.
-
-        ![모델 - 교육 기간 정의](/help/assets/model-define-training-window.png)
-
    1. **[!UICONTROL Spend share]** 섹션에서:
 
       * 과거 마케팅 투자 비율을 사용하여 마케팅 데이터가 희소할 때 모델을 알리려면 **[!UICONTROL Allow spend share]**&#x200B;을(를) 활성화합니다.
@@ -150,6 +142,30 @@ ht-degree: 0%
       1. 필요한 경우 **[!UICONTROL Clear all]**&#x200B;을(를) 사용하여 **[!UICONTROL Contribution proportion]** 및 **[!UICONTROL Level of confidence]** 열에 대한 모든 입력 값을 지웁니다.
 
 
+1. **[!UICONTROL Schedule]** 단계:
+
+   1. **[!UICONTROL Schedule]** 섹션에서 모델 교육 및 채점을 예약할 수 있습니다.
+
+      ![일정 모델](../assets/model-schedule.png)
+
+      스케줄링된 모델 채점 및 교육을 수행하려면
+
+      1. **[!UICONTROL Enable scheduled model scoring and training]**&#x200B;을(를) 켭니다.
+      1. **[!UICONTROL Scoring frequency]** 선택:
+
+         * **[!UICONTROL Daily]**: 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하십시오.
+         * **[!UICONTROL Weekly]**: 요일을 선택하고 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하십시오.
+         * **[!UICONTROL Monthly]**: 모든 드롭다운 메뉴에서 요일을 선택하고 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하십시오.
+
+      1. 드롭다운 메뉴에서 **[!UICONTROL Training frequency]**&#x200B;을(를) 선택합니다. **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** 또는 **[!UICONTROL None]**.
+
+   1. **[!UICONTROL Define training window]** 섹션에서 다음 중 하나를 선택합니다.
+
+      ![모델 - 교육 기간 정의](/help/assets/model-define-training-window.png)
+
+      * **[!UICONTROL Have Mix Modeler select a helpful training window]** 및
+
+      * **[!UICONTROL Manually input a training window]** 질문에 답합니다. 선택한 경우 **[!UICONTROL Include events the following years prior to a conversion]**&#x200B;의 연도 수를 정의합니다.
 
 1. 모델 구성을 완료하려면 **[!UICONTROL Finish]**&#x200B;을(를) 선택하십시오.
 
