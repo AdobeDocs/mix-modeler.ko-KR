@@ -4,7 +4,7 @@ description: 최신 Mix Modeler 릴리스 정보
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 4901d4ad2ee0943ed651a0cc556f00be436a14a1
+source-git-commit: ab3b5b4177fff324d50463210724ef95db18e67f
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 11%
@@ -21,7 +21,7 @@ ht-degree: 11%
 
 | 기능 | 설명 | 일반 가용성 |
 |---|---|---|
-| **교육 및 채점 예약** | [모델을 만들기](/help/models/create.md)할 때와 [모델 인사이트](/help/models/insights.md#edit) 또는 모델 테이블의 [컨텍스트 메뉴](/help/models/overview.md#edit)에서 모델을 편집할 때 모델의 교육 및 채점을 예약할 수 있습니다. | 2024년 10월 21일 화요일 |
+| **교육 및 채점 예약** | [모델을 만들기](/help/models/create.md#schedule)할 때와 [모델 인사이트](/help/models/insights.md#edit) 또는 모델 테이블의 [컨텍스트 메뉴](/help/models/overview.md#edit)에서 모델을 편집할 때 모델의 교육 및 채점을 예약할 수 있습니다. | 2024년 10월 21일 화요일 |
 | **접점 분류 테이블** | [!UICONTROL Models]에서 [[!UICONTROL Model insights]](/help/models/insights.md#factors) 탭은 이제 추가 [접점 분류](../models/insights.md#touchpoint-breakdown) 테이블을 제공합니다. | 2024년 10월 1일 수요일 |
 
 ## 2024년 8월
