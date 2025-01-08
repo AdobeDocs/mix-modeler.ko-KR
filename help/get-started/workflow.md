@@ -3,10 +3,10 @@ title: Mix Modeler 워크플로
 description: Mix Modeler의 일반적인 워크플로를 이해합니다.
 feature: Ingest Data, Plans, Harmonized Data, Models
 exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: da92298bbd5b2fc14b54121f0c43dc3763f9a0a3
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 0%
+source-wordcount: '191'
+ht-degree: 1%
 
 ---
 
@@ -32,19 +32,22 @@ Mix Modeler의 일반적인 워크플로우는 다음 활동으로 구성됩니�
 
 {style="table-layout:auto"}
 
-아래의 자세한 데이터 기반 순서도는 다음 방법을 보여 줍니다.
+<!---
+The detailed data-oriented flowchart below illustrates how:
 
-* harmonized data는 다음을 기반으로 합니다.
+* harmonized data is based on:
 
-   * 경험 이벤트 데이터(Analytics 소스 커넥터에서 시작되고, Experience Platform SDK 및 API를 통해 수집되고, 소스 커넥터를 통해 수집되거나, 스트리밍 수집 사용),
-   * 벽으로 둘러싸인 정원(예: Facebook, YouTube), 트래픽 소스 또는 오프라인 광고 데이터의 집계 또는 요약 데이터
-   * harmonized fields 및 dataset 규칙의 정의.
+  * experience event data (originating from Analytics source connector, collected through Experience Platform SDKs and APIs, ingested through source connectors, or using streaming ingestion),
+  * aggregate or summary data from walled gardens (like Facebook, YouTube), traffic sources, or offline advertising data, and 
+  * definitions of harmonized fields and dataset rules.
 
-* 모델은 다음을 기반으로 합니다.
+* a model is based on:
 
-   * 통합 데이터 및 로 인한 전환 및 마케팅 접점 정의
-   * 내부 또는 외부 요소가 포함된 비마케팅 집계 또는 요약 데이터입니다.
+  * the conversion and marketing touchpoint definitions resulting from the harmonized data and 
+  * non-marketing aggregate or summary data containing internal or external factors.
 
-* 다중 터치 속성 이벤트 점수는 후속 모델 구성, 교육 및 점수에 사용하기 위해 Experience Platform 데이터 레이크로 피드백될 수 있습니다.
+* mult-touch attribution event scores can potentially be fed back into Experience Platform data lake for use in subsequent model configuration, training and scoring.
 
-![전체 워크플로](/help/assets/comprehensive-workflow.svg)
+![Comprehensive workflow](/help/assets/comprehensive-workflow.svg)
+
+-->

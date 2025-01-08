@@ -3,9 +3,9 @@ title: 데이터 세트 규칙
 description: Mix Modeler에서 데이터를 조화롭게 만드는 과정에서 사용할 데이터 세트 규칙을 정의하는 방법을 알아봅니다.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: a8590d604f79268bc8d1f012f2c19271a3b38668
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1407'
 ht-degree: 0%
 
 ---
@@ -146,12 +146,27 @@ ht-degree: 0%
 >
 >[!BADGE 베타]{type=Informative}
 
-데이터 병합 환경 설정은 요약된 데이터와 이벤트 데이터 소스가 병합될 때 충돌을 해결하는 데 도움이 됩니다. 사용 사례는 다음과 같습니다.
+정확한 모델 예측을 위해 데이터 병합 환경 설정을 정의할 수 있습니다. 이 기능을 사용하면 요약 수준 및 이벤트 수준 데이터를 병합한 후 발생하는 충돌을 해결할 수 있습니다.
+
+업데이트가 충돌하는 경우 기본 지표 환경 설정을 적용하도록 구성할 수 있습니다. 이 기본 지표는 다음 세 가지 옵션 중 하나일 수 있습니다.
+
+* **[!UICONTROL Summary data]**
+* **[!UICONTROL Sum of summary and event data]**
+* **[!UICONTROL Event data]**
+
+조화 중에 여러 데이터 소스가 지정된 채널에 대한 지표 필드를 업데이트하려고 하면 사용자가 구성한 기본 환경 설정이 적용됩니다. 이 환경 설정은 추가로 구성된 특정 지표 기반 환경 설정에 대해 재정의되지 않는 한 샌드박스 수준에서 적용됩니다.
+
+**[!UICONTROL Metric based preferences]**&#x200B;에서 사용자는 특정 지표에 대한 특정 원본(**[!UICONTROL Summary]** 또는 **[!UICONTROL Event]**)과 해당 지표에 대한 해당 전환 유형을 구성할 수 있습니다.
+
+일반적인 사용 사례는 다음과 같습니다.
 
 * 동일한 광고 지표가 여러 데이터 세트에서 측정되고 보고되거나
 * 일부 데이터 세트에서는 지표 측정이 불완전할 수 있지만 다른 데이터 세트는 특정 지표의 상위 집합일 수 있으므로 두 번 계산됩니다.
 
-정확한 모델 예측을 위해 데이터 병합 환경 설정을 정의할 수 있습니다.
+### 구성
+
+데이터 병합 환경 설정을 구성하려면 다음 작업을 수행하십시오.
+
 
 1. ![데이터 병합 환경 설정](/help/assets/icons/Merge.svg) [!BADGE 베타]을(를) 선택하십시오.
 
