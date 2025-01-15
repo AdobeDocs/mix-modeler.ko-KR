@@ -3,9 +3,9 @@ title: 모델 인사이트
 description: Mix Modeler 시 기록 개요, 모델 통찰력 및 모델 품질과 같은 모델에 대한 세부 정보를 얻는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: d4a500de13272f0b07827a0df4a386d3d757403b
+source-git-commit: fccdd908bbe6b5a2cf9182fc61cb4bbe392f92ec
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -186,14 +186,17 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 * 각 채널에 대해 속성 모델 기여도 백분율 및
 * 이러한 채널 속성 모델 기여도의 합계입니다.
 
-## **[!UICONTROL Factors]**
+## **[!UICONTROL Factors]** [!BADGE 베타]
 
-요소 탭에는 외부 요소 관련 통찰력이 표시됩니다.
+요소 [!BADGE 베타] 탭에 외부 요소 관련 인사이트가 표시됩니다.
 
 ![요소](/help/assets/factors.png)
 
 이 시각화는 다양한 내부 및 외부 요인이 전환 기준선에 미치는 증분 효과를 이해하는 데 도움이 됩니다. 예를 들어, 경제 상황 또는 홍보 활동.
 
+**[!UICONTROL Factors]** 드롭다운 메뉴를 사용하여 표시할 요소를 선택합니다.
+
+<!-- need to update the image when we do have a proper example -->
 
 테이블에 대한 데이터가 포함된 CSV 파일을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg)를 선택합니다.
 
@@ -205,7 +208,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 * [!UICONTROL Model Assessment] 시각화(실제 변환과 예측 또는 잔차 변환을 분류할 수 있음)
 
-  시각화를 분류하려면 **[!UICONTROL Breakdown]** 목록에서 **[!UICONTROL Actual vs. Predicted]** 또는 **[!UICONTROL Residuals]**&#x200B;을(를) 선택하십시오.
+시각화를 분류하려면 **[!UICONTROL Breakdown]** 목록에서 **[!UICONTROL Actual vs. Predicted]** 또는 **[!UICONTROL Residuals]**&#x200B;을(를) 선택하십시오.
 
 * 각 전환 지표에 대해 다음 열을 표시하는 [!UICONTROL Model fitting metrics] 테이블:
 
@@ -223,11 +226,11 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
       * RMSE(제곱 평균 제곱근 오차): 오차의 제곱에 따라 가중치가 적용된 평균 오차를 보여 줍니다.
 
-  테이블에 대한 데이터가 포함된 CSV 파일을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg)를 선택합니다.
+테이블에 대한 데이터가 포함된 CSV 파일을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg)를 선택합니다.
 
 * Attribution AI 알고리즘 모델의 결과를 나타내는 [!UICONTROL Touchpoint effectiveness] 테이블입니다. 이 테이블의 데이터는 특정 기간 동안만 생성됩니다. 자세한 내용은 **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![정보](/help/assets/icons/InfoOutline.svg)를 선택하십시오.
 
-  시각화는 각 터치포인트에 대해 내림차순 [!UICONTROL Efficiency measure] ![내림차순](/help/assets/icons/SortOrderDown.svg)으로 표시됩니다.
+시각화는 각 터치포인트에 대해 내림차순 [!UICONTROL Efficiency measure] ![내림차순](/help/assets/icons/SortOrderDown.svg)으로 표시됩니다.
 
    * [!UICONTROL Paths touched]: 전환된 경로의 비율과 전환되지 않은 경로의 비율을 시각화합니다. 접점의 경우 속성 전환율이 높으면 더 많은 속성 전환을 볼 수 있습니다. 이 비율은 전환으로 이어지는 경로의 비율과 전환으로 이어지는 *아닌*&#x200B;경로의 비율을 비교합니다.
    * [!UICONTROL Efficiency measure]: 알고리즘 속성 모델에 의해 생성된 효율성 측정은 접점 볼륨에 관계없이 전환에 대한 접점의 상대적 중요성을 나타냅니다. 효율은 1~5의 척도로 측정됩니다. 더 높은 접점 볼륨이 더 높은 효율성 측정을 보장하지는 않습니다.
@@ -246,11 +249,11 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 * 접점 사용.
 
-  이 시각화에 표시할 대체 지출 기반 채널을 선택할 수 있습니다. **[!UICONTROL Channels]**&#x200B;에서 채널을 선택하십시오.
+이 시각화에 표시할 대체 지출 기반 채널을 선택할 수 있습니다. **[!UICONTROL Channels]**&#x200B;에서 채널을 선택하십시오.
 
 * 접점 볼륨.
 
-  이 시각화에 표시할 대체 볼륨 기반 채널을 선택할 수 있습니다. **[!UICONTROL Channels]**&#x200B;에서 채널을 선택하십시오.
+이 시각화에 표시할 대체 볼륨 기반 채널을 선택할 수 있습니다. **[!UICONTROL Channels]**&#x200B;에서 채널을 선택하십시오.
 
 ![모델 - 이전 개요](/help/assets/model-insights-historical-overview.png)
 
