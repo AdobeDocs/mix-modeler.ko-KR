@@ -3,7 +3,7 @@ title: 마케팅 접점
 description: Mix Modeler에서 데이터를 조화롭게 만드는 과정의 일부로 사용할 마케팅 접점을 만드는 방법을 알아봅니다.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
+source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -35,7 +35,6 @@ Mix Modeler 인터페이스에서 사용 가능한 마케팅 접점 테이블을
 | 생성됨 | 마케팅 접점 생성 날짜 및 시간입니다. |
 | 마지막 수정일 | 마케팅 접점을 마지막으로 수정한 날짜 및 시간입니다. |
 
-{style="table-layout:auto"}
 
 ## 마케팅 접점 추가
 
