@@ -3,9 +3,9 @@ title: 플랜
 description: Mix Modeler에서 플랜을 보고, 선택하고, 실행하는 방법을 알아봅니다.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 6331bdfcbc792c03f9cc129daa4e591c2b46a8f1
+source-git-commit: 0475c584b3963d02d9dd72f0dccf692d558463db
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -99,14 +99,12 @@ Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음
 
 계획을 삭제하려면
 
-1. 테이블에서 하나 이상의 계획을 선택합니다.
-1. 작업 표시줄에서 ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택합니다.
+1. 왼쪽 레일에서 ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]**&#x200B;을(를) 선택합니다.
+1. 플랜에 대해 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Delete]**&#x200B;을(를) 선택합니다. 또는 파란색 작업 표시줄에서 ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL Delete moplandel]** 확인 대화 상자에서 **[!UICONTROL Delete]**&#x200B;을(를) 선택하여 계획을 삭제합니다. 취소할 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
 
-또는
+복수 계획을 삭제하려면
 
-1. 테이블의 플랜에 대해 ![자세히](/help/assets/icons/More.svg)을(를) 선택하십시오.
-1. 상황에 맞는 메뉴에서 **[!UICONTROL Delete]**&#x200B;을(를) 선택합니다. 원래 계획 이름에 **[!UICONTROL (Copy)]**&#x200B;을(를) 추가한 새 계획이 테이블 맨 위에 추가됩니다.
-
-   >[!WARNING]
-   >
-   >   선택한 플랜이 즉시 삭제됩니다.
+1. 여러 계획을 선택합니다.
+1. 파란색 작업 표시줄에서 ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택하여 계획을 삭제합니다.
+1. **[!UICONTROL Delete *x *계획]**확인 대화 상자에서&#x200B;**[!UICONTROL Delete]**을(를) 선택하여 계획을 삭제합니다. 취소할&#x200B;**[!UICONTROL Cancel]**을(를) 선택하십시오.
