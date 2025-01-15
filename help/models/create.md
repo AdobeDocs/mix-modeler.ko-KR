@@ -3,9 +3,9 @@ title: 모델 만들기
 description: Mix Modeler에서 모델을 만드는 방법을 알아봅니다.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: ab3b5b4177fff324d50463210724ef95db18e67f
+source-git-commit: 16aec67b3e0562ff766f81b8036c724fa03bba17
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,7 @@ ht-degree: 0%
 
    * 적격한 데이터 채우기 컨테이너를 제거하려면 컨테이너 내에서 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Remove marketing touchpoint]**&#x200B;을(를) 선택합니다.
 
+   * 적격 데이터 모집단에 대해 보다 복잡한 정의를 만들려면 컨테이너 사이에 **And** 및 **Or**&#x200B;을(를) 선택하십시오.
 
 
 1. 모델에 외부 요소가 포함된 데이터 세트를 추가하려면 **[!UICONTROL External factors dataset]** 섹션에서 하나 이상의 컨테이너를 사용하십시오. 외부요인의 예로 S&amp;P 지수를 들 수 있다.
