@@ -3,9 +3,9 @@ title: 플랜
 description: Mix Modeler에서 플랜을 보고, 선택하고, 실행하는 방법을 알아봅니다.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 6331bdfcbc792c03f9cc129daa4e591c2b46a8f1
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -47,9 +47,13 @@ Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음
    | 예산 | 플랜에 대한 총 예산. |
    | 예측 반환 | 플랜에 대한 예측 반환 |
    | 예측된 ROI | 플랜에 대한 예측된 ROI. |
+   | 예측 전환 | 플랜에 대한 예측된 전환 |
+   | 예측된 CPA | 플랜에 대한 예측된 CPA |
    | 상태 | 플랜 상태: <p><span style="color:red">●</span> 실패, <p><span style="color:blue">●</span> 처리 중, 또는 <p><span style="color:green">●</span>이(가) 완료되었습니다. |
 
    {style="table-layout:auto"}
+
+   ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을(를) 사용하여 테이블에 표시할 열을 ![확인 표시](/help/assets/icons/Checkmark.svg)할 수 있습니다.
 
 1. ![검색](/help/assets/icons/Search.svg)을 사용하여 하나 이상의 특정 계획에 대한 테이블을 검색하고 필터링합니다.
 
