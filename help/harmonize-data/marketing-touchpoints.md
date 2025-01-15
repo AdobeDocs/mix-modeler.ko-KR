@@ -3,9 +3,9 @@ title: 마케팅 접점
 description: Mix Modeler에서 데이터를 조화롭게 만드는 과정의 일부로 사용할 마케팅 접점을 만드는 방법을 알아봅니다.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,29 @@ Mix Modeler 인터페이스에서 사용 가능한 마케팅 접점 테이블을
 1. 터치포인트를 만들면 마케팅 터치포인트 테이블에 터치포인트가 추가됩니다.
 
 
-## 마케팅 접점 보기
+## 세부 정보 보기
 
-마케팅 접점을 보려면 다음을 수행하십시오.
+마케팅 접점 세부 정보를 보려면 다음을 수행하십시오.
 
 1. 테이블의 마케팅 접점 이름 위로 마우스를 가져가면 ![자세히](/help/assets/icons/More.svg)를 선택합니다.
 
 1. ![보기](/help/assets/icons/ViewDetail.svg) **보기**&#x200B;를 선택합니다. 대화 상자에 마케팅 접점의 세부 정보가 표시됩니다. 자세한 내용은 [마케팅 접점 추가](#add-a-marketing-touchpoint)를 참조하십시오. 대화 상자를 닫으려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
 
+
+## 보고서 보기
+
+마케팅 접점 보고서를 보려면 다음 작업을 수행하십시오.
+
+1. 테이블의 마케팅 접점 이름 위로 마우스를 가져가면 ![자세히](/help/assets/icons/More.svg)를 선택합니다.
+
+1. ![GraphTrend](/help/assets/icons/GraphTrend.svg) **보고서 보기**&#x200B;를 선택합니다. 대화 상자에 마케팅 접점 보고서가 표시됩니다.
+
+   ![마케팅 접점 보기 보고서](../assets/marketingtouchpoint-view-report.png)
+
+   * 보고할 세부 기간을 변경하려면 **[!UICONTROL Weekly]** 드롭다운 메뉴에서 값을 선택합니다.
+   * 보고할 기간을 변경하려면 시작 및 종료 날짜를 입력하거나 ![달력](/help/assets/icons/Calendar.svg)을 사용하여 달력 팝업에서 기간을 정의하십시오.
+
+1. 대화 상자를 닫으려면 **[!UICONTROL Close]**&#x200B;을(를) 선택하십시오.
 
 ## 마케팅 접점 삭제
 
