@@ -5,13 +5,13 @@ feature-set: Experience Cloud
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 72b4d3606316c254a9a3ea5909633d87eb9eada6
+exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
+source-git-commit: 159a89896f7b463fdc0de663062b7e0088d9ecfc
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '333'
 ht-degree: 1%
 
 ---
-
 
 # 테스트
 
@@ -25,10 +25,22 @@ ht-degree: 1%
 
 
 
+## 공식
 
-수식도 지원한다고요?
+그리고 우리는 유동식을 지원합니까?
 
 **코시-슈바르츠 부등식**
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^b_k^2 \right)$$
 
 
+
+
+## 음영처리 상자에서 SVG 사용
+
+음영 처리된 상자에서 SVG을 제대로 지원하지 않는 것 같습니다. 미리보기(corp.adobe.com)와 게시된 사이트(adobe.com)의 차이점을 참조하십시오.
+
+>[!BEGINSHADEBOX]
+
+*이 문서는 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**의 속성 패널에 대한 문서를 제공합니다.<br/>이 문서의 ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**버전에 대한 [속성 패널](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)을 참조하세요.*
+
+>[!ENDSHADEBOX]
