@@ -6,7 +6,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
-source-git-commit: 37c452ec2f8d984e9ba32da484532c26cdc9e891
+source-git-commit: 6eb0e0aa28aa965c17f002b9b08fcbc8ae993b0b
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-*이 문서는 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg)**Adobe Analytics**의 속성 패널에 대한 문서를 제공합니다.<br/>이 문서의 ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg)**Customer Journey Analytics**버전에 대한 [속성 패널](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)을 참조하세요.*
+이 문서에서는 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**&#x200B;의 속성 패널에 대해 설명합니다.이 문서의 ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** 버전에 대해서는 <br/>속성 패널](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)을 참조하세요.[
 
 >[!ENDSHADEBOX]
 
