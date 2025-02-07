@@ -2,10 +2,10 @@
 user-guide-title: Mix Modeler 안내서
 breadcrumb-title: Mix Modeler 안내서
 user-guide-description: Mix Modeler를 사용하는 방법에 대해 알아봅니다.
-source-git-commit: 0d6afcf18d7dcf909ae2c22ffa588c425a7148d3
+source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 46%
+source-wordcount: '85'
+ht-degree: 45%
 
 ---
 
@@ -18,24 +18,24 @@ ht-degree: 46%
    + [Mix Modeler이란?](/help/get-started/about.md)
    + [애플리케이션 워크플로우](/help/get-started/workflow.md)
 
-+ 대시보드 {#dashboard}
-   + [개요](/help/dashboard/overview.md)
++ 홈 {#dashboard}
+   + [홈 개요](/help/dashboard/overview.md)
    + [조화 데이터](/help/dashboard/harmonized-data.md)
    + [플랜](/help/dashboard/plans.md)
 
 + 모델 {#models}
    + [개요](/help/models/overview.md)
-   + [모델 만들기](/help/models/create.md)
+   + [모델 구축](/help/models/build.md)
    + [모델 인사이트](/help/models/insights.md)
-   + [채점 데이터](/help/models/scoring-data.md)
+   + [채점 데이터 사용](/help/models/scoring-data.md)
 
 + 플랜 {#plans}
    + [개요](/help/plans/overview.md)
-   + [계획 만들기](/help/plans/create.md)
-   + [플랜 편집](/help/plans/edit.md)
+   + [계획 수립](/help/plans/build.md)
+   + [플랜 인사이트](/help/plans/insights.md)
    + [계획 비교](/help/plans/compare.md)
 
-+ 데이터 {#harmonize-data} 조화
++ 데이터 세트 {#harmonize-data} 조화
    + [개요](/help/harmonize-data/overview.md)
    + [필드](/help/harmonize-data/fields.md)
    + [데이터 세트 규칙](/help/harmonize-data/dataset-rules.md)

@@ -1,18 +1,18 @@
 ---
-title: Harmonized data overview 대시보드
+title: Harmonized data dashboard
 description: Mix Modeler에서 Harmonized Data Overview 대시보드를 사용하는 방법에 대해 알아봅니다.
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-# Harmonized data 개요
+# 조화 데이터
 
-Mix Modeler 개요의 통합 데이터 탭은 수집된 데이터 및 통합 데이터 설정의 일부로 사용하도록 구성한 통합 데이터에 대한 통찰력을 제공합니다.
+Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;의 **[!UICONTROL Harmonized data]** 탭은 수집된 데이터 및 조정된 데이터 설정의 일부로 사용하도록 구성한 조정된 데이터에 대한 통찰력을 제공합니다.
 
 이 개요에서는 네 개의 KPI 상태 카드 시각화(맨 위 행)와 여섯 개의 다른 구성 가능한 시각화 를 보여 줍니다.
 

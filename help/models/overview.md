@@ -1,16 +1,16 @@
 ---
-title: 모델
-description: Mix Modeler에서 모델을 구성하고 사용하는 방법에 대해 알아봅니다.
+title: 모델 개요
+description: Mix Modeler에서 모델을 구축하고 사용하는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 0%
 
 ---
 
-# 모델
+# 모델 개요
 
 Mix Modeler의 모델 기능을 사용하면 비즈니스 목표에 맞는 모델을 구성하고, 교육하고, 평가할 수 있습니다. 교육 및 점수는 멀티터치 기여도 분석과 마케팅 믹스 모델링 간의 AI 기반 전환 학습을 지원합니다.
 
@@ -33,9 +33,9 @@ Mix Modeler의 모델은 마케터의 투자를 기반으로 지정된 결과를
 * 마케팅 데이터가 희소할 때 상대 지출 공유를 프록시로 사용하는 지출 공유.
 
 
-## 모델 만들기
+## 모델 구축
 
-모델을 만들려면 **[!UICONTROL Open model canvas]**&#x200B;을(를) 선택할 때 사용할 수 있는 Mix Modeler 단계별 안내식 모델 구성 흐름을 사용하십시오. 자세한 내용은 [모델 만들기](create.md)를 참조하십시오.
+모델을 만들려면 **[!UICONTROL Open model canvas]**&#x200B;을(를) 선택할 때 사용할 수 있는 Mix Modeler 단계별 안내식 모델 구성 흐름을 사용하십시오. 자세한 내용은 [모델 빌드](build.md)를 참조하십시오.
 
 ## 모델 관리
 

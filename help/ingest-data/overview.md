@@ -1,16 +1,16 @@
 ---
-title: 데이터 수집
+title: 데이터 수집 개요
 description: 데이터를 Mix Modeler에 수집하는 방법에 대해 알아봅니다.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 2402874518001c1ae78de6a64a06a9fefa1bbc27
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '465'
 ht-degree: 8%
 
 ---
 
-# 데이터 수집
+# 데이터 수집 개요
 
 Mix Modeler은 이벤트 수준 데이터, 다양한 담벼락 정원의 집계 또는 요약 마케팅 노력 데이터, 오프라인 광고, 내부 요소 또는 외부 요소와 같은 다른 소스의 집계 또는 요약 데이터로 작동합니다.
 
@@ -19,7 +19,7 @@ Mix Modeler은 이벤트 수준 데이터, 다양한 담벼락 정원의 집계 
 For example:
 
 * Adobe Analytics 소스 커넥터를 사용하여 수집된 데이터는 Adobe Analytics 스키마의 기본값 또는 사용자 지정 버전에 맞는 데이터 세트로 변환되거나
-* 웹, 모바일 또는 기타 모든 유형의 디바이스에서 고객 상호 작용을 수집하기 위해 Experience Platform Web SDK, Mobile SDK 또는 Edge Network 서버 API를 사용하여 수집된 데이터
+* 웹, 모바일 또는 기타 모든 유형의 디바이스에서 고객 상호 작용을 수집하기 위해 Experience Platform 웹 SDK, Mobile SDK 또는 Edge Network 서버 API를 사용하여 수집된 데이터
 * 벽으로 둘러싸인 정원(예: Facebook, YouTube), 트래픽 소스 또는 오프라인 광고 데이터의 집계 또는 요약 데이터,
 * 모델 구축에 유용한 내부 또는 외부 요인이 포함된 비마케팅 집계 또는 요약 데이터입니다.
 

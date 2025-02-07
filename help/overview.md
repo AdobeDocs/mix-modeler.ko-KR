@@ -4,10 +4,10 @@ description: Mix Modeler를 사용하여 모든 채널에서 캠페인을 측정
 short-description: Mix Modeler를 사용하여 모든 채널에서 캠페인을 측정하고 계획 수립을 전체적으로 최적화하는 방법에 대해 알아봅니다.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
+source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '203'
+ht-degree: 18%
 
 ---
 
@@ -60,13 +60,13 @@ ht-degree: 0%
     </td>
     <td>
       <img src="assets/FileGear.svg" width="35px"><br/>
-      <strong>모델</strong><br/><a href="/help/models/overview.md">개요</a> - <a href="/help/models/create.md">모델 만들기</a> - <a href="/help/models/insights.md">모델 인사이트</a> - <a href="/help/models/scoring-data.md">채점 데이터</a>
+      <strong>모델</strong><br/><a href="/help/models/overview.md">개요</a> - <a href="/help/models/build.md">모델 구축</a> - <a href="/help/models/insights.md">모델 인사이트</a> - <a href="/help/models/scoring-data.md">채점 데이터 사용</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/FileChart.svg" width="35px"><br/>
-      <strong>계획</strong><br/><a href="/help/plans/overview.md">계획</a> - <a href="/help/plans/create.md">계획 만들기</a> - <a href="/help/plans/compare.md">계획 비교</a> - <a href="/help/plans/edit.md">계획 편집</a>
+      <strong>계획</strong><br/><a href="/help/plans/overview.md">계획</a> - <a href="/help/plans/build.md">계획 작성</a> - <a href="/help/plans/compare.md">계획 비교</a> - <a href="/help/plans/build.md">계획 통찰력</a>
     </td>
     <td>
       <img src="assets/Dashboard.svg" width="35px"><br/>
