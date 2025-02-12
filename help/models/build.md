@@ -3,9 +3,9 @@ title: 모델 구축
 description: Mix Modeler에서 모델을 구축하는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]*
 
       1. **[!UICONTROL Dataset]** 드롭다운 메뉴에서 데이터 세트를 선택합니다. 데이터 집합을 관리하려면 ![데이터](/help/assets/icons/Data.svg)를 선택할 수 있습니다. 자세한 내용은 [데이터 세트](../ingest-data/datasets.md)를 참조하십시오.
 
-      1. **[!UICONTROL Impact on conversion]** 드롭다운 메뉴에서 옵션을 선택하십시오. **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** 또는 **[!UICONTROL Negative]**.
+      1. **[!UICONTROL Impact on conversion]** 드롭다운 메뉴에서 옵션을 선택하십시오. **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** 또는 **[!UICONTROL Negative]**. 기본 옵션은 모델이 영향을 결정할 수 있도록 하는 **[!UICONTROL Auto select]**&#x200B;입니다. 기본값을 재정의할 수 있습니다.
 
    * 추가 외부 요인 데이터 세트 컨테이너를 추가하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**&#x200B;을(를) 선택하십시오.
 
