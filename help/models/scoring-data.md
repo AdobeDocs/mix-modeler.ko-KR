@@ -3,7 +3,7 @@ title: 채점 데이터 사용
 description: Mix Modeler에서 모델의 채점 데이터가 어떻게 지속되는지 알아봅니다.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 5f6c35816a8850bf170cb73d9710e65809e5f372
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 6%
@@ -12,7 +12,7 @@ ht-degree: 6%
 
 # 채점 데이터 사용
 
-모델에 대한 채점을 수행하는 과정에서 채점 데이터는 Experience Platform의 데이터 세트 내에서 유지됩니다. 모델을 만드는 동안 다중 터치 속성을 활성화하면 추가 이벤트 점수 데이터가 Experience Platform의 데이터 세트 내에서 지속됩니다.
+모델에 대한 채점을 수행하는 과정에서 채점 데이터는 Experience Platform의 데이터 세트 내에서 유지됩니다. 모델을 만드는 동안 다중 터치 속성을 활성화하면 추가 이벤트 점수 데이터가 Experience Platform의 데이터 세트 내에서 유지됩니다.
 
 이러한 각 데이터 세트는 스키마를 준수합니다. 이 문서에서는 이러한 스키마를 설명합니다.
 
