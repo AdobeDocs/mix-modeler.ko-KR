@@ -1,11 +1,11 @@
 ---
 title: 모델 인사이트
-description: Mix Modeler 시 기록 개요, 모델 통찰력 및 모델 품질과 같은 모델에 대한 세부 정보를 얻는 방법에 대해 알아봅니다.
+description: Mix Modeler의 내역 개요, 모델 통찰력 및 모델 품질과 같은 모델에 대한 세부 정보를 얻는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
+source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
@@ -82,12 +82,27 @@ ht-degree: 0%
 
 접점 분류 테이블의 내용을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**&#x200B;을(를) 선택하십시오.
 
+## **[!UICONTROL Factors]** [!BADGE 베타]
+
+요소 [!BADGE 베타] 탭에 외부 요소 관련 인사이트가 표시됩니다.
+
+![요소](/help/assets/factors.png)
+
+이 시각화는 다양한 내부 및 외부 요인이 전환 기준선에 미치는 증분 효과를 이해하는 데 도움이 됩니다. 예를 들어, 경제 상황 또는 홍보 활동.
+
+**[!UICONTROL Factors]** 드롭다운 메뉴를 사용하여 표시할 요소를 선택합니다.
+
+<!-- need to update the image when we do have a proper example -->
+
+테이블에 대한 데이터가 포함된 CSV 파일을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg)를 선택합니다.
+
+데이터를 사용할 수 없으면 ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]** 메시지가 표시됩니다.
 
 ## [!UICONTROL Attribution]
 
 >[!NOTE]
 >
->속성 탭은 MTA 활성화 모델에만 사용할 수 있습니다.
+속성 탭은 MTA 활성화 모델에만 사용할 수 있습니다.
 
 
 [!UICONTROL Attribution] 탭을 사용하여 이벤트 수준 데이터가 있는 터치포인트 및 마케팅 캠페인의 효과를 이해할 수 있습니다.  [모델 빌드](build.md)를 참조하세요.
@@ -104,7 +119,7 @@ ht-degree: 0%
    * 선형
    * U자형
 
-Mix Modeler의 다중 터치 속성 기능에 대한 소개는 [다중 터치 속성](../get-started/about.md#multi-touch-attribution)을 참조하십시오.
+Mix Modeler의 멀티 터치 속성 기능에 대한 소개는 [멀티 터치 속성](../get-started/about.md#multi-touch-attribution)을 참조하십시오.
 
 **[!UICONTROL Attribution Model]** 드롭다운 메뉴에서 속성 모델을 하나 이상 선택합니다. 선택한 속성 모델은 속성 탭의 모든 시각화에 적용됩니다.
 
@@ -132,15 +147,15 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 [!UICONTROL Breakdown] 시각화는 선택한 각 속성 모델에 대한 전환의 채널 또는 터치포인트별 분류입니다. 이 시각화는 각 채널 또는 터치포인트의 효과에 대한 결정을 내리는 데 도움이 될 수 있습니다.
 
-분류 유형을 선택하려면 ![자세히](/help/assets/icons/More.svg)에서 **[!UICONTROL Breakdown by channel]** 또는 **[!UICONTROL Breakdown by touchpoint]**&#x200B;을(를) 선택하십시오.
+분류 유형을 선택하려면 select ![자세히](/help/assets/icons/More.svg)의 **[!UICONTROL Breakdown by channel]** 또는 **[!UICONTROL Breakdown by touchpoint]**
 
 세부 정보를 보려면 차트 요소 위로 마우스를 가져갑니다.
 
 ### [!UICONTROL Top campaigns]
 
-상위 캠페인 시각화는 캠페인 이름, 채널, 미디어 유형 및 증분 전환에 대한 열이 있는 상위 캠페인의 테이블을 표시합니다. 이 시각화는 주어진 채널에 대한 특정 캠페인의 효과를 팀에 알리고 추가로 투자해야 하는 캠페인에 대한 통찰력을 제공하는 데 도움이 될 수 있습니다.
+상위 캠페인 시각화는 캠페인 이름, 채널, 미디어 유형에 대한 열이 있는 상위 캠페인의 테이블을 표시합니다 and 증분 전환. 이 시각화는 주어진 채널에 대한 특정 캠페인의 효과를 팀에 알리고 추가로 투자해야 하는 캠페인에 대한 통찰력을 제공하는 데 도움이 될 수 있습니다.
 
-채널, 미디어 유형 또↑ 증분 전환에 ↓ 오름차순 또는 내림차순으로 테이블을 정렬하려면 열 헤더를 선택하고 정렬을 토글합니다.
+채널, 미디어 유형에 대해 ↑ 또는 내림차순↓ 테이블을 정렬하려면 다음을 입력합니다 or 증분 전환에서 열 헤더를 선택하고 정렬을 전환합니다.
 
 별도의 대화 상자에서 테이블을 확장하려면 ![자세히](/help/assets/icons/More.svg)에서 **[!UICONTROL Expand]**&#x200B;을(를) 선택합니다.
 
@@ -151,7 +166,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 * 첫 번째 터치 전환
 * 마지막 터치 전환
 
-  추가 열 헤더를 각각 선택하여 테이블을 오름차순 또는 내림차순으로 정렬할 수 있습니다.
+추가 열 헤더를 각각 선택하여 테이블을 오름차순 또는 내림차순으로 정렬할 수 있습니다.
 
 확장된 [최상위 캠페인] 대화 상자를 닫으려면 **[!UICONTROL Close]**&#x200B;을(를) 선택합니다.
 
@@ -162,7 +177,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 >[!NOTE]
 >
->모든 접점 및 위치에서 속성 모델에 대한 백분율 기여도의 합계는 100이어야 합니다.
+모든 접점 및 위치에서 속성 모델에 대한 백분율 기여도의 합계는 100이어야 합니다.
 
 
 위치 [!UICONTROL Starter], [!UICONTROL Player] 및 [!UICONTROL Closer]은(는) 다음과 같이 정의됩니다.
@@ -186,21 +201,6 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 * 각 채널에 대해 속성 모델 기여도 백분율 및
 * 이러한 채널 속성 모델 기여도의 합계입니다.
 
-## **[!UICONTROL Factors]** [!BADGE 베타]
-
-요소 [!BADGE 베타] 탭에 외부 요소 관련 인사이트가 표시됩니다.
-
-![요소](/help/assets/factors.png)
-
-이 시각화는 다양한 내부 및 외부 요인이 전환 기준선에 미치는 증분 효과를 이해하는 데 도움이 됩니다. 예를 들어, 경제 상황 또는 홍보 활동.
-
-**[!UICONTROL Factors]** 드롭다운 메뉴를 사용하여 표시할 요소를 선택합니다.
-
-<!-- need to update the image when we do have a proper example -->
-
-테이블에 대한 데이터가 포함된 CSV 파일을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg)를 선택합니다.
-
-데이터를 사용할 수 없으면 ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]** 메시지가 표시됩니다.
 
 ## [!UICONTROL Diagnostics]
 
@@ -228,7 +228,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 테이블에 대한 데이터가 포함된 CSV 파일을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg)를 선택합니다.
 
-* Attribution AI 알고리즘 모델의 결과를 나타내는 [!UICONTROL Touchpoint effectiveness] 테이블입니다. 이 테이블의 데이터는 특정 기간 동안만 생성됩니다. 자세한 내용은 **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![정보](/help/assets/icons/InfoOutline.svg)를 선택하십시오.
+* 기여도 AI 알고리즘 모델의 결과를 나타내는 [!UICONTROL Touchpoint effectiveness] 테이블입니다. 이 테이블의 데이터는 특정 기간 동안만 생성됩니다. 자세한 내용은 **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![정보](/help/assets/icons/InfoOutline.svg)를 선택하십시오.
 
 시각화는 각 터치포인트에 대해 내림차순 [!UICONTROL Efficiency measure] ![내림차순](/help/assets/icons/SortOrderDown.svg)으로 표시됩니다.
 

@@ -2,10 +2,10 @@
 user-guide-title: Mix Modeler 안내서
 breadcrumb-title: Mix Modeler 안내서
 user-guide-description: Mix Modeler를 사용하는 방법에 대해 알아봅니다.
-source-git-commit: 3d14f9d8d2675392d656857a5fb3b38edb7ecddf
+source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 45%
+source-wordcount: '84'
+ht-degree: 47%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 45%
 + [Mix Modeler 안내서](/help/overview.md)
 
 + {#get-started} 시작
-   + [Mix Modeler이란?](/help/get-started/about.md)
+   + [Mix Modeler란?](/help/get-started/about.md)
    + [애플리케이션 워크플로우](/help/get-started/workflow.md)
 
 + 홈 {#dashboard}
-   + [홈 개요](/help/dashboard/overview.md)
+   + [개요](/help/dashboard/overview.md)
    + [조화 데이터](/help/dashboard/harmonized-data.md)
    + [플랜](/help/dashboard/plans.md)
 
