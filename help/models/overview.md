@@ -3,9 +3,9 @@ title: 모델 개요
 description: Mix Modeler에서 모델을 구축하고 사용하는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 39ea5ed145678d6ac7e5263b38255e725e488f8d
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Mix Modeler의 모델은 마케터의 투자를 기반으로 지정된 결과를
 
 ## 모델 관리
 
-Mix Modeler 인터페이스에서 현재 모델의 테이블을 보려면 다음을 수행합니다.
+Mix Modeler 인터페이스에서 현재 모델의 표를 보려면 다음을 수행하십시오.
 
 1. 왼쪽 레일에서 ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**&#x200B;을(를) 선택합니다.
 
@@ -54,9 +54,33 @@ Mix Modeler 인터페이스에서 현재 모델의 테이블을 보려면 다음
    | 전환 이벤트 | 모델에 대해 선택한 변환입니다. |
    | 실행 빈도 | 모델 교육의 실행 빈도입니다. |
    | 마지막 실행 | 모델의 마지막 교육 날짜 및 시간입니다. |
-   | 상태 | 모델 교육의 마지막 실행 상태입니다. <br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) 성공<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) 교육 문제<br/> ![StatusOrange](/help/assets/icons/StatusOrange.svg) 교육 대기 중 <br/>![StatusRed](/help/assets/icons/StatusRed.svg) 실패 <br/>![StatusGreen](/help/assets/icons/StatusGray.svg) _(마지막 실행이 진행 중인 경우) |
+   | 상태 | 모델의 상태입니다. |
 
    {style="table-layout:auto"}
+
+   모델의 보고된 상태는 모델이 라이프사이클 내에 있는 위치에 따라 다릅니다. 예를 들어 모델이 생성되었는지, (재)트레이닝이 성공했는지 또는 (재)채점이 성공했는지 여부에 상관없이 표시됩니다.
+
+   아래 표에서:
+
+   * ![확인 표시](/help/assets/icons/Checkmark.svg) - 모델 라이프사이클에서 단계가 성공적으로 실행되었음을 나타냅니다.
+   * ![시계](/help/assets/icons/Clock.svg) - 모델 수명 주기에서 현재 진행 중인 단계 실행을 나타냅니다.
+   * ![닫기](/help/assets/icons/Close.svg) - 모델 수명 주기에서 단계 실행이 실패했음을 나타냅니다.
+
+   | 상태 | 만들기 | 교육 | 점수 | 재교육 | 재채점 |
+   |---|:---:|:---:|:---:|:---:|:---:|
+   | 진행 중 | ![확인 표시](/help/assets/icons/Checkmark.svg) | | | | |
+   | 진행 중 | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![시계](/help/assets/icons/Clock.svg) | | | |
+   | 진행 중 | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![시계](/help/assets/icons/Clock.svg) | | |
+   | 진행 중 | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![시계](/help/assets/icons/Clock.svg) | |
+   | 진행 중 | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![시계](/help/assets/icons/Clock.svg) |
+   | 교육 실패 | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![닫기](/help/assets/icons/Close.svg) | | | |
+   | 교육 실패 | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![닫기](/help/assets/icons/Close.svg) | |
+   | 교육 성공 | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | | | |
+   | 교육 성공 | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | |
+   | 채점 실패 | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![닫기](/help/assets/icons/Close.svg) | | |
+   | 채점 실패 | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![닫기](/help/assets/icons/Close.svg) |
+   | 채점 성공 | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | | |
+   | 채점 성공 | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) |
 
 1. 목록에 표시되는 열을 변경하려면 ![열 설정](/help/assets/icons/ColumnSetting.svg)을 선택하고 ![확인](/help/assets/icons/Checkmark.svg)을 설정하거나 해제합니다.
 
@@ -92,6 +116,7 @@ Mix Modeler 인터페이스에서 현재 모델의 테이블을 보려면 다음
 
 1. 모델에 대해 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Duplicate]**&#x200B;을(를) 선택합니다.
 
+원래 모델 이름에 **[!UICONTROL (Copy)](_n_)**&#x200B;이(가) 추가된 제안된 이름으로 새 모델을 만드는 단계로 리디렉션됩니다.
 
 ### 편집
 

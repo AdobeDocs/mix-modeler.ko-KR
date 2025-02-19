@@ -3,9 +3,9 @@ title: 플랜 개요
 description: Mix Modeler에서 플랜을 보고, 선택하고, 실행하는 방법을 알아봅니다.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
+source-git-commit: 8e1c748f3e4e267038dcac5bce82f90157e88c32
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음
 - 플랜에 대해 ![자세히](/help/assets/icons/More.svg)을(를) 선택하십시오. 컨텍스트 메뉴에서 **[!UICONTROL Duplicate]**&#x200B;을(를) 선택합니다.
 - 또는 ![SelectBox](/help/assets/icons/SelectBox.svg) 테이블에서 플랜을 선택하고 파란색 작업 표시줄에서 ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**&#x200B;을(를) 선택합니다.
 
-원래 계획 이름에 **[!UICONTROL (Copy)]**&#x200B;을(를) 추가한 새 계획이 테이블 맨 위에 추가됩니다.
+원래 계획 이름에 **[!UICONTROL (Copy)](_n_)**&#x200B;을(를) 추가한 이름으로 구성된 새 계획이 테이블 맨 위에 추가됩니다.
 
 ### 계획 비교
 
