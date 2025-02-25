@@ -4,10 +4,10 @@ description: 최신 Mix Modeler 릴리스 정보
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 622e61b2e354bd428d6c084f29bfec9666c1a09d
+source-git-commit: 96d56adc0a24a45797fd8a837b405a3f5329c886
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 4%
 | 기능 | 설명 | [롤아웃 시작](#release-strategy) | [일반 가용성](#release-strategy) |
 |---|---|---|---|
 | **중첩 조건** | [모델의 구성](/help/models/build.md#configure)의 일부로 적격한 데이터 모집단을 정의할 때 AND 및 OR을 사용하여 중첩 조건을 만들 수 있습니다. | 2025년 1월 15일 | t.b.d |
-| **보고서 보기** | 데이터 조화의 일부로 정의한 [전환](/help/harmonize-data/conversions.md#view-report) 또는 [마케팅 접점](/help/harmonize-data/marketing-touchpoints.md#view-report)에 대한 보고서를 볼 수 있습니다. | 2025년 1월 15일 | 2025년 2월 18일 수요일 |
-| **확인 삭제** | [플랜](/help/plans/overview.md#delete-plans) 또는 [모델](/help/models/overview.md#delete-models)의 삭제를 확인하는 메시지가 표시됩니다. | 2025년 1월 15일 | 2025년 2월 18일 수요일 |
-| **UI 개선 요소** | 모델 인사이트에 표시할 [요소](/help/models/insights.md#factors-beta)를 선택할 수 있습니다. | 2025년 1월 15일 | 2025년 2월 18일 수요일 |
-| **오류 처리** | 사용자 친화적인 오류 메시지 및 데이터 조화 및 계획의 오류 시나리오에 대한 사용자 경험 개선. | 2025년 2월 18일 수요일 | 2025년 2월 18일 수요일 |
-| **모델 상태** | 모델 라이프사이클에서 [모델 상태](/help/models/overview.md#manage-models)를 재정의합니다. | 2025년 2월 18일 수요일 | t.b.d. |
+| **보고서 보기** | 데이터 조화의 일부로 정의한 [전환](/help/harmonize-data/conversions.md#view-report) 또는 [마케팅 접점](/help/harmonize-data/marketing-touchpoints.md#view-report)에 대한 보고서를 볼 수 있습니다. | 2025년 1월 15일 | 2025년 2월 18일 |
+| **확인 삭제** | [플랜](/help/plans/overview.md#delete-plans) 또는 [모델](/help/models/overview.md#delete-models)의 삭제를 확인하는 메시지가 표시됩니다. | 2025년 1월 15일 | 2025년 2월 18일 |
+| **UI 개선 요소** | 모델 인사이트에 표시할 [요소](/help/models/insights.md#factors-beta)를 선택할 수 있습니다. | 2025년 1월 15일 | 2025년 2월 18일 |
+| **오류 처리** | 사용자 친화적인 오류 메시지 및 데이터 조화 및 계획의 오류 시나리오에 대한 사용자 경험 개선. | 2025년 2월 18일 | 2025년 2월 18일 |
+| **모델 상태** | 모델 라이프사이클에서 [모델 상태](/help/models/overview.md#manage-models)를 재정의합니다. | 2025년 2월 18일 | 2025년 2월 18일 |
 
 
 ## 릴리스 전략
