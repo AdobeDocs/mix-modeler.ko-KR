@@ -3,9 +3,9 @@ title: 모델 개요
 description: Mix Modeler에서 모델을 구축하고 사용하는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 4a154ec4c81cb6b2361a05440c56b7946f748d8c
+source-git-commit: f4333d3686d3173452f4e8ca43ccf07c269f4365
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---
@@ -83,6 +83,8 @@ Mix Modeler 인터페이스에서 현재 모델의 표를 보려면 다음을 �
    | 채점 실패 | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![닫기](/help/assets/icons/Close.svg) |
    | 채점 성공 | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | | |
    | 채점 성공 | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) | ![확인 표시](/help/assets/icons/Checkmark.svg) |
+
+   {style="table-layout:fixed"}
 
 1. 목록에 표시되는 열을 변경하려면 ![열 설정](/help/assets/icons/ColumnSetting.svg)을 선택하고 ![확인](/help/assets/icons/Checkmark.svg)을 설정하거나 해제합니다.
 

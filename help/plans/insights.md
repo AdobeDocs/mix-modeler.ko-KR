@@ -3,9 +3,9 @@ title: 플랜 인사이트
 description: Mix Modeler에서 플랜에 대한 통찰력을 보고 플랜을 편집하는 방법을 알아봅니다.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: fbed53a1c394d6d110db6a8a181ca815056377de
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 
 - [!UICONTROL Forecasted paid channel ROI] 시각화
 - [!UICONTROL Forecasted revenue] 시각화
+- [!UICONTROL Forecasted conversion] 시각화
+- [!UICONTROL Marginal channel return] 시각화
 - 플랜의 [!UICONTROL Data range breakdown] 테이블, 열 표시
 
    - 채널
@@ -28,11 +30,45 @@ ht-degree: 0%
    - 전환 목표
    - 지출
 
-![플랜 개요](/help/assets/overview-plan.png)
+인터페이스를 닫으려면 **[!UICONTROL Close]**&#x200B;을(를) 선택합니다.
 
-1. 플랜 인터페이스로 돌아가려면 **[!UICONTROL Close]**&#x200B;을(를) 선택하십시오.
+플랜의 ROI를 보는 방법을 변경하려면 **[!UICONTROL X]** 또는 **[!UICONTROL  %]**(**[!UICONTROL View ROI]**)을(를) 선택하십시오.
 
-1. **[!UICONTROL View ROI]** 방법에 대해 **[!UICONTROL X]** 또는 **[!UICONTROL  %]**&#x200B;을(를) 선택하십시오.
+## 유료 채널 지출 및 ROI 예측
+
+이 시각화는 모델, 날짜 범위 및 예산을 기반으로 유료 채널의 예상 지출 및 투자 수익률에 대한 산포도를 보여 줍니다.
+
+![유료 채널 지출 예측 및 ROI 시각화](../assets/overview-plan-forecasted-paid-channel-send-roi.png)
+
+
+## 예상 수익
+
+이 막대 차트 시각화는 모델, 날짜 범위 및 예산을 기반으로 채널에 대해 예측된 매출을 보여줍니다.
+
+![예측된 매출 시각화](../assets/overview-plan-forecasted-revenue.png)
+
+
+## 예측 전환
+
+이 막대 차트 시각화는 모델, 날짜 범위 및 예산을 기반으로 채널에 대해 예측된 전환을 보여줍니다.
+
+![예측된 전환 시각화](../assets/overview-plan-forecasted-conversions.png)
+
+
+## 한계 채널 수익
+
+이 선 차트 시각화는 **[!UICONTROL Marginal break-even]** 및 **[!UICONTROL Return point]**&#x200B;에 대한 지표가 있는 선택한 채널에 대한 한계 수익률 곡선을 보여 줍니다. 이 시각화를 통해 한계 손익분기점에 도달하여 채널에 대한 지출이 어떻게 되는지 그리고 채널 지출을 증가시킬 공간이 있는지 또는 채널 지출 효율성을 개선하기 위해 채널에 대한 지출을 줄여야 하는지 여부를 이해할 수 있습니다.
+
+![한계 채널 반환 시각화](../assets/overview-plan-marginal-channel-return.png)
+
+시각화에 사용할 특정 채널을 선택하려면 **[!UICONTROL View]** 드롭다운 메뉴에서 채널을 선택합니다.
+
+
+## 날짜 범위 분류
+
+[!UICONTROL Date range breakdown] 테이블은 [!UICONTROL ROI], [!UICONTROL Revenue], [!UICONTROL CPA], [!UICONTROL Conversions] 및 [!UICONTROL Spend]에 대한 채널별 세부 데이터를 보여줍니다.
+
+![날짜 범위 분류 테이블](../assets/overview-plan-date-range-breakdown.png)
 
 1. 날짜 범위 분류의 데이터가 포함된 CSV 파일을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**&#x200B;을(를) 선택하십시오. 컨텍스트 메뉴에서:
 
@@ -42,6 +78,9 @@ ht-degree: 0%
    세부 데이터는 주별로 입력된 세부 데이터입니다. 요약 데이터는 모델이 제공한 날짜 범위에 의해 입력된 데이터입니다.
 
 1. 채널의 범주별 날짜 범위 분류를 보려면 **[!UICONTROL View]** 선택에서 **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]** 또는 **[!UICONTROL Non-paid channels]**&#x200B;을(를) 선택하십시오.
+
+
+## 플랜 편집
 
 1. 플랜을 편집하려면 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL Edit plan]**&#x200B;을(를) 선택하십시오.
 
