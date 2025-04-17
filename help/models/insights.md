@@ -3,9 +3,9 @@ title: 모델 인사이트
 description: Mix Modeler의 내역 개요, 모델 통찰력 및 모델 품질과 같은 모델에 대한 세부 정보를 얻는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: bc48dc564042890856072a07c3a9715ba9dcdb87
+source-git-commit: d7386eb44b01fa42c2f0c501e09472af4458c4b1
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,14 @@ ht-degree: 0%
 지정된 모델이 마지막으로 새로 고쳐지고 네 개의 탭을 사용하여 시각화가 표시되는지 확인합니다. [모델 인사이트](#model-insights), [속성](#attribution), [요소](#factors), [진단](#diagnostics) 및 [기록 개요](#historical-overview).
 
 각 탭의 시각화의 기반이 되는 날짜 기간을 변경할 수 있습니다. 날짜 기간을 입력하거나 ![달력](/help/assets/icons/Calendar.svg)을 선택하여 날짜 기간을 선택하십시오.
+
+## 모델 표류
+
+{{release-limited-testing-section}}
+
+모델에서 모델 드리프트가 감지되면 나중에 또는 모델을 즉시 [**[!UICONTROL Retrain]**](overview.md#retrain)하도록 알림을 받을 수 있는 옵션이 포함된 **[!UICONTROL Model drift detected]** 대화 상자가 표시됩니다. **[!UICONTROL Remind me later]**&#x200B;을(를) 선택하면 다음 날 또는 다음 로그인 시 알림 메시지가 표시됩니다.
+
+![모델 드리프트가 검색된 대화 상자](/help/assets/model-drift-dialog.png)
 
 ## [!UICONTROL Model insights]
 
@@ -251,6 +259,19 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
    * [!UICONTROL Total volume]: 사용자가 터치포인트를 터치한 총 횟수입니다. 이 숫자는 전환을 수행하는 경로와 전환을 수행하는 경로 *not*&#x200B;에 표시되는 터치포인트를 포함합니다.
 
 ![진단](/help/assets/model-insights-diagnostics.png)
+
+### 모델 드리프트 감지
+
+>[!AVAILABILITY]
+>
+>이 섹션에 설명된 기능은 릴리스의 제한된 테스트 단계에 있으며, 사용자 환경에서 아직 사용하지 못할 수 있습니다. 이 메모는 기능을 일반적으로 사용할 수 있을 때 제거됩니다. Mix Modeler 릴리스 프로세스에 대한 정보는 [Mix Modeler 기능 릴리스](/help/releases/latest.md)를 참조하십시오.
+>
+
+모델 드리프트가 감지되면 맨 위에 **[!UICONTROL Model drift detected]** 알림이 표시됩니다.
+
+![모델 드리프트 알림](/help/assets/model-drift-notification.png)
+
+알림을 숨기려면 **[!UICONTROL Hide]**&#x200B;을(를) 선택하십시오. 알림은 다음 날 또는 다음 로그인 시 다시 나타납니다.
 
 
 ## [!UICONTROL Historical overview]

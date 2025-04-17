@@ -3,7 +3,7 @@ title: 감사 로그
 description: Mix Modeler에서 감사 로그에 액세스하는 방법을 알아봅니다.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 77a338ae568c854b99069b849a18661d413c501c
+source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 5%
@@ -43,7 +43,7 @@ If you are subject to the Health Insurance Portability and Accountability Act (H
    | Mix Modeler 모델 | 만들기 | 허용 또는 거부 |
    | Mix Modeler 모델 | 업데이트 | 허용 또는 거부 |
    | Mix Modeler 모델 | 삭제 | 허용 또는 거부 |
-   | Mix Modeler 모델 | 재채점 | 허용 또는 거부 |
+   | Mix Modeler 모델 | Rescore | 허용 또는 거부 |
    | Mix Modeler 모델 | 복제 | 허용 또는 거부 |
    | Mix Modeler 모델 | 교육 / 재교육 | 허용 또는 거부 |
    | Mix Modeler 모델 | 메타데이터 다운로드/저장 | 허용 또는 거부 |
