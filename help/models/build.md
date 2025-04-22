@@ -3,9 +3,9 @@ title: 모델 구축
 description: Mix Modeler에서 모델을 구축하는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
+source-git-commit: b08a24856e28a1377728bc2c511f6ea483cbd0fd
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,15 @@ Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]*
 
 1. **[!UICONTROL Spend share]** 섹션에서:
 
-   * 과거 마케팅 투자 비율을 사용하여 마케팅 데이터가 희소할 때 모델을 알리려면 **[!UICONTROL Allow spend share]**&#x200B;을(를) 활성화합니다.
+   * 과거 마케팅 투자 비율을 사용하여 마케팅 데이터가 희소할 때 모델을 알리려면 **[!UICONTROL Allow spend share]**&#x200B;을(를) 활성화합니다. 이 설정은 특히 다음 시나리오에서 권장됩니다.
+      * 채널에 충분한 관찰이 없습니다(예: 지출 빈도가 낮거나 노출 횟수 또는 클릭 수).
+      * 데이터가 희박할 수 있는 스파이크하지만 일반적이고 잠재적으로 비용이 높은 미디어(일부 브랜드의 TV 등)를 모델링합니다.
+
+     >[!NOTE]
+     >
+     >일회성 투자(예: 슈퍼볼 광고)의 경우 점유율에 의존하기 보다는 해당 데이터를 요소로 통합하는 것이 좋습니다.
+     >
+
 
 1. **[!UICONTROL MTA enabled]** 섹션에서:
 
