@@ -4,24 +4,20 @@ description: Mix Modeler의 기능 및 성능에 대한 개요를 살펴봅니�
 short-description: Mix Modeler의 기능 및 성능에 대한 개요를 살펴봅니다.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 325bc55076467a8cab5a884ea5137249913d2350
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '745'
 ht-degree: 3%
 
 ---
 
 # Mix Modeler 개요
 
-Mix Modeler 기능에 대한 간략한 개요는 이 비디오 를 참조하십시오.
-
->[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
-
-Adobe Sensei을 기반으로 하는 Mix Modeler을 통해 마케터는 캠페인을 측정하고 유료, 획득 및 소유의 모든 채널에서 전체적으로 계획을 최적화할 수 있습니다. 통합된 방법론은 마케팅 접점 및 집계 수준에서 점진적으로 측정되면서 완전히 일관된 결과를 보장합니다.
+Adobe Sensei을 기반으로 하는 Mix Modeler을 통해 마케터는 캠페인을 측정하고 유료, 획득 및 소유 등 모든 채널에서 전체적으로 계획을 최적화할 수 있습니다. 통합된 방법론은 마케팅 접점 및 집계 수준에서 점진적으로 측정되면서 완전히 일관된 결과를 보장합니다.
 
 Mix Modeler은 디지털 및 오프라인 마케팅을 위한 전체적인(종단간) 측정 애플리케이션을 통해 비즈니스 및 캠페인 결과에 모든 마케팅 활동이 미치는 점진적인 영향을 제공합니다.
 
-Mix Modeler은 전략적 및 전술적 수준에서 다음 유형의 최적화되고 실행 가능한 통찰력을 제공하므로 더 잘 이해할 수 있습니다.
+Mix Modeler은 전략적 및 전술적 수준에서 다음 유형의 최적화되고 실행 가능한 통찰력을 제공하므로 보다 잘 이해할 수 있습니다.
 
 * 다양한 채널에서 마케팅 지출 및 결과 성과
 * 향후 비즈니스 목표를 달성하기 위한 권장 투자 수준.
@@ -93,6 +89,6 @@ Mix Modeler의 멀티 터치 속성은 두 가지 범주의 점수를 지원합�
 * 전체 단계 이벤트 수준 속성: 전체 고객 여정에서 마케팅이 미치는 영향을 파악합니다. 예를 들어 무료 계정 등록은 유료 전환 및 그 이상에 해당합니다.
 * 파트너 평가: 기여도 분석 결과를 기반으로 에이전시와 파트너의 효과를 평가합니다.
 
-Mix Modeler 내의 다중 접점 속성 인사이트에 액세스하는 방법에 대해서는 [모델 인사이트 - 속성](../models/insights.md#attribution)을 참조하십시오.
+Mix Modeler 내의 다중 터치 속성 인사이트에 액세스하는 방법은 [모델 인사이트 - 속성](../models/insights.md#attribution)을 참조하십시오.
 
 
