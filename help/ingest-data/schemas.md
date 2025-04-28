@@ -1,11 +1,11 @@
 ---
 title: 스키마
-description: 데이터를 Mix Modeler에 수집하는 데 필요한 스키마를 관리하는 방법을 알아봅니다.
+description: Mix Modeler으로 데이터를 수집하는 데 필요한 스키마를 관리하는 방법을 알아봅니다.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: b0306ad6fad8966822ed14c67f159a4aefb4e3f8
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '378'
 ht-degree: 3%
 
 ---
@@ -22,11 +22,11 @@ Experience Platform에서 수집하고 Mix Modeler에서 사용할 데이터를 
 
 ## 집계 또는 요약 데이터
 
-XDM 요약 지표 클래스를 Experience Platform에 수집하고 Mix Modeler에 사용할 집계 또는 요약 데이터의 기초가 되는 스키마의 기반으로 사용하는 것이 좋습니다.
+XDM 요약 지표 클래스를 Experience Platform에서 수집하고 Mix Modeler에서 사용하려는 집계 또는 요약 데이터의 기본 스키마의 기반으로 사용하는 것이 좋습니다.
 
 XDM 요약 지표 클래스 사용:
 
-- 담으로 둘러싸인 정원 데이터(예: Facebook 또는 YouTube 데이터)
+- 벽 정원 데이터 (예: Facebook 또는 YouTube 데이터)
 
 - SPX(S&amp;P 500 주가 지수), 날씨 데이터 등의 외부 요인 데이터,
 
@@ -81,5 +81,10 @@ XDM 요약 지표 클래스 사용:
 - 길게
 - 짧음
 - 바이트
-- 날짜
+- 일자
 - 날짜-시간
+
+
+>[!MORELIKETHIS]
+>
+>- [스키마](schemas.md)
