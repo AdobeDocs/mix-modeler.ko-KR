@@ -22,7 +22,7 @@ Mix Modeler에서 계획 캔버스를 사용하여 계획을 만듭니다. 계�
    1. **[!UICONTROL Setup]** 섹션에서:
 
       1. **[!UICONTROL Plan name]**(예: `Demo plan`)을(를) 입력하십시오. **[!UICONTROL Description]**(예: `Demo plan for Luma company`)을(를) 입력하십시오.
-      1. **[!UICONTROL _에서&#x200B;**[!UICONTROL Model]**을(를) 선택하십시오. 옵션을 선택하십시오._.]**
+      1. **[!UICONTROL _에서&#x200B;**&#x200B;[!UICONTROL Model]&#x200B;**을(를) 선택하십시오. 옵션을 선택하십시오._.]**
       1. ![LinkOut](/help/assets/icons/LinkOut.svg) **[!UICONTROL Create model]**&#x200B;을(를) 선택하여 계획 생성 내에서 직접 모델을 만들 수 있습니다. 브라우저에서 새 탭이 열리고 [모델](../models/overview.md) 인터페이스가 표시됩니다.
 
          ![계획 설정](/help/assets/plan-setup.png)

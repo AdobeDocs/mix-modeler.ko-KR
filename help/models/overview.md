@@ -120,7 +120,7 @@ Mix Modeler 인터페이스에서 현재 모델의 표를 보려면 다음을 �
 
 1. 모델에 대해 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Duplicate]**&#x200B;을(를) 선택합니다.
 
-원래 모델 이름에 **[!UICONTROL (Copy)](_n_)**&#x200B;이(가) 추가된 제안된 이름으로 새 모델을 만드는 단계로 리디렉션됩니다.
+원래 모델 이름에 **[!UICONTROL (Copy)] (_n_)**&#x200B;이(가) 추가된 제안된 이름으로 새 모델을 만드는 단계로 리디렉션됩니다.
 
 ### 편집
 
@@ -194,7 +194,7 @@ Mix Modeler 인터페이스에서 현재 모델의 표를 보려면 다음을 �
    **[!UICONTROL Score marketing data]** 대화 상자에서 다음 옵션을 선택합니다.
 
    * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**, 새 마케팅 데이터를 사용하여 점진적으로 모델에 점수를 매기거나
-   * **[!UICONTROL Score specific date range of marketing data]**을(를) 사용하여 특정 날짜 범위를 다시 검색하십시오.
+   * **[!UICONTROL Score specific date range of marketing data]**&#x200B;을(를) 사용하여 특정 날짜 범위를 다시 검색하십시오.
 날짜 범위를 지정합니다. ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 범위를 선택할 수 있습니다.
 
    ![모델 다시 검색](../assets/rescore-model.png)
@@ -214,5 +214,5 @@ Mix Modeler 인터페이스에서 현재 모델의 표를 보려면 다음을 �
 
 1. 여러 모델을 선택합니다.
 1. 파란색 작업 표시줄에서 ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택하여 모델을 삭제합니다.
-1. **[!UICONTROL Delete *x *모델]**확인 대화 상자에서&#x200B;**[!UICONTROL Delete]**을(를) 선택하여 모델을 삭제합니다. 취소할&#x200B;**[!UICONTROL Cancel]**을(를) 선택하십시오.
+1. **[!UICONTROL Delete *x *모델]**&#x200B;확인 대화 상자에서&#x200B;**[!UICONTROL Delete]**&#x200B;을(를) 선택하여 모델을 삭제합니다. 취소할&#x200B;**[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
 

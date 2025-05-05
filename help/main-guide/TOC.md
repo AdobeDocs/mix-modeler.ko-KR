@@ -13,7 +13,7 @@ ht-degree: 47%
 
 + [Mix Modeler 안내서](/help/overview.md)
 
-+ {#get-started} 시작
++ 시작{#get-started}
    + [Mix Modeler란?](/help/get-started/about.md)
    + [애플리케이션 워크플로우](/help/get-started/workflow.md)
 
@@ -34,7 +34,7 @@ ht-degree: 47%
    + [플랜 인사이트](/help/plans/insights.md)
    + [계획 비교](/help/plans/compare.md)
 
-+ 데이터 세트 {#harmonize-data} 조화
++ 데이터 세트 조화 {#harmonize-data}
    + [개요](/help/harmonize-data/overview.md)
    + [필드](/help/harmonize-data/fields.md)
    + [데이터 세트 규칙](/help/harmonize-data/dataset-rules.md)
@@ -42,7 +42,7 @@ ht-degree: 47%
    + [전환](/help/harmonize-data/conversions.md)
    + [사용 보고서](/help/harmonize-data/usage-report.md)
 
-+ {#ingest-data} 데이터 수집
++ 데이터 수집{#ingest-data}
    + [개요](/help/ingest-data/overview.md)
    + [스키마](/help/ingest-data/schemas.md)
    + [데이터 세트](/help/ingest-data/datasets.md)

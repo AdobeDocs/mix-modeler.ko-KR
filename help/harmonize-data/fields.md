@@ -74,7 +74,7 @@ Mix Modeler 인터페이스에서 사용 가능한 조화 필드의 표를 보�
 
    {style="table-layout:auto"}
 
-1. 특정 Harmonized 필드를 검색하려면 ![Search](/help/assets/icons/Search.svg) **[!UICONTROL *Search harmonized 필드&#x200B;*]**를 사용하십시오.
+1. 특정 Harmonized 필드를 검색하려면 ![Search](/help/assets/icons/Search.svg) **[!UICONTROL *Search harmonized 필드&#x200B;*]**&#x200B;를 사용하십시오.
 
 
 ### 조화로운 필드 추가

@@ -72,17 +72,17 @@ ht-degree: 0%
 
       1. **[!UICONTROL Mapping type]**&#x200B;에서 **[!UICONTROL Count]** 또는 **[!UICONTROL Sum]**&#x200B;을(를) 선택합니다.
 
-      1. 기본적으로 통합 필드를 매핑할 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**를 선택하십시오.
+      1. 기본적으로 통합 필드를 매핑할 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**&#x200B;를 선택하십시오.
 
    1. 선택한 필드가 차원 유형인 경우:
 
       1. **[!UICONTROL Mapping type]**&#x200B;에서 **[!UICONTROL Map Into]** 또는 **[!UICONTROL Case]**&#x200B;을(를) 선택합니다.
 
-      1. **[!UICONTROL Map Into]**&#x200B;을(를) 선택한 경우 **[!UICONTROL Field]** 및 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**또는&#x200B;**[!UICONTROL Value]**을(를) 선택하고 기본적으로 조화 필드를 데이터 세트 필드 또는 입력된 값에 매핑합니다.
+      1. **[!UICONTROL Map Into]**&#x200B;을(를) 선택한 경우 **[!UICONTROL Field]** 및 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**&#x200B;또는&#x200B;**[!UICONTROL Value]**&#x200B;을(를) 선택하고 기본적으로 조화 필드를 데이터 세트 필드 또는 입력된 값에 매핑합니다.
 
-      1. **[!UICONTROL Case]**&#x200B;을(를) 선택한 경우 **[!UICONTROL Field]** 및 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**또는&#x200B;**[!UICONTROL Value]**을(를) 선택하고 기본적으로 조화 필드를 데이터 세트 필드 또는 입력된 값에 매핑하려면 기본값을 선택하십시오.
+      1. **[!UICONTROL Case]**&#x200B;을(를) 선택한 경우 **[!UICONTROL Field]** 및 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**&#x200B;또는&#x200B;**[!UICONTROL Value]**&#x200B;을(를) 선택하고 기본적으로 조화 필드를 데이터 세트 필드 또는 입력된 값에 매핑하려면 기본값을 선택하십시오.
 
-         1. 값을 명시적으로 설정하려면 하나 이상의 조건으로 구성된 하나 이상의 사례를 정의합니다. 각 조건은 특정 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**에 대해&#x200B;**[!UICONTROL Exists]**또는&#x200B;**[!UICONTROL Not Exists]**인지 또는**[!UICONTROL *&#x200B;입력 값 입력&#x200B;*]**&#x200B;에 입력한 값이 **[!UICONTROL Contains]**, **[!UICONTROL Not Contains]**, **[!UICONTROL Equals]**, **[!UICONTROL Not Equals]**, **[!UICONTROL Starts With]** 또는 **[!UICONTROL Ends With]**&#x200B;인지 여부를 확인할 수 있습니다.
+         1. 값을 명시적으로 설정하려면 하나 이상의 조건으로 구성된 하나 이상의 사례를 정의합니다. 각 조건은 특정 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**&#x200B;에 대해&#x200B;**[!UICONTROL Exists]**&#x200B;또는&#x200B;**[!UICONTROL Not Exists]**&#x200B;인지 또는&#x200B;**[!UICONTROL *&#x200B;입력 값 입력&#x200B;*]**&#x200B;에 입력한 값이 **[!UICONTROL Contains]**, **[!UICONTROL Not Contains]**, **[!UICONTROL Equals]**, **[!UICONTROL Not Equals]**, **[!UICONTROL Starts With]** 또는 **[!UICONTROL Ends With]**&#x200B;인지 여부를 확인할 수 있습니다.
 
          1. 다른 서비스 케이스를 추가하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**&#x200B;를 선택하고 다른 조건을 추가하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**&#x200B;를 선택합니다.
 
@@ -179,7 +179,7 @@ ht-degree: 0%
    * 특정 지표 기반 환경 설정을 추가하려면 다음 작업을 수행하십시오.
 
       1. ![더하기](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**&#x200B;을(를) 선택합니다.
-         1. **[!UICONTROL *지표 선택&#x200B;*]**목록에서 지표를 선택합니다.
+         1. **[!UICONTROL *지표 선택&#x200B;*]**&#x200B;목록에서 지표를 선택합니다.
          1. **[!UICONTROL CHANNELS]** 또는 **[!UICONTROL CONVERSION TYPES]**&#x200B;을(를) 선택하십시오. 목록에서 **[!UICONTROL All]** 또는 특정 채널 또는 전환 유형을 선택합니다.
          1. 데이터를 병합할 때 지표(및 모든 또는 선택한 채널)에 대해 요약 데이터나 이벤트 데이터를 선호하는지 여부를 지정하려면 **[!UICONTROL Summary]** 또는 **[!UICONTROL Event]**&#x200B;을(를) 선택하십시오.
 
@@ -200,7 +200,7 @@ ht-degree: 0%
 
 통합 데이터에서 사용되는 소스 데이터 집합을 삭제하면 해당 소스 데이터 집합의 기본 항목이 [[!UICONTROL Harmonized data]](/help/harmonize-data/overview.md)에서 제거됩니다. 그러나 삭제된 원본 데이터 집합이 있는 데이터 집합 규칙은 원본 데이터 집합이 삭제되었음을 나타내는 ![DataRemove](/help/assets/icons/DataRemove.svg) 아이콘과 함께 데이터 집합 규칙 구성 목록에 남아 있습니다. 자세한 내용을 보려면 다음 작업을 수행하십시오.
 
-* 컨텍스트 메뉴에서 ![자세히](/help/assets/icons/More.svg) 및 ![미리 보기](/help/assets/icons/Preview.svg) **[!UICONTROL View]**을(를) 선택합니다.
+* 컨텍스트 메뉴에서 ![자세히](/help/assets/icons/More.svg) 및 ![미리 보기](/help/assets/icons/Preview.svg) **[!UICONTROL View]**&#x200B;을(를) 선택합니다.
 **[!UICONTROL Dataset rule mapping - Fields]** 대화 상자에는 삭제된 원본 데이터 집합과 데이터 집합 규칙 구성에 사용된 필드에 대한 정보가 표시됩니다.
 
 **[!UICONTROL Dataset rules]** 구성으로 돌아가면 하나 이상의 소스 데이터 세트가 삭제되었음을 설명하는 대화 상자가 표시됩니다. 조화된 데이터는 다음 애드혹 또는 예약된 동기화의 영향을 받습니다. 데이터 세트 규칙 구성을 검토하십시오.

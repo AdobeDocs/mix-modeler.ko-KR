@@ -48,11 +48,11 @@ Mix Modeler 인터페이스에서 사용 가능한 마케팅 접점 테이블을
 
    1. **[!UICONTROL Touchpoint rule]** 정의.
 
-      1. **[!UICONTROL *조화롭게 선택&#x200B;*]**에서 값을 선택합니다(예:**[!UICONTROL Brand]**).
+      1. **[!UICONTROL *조화롭게 선택&#x200B;*]**&#x200B;에서 값을 선택합니다(예:**[!UICONTROL Brand]**).
 
       1. 연산자 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)의 값을 선택하십시오(예: **[!UICONTROL is]**).
 
-      1. **[!UICONTROL *값 선택&#x200B;*]**에서 값을 선택하거나&#x200B;**[!DNL Luma]**과(와) 같은 값을 입력하십시오.
+      1. **[!UICONTROL *값 선택&#x200B;*]**&#x200B;에서 값을 선택하거나&#x200B;**[!DNL Luma]**&#x200B;과(와) 같은 값을 입력하십시오.
 
    1. **[!UICONTROL Touchpoint volume]**&#x200B;에서 조정된 필드를 선택합니다(예: **[!UICONTROL Impressions]**).
 
