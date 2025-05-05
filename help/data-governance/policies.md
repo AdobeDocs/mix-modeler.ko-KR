@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # 정책
 
-워크플로우를 통해 모델을 만들고 모델의 구성을 제출하면 [정책 시행](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement)에서 위반이 있는지 확인합니다. 정책 위반이 발생하면 하나 이상의 정책이 위반되었음을 나타내는 팝오버가 표시됩니다. 이 검사는 Experience Platform 내의 데이터 작업 및 마케팅 작업이 데이터 사용 정책을 준수하는지 확인하기 위한 것입니다.
+워크플로우를 통해 모델을 만들고 모델의 구성을 제출하면 [정책 시행](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement)에서 위반이 있는지 확인합니다. 정책 위반이 발생하면 하나 이상의 정책이 위반되었음을 나타내는 팝오버가 표시됩니다. 이 검사는 Experience Platform 내의 데이터 작업 및 마케팅 작업이 데이터 사용 정책을 준수하는지 확인하기 위한 것입니다.
 
 기본적으로 Mix Modeler은 다음 레이블 및 마케팅 작업과 관련된 Adobe 정의 정책 위반을 확인합니다.
 
@@ -61,7 +61,7 @@ Currently,  Mix Modeler does not support all of the data governance functionalit
 
 >[!MORELIKETHIS]
 >
->[데이터 사용 정책 개요](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
+>[데이터 사용 정책 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/policies/overview)
 >
 >
 

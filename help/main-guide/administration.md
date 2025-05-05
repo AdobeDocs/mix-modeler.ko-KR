@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # 관리
 
-[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)을(를) 사용하여 Mix Modeler 제품 및 사용자를 관리하십시오.
+[Adobe Admin Console](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)을(를) 사용하여 Mix Modeler 제품 및 사용자를 관리하십시오.
 
 Mix Modeler이 제대로 작동하려면 올바른 권한을 설정해야 합니다.
 
@@ -22,7 +22,7 @@ Adobe Experience Cloud UI에서:
 
 1. 왼쪽 패널에서 ![사용자](/help/assets/icons/User.svg) **[!UICONTROL Roles]**&#x200B;을(를) 선택합니다.
 
-1. 기존 역할을 선택하거나 **[!UICONTROL Create role]**&#x200B;을(를) 사용하여 역할을 만드십시오(예: **Mix Modeler**). 기존 역할을 선택한 경우 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]**&#x200B;을(를) 선택하여 역할에 대한 권한을 편집합니다. 자세한 내용은 [역할 관리](https://helpx.adobe.com/enterprise/using/admin-console.html)를 참조하십시오.
+1. 기존 역할을 선택하거나 **[!UICONTROL Create role]**&#x200B;을(를) 사용하여 역할을 만드십시오(예: **Mix Modeler**). 기존 역할을 선택한 경우 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]**&#x200B;을(를) 선택하여 역할에 대한 권한을 편집합니다. 자세한 내용은 [역할 관리](https://helpx.adobe.com/kr/enterprise/using/admin-console.html)를 참조하십시오.
 
 1. 역할에 대해 하나 이상의 샌드박스를 선택했는지 확인합니다.
 

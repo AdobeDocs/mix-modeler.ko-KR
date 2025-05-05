@@ -90,7 +90,7 @@ Mix Modeler에서 데이터를 제대로 사용할 수 있는지 확인하려면
 * [개요](/help/overview.md)에서 시각화를 사용합니다.
 * Harmonized 데이터 세트의 [Harmonized data](/help/harmonize-data/overview.md)에서 데이터를 다운로드하고 검사합니다.
 
-데이터가 Experience Platform에서 제대로 수집되었는지 확인하기 위해 [Experience Platform 쿼리 서비스를 사용하여 SQL 쿼리를 쓰고 실행](https://experienceleague.adobe.com/en/docs/experience-platform/query/home)할 수 있습니다.
+데이터가 Experience Platform에서 제대로 수집되었는지 확인하기 위해 [Experience Platform 쿼리 서비스를 사용하여 SQL 쿼리를 쓰고 실행](https://experienceleague.adobe.com/ko/docs/experience-platform/query/home)할 수 있습니다.
 
 
 >[!MORELIKETHIS]
