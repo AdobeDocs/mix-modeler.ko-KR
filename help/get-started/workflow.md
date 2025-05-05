@@ -14,7 +14,7 @@ ht-degree: 1%
 
 Mix Modeler의 사용자 워크플로에 대한 소개는 이 비디오 를 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3440210/?learn=on&captions=kor)
 
 
 Mix Modeler의 일반적인 워크플로우는 다음 활동으로 구성됩니다.
