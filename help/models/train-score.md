@@ -56,7 +56,7 @@ ht-degree: 0%
    **[!UICONTROL Score marketing data]** 대화 상자에서 다음 옵션을 선택합니다.
 
    * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**, 새 마케팅 데이터를 사용하여 점진적으로 모델에 점수를 매기거나
-   * **[!UICONTROL Score specific date range of marketing data]**을(를) 사용하여 특정 날짜 범위를 다시 검색하십시오.
+   * **[!UICONTROL Score specific date range of marketing data]**&#x200B;을(를) 사용하여 특정 날짜 범위를 다시 검색하십시오.
 날짜 범위를 지정합니다. ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 범위를 선택할 수 있습니다.
 
    ![모델 다시 검색](../assets/rescore-model.png)
