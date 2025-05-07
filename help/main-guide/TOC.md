@@ -2,10 +2,10 @@
 user-guide-title: Mix Modeler 안내서
 breadcrumb-title: Mix Modeler 안내서
 user-guide-description: Mix Modeler를 사용하는 방법에 대해 알아봅니다.
-source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
+source-git-commit: 1e2a6d1bc32060d6de02b7ac7c879da3046f69e7
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 47%
+source-wordcount: '88'
+ht-degree: 51%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 47%
 
 + [Mix Modeler 안내서](/help/overview.md)
 
-+ 시작{#get-started}
++ 시작하기 {#get-started}
    + [Mix Modeler란?](/help/get-started/about.md)
    + [애플리케이션 워크플로우](/help/get-started/workflow.md)
 
@@ -25,6 +25,7 @@ ht-degree: 47%
 + 모델 {#models}
    + [개요](/help/models/overview.md)
    + [모델 구축](/help/models/build.md)
+   + [교육 및 점수 모델](/help/models/train-score.md)
    + [모델 인사이트](/help/models/insights.md)
    + [채점 데이터 사용](/help/models/scoring-data.md)
 
@@ -42,7 +43,7 @@ ht-degree: 47%
    + [전환](/help/harmonize-data/conversions.md)
    + [사용 보고서](/help/harmonize-data/usage-report.md)
 
-+ 데이터 수집{#ingest-data}
++ 데이터 수집 {#ingest-data}
    + [개요](/help/ingest-data/overview.md)
    + [스키마](/help/ingest-data/schemas.md)
    + [데이터 세트](/help/ingest-data/datasets.md)
