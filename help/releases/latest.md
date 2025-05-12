@@ -4,10 +4,10 @@ description: 최신 Mix Modeler 릴리스 정보
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
+source-git-commit: 9b400aeac26a3b02a8dfaf1faad435e0d3ac6cd8
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 4%
+source-wordcount: '365'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,8 @@ ht-degree: 4%
 
 | 기능 | 설명 | [롤아웃 시작](#release-strategy) | [일반 가용성](#release-strategy) |
 |---|---|---|---|
-| **모델 드리프트 감지** | 모델을 열 때 모델 드리프트가 감지될 때 모델을 다시 교육하라는 메시지가 [표시됩니다](/help/models/insights.md#model-drift). | 2025년 4월 3일 금요일 | t.b.d. |
+| **모델 드리프트 감지** | 모델을 열면 모델 드리프트가 감지될 때 [모델을 다시 교육하라는 메시지가 표시됩니다](/help/models/insights.md#model-drift). | 2025년 4월 3일 | 2025년 5월 7일 |
+| **계획 인사이트에서 한계 채널 반환** | [한계 채널 반환](/help/plans/insights.md#marginal-channel-return) 시각화가 계획 인사이트에 추가되어 모든 또는 선택한 채널에 대한 한계 브레이크 이벤트 및 계획 반환을 표시합니다. | 2025년 4월 3일 | 2025년 4월 24일 |
 
 
 ## 2025년 1월 - 2월
