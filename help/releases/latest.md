@@ -4,18 +4,26 @@ description: 최신 Mix Modeler 릴리스 정보
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 9b400aeac26a3b02a8dfaf1faad435e0d3ac6cd8
+source-git-commit: 58f8745a224407cfb8ce3912bde9f0f85b5d8b46
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '433'
 ht-degree: 3%
 
 ---
 
 # 최신 Mix Modeler 릴리스 정보
 
-**마지막 업데이트**: 2025년 2월.
+**마지막 업데이트**: 2025년 5월 14일.
 
 이 릴리스 노트는 Mix Modeler의 최신 릴리스를 다룹니다. Mix Modeler 릴리스는 연속 게재 모델에서 작동하므로 대략적인 월별 릴리스 케이던스를 사용할 수 있습니다. 따라서 이 릴리스 정보는 업데이트되므로 정기적으로 확인하십시오.
+
+
+## 2025년 5월 - 6월
+
+| 기능 | 설명 | [롤아웃 시작](#release-strategy) | [일반 가용성](#release-strategy) |
+|---|---|---|---|
+| **지출 패턴 구성** | 이제 플랜을 작성할 때 각 예산 날짜 범위에 대한 지출 패턴을 정의할 때 [과거 참조](/help/plans/build.md) 데이터(예: 과거 마케팅 지출 데이터 및 통찰력)를 사용할 수 있는 옵션이 제공됩니다. | 2025년 5월 14일 | 2025년 5월 14일 |
+| **고급 계획 구성** | 플랜에 대해 전환당 평균 매출액 및 채널 비용과 같은 [고급 구성](/help/plans/build.md)을 정의할 수 있습니다. | 2025년 5월 14일 | 2025년 5월 14일 |
 
 ## 2025년 3월 - 4월
 

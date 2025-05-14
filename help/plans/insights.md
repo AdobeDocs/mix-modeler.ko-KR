@@ -3,9 +3,9 @@ title: 플랜 인사이트
 description: Mix Modeler에서 플랜에 대한 통찰력을 보고 플랜을 편집하는 방법을 알아봅니다.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
+source-git-commit: 1d017960409e5433ac6b4950a5cf7a5b3174840a
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 인터페이스를 닫으려면 **[!UICONTROL Close]**&#x200B;을(를) 선택합니다.
 
-플랜의 ROI를 보는 방법을 변경하려면 **[!UICONTROL X]** 또는 **[!UICONTROL &#x200B; %]**(**[!UICONTROL View ROI]**)을(를) 선택하십시오.
+플랜의 ROI를 보는 방법을 변경하려면 **[!UICONTROL X]** 또는 **[!UICONTROL  %]**(**[!UICONTROL View ROI]**)을(를) 선택하십시오.
 
 ## 유료 채널 지출 및 ROI 예측
 
@@ -84,13 +84,27 @@ ht-degree: 0%
 
 1. 플랜을 편집하려면 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL Edit plan]**&#x200B;을(를) 선택하십시오.
 
-   1. **[!UICONTROL Spend selection]** 섹션에서 각 예산 날짜 범위에 대해 ![V자형 화살표](/help/assets/icons/ChevronRight.svg)를 사용하여 해당 데이터 범위에 대한 채널 배포 보기를 엽니다.
+   **[!UICONTROL Spend selection]** 섹션에서 각 예산 날짜 범위에 대해 ![V자형 화살표](/help/assets/icons/ChevronRight.svg)를 사용하여 해당 데이터 범위에 대한 채널 배포 보기를 엽니다.
+
+   과거 마케팅 지출 데이터와 통찰력을 사용하려는 경우 내역 참조 데이터를 사용할 수 있습니다. 내역 참조 데이터를 고려할 대상:
+
+   - 성과가 좋은 채널과 성과가 나쁜 채널을 강조 표시하여 예산 할당을 개선합니다.
+   - 지원 트렌드 분석.
+   - 효과적인 전략을 식별하고 계획을 구성하는 동안 실수를 방지합니다.
+
+   과거 참조 기간을 선택하는 경우 이전 지출 패턴 환경 설정에 맞게 조정하며 Mix Modeler의 계획 기능을 사용하면 예상 범위 내의 계획을 생성할 수 있습니다. 이러한 플랜은 궁극적으로 관련자의 신뢰를 강화하고, 마케팅 플랜이 전략적이고 효율적이며, 이러한 플랜이 입증된 성과 데이터 및 비즈니스 요구에 기반을 두도록 해야 합니다.
+
+   ![선택 비용](/help/assets/plan-spend-selection.png)
+
+   1. **[!UICONTROL Spend pattern]**&#x200B;을(를) 선택합니다.
+
+      - 기본적으로 **[!UICONTROL Automatic]**&#x200B;입니다.
+      - Mix Modeler에서 이미 사용 가능한 과거 마케팅 지출 데이터를 참조하려면 **[!UICONTROL Historical reference]**&#x200B;을(를) 선택하고 **[!UICONTROL Start date]**&#x200B;을(를) 입력하십시오. **[!UICONTROL End date]**&#x200B;은(는) 선택한 데이터 범위를 기반으로 자동으로 결정됩니다. 제안된 시작 날짜는 사용 가능한 첫 번째 사용 가능한 과거 마케팅 지출 데이터입니다. 존재하지 않는 기록 참조 기간을 선택했음을 나타내려면 ![AlertRed](/help/assets/icons/AlertRed.svg)가 표시됩니다.
+
 
    1. 각 채널의 예산을 수정하려면 **[!UICONTROL Min]** 및 **[!UICONTROL Max]**&#x200B;의 값을 수정하거나 슬라이더를 사용하십시오.
 
    1. 통화 또는 백분율 입력 간을 전환하려면 **[!UICONTROL View spend by]**&#x200B;에 대해 **[!UICONTROL $]** 또는 **[!UICONTROL %]**&#x200B;을(를) 선택하세요.
-
-      ![선택 비용](/help/assets/spend-selection.png)
 
    1. 플랜 세부 정보를 편집하려면 **[!UICONTROL Edit details]**&#x200B;을(를) 선택하세요.
 
