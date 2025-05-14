@@ -3,9 +3,9 @@ title: 플랜 인사이트
 description: Mix Modeler에서 플랜에 대한 통찰력을 보고 플랜을 편집하는 방법을 알아봅니다.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: fbed53a1c394d6d110db6a8a181ca815056377de
+source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 인터페이스를 닫으려면 **[!UICONTROL Close]**&#x200B;을(를) 선택합니다.
 
-플랜의 ROI를 보는 방법을 변경하려면 **[!UICONTROL X]** 또는 **[!UICONTROL &#x200B; %]**(**[!UICONTROL View ROI]**)을(를) 선택하십시오.
+플랜의 ROI를 보는 방법을 변경하려면 **[!UICONTROL X]** 또는 **[!UICONTROL  %]**(**[!UICONTROL View ROI]**)을(를) 선택하십시오.
 
 ## 유료 채널 지출 및 ROI 예측
 
@@ -114,6 +114,39 @@ ht-degree: 0%
       1. **[!UICONTROL Spend]** 섹션으로 돌아가려면 **[!UICONTROL Next]**&#x200B;을(를) 선택하십시오. 플랜 개요로 돌아가려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하세요.
 
          ![플랜 세부 정보](/help/assets/plan-details.png)
+
+   1. 플랜에 대한 고급 구성을 정의한 경우 **[!UICONTROL Next]**&#x200B;을(를) 선택합니다.
+
+      ![고급 구성 편집](../assets/edit-plan-advanced-configuration.png)
+
+      - 계획명 , 모델, 날짜 범위 및 총 예산이 요약됩니다.
+
+      - 기본적으로 Mix Modeler은 최신 이전 시즌 데이터를 사용하여 전환당 평균 매출을 자동으로 계산합니다. **[!UICONTROL Average Revenue per conversion]**&#x200B;에서 전환당 특정 평균 매출을 정의할 수 있습니다.
+
+         1. 예산의 각 일자 범위에 대해
+            1. **[!UICONTROL Date range]** 드롭다운 메뉴에서 날짜 범위를 선택합니다.
+            1. **[!UICONTROL Average revenue]** 값을 입력하십시오.
+
+         1. ![AddCircle](/help/assets/icons/AddCircle.svg) 전환 단위당 사용자 지정 평균 수익 추가를 선택하여 날짜 범위를 추가합니다.
+         1. 날짜 범위를 제거하려면 ![RemoveCircle](/help/assets/icons/RemoveCircle.svg)을(를) 선택하십시오.
+
+        >[!NOTE]
+        >
+        >모델에 이전 수익 데이터가 포함되지 않은 경우 예산에 대해 지정한 각 날짜 범위에 대해 전환당 평균 수익을 정의해야 합니다.
+        >
+
+      - 기본적으로 Mix Modeler은 최신 시즌 데이터를 사용하여 채널 비용을 자동으로 계산합니다. **[!UICONTROL Channel costs]**&#x200B;에서 사용자 지정 채널 비용을 정의할 수 있습니다.
+
+         1. 모델의 각 채널에 대해 사용자 지정 채널 비용을 정의합니다.
+            1. **[!UICONTROL Channel]** 드롭다운 메뉴에서 채널을 선택합니다.
+            1. 예산의 각 일자 범위에 대해
+               1. **[!UICONTROL Date range]** 드롭다운 메뉴에서 날짜 범위를 선택합니다.
+               1. **[!UICONTROL Average revenue]** 값을 입력하십시오.
+            1. 날짜 범위를 추가하려면 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom average revenue per conversion unit]**&#x200B;을(를) 선택하십시오.
+            1. 날짜 범위를 제거하려면 ![RemoveCircle](/help/assets/icons/RemoveCircle.svg)을(를) 선택하십시오.
+
+         1. 채널을 추가하려면 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom channel cost]**&#x200B;을(를) 선택하십시오.
+         1. 사용자 지정 채널을 제거하려면 ![CrossSize400](/help/assets/icons/CrossSize400.svg)을(를) 선택하십시오.
 
 
 1. 플랜 편집이 완료되면 **[!UICONTROL Edit]**&#x200B;을(를) 선택하세요.

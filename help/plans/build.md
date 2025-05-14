@@ -3,9 +3,9 @@ title: 계획 수립
 description: Mix Modeler에서 계획을 세우는 방법에 대해 알아봅니다.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: d05eccef370598ce64363ca6ae20886b0e5dccd0
+source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -17,12 +17,13 @@ Mix Modeler에서 계획 캔버스를 사용하여 계획을 만듭니다. 계�
 
 계획을 만들려면 Mix Modeler의 ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** 인터페이스에서 **[!UICONTROL Create plan]**&#x200B;을(를) 선택하십시오.
 
+
 1. **[!UICONTROL Plan creation]** 화면에서 다음을 수행합니다.
 
    1. **[!UICONTROL Setup]** 섹션에서:
 
       1. **[!UICONTROL Plan name]**(예: `Demo plan`)을(를) 입력하십시오. **[!UICONTROL Description]**(예: `Demo plan for Luma company`)을(를) 입력하십시오.
-      1. **[!UICONTROL _에서&#x200B;**&#x200B;[!UICONTROL Model]&#x200B;**을(를) 선택하십시오. 옵션을 선택하십시오._.]**
+      1. **[!UICONTROL _에서&#x200B;**[!UICONTROL Model]**을(를) 선택하십시오. 옵션을 선택하십시오._.]**
       1. ![LinkOut](/help/assets/icons/LinkOut.svg) **[!UICONTROL Create model]**&#x200B;을(를) 선택하여 계획 생성 내에서 직접 모델을 만들 수 있습니다. 브라우저에서 새 탭이 열리고 [모델](../models/overview.md) 인터페이스가 표시됩니다.
 
          ![계획 설정](/help/assets/plan-setup.png)
@@ -49,12 +50,12 @@ Mix Modeler에서 계획 캔버스를 사용하여 계획을 만듭니다. 계�
 
    ![계획 완료](/help/assets/plan-done-required-fields.png)
 
-   * 선택 <img src="/help/assets/icons/NewPlan.svg" width="25" /> ROI가 예측되는 AI 추천 플랜을 생성하려면 **[!UICONTROL Create plan now]**&#x200B;을(를) 수행하십시오.
+   * 예측된 ROI가 포함된 AI 추천 플랜을 생성하려면 ![새 플랜](../assets/icons/NewPlan.svg) **[!UICONTROL Create plan now]**&#x200B;을(를) 선택하십시오.
 
      **[!UICONTROL OK]**&#x200B;을(를) 선택합니다. 플랜이 생성되었습니다.
 
 
-   * 예측된 ROI로 계획을 만들기 전에 채널 예산을 편집하려면 ![테이블 편집](/help/assets/icons/TableEdit.svg) **[!UICONTROL Edit channel budgets first]**&#x200B;을(를) 선택하십시오.
+   * 예측된 ROI가 있는 계획을 만들기 전에 채널 예산을 편집하고 고급 구성을 정의하려면 ![테이블 편집](/help/assets/icons/TableEdit.svg) **[!UICONTROL Edit channel budgets first]**&#x200B;을(를) 선택하십시오.
 
      다음 단계에서 **[!UICONTROL Spend selection]**&#x200B;에서 채널 지출을 정의할 수 있도록 **[!UICONTROL OK]**&#x200B;을(를) 선택하십시오.
 
@@ -68,6 +69,46 @@ Mix Modeler에서 계획 캔버스를 사용하여 계획을 만듭니다. 계�
 
       ![선택 비용](/help/assets/plan-spend-selection.png)
 
+   1. **[!UICONTROL Next]**&#x200B;를 선택합니다.
+
+
+1. **[!UICONTROL Advanced configurations]** 섹션에서 선택적 고급 구성을 입력할 수 있습니다.
+
+   ![계획 요약](../assets/plan-advanced-configurations.png)
+
+   * 계획명 , 모델, 날짜 범위 및 총 예산이 요약됩니다.
+
+   * 기본적으로 Mix Modeler은 최신 이전 시즌 데이터를 사용하여 전환당 평균 매출을 자동으로 계산합니다. **[!UICONTROL Average Revenue per conversion]**&#x200B;에서 전환당 특정 평균 매출을 정의할 수 있습니다.
+
+      1. 예산의 각 일자 범위에 대해
+
+         1. **[!UICONTROL Date range]** 드롭다운 메뉴에서 날짜 범위를 선택합니다.
+         1. **[!UICONTROL Average revenue]** 값을 입력하십시오.
+
+      1. ![AddCircle](/help/assets/icons/AddCircle.svg) 전환 단위당 사용자 지정 평균 수익 추가를 선택하여 날짜 범위를 추가합니다.
+      1. 날짜 범위를 제거하려면 ![RemoveCircle](/help/assets/icons/RemoveCircle.svg)을(를) 선택하십시오.
+
+     >[!NOTE]
+     >
+     >모델에 이전 수익 데이터가 포함되지 않은 경우 예산에 대해 지정한 각 날짜 범위에 대해 전환당 평균 수익을 정의해야 합니다.
+     >
+
+   * 기본적으로 Mix Modeler은 최신 시즌 데이터를 사용하여 채널 비용을 자동으로 계산합니다. **[!UICONTROL Channel costs]**&#x200B;에서 사용자 지정 채널 비용을 정의할 수 있습니다.
+
+      1. 모델의 각 채널에 대해 사용자 지정 채널 비용을 정의합니다.
+
+         1. **[!UICONTROL Channel]** 드롭다운 메뉴에서 채널을 선택합니다.
+         1. 예산의 각 일자 범위에 대해
+            1. **[!UICONTROL Date range]** 드롭다운 메뉴에서 날짜 범위를 선택합니다.
+            1. **[!UICONTROL Average revenue]** 값을 입력하십시오.
+         1. 날짜 범위를 추가하려면 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom average revenue per conversion unit]**&#x200B;을(를) 선택하십시오.
+         1. 날짜 범위를 제거하려면 ![RemoveCircle](/help/assets/icons/RemoveCircle.svg)을(를) 선택하십시오.
+
+      1. 채널을 추가하려면 ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom channel cost]**&#x200B;을(를) 선택하십시오.
+      1. 사용자 지정 채널을 제거하려면 ![CrossSize400](/help/assets/icons/CrossSize400.svg)을(를) 선택하십시오.
+
+
    1. 완료되면 **[!UICONTROL Create]**&#x200B;을(를) 선택합니다.
 
    1. **[!UICONTROL Create plan]** 대화 상자에서 **[!UICONTROL Create plan]**&#x200B;을(를) 선택하여 계획을 만듭니다. **[!UICONTROL Cancel]**&#x200B;을(를) 선택하여 플랜 만들기를 취소하세요. 확인을 위해 **[!UICONTROL No work is saved]** 대화 상자가 표시됩니다.
+
