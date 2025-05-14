@@ -3,7 +3,7 @@ title: 계획 수립
 description: Mix Modeler에서 계획을 세우는 방법에 대해 알아봅니다.
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 1d017960409e5433ac6b4950a5cf7a5b3174840a
+source-git-commit: 3650135ee3ed5c435593aeed94bee8952bbe6df4
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Mix Modeler에서 계획 캔버스를 사용하여 계획을 만듭니다. 계�
    1. **[!UICONTROL Setup]** 섹션에서:
 
       1. **[!UICONTROL Plan name]**(예: `Demo plan`)을(를) 입력하십시오. **[!UICONTROL Description]**(예: `Demo plan for Luma company`)을(를) 입력하십시오.
-      1. **[!UICONTROL _에서&#x200B;**&#x200B;[!UICONTROL Model]&#x200B;**을(를) 선택하십시오. 옵션을 선택하십시오._.]**
+      1. **[!UICONTROL _에서&#x200B;**[!UICONTROL Model]**을(를) 선택하십시오. 옵션을 선택하십시오._.]**
       1. ![LinkOut](/help/assets/icons/LinkOut.svg) **[!UICONTROL Create model]**&#x200B;을(를) 선택하여 계획 생성 내에서 직접 모델을 만들 수 있습니다. 브라우저에서 새 탭이 열리고 [모델](../models/overview.md) 인터페이스가 표시됩니다.
 
          ![계획 설정](/help/assets/plan-setup.png)
@@ -83,11 +83,11 @@ Mix Modeler에서 계획 캔버스를 사용하여 계획을 만듭니다. 계�
 
    1. 통화 또는 백분율 입력 간을 전환하려면 **[!UICONTROL View spend by]**&#x200B;에 대해 **[!UICONTROL $]** 또는 **[!UICONTROL %]**&#x200B;을(를) 선택하세요.
 
-   1. 완료되면 **[!UICONTROL Create]**&#x200B;을(를) 선택합니다.
-
+   1. 완료되면 **[!UICONTROL Create]**을(를) 선택합니다.
       ![선택 비용](/help/assets/plan-spend-selection.png)
 
    1. **[!UICONTROL Next]**&#x200B;를 선택합니다.
+
 
 
 1. **[!UICONTROL Advanced configurations]** 섹션에서 선택적 고급 구성을 입력할 수 있습니다.
