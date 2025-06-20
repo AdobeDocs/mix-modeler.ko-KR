@@ -4,10 +4,10 @@ description: 최신 Mix Modeler 릴리스 정보
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 58f8745a224407cfb8ce3912bde9f0f85b5d8b46
+source-git-commit: 498f50e4d1568e58d0ac2833022822340a5f6337
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 3%
+source-wordcount: '464'
+ht-degree: 4%
 
 ---
 
@@ -22,6 +22,7 @@ ht-degree: 3%
 
 | 기능 | 설명 | [롤아웃 시작](#release-strategy) | [일반 가용성](#release-strategy) |
 |---|---|---|---|
+| **목표 기반 계획** | 플랜 [만들기](/help/plans/build.md) 또는 [편집](/help/plans/insights.md#edit-plan)할 때 예산 옆에서 목표(대상)를 정의할 수 있습니다. 타겟 지표의 예로는 매출, 전환, CPA 또는 ROI가 있습니다. | 2025년 6월 18일 목요일 | 2025년 7월 8일 수요일 |
 | **지출 패턴 구성** | 이제 플랜을 작성할 때 각 예산 날짜 범위에 대한 지출 패턴을 정의할 때 [과거 참조](/help/plans/build.md) 데이터(예: 과거 마케팅 지출 데이터 및 통찰력)를 사용할 수 있는 옵션이 제공됩니다. | 2025년 5월 14일 | 2025년 5월 14일 |
 | **고급 계획 구성** | 플랜에 대해 전환당 평균 매출액 및 채널 비용과 같은 [고급 구성](/help/plans/build.md)을 정의할 수 있습니다. | 2025년 5월 14일 | 2025년 5월 14일 |
 
@@ -29,7 +30,7 @@ ht-degree: 3%
 
 | 기능 | 설명 | [롤아웃 시작](#release-strategy) | [일반 가용성](#release-strategy) |
 |---|---|---|---|
-| **모델 드리프트 감지** | 모델을 열면 모델 드리프트가 감지될 때 [모델을 다시 교육하라는 메시지가 표시됩니다](/help/models/insights.md#model-drift). | 2025년 4월 3일 | 2025년 5월 7일 |
+| **모델 드리프트 감지** | 모델을 열면 모델 드리프트가 감지될 때 [모델을 다시 교육하라는 메시지가 표시됩니다](/help/models/insights.md#model-drift). | 2025년 4월 3일 | 2022년 5월 7일 |
 | **계획 인사이트에서 한계 채널 반환** | [한계 채널 반환](/help/plans/insights.md#marginal-channel-return) 시각화가 계획 인사이트에 추가되어 모든 또는 선택한 채널에 대한 한계 브레이크 이벤트 및 계획 반환을 표시합니다. | 2025년 4월 3일 | 2025년 4월 24일 |
 
 

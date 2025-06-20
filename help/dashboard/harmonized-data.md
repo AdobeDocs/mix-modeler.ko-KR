@@ -1,9 +1,9 @@
 ---
 title: Harmonized data dashboard
-description: Mix Modeler에서 Harmonized Data Overview 대시보드를 사용하는 방법에 대해 알아봅니다.
+description: Mix Modeler의 Harmonized Data Overview 대시보드를 사용하는 방법에 대해 알아봅니다.
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 9776b79cfc4a8eaebecd4bce85cfc9d85329c910
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200
 
 ![필터](/help/assets/icons/Filter.svg) **[!UICONTROL Category Filters]** 창을 사용하여 모든 시각화에 표시되는 데이터를 필터링할 수 있습니다.
 
-각 범주(**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Cannels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]** 및 **[!UICONTROL Traffic Source]**)에 대해 하나 이상의 필터를 선택하십시오.
+각 범주(**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Channels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]** 및 **[!UICONTROL Traffic Source]**)에 대해 하나 이상의 필터를 선택하십시오.
 
 선택한 필터가 **[!UICONTROL FILTERING BY:]**&#x200B;의 시각화 위에 표시됩니다.
 
