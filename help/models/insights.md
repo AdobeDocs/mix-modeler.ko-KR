@@ -3,9 +3,9 @@ title: 모델 인사이트
 description: Mix Modeler의 내역 개요, 모델 통찰력 및 모델 품질과 같은 모델에 대한 세부 정보를 얻는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: d7386eb44b01fa42c2f0c501e09472af4458c4b1
+source-git-commit: e5fa52cee1725ddfe4d75c50857a1e5ef4daf5b2
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,19 @@ ht-degree: 0%
 
 모델 인사이트를 보려면 Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** 인터페이스에서 다음을 수행합니다.
 
-1. **[!UICONTROL Models]** 테이블에서 **[!UICONTROL Last run status]**&#x200B;이(가) <span style="color:green">●</span>인 모델의 이름을 선택하십시오. **[!UICONTROL Success]**.
+1. **[!UICONTROL Models]** 테이블에서 **[!UICONTROL Last run status]**&#x200B;이(가) <span style="color:green">●</span>인 모델의 이름을 선택합니다 **[!UICONTROL Success]**.
 
 1. 컨텍스트 메뉴에서 **[!UICONTROL Model Insights]**&#x200B;을(를) 선택합니다.
 
-![모델 인사이트 탭 모음](/help/assets/model-insights-tabbar.png)
 
-지정된 모델이 마지막으로 새로 고쳐지고 네 개의 탭을 사용하여 시각화가 표시되는지 확인합니다. [모델 인사이트](#model-insights), [속성](#attribution), [요소](#factors), [진단](#diagnostics) 및 [기록 개요](#historical-overview).
+
+다음 탭을 사용할 수 있습니다.
+
+* [모델 인사이트](#model-insights)
+* [요소](#factors-beta) [!BADGE 베타]
+* [속성](#attribution)(MTA 사용 모델만 해당)
+* [진단](#diagnostics)
+* [기록 개요](#historical-overview).
 
 각 탭의 시각화의 기반이 되는 날짜 기간을 변경할 수 있습니다. 날짜 기간을 입력하거나 ![달력](/help/assets/icons/Calendar.svg)을 선택하여 날짜 기간을 선택하십시오.
 
@@ -36,7 +42,7 @@ ht-degree: 0%
 
 {{release-limited-testing-section}}
 
-모델에서 모델 드리프트가 감지되면 나중에 또는 모델을 즉시 [**[!UICONTROL Retrain]**](overview.md#retrain)하도록 알림을 받을 수 있는 옵션이 포함된 **[!UICONTROL Model drift detected]** 대화 상자가 표시됩니다. **[!UICONTROL Remind me later]**&#x200B;을(를) 선택하면 다음 날 또는 다음 로그인 시 알림 메시지가 표시됩니다.
+모델에서 모델 드리프트가 감지되면 나중에 또는 모델을 즉시 **[!UICONTROL Model drift detected]**&#x200B;하도록 알림을 받을 수 있는 옵션이 포함된 [**[!UICONTROL Retrain]**](overview.md#retrain) 대화 상자가 표시됩니다. **[!UICONTROL Remind me later]**&#x200B;을(를) 선택하면 다음 날 또는 다음 로그인 시 알림 메시지가 표시됩니다.
 
 ![모델 드리프트가 검색된 대화 상자](/help/assets/model-drift-dialog.png)
 
@@ -57,9 +63,9 @@ ht-degree: 0%
 
 이 스택 그래프 시각화는 다음과 같이 순서가 지정됩니다.
 
-* 밑바닥에 놓으세요
-* 중간에 지출하지 않는 채널.
-* 채널을 위에서 사용합니다.
+* 밑면이 표시됩니다.
+* 비지출 채널은 중간에 표시됩니다.
+* 지출 채널이 맨 위에 표시됩니다.
 
 이 시각화는 날짜 범위에서 기본, 지출 채널 및 비지출 채널로 달성되는 기여도 비율을 나타냅니다. 이 시각화는 증분 을 표시하는 데 유용합니다. 베이스는 마케팅 없이 발생했을 일을 나타내며, 비지출 채널과 지출 채널(베이스의 상단)은 마케팅의 영향에 대한 속성입니다. 요컨대, 비지출+지출은 마케팅 노력의 증분 영향과 같으며 시각화는 마케팅이 창출하는 가치를 쉽게 파악할 수 있도록 insight을 제공합니다.
 
@@ -84,7 +90,7 @@ ht-degree: 0%
 
 ### 접점 분류
 
-접점 분류 테이블은 주별 기준으로 모든 또는 선택한 채널에 대한 주별 접점 분류를 보여주며 각각에 연결된 주요 지표를 표시합니다. 이 표를 통해 보다 세분화된 채널 수준에서 쉽게 비교, 트렌드 식별 및 성능 추적을 수행할 수 있습니다. 이 테이블은 날짜 및 기본 미디어별 [기여도](#contribution-by-date-and-base-media) 시각화 및 채널별 [기여도](#contribution-by-channel) 시각화를 명시적으로 보완합니다.
+접점 분류 테이블에는 모든 또는 선택한 채널에 대한 주별 접점 분류가 주별 기준으로 표시되며, 각각에 연결된 주요 지표가 표시됩니다. 이 표를 통해 보다 세분화된 채널 수준에서 쉽게 비교, 트렌드 식별 및 성능 추적을 수행할 수 있습니다. 이 테이블은 날짜 및 기본 미디어별 [기여도](#contribution-by-date-and-base-media) 시각화 및 채널별 [기여도](#contribution-by-channel) 시각화를 명시적으로 보완합니다.
 
 ![접점 분류](../assets/touchpoint-breakdown.png)
 
@@ -161,7 +167,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 [!UICONTROL Daily trends], [!UICONTROL Weekly trends] 또는 [!UICONTROL Monthly trends] 시각화는 선택한 속성 모델에 대해 일별, 주별 또는 월별 전환 트렌드를 표시합니다.
 
-기간을 선택하려면 ![자세히](/help/assets/icons/More.svg)에서 **[!UICONTROL Daily trends]**, **[!UICONTROL Weekly trends]** 또는 **[!UICONTROL Monthly trends]**&#x200B;을(를) 선택하십시오.
+기간을 선택하려면 **[!UICONTROL Daily trends]**&#x200B;자세히&#x200B;**[!UICONTROL Weekly trends]**&#x200B;에서 **[!UICONTROL Monthly trends]**, ![ 또는 ](/help/assets/icons/More.svg)을(를) 선택하십시오.
 
 세부 정보를 보려면 특정 속성 모델의 데이터 라인 위로 마우스를 가져가 해당 데이터에 대한 총 전환 수를 표시하는 팝오버를 표시합니다.
 
@@ -169,7 +175,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 [!UICONTROL Breakdown] 시각화는 선택한 각 속성 모델에 대한 전환의 채널 또는 터치포인트별 분류입니다. 이 시각화는 각 채널 또는 터치포인트의 효과에 대한 결정을 내리는 데 도움이 될 수 있습니다.
 
-분류 유형을 선택하려면 ![자세히](/help/assets/icons/More.svg)에서 **[!UICONTROL Breakdown by channel]** 또는 **[!UICONTROL Breakdown by touchpoint]**&#x200B;을(를) 선택하십시오.
+분류 유형을 선택하려면 **[!UICONTROL Breakdown by channel]**&#x200B;자세히&#x200B;**[!UICONTROL Breakdown by touchpoint]**&#x200B;에서 ![ 또는 ](/help/assets/icons/More.svg)을(를) 선택하십시오.
 
 세부 정보를 보려면 차트 요소 위로 마우스를 가져갑니다.
 
@@ -179,7 +185,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 채널, 미디어 유형 또↑ 증분 전환에 ↓ 오름차순 또는 내림차순으로 테이블을 정렬하려면 열 헤더를 선택하고 정렬을 토글합니다.
 
-별도의 대화 상자에서 테이블을 확장하려면 ![자세히](/help/assets/icons/More.svg)에서 **[!UICONTROL Expand]**&#x200B;을(를) 선택합니다.
+별도의 대화 상자에서 테이블을 확장하려면 **[!UICONTROL Expand]**&#x200B;자세히![에서 ](/help/assets/icons/More.svg)을(를) 선택합니다.
 
 확장된 [상위 캠페인] 대화 상자에는 다음과 같은 추가 열이 있는 동일한 테이블이 표시됩니다.
 
@@ -228,37 +234,51 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 진단 탭에 다음에 대한 시각화가 표시됩니다.
 
-* [!UICONTROL Model Assessment] 시각화(실제 변환과 예측 또는 잔차 변환을 분류할 수 있음)
+* 다음으로 구성된 **[!UICONTROL Model Assessment]**&#x200B;개의 시각화:
 
-  시각화를 분류하려면 **[!UICONTROL Breakdown]** 목록에서 **[!UICONTROL Actual vs. Predicted]** 또는 **[!UICONTROL Residuals]**&#x200B;을(를) 선택하십시오.
+  ![모델 평가](../assets/model-assessment.png)
 
-* 각 전환 지표에 대해 다음 열을 표시하는 [!UICONTROL Model fitting metrics] 테이블:
+   * 실제 변환과 예측 또는 잔차 변환을 분류할 수 있는 그래프입니다.
+시각화를 분류하려면 **[!UICONTROL Breakdown]** 목록에서 다음 옵션 중 하나를 선택하십시오.
 
-   * 실제 전환
+      * **[!UICONTROL Actual vs Predicted]**: 이 옵션은 실제 값을 모델 예측과 비교합니다. 이상적으로, 예측된 값은 실제 값과 밀접하게 정렬되어야 하지만, 약간의 편차가 예상된다. 큰 또는 체계적인 편차 또는 패턴은 누락된 관계 및 데이터 또는 잠재적인 편향을 나타낼 수 있다.
 
-   * 모델 전환
+      * **[!UICONTROL Residuals]**: 이 옵션은 실제 값과 예측된 값의 차이를 표시합니다. 성과가 좋은 모델은 명확한 패턴이나 스프레드의 증가 없이 무작위로 분포된 잔차를 갖는다. 구조화된 트렌드 또는 확장 잔차는 누락된 관계 및 데이터 또는 분산 문제를 나타낼 수 있습니다.
 
-   * 잔차 변환(실제 변환과 모델 변환 간의 차이)
+   * 각 전환 지표에 대한 다음 열을 보여주는 표
 
-   * 모델 품질 점수 값:
-
-      * 자료가 회귀 모형(적합도)에 얼마나 잘 부합하는지를 알려주는 R2(R-제곱)이다.
-
-      * MAPE(Mean Absolute Percentage Error): 예측 정확도를 측정하기 위해 가장 일반적으로 사용되는 KPI 중 하나이며 예측 오류를 실제 값의 백분율로 표시합니다.
-
-      * RMSE(제곱 평균 제곱근 오차): 오차의 제곱에 따라 가중치가 적용된 평균 오차를 보여 줍니다.
+      * **[!UICONTROL Actual Conversion]**
+      * **[!UICONTROL Predicted Conversion]**
+      * **[!UICONTROL Residual Conversion]**
+      * **[!UICONTROL R<sup>2</sup>]**, 데이터가 회귀 모델(적합도)에 얼마나 잘 맞는지 알려주는 점수입니다.
+      * **[!UICONTROL MAPE]**(평균 절대 백분율 오류): 예측 정확도를 측정하기 위해 가장 일반적으로 사용되는 KPI 중 하나이며 예측 오류를 실제 값의 백분율로 표시합니다.
+      * **[!UICONTROL RMSE]**(제곱 평균 제곱근 오류): 평균 오류를 나타내며 오류의 제곱에 따라 가중치가 적용됩니다.
 
   테이블에 대한 데이터가 포함된 CSV 파일을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg)를 선택합니다.
 
-* 기여도 AI 알고리즘 모델의 결과를 나타내는 [!UICONTROL Touchpoint effectiveness] 테이블입니다. 이 테이블의 데이터는 특정 기간 동안만 생성됩니다. 자세한 내용은 **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![정보](/help/assets/icons/InfoOutline.svg)를 선택하십시오.
+* 각 전환 지표에 대해 표시되는 **[!UICONTROL Model training fit metrics]** 테이블:
+
+  ![모델 교육 맞춤 지표 테이블](../assets/model-training-fit-metrics.png)
+
+   * **[!UICONTROL Training R<sup>2</sup>]**: 모델의 예측으로 설명한 실제 값의 분산 비율을 나타냅니다(0 ~ 1 범위).
+   * **[!UICONTROL Training sMAPE]**(대칭 평균 절대 백분율 오류): 교육 데이터에 대한 평균 백분율 오류를 측정합니다. 값이 낮을수록 정확도가 향상됩니다.
+   * **[!UICONTROL Training RMSE]**(제곱 평균 제곱근 오류): 교육 데이터에 대한 평균 백분율 오류를 측정합니다. MAPE보다 더 큰 오류를 처벌합니다. 낮은 RMSE는 더 나은 예측 정확도를 시사하지만 이상치에 민감하다.
+   * **[!UICONTROL Out-of-sample sMAPE]**: 확인되지 않은 데이터에 대해 백분율 오류를 평가하여 초과 및 미만 예측의 균형을 조정합니다. 일반화를 평가하는 데 도움이 됩니다. 현재 Mix Modeler은 교육 데이터의 마지막 분기를 보류 집합으로 사용하여 백분율 오류를 평가합니다.
+   * **[!UICONTROL Out-of-sample RMSE]**: 확인되지 않은 데이터에 대해 백분율 오류를 평가하여 초과 및 미만 예측의 균형을 조정합니다. 일반화를 평가하는 데 도움이 됩니다. 현재 Mix Modeler은 교육 데이터의 마지막 분기를 보류 집합으로 사용하여 백분율 오류를 평가합니다. RMSE는 MAPE보다 더 큰 오류를 처벌합니다.
+
+
+* 기여도 AI 알고리즘 모델의 결과를 나타내는 **[!UICONTROL Touchpoint effectiveness]** 테이블입니다.
+
+  ![접점 효율성 테이블](../assets/touchpoint-effectiveness.png)
+
+  이 테이블의 데이터는 특정 기간 동안만 생성됩니다. 자세한 내용은 **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![정보](/help/assets/icons/InfoOutline.svg)를 선택하십시오.
 
   시각화는 각 터치포인트에 대해 내림차순 [!UICONTROL Efficiency measure] ![내림차순](/help/assets/icons/SortOrderDown.svg)으로 표시됩니다.
 
-   * [!UICONTROL Paths touched]: 전환된 경로의 비율과 전환되지 않은 경로의 비율을 시각화합니다. 접점의 경우 속성 전환율이 높으면 더 많은 속성 전환을 볼 수 있습니다. 이 비율은 전환으로 이어지는 경로의 비율과 전환으로 이어지는 *아닌*&#x200B;경로의 비율을 비교합니다.
-   * [!UICONTROL Efficiency measure]: 알고리즘 속성 모델에 의해 생성된 효율성 측정은 접점 볼륨에 관계없이 전환에 대한 접점의 상대적 중요성을 나타냅니다. 효율은 1~5의 척도로 측정됩니다. 더 높은 접점 볼륨이 더 높은 효율성 측정을 보장하지는 않습니다.
-   * [!UICONTROL Total volume]: 사용자가 터치포인트를 터치한 총 횟수입니다. 이 숫자는 전환을 수행하는 경로와 전환을 수행하는 경로 *not*&#x200B;에 표시되는 터치포인트를 포함합니다.
+   * **[!UICONTROL Paths touched]**: 전환된 경로의 비율과 전환되지 않은 경로의 비율을 시각화합니다. 접점의 경우 속성 전환율이 높으면 더 많은 속성 전환을 볼 수 있습니다. 이 비율은 전환으로 이어지는 경로의 비율과 전환으로 이어지는 *아닌*&#x200B;경로의 비율을 비교합니다.
+   * **[!UICONTROL Efficiency measure]**: 알고리즘 속성 모델에 의해 생성된 효율성 측정은 접점 볼륨에 관계없이 전환에 대한 접점의 상대적 중요성을 나타냅니다. 효율은 1~5의 척도로 측정됩니다. 더 높은 접점 볼륨이 더 높은 효율성 측정을 보장하지는 않습니다.
+   * **[!UICONTROL Total volume]**: 사용자가 터치포인트를 터치한 총 횟수입니다. 이 숫자는 전환을 수행하는 경로와 전환을 수행하는 경로 *not*&#x200B;에 표시되는 터치포인트를 포함합니다.
 
-![진단](/help/assets/model-insights-diagnostics.png)
 
 ### 모델 드리프트 감지
 
