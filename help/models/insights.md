@@ -3,9 +3,9 @@ title: 모델 인사이트
 description: Mix Modeler의 내역 개요, 모델 통찰력 및 모델 품질과 같은 모델에 대한 세부 정보를 얻는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: e5fa52cee1725ddfe4d75c50857a1e5ef4daf5b2
+source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2333'
 ht-degree: 0%
 
 ---
@@ -230,9 +230,30 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 * 이러한 채널 속성 모델 기여도의 합계입니다.
 
 
-## [!UICONTROL Diagnostics]
+## [!UICONTROL Diagnostics] {#diagnostics}
 
-진단 탭에 다음에 대한 시각화가 표시됩니다.
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modelassessment"
+>title="모델 평가 그래프"
+>abstract="모델 평가 시각화는 실제 전환과 예측 또는 잔차 전환에 대해 분류합니다."
+>additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Mix Modeler 개요"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Mix Modeler 데모"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_pathstouched"
+>title="터치된 경로"
+>abstract="터치된 경로는 각 접점에 대해 전환된 경로의 비율과 전환되지 않은 경로의 비율입니다."
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modeldateinfo"
+>title="모델 날짜 기준"
+>abstract="이 테이블의 데이터는 특정 기간 동안만 생성됩니다.  **[!UICONTROL As of]** 날짜는 데이터가 생성된 시간을 나타내며 startDate부터 endDate까지의 데이터를 기반으로 합니다."
+
+
+**[!UICONTROL Diagnostics]** 탭에는 다음에 대한 시각화가 표시됩니다.
 
 * 다음으로 구성된 **[!UICONTROL Model Assessment]**&#x200B;개의 시각화:
 

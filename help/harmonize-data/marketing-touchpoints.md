@@ -3,14 +3,20 @@ title: 마케팅 접점
 description: Mix Modeler에서 데이터를 조화롭게 만드는 과정의 일부로 사용할 마케팅 접점을 만드는 방법을 알아봅니다.
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
-# 마케팅 접점
+# 마케팅 접점 {#marketing-touchpoints}
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_marketingtouchpoint"
+>title="마케팅 접점"
+>abstract="마케팅 접점은 마케팅 투자가 숫자 또는 수익 기반 전환에 미치는 영향을 평가하는 데 사용되는 수신자, 개인 및/또는 쿠키 수준 마케팅 이벤트입니다."
+
 
 마케팅 접점은 마케팅 투자가 숫자 또는 수익 기반 전환에 미치는 영향을 평가하는 데 사용되는 수신자, 개인 및/또는 쿠키 수준 마케팅 이벤트입니다.
 
@@ -18,7 +24,7 @@ ht-degree: 0%
 
 ## 마케팅 접점 관리
 
-Mix Modeler 인터페이스에서 사용 가능한 마케팅 접점 테이블을 보려면 다음을 수행하십시오.
+Mix Modeler 인터페이스에서 사용 가능한 마케팅 접점 표를 보려면 다음을 수행하십시오.
 
 1. 왼쪽 레일에서 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**&#x200B;을(를) 선택합니다.
 
@@ -48,11 +54,11 @@ Mix Modeler 인터페이스에서 사용 가능한 마케팅 접점 테이블을
 
    1. **[!UICONTROL Touchpoint rule]** 정의.
 
-      1. **[!UICONTROL *조화롭게 선택&#x200B;*]**&#x200B;에서 값을 선택합니다(예:**[!UICONTROL Brand]**).
+      1. **[!UICONTROL *조화롭게 선택&#x200B;*]**에서 값을 선택합니다(예:**[!UICONTROL Brand]**).
 
       1. 연산자 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)의 값을 선택하십시오(예: **[!UICONTROL is]**).
 
-      1. **[!UICONTROL *값 선택&#x200B;*]**&#x200B;에서 값을 선택하거나&#x200B;**[!DNL Luma]**&#x200B;과(와) 같은 값을 입력하십시오.
+      1. **[!UICONTROL *값 선택&#x200B;*]**에서 값을 선택하거나&#x200B;**[!DNL Luma]**과(와) 같은 값을 입력하십시오.
 
    1. **[!UICONTROL Touchpoint volume]**&#x200B;에서 조정된 필드를 선택합니다(예: **[!UICONTROL Impressions]**).
 
