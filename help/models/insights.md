@@ -238,7 +238,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 >title="모델 평가 그래프"
 >abstract="모델 평가 시각화는 실제 전환과 예측 또는 잔차 전환에 대해 분류합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/mix-modeler/using/overview" text="Mix Modeler 개요"
->additional-url="https://video.tv.adobe.com/v/3440801/?learn=on&amp;enablevpops&captions=kor" text="Mix Modeler 데모"
+>additional-url="https://video.tv.adobe.com/v/3440801/?learn=on&enablevpops&captions=kor" text="Mix Modeler 데모"
 
 
 >[!CONTEXTUALHELP]
