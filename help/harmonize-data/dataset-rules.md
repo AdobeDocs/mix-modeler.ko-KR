@@ -3,9 +3,9 @@ title: 데이터 세트 규칙
 description: Mix Modeler에서 데이터를 조화롭게 만드는 과정에서 사용할 데이터 세트 규칙을 정의하는 방법을 알아봅니다.
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: a8590d604f79268bc8d1f012f2c19271a3b38668
+source-git-commit: 6fb23f4c970b7491730342a6a5a03f4e04c26bd1
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 데이터 세트 규칙 관리
 
-사용 가능한 데이터 세트 규칙의 표를 보려면 Mix Modeler 인터페이스에서 다음을 수행하십시오.
+Mix Modeler 인터페이스에서 사용 가능한 데이터 세트 규칙 표를 보려면 다음을 수행하십시오.
 
 1. 왼쪽 레일에서 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**&#x200B;을(를) 선택합니다.
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ### 데이터 세트 규칙 만들기
 
-데이터 집합 규칙을 만들려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 인터페이스에서 **[!UICONTROL Dataset rules configuration]** 마법사의 **[!UICONTROL Create a dataset rule]**&#x200B;을(를) 선택합니다.
+데이터 집합 규칙을 만들려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 인터페이스에서 **[!UICONTROL Create a dataset rule]** 마법사의 **[!UICONTROL Dataset rules configuration]**&#x200B;을(를) 선택하십시오.
 
 **[!UICONTROL Create]** 화면에서
 
@@ -50,39 +50,27 @@ ht-degree: 0%
 
 1. **[!UICONTROL Start of the week]**&#x200B;에 대한 요일을 선택하십시오.
 
-1. **[!UICONTROL Granularity]**&#x200B;에 대해 **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** 또는 **[!UICONTROL Yearly]**&#x200B;을(를) 선택하십시오.
+1. **[!UICONTROL Daily]**&#x200B;에 대해 **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]**, **[!UICONTROL Yearly]** 또는 **[!UICONTROL Granularity]**&#x200B;을(를) 선택하십시오.
 
-1. **[!UICONTROL Summary]** 범주의 데이터 세트를 선택한 경우:
-
-   1. 데이터 집합에 대한 데이터가 집계되는지 아니면 기존 데이터를 대체하는지 여부를 정의하려면 **[!UICONTROL Data restatement is by]**&#x200B;에 대해 **[!UICONTROL Aggregation]** 또는 **[!UICONTROL Replacement]**&#x200B;을(를) 선택하십시오.
-
-   1. 각 **[!UICONTROL Available dataset fields]**&#x200B;을(를) **[!UICONTROL Map to harmonized fields]**&#x200B;의 해당 **[!UICONTROL Standard harmonized fields]**&#x200B;에 매핑합니다. 데이터 집합 필드를 조정된 필드에 매핑하지 않으려면 명시적으로 **[!UICONTROL -- None --]**&#x200B;을(를) 선택하십시오.
-
-   1. 목록에서 사용할 수 없는 새로운 조화화된 필드가 필요한 경우 **[!UICONTROL Create New]**&#x200B;을(를) 선택하여 새로운 조화화된 필드를 만드십시오. [새로운 통합 필드 추가](fields.md#add-a-harmonized-field)에 설명된 대로 대화 상자가 표시됩니다.
-
-   1. 규칙의 모든 필드에 대한 매핑이 완료되면 **[!UICONTROL Save as draft]**&#x200B;을(를) 선택하여 규칙의 초안 버전을 저장하거나 **[!UICONTROL Save]**&#x200B;을(를) 선택하여 규칙을 저장하고 활성화합니다. 규칙 구성을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
-
-      ![데이터 집합 규칙 만들기](/help/assets/dataset-create-summary.png)
-
-1. **[!UICONTROL Map to harmonized fields]** 아래 상자에서 이벤트 범주 데이터 세트(**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**)를 선택한 경우:
+1. **[!UICONTROL Map to harmonized fields]** 섹션에서:
 
    1. **[!UICONTROL Standard harmonized field]**&#x200B;에서 통합 필드를 선택하십시오.
 
    1. 선택한 조화로운 필드가 유형 지표인 경우:
 
-      1. **[!UICONTROL Mapping type]**&#x200B;에서 **[!UICONTROL Count]** 또는 **[!UICONTROL Sum]**&#x200B;을(를) 선택합니다.
+      1. **[!UICONTROL Count]**&#x200B;에서 **[!UICONTROL Sum]** 또는 **[!UICONTROL Mapping type]**&#x200B;을(를) 선택합니다.
 
-      1. 기본적으로 통합 필드를 매핑할 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**&#x200B;를 선택하십시오.
+      1. 기본적으로 통합 필드를 매핑할 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**를 선택하십시오.
 
    1. 선택한 필드가 차원 유형인 경우:
 
-      1. **[!UICONTROL Mapping type]**&#x200B;에서 **[!UICONTROL Map Into]** 또는 **[!UICONTROL Case]**&#x200B;을(를) 선택합니다.
+      1. **[!UICONTROL Map Into]**&#x200B;에서 **[!UICONTROL Case]** 또는 **[!UICONTROL Mapping type]**&#x200B;을(를) 선택합니다.
 
-      1. **[!UICONTROL Map Into]**&#x200B;을(를) 선택한 경우 **[!UICONTROL Field]** 및 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**&#x200B;또는&#x200B;**[!UICONTROL Value]**&#x200B;을(를) 선택하고 기본적으로 조화 필드를 데이터 세트 필드 또는 입력된 값에 매핑합니다.
+      1. **[!UICONTROL Map Into]**&#x200B;을(를) 선택한 경우 **[!UICONTROL Field]**&#x200B;과(와) **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**또는&#x200B;**[!UICONTROL Value]**을(를) 선택하고 기본적으로 조화 필드를 데이터 세트 필드 또는 입력된 값에 매핑합니다.
 
-      1. **[!UICONTROL Case]**&#x200B;을(를) 선택한 경우 **[!UICONTROL Field]** 및 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**&#x200B;또는&#x200B;**[!UICONTROL Value]**&#x200B;을(를) 선택하고 기본적으로 조화 필드를 데이터 세트 필드 또는 입력된 값에 매핑하려면 기본값을 선택하십시오.
+      1. **[!UICONTROL Case]**&#x200B;을(를) 선택한 경우 **[!UICONTROL Field]** 및 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**또는&#x200B;**[!UICONTROL Value]**을(를) 선택하고 기본적으로 조화 필드를 데이터 세트 필드 또는 입력된 값에 매핑합니다.
 
-         1. 값을 명시적으로 설정하려면 하나 이상의 조건으로 구성된 하나 이상의 사례를 정의합니다. 각 조건은 특정 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**&#x200B;에 대해&#x200B;**[!UICONTROL Exists]**&#x200B;또는&#x200B;**[!UICONTROL Not Exists]**&#x200B;인지 또는&#x200B;**[!UICONTROL *&#x200B;입력 값 입력&#x200B;*]**&#x200B;에 입력한 값이 **[!UICONTROL Contains]**, **[!UICONTROL Not Contains]**, **[!UICONTROL Equals]**, **[!UICONTROL Not Equals]**, **[!UICONTROL Starts With]** 또는 **[!UICONTROL Ends With]**&#x200B;인지 여부를 확인할 수 있습니다.
+         1. 값을 명시적으로 설정하려면 하나 이상의 조건으로 구성된 하나 이상의 사례를 정의합니다. 각 조건은 특정 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**에 대해&#x200B;**[!UICONTROL Exists]**또는&#x200B;**[!UICONTROL Not Exists]**인지 또는&#x200B;**[!UICONTROL Contains]**입력 값 입력&#x200B;**[!UICONTROL Not Contains]**에 입력한 값이&#x200B;**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**,**[!UICONTROL Ends With]**,**[!UICONTROL * 또는 *]**&#x200B;인지 여부를 확인할 수 있습니다.
 
          1. 다른 서비스 케이스를 추가하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**&#x200B;를 선택하고 다른 조건을 추가하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**&#x200B;를 선택합니다.
 
@@ -94,34 +82,50 @@ ht-degree: 0%
 
       아래 예
 
-      * **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]**&#x200B;을(를) 사용하여 **[!UICONTROL Channel Type At Source]** harmonized 필드를 **[!DNL Luma Transactions]** 데이터 세트의 **[!UICONTROL channel_type]** 필드에 매핑합니다.
+      * **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]**&#x200B;을(를) 사용하여 **[!UICONTROL Channel Type At Source]** harmonized 필드를 **[!UICONTROL channel_type]** 데이터 세트의 **[!DNL Luma Transactions]** 필드에 매핑합니다.
 
-      * **[!UICONTROL Case]** **[!UICONTROL Mapping type]**&#x200B;을(를) 사용하여 **[!DNL Luma Transactions]** 데이터 집합에 있는 **[!UICONTROL marketing.campaignName]** 필드의 값을 **[!UICONTROL Campaign]** 조화 필드에 조건부로 매핑합니다. Campaign harmonized 필드가 다음으로 설정됨:
+      * **[!UICONTROL Case]** **[!UICONTROL Mapping type]**&#x200B;을(를) 사용하여 **[!UICONTROL marketing.campaignName]** 데이터 집합에 있는 **[!DNL Luma Transactions]** 필드의 값을 **[!UICONTROL Campaign]** 조화 필드에 조건부로 매핑합니다. Campaign harmonized 필드가 다음으로 설정됨:
 
-         * **[!UICONTROL marketing.campaignName]**&#x200B;이(가) `_black_friday` 또는 `BlackFriday`인 경우 `Black Friday`.
+         * `Black Friday`이(가) **[!UICONTROL marketing.campaignName]** 또는 `_black_friday`인 경우 `BlackFriday`.
          * 다른 모든 경우에는 **[!UICONTROL marketing.campaignName]**&#x200B;의 값으로 설정됩니다.
 
         ![데이터 집합 규칙 이벤트](/help/assets/dataset-create-event.png)
 
+      요약 데이터 세트에서 표준 조화 필드를 매핑하면 Mix Modeler은 해당 Experience Platform 데이터 세트 필드를 추론합니다. 성공 시:
+
+      * 필드가 유형 차원이면 **[!UICONTROL Map into]**&#x200B;이(가) **[!UICONTROL Mapping type]**(으)로 선택됩니다.
+      * 필드가 유형 지표인 경우 **[!UICONTROL Sum]**&#x200B;이(가) **[!UICONTROL Mapping type]**(으)로 선택됩니다.
+      * **[!UICONTROL Field]**&#x200B;이(가) **[!UICONTROL Default]** 매핑 유형으로 선택되었습니다.
+      * 해당 Experience Platform 데이터 세트 필드는 *AEP 데이터 세트 필드*&#x200B;에 대해 자동으로 삽입됩니다.
+
+      제안된 값이 올바르지 않거나 특정 사용 사례를 지원하지 않는 경우 해당 값을 변경할 수 있습니다.
+
 1. 추가 필드를 정의하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**&#x200B;을(를) 선택하십시오.
 
 완료되면 규칙의 초안 버전을 저장하려면 **[!UICONTROL Save as draft]**&#x200B;을(를) 선택하고 규칙을 저장하고 활성화하려면 **[!UICONTROL Save]**&#x200B;을(를) 선택합니다. 규칙 구성을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
+
+>[!NOTE]
+>
+>요약 데이터 세트 규칙에 대한 전용 **[!UICONTROL Map to harmonized fields]** 경험은 더 이상 사용되지 않습니다. 이제 모든 데이터 세트에서 동일한 일반 **[!UICONTROL Map to harmonized fields]** 경험을 사용합니다. 더 이상 사용되지 않는 **[!UICONTROL Map to harmonized fields]** 경험을 사용하여 규칙을 정의한 요약 데이터 세트의 경우 일반 **[!UICONTROL Map to harmonized field]** 경험에 대해 이러한 규칙을 확인할 수 있습니다.
+>
+
 
 
 ### 데이터 세트 규칙 편집
 
 데이터 집합 규칙을 편집하려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 인터페이스에서 다음을 수행하십시오.
 
-1. 편집할 데이터 세트 규칙에 대해 **[!UICONTROL Dataset]** 열에서 ![자세히](/help/assets/icons/More.svg)를 선택합니다.
+1. 편집할 데이터 세트 규칙에 대해 ![ 열에서 ](/help/assets/icons/More.svg)자세히&#x200B;**[!UICONTROL Dataset]**&#x200B;를 선택합니다.
 1. 컨텍스트 메뉴에서 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]**&#x200B;을(를) 선택하여 데이터 집합 규칙 편집을 시작합니다. 자세한 내용은 [데이터 집합 규칙 만들기](#create-a-dataset-rule)를 참조하세요.
 
 
 ### 데이터 세트 규칙 삭제
 
-데이터 집합 규칙을 삭제하려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 인터페이스에서 다음을 수행합니다.
+데이터 집합 규칙을 삭제하려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 인터페이스에서 다음을 수행하십시오.
 
-1. 삭제할 데이터 세트 규칙에 대해 **[!UICONTROL Dataset]** 열에서 ![자세히](/help/assets/icons/More.svg)를 선택하십시오.
+1. 삭제할 데이터 세트 규칙에 대해 ![ 열에서 ](/help/assets/icons/More.svg)자세히&#x200B;**[!UICONTROL Dataset]**&#x200B;를 선택하십시오.
 1. 컨텍스트 메뉴에서 ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택하여 데이터 집합 규칙을 삭제합니다. 확인을 묻는 메시지가 표시됩니다. 선택한 데이터 집합 규칙을 영구적으로 삭제하려면 **[!UICONTROL Delete]**&#x200B;을(를) 선택하십시오.
+
 
 
 ## 데이터 동기화
@@ -144,7 +148,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!BADGE 베타]{type=Informative}
+>[!BADGE 베타]{type=Informative} 데이터 병합 환경 설정은 Beta 기능이며 기능은 변경될 수 있습니다.
 
 정확한 모델 예측을 위해 데이터 병합 환경 설정을 정의할 수 있습니다. 이 기능을 사용하면 요약 수준 및 이벤트 수준 데이터를 병합한 후 발생하는 충돌을 해결할 수 있습니다.
 
@@ -170,7 +174,7 @@ ht-degree: 0%
 
 1. ![데이터 병합 환경 설정](/help/assets/icons/Merge.svg) [!BADGE 베타]을(를) 선택하십시오.
 
-1. **[!UICONTROL Data merge preferences]** [!BADGE 베타]에서{type=Informative}
+1. **[!UICONTROL Data merge preferences]** [!BADGE 베타]{type=Informative} 대화 상자:
 
    ![데이터 병합 환경 설정](/help/assets/data-merge-preferences.png)
 
@@ -179,7 +183,7 @@ ht-degree: 0%
    * 특정 지표 기반 환경 설정을 추가하려면 다음 작업을 수행하십시오.
 
       1. ![더하기](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**&#x200B;을(를) 선택합니다.
-         1. **[!UICONTROL *지표 선택&#x200B;*]**&#x200B;목록에서 지표를 선택합니다.
+         1. **[!UICONTROL *지표 선택&#x200B;*]**목록에서 지표를 선택합니다.
          1. **[!UICONTROL CHANNELS]** 또는 **[!UICONTROL CONVERSION TYPES]**&#x200B;을(를) 선택하십시오. 목록에서 **[!UICONTROL All]** 또는 특정 채널 또는 전환 유형을 선택합니다.
          1. 데이터를 병합할 때 지표(및 모든 또는 선택한 채널)에 대해 요약 데이터나 이벤트 데이터를 선호하는지 여부를 지정하려면 **[!UICONTROL Summary]** 또는 **[!UICONTROL Event]**&#x200B;을(를) 선택하십시오.
 
@@ -200,7 +204,7 @@ ht-degree: 0%
 
 통합 데이터에서 사용되는 소스 데이터 집합을 삭제하면 해당 소스 데이터 집합의 기본 항목이 [[!UICONTROL Harmonized data]](/help/harmonize-data/overview.md)에서 제거됩니다. 그러나 삭제된 원본 데이터 집합이 있는 데이터 집합 규칙은 원본 데이터 집합이 삭제되었음을 나타내는 ![DataRemove](/help/assets/icons/DataRemove.svg) 아이콘과 함께 데이터 집합 규칙 구성 목록에 남아 있습니다. 자세한 내용을 보려면 다음 작업을 수행하십시오.
 
-* 컨텍스트 메뉴에서 ![자세히](/help/assets/icons/More.svg) 및 ![미리 보기](/help/assets/icons/Preview.svg) **[!UICONTROL View]**&#x200B;을(를) 선택합니다.
+* 컨텍스트 메뉴에서 ![자세히](/help/assets/icons/More.svg) 및 ![미리 보기](/help/assets/icons/Preview.svg) **[!UICONTROL View]**을(를) 선택합니다.
 **[!UICONTROL Dataset rule mapping - Fields]** 대화 상자에는 삭제된 원본 데이터 집합과 데이터 집합 규칙 구성에 사용된 필드에 대한 정보가 표시됩니다.
 
 **[!UICONTROL Dataset rules]** 구성으로 돌아가면 하나 이상의 소스 데이터 세트가 삭제되었음을 설명하는 대화 상자가 표시됩니다. 조화된 데이터는 다음 애드혹 또는 예약된 동기화의 영향을 받습니다. 데이터 세트 규칙 구성을 검토하십시오.
