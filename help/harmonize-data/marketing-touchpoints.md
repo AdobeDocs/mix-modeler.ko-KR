@@ -6,7 +6,7 @@ exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
 source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -15,10 +15,10 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_marketingtouchpoint"
 >title="마케팅 접점"
->abstract="마케팅 접점은 마케팅 투자가 숫자 또는 수익 기반 전환에 미치는 영향을 평가하는 데 사용되는 수신자, 개인 및/또는 쿠키 수준 마케팅 이벤트입니다."
+>abstract="마케팅 접점은 마케팅 투자가 수치적 또는 수익 기반 전환에 미치는 영향을 평가하는 데 사용되는 수신자, 개인 및 쿠키 수준의 마케팅 이벤트입니다."
 
 
-마케팅 접점은 마케팅 투자가 숫자 또는 수익 기반 전환에 미치는 영향을 평가하는 데 사용되는 수신자, 개인 및/또는 쿠키 수준 마케팅 이벤트입니다.
+마케팅 접점은 마케팅 투자가 수치적 또는 수익 기반 전환에 미치는 영향을 평가하는 데 사용되는 수신자, 개인 및 쿠키 수준의 마케팅 이벤트입니다.
 
 속성 분석을 지원하는 마케팅 접점을 정의합니다.
 
@@ -54,11 +54,11 @@ Mix Modeler 인터페이스에서 사용 가능한 마케팅 접점 표를 보�
 
    1. **[!UICONTROL Touchpoint rule]** 정의.
 
-      1. **[!UICONTROL *조화롭게 선택&#x200B;*]**&#x200B;에서 값을 선택합니다(예:**[!UICONTROL Brand]**).
+      1. **[!UICONTROL *조화롭게 선택&#x200B;*]**에서 값을 선택합니다(예:**[!UICONTROL Brand]**).
 
       1. 연산자 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)의 값을 선택하십시오(예: **[!UICONTROL is]**).
 
-      1. **[!UICONTROL *값 선택&#x200B;*]**&#x200B;에서 값을 선택하거나&#x200B;**[!DNL Luma]**&#x200B;과(와) 같은 값을 입력하십시오.
+      1. **[!UICONTROL *값 선택&#x200B;*]**에서 값을 선택하거나&#x200B;**[!DNL Luma]**과(와) 같은 값을 입력하십시오.
 
    1. **[!UICONTROL Touchpoint volume]**&#x200B;에서 조정된 필드를 선택합니다(예: **[!UICONTROL Impressions]**).
 

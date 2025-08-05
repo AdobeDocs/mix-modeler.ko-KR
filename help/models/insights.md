@@ -6,7 +6,7 @@ exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
 source-wordcount: '2333'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -236,15 +236,15 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
 >title="모델 평가 그래프"
->abstract="모델 평가 시각화는 실제 전환과 예측 또는 잔차 전환에 대해 분류합니다."
+>abstract="모델 평가 시각화는 실제 전환과 예측 전환 또는 잔여 전환을 분석합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/mix-modeler/using/overview" text="Mix Modeler 개요"
->additional-url="https://video.tv.adobe.com/v/3440801/?learn=on&enablevpops&captions=kor" text="Mix Modeler 데모"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Mix Modeler 데모"
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_pathstouched"
 >title="터치된 경로"
->abstract="터치된 경로는 각 접점에 대해 전환된 경로의 비율과 전환되지 않은 경로의 비율입니다."
+>abstract="터치된 경로는 각 접점에서 전환을 달성한 경로의 백분율과 전환을 달성하지 못한 경로의 백분율입니다."
 
 
 >[!CONTEXTUALHELP]
