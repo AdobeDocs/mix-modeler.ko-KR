@@ -3,9 +3,9 @@ title: 계획 비교
 description: Mix Modeler에서 플랜을 비교하는 방법을 알아봅니다.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
+source-git-commit: 4564c35bd8be69a586dc5a6c91ecd0db1e3298d6
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,10 @@ Mix Modeler 계획 인터페이스에서 계획을 비교하려면 다음을 수
 * **[!UICONTROL Channel budgeting]**: **[!UICONTROL AI automated]** 또는 **[!UICONTROL Custom + AI]**
 * **[!UICONTROL Planned spend]**
 * **[!UICONTROL Forecasted ROI]**(투자 수익률) 또는 **[!UICONTROL CPA]**(작업당 비용)
-* **[!UICONTROL ROI]**(투자 수익률) 또는 **[!UICONTROL CPA]**(작업당 비용) 분류
+* **[!UICONTROL Paid marketing ROI]**(투자 수익률) 또는 **[!UICONTROL CPA]**(작업당 비용)
+* **[!UICONTROL ROI]**(투자 수익률) 또는 **[!UICONTROL CPA]**(작업당 비용) **[!UICONTROL breakdown]**
 * **[!UICONTROL Forecasted return]**
+* **[!UICONTROL Paid marketing revenue]**
 
 그 결과:
 

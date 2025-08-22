@@ -4,16 +4,16 @@ description: 최신 Mix Modeler 릴리스 정보
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: be13e5c45603963b994b751c589901238e09d2dc
+source-git-commit: 1bd08eb1f5e803c7405d11d371127d3db8f309c4
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '536'
 ht-degree: 4%
 
 ---
 
 # 최신 Mix Modeler 릴리스 정보
 
-**마지막 업데이트**: 2025년 8월 6일.
+**마지막 업데이트**: 2025년 8월 20일.
 
 이 릴리스 노트는 Mix Modeler의 최신 릴리스를 다룹니다. Mix Modeler 릴리스는 연속 게재 모델에서 작동하므로 대략적인 월별 릴리스 케이던스를 사용할 수 있습니다. 따라서 이 릴리스 정보는 업데이트되므로 정기적으로 확인하십시오.
 
@@ -23,6 +23,7 @@ ht-degree: 4%
 
 | 기능 | 설명 | [롤아웃 시작](#release-strategy) | [일반 가용성](#release-strategy) |
 |---|---|---|---|
+| **[!UICONTROL Compare plans update]** | 이제 [계획 비교](/help/plans/compare.md) UI에 유료 마케팅에 대한 추가 세부 정보(ROI 또는 CPA 및 수익)가 표시됩니다. | 2025년 8월 20일 | 2025년 8월 20일 |
 | **조정 업데이트** | 이제 모든 데이터 세트 규칙이 데이터 세트 유형에 관계없이 유사한 [통합 필드 경험에 대한 일반 맵](/help/harmonize-data/dataset-rules.md)을 사용합니다. 요약 데이터 세트에서 표준 조화 필드를 매핑하면 Mix Modeler은 해당 Experience Platform 데이터 세트 필드를 자동으로 추론합니다. | 2025년 7월 29일 수요일 | 2025년 7월 29일 수요일 |
 
 
