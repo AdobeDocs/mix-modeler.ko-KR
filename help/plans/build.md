@@ -42,7 +42,7 @@ Mix Modeler에서 계획 마법사를 사용하여 계획을 생성합니다. �
             1. **[!UICONTROL Select model]** 드롭다운 메뉴에서 모델을 선택합니다.
          1. 날짜를 입력하거나 **[!UICONTROL Date range]**&#x200B;달력![을 사용하여 날짜 범위를 선택하여 ](/help/assets/icons/Calendar.svg)을(를) 지정하십시오.
          1. **[!UICONTROL Budget]** 입력.
-각각 예산이 있는 날짜 범위를 추가하려면 ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**을(를) 선택하십시오.
+각각 예산이 있는 날짜 범위를 추가하려면 ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**&#x200B;을(를) 선택하십시오.
 날짜 범위 및 관련 예산을 삭제하려면 ![닫기](/help/assets/icons/Close.svg)를 선택하세요.
          1. 계획을 제한하려는 선택적 최대 예산을 정의하려면
             1. **[!UICONTROL Maximize budget]** 스위치를 켭니다.
@@ -58,8 +58,8 @@ Mix Modeler에서 계획 마법사를 사용하여 계획을 생성합니다. �
             1. **[!UICONTROL Select target metric]** 드롭다운 메뉴에서 대상 지표를 선택합니다. **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** 또는 **[!UICONTROL ROI]** 중에서 선택할 수 있습니다.
             1. **[!UICONTROL Select model]** 드롭다운 메뉴에서 모델을 선택합니다.
          1. 날짜를 입력하거나 ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 범위를 선택하여 날짜 범위를 지정하십시오.
-         1. 선택한 대상 지표에 대한 값을 입력합니다. 예를 들어, **[!UICONTROL Total Conversions]**&#x200B;의 숫자, **[!UICONTROL Paid Marketing ROI]**&#x200B;의 백분율 또는 **[!UICONTROL Paid Marketing CPA]** 및 **[!UICONTROL Total Revenue]**의 통화 값입니다.
-대상 지표가 있는 날짜 범위를 추가하려면 ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**을(를) 선택하십시오.
+         1. 선택한 대상 지표에 대한 값을 입력합니다. 예를 들어, **[!UICONTROL Total Conversions]**&#x200B;의 숫자, **[!UICONTROL Paid Marketing ROI]**&#x200B;의 백분율 또는 **[!UICONTROL Paid Marketing CPA]** 및 **[!UICONTROL Total Revenue]**&#x200B;의 통화 값입니다.
+대상 지표가 있는 날짜 범위를 추가하려면 ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**&#x200B;을(를) 선택하십시오.
 날짜 범위 및 연결된 대상 지표를 삭제하려면 ![닫기](/help/assets/icons/Close.svg)를 선택하세요.
          1. 계획을 제한하려는 선택적 최대 예산을 정의하려면
             1. **[!UICONTROL Maximize budget]** 스위치를 켭니다.
@@ -107,7 +107,7 @@ Mix Modeler에서 계획 마법사를 사용하여 계획을 생성합니다. �
 
    1. 통화 또는 백분율 입력 간을 전환하려면 **[!UICONTROL $]**&#x200B;에 대해 **[!UICONTROL %]** 또는 **[!UICONTROL View spend by]**&#x200B;을(를) 선택하세요. 통화 기반이 아닌 대상 지표를 선택한 경우 이 토글이 비활성화됩니다.
 
-   1. 완료되면 **[!UICONTROL Create]**을(를) 선택합니다.
+   1. 완료되면 **[!UICONTROL Create]**&#x200B;을(를) 선택합니다.
       ![선택 비용](/help/assets/plan-spend-selection.png)
 
    1. **[!UICONTROL Next]**&#x200B;를 선택합니다.
