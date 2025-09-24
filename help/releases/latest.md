@@ -4,10 +4,10 @@ description: 최신 Mix Modeler 릴리스 정보
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 9ac6acec2faa57a771386fc9df9cce655d711f3a
+source-git-commit: 6fe334458e8d7fabbd7cbaa027e13eadbf703325
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 4%
+source-wordcount: '701'
+ht-degree: 5%
 
 ---
 
@@ -22,9 +22,10 @@ ht-degree: 4%
 
 | 기능 | 설명 | [롤아웃 시작](#release-strategy) | [일반 가용성](#release-strategy) |
 |---|---|---|---|
-| **[!UICONTROL Dataset mapping validations]** | 조화된 필드에 대한 Experience Platform 데이터 세트 매핑에 유효성 검사가 추가되었습니다. | 2025년 9월 9일 | 2025년 9월 9일 |
-| **[!UICONTROL Context menu on links to model and plans]** | 모델 및 계획 링크에 대한 브라우저 컨텍스트 메뉴를 활성화했습니다. 이제 해당 브라우저 컨텍스트 메뉴를 사용하여 새 탭이나 창에서 특정 계획이나 모델을 열 수 있습니다. | 2025년 9월 9일 | 2025년 9월 9일 |
-| **수정 사항** | 다음 티켓에 대한 수정 사항: <ul><li>AMM-3101: 규칙에 대한 잘못된 매핑 생성이 수정되었습니다. `event_date`이(가) `timestamp` 대신 필드 이름으로 전달되었습니다.</li><li>AMM-3092: 중복된 예산 기반 플랜에서 채널 최대 제한 값을 변경할 수 없습니다.</li><li>AM3130: 모델의 세부 정보 팝업 창에서 잘못된 **[!UICONTROL Run frequency]** 정보를 수정했습니다.</li><li>AMM3158: **[!UICONTROL Select target metric]**&#x200B;계획 만들기&#x200B;**[!UICONTROL Optimize]** 인터페이스의 [ 창의 일부로 ](/help/plans/build.md) 옵션에 대한 레이블을 업데이트했습니다.</li><li>AMM 3176: [의 ](/help/models/insights.md#breakdown) 탭에서 **[!UICONTROL Attribution]**&#x200B;채널별 분류&#x200B;**[!UICONTROL Model Insights]** 시각화를 볼 수 없습니다.</li></ul> | 2025년 9월 9일 | 2025년 9월 9일 |
+| **[!UICONTROL Dataset mapping validations]** | 조화된 필드에 대한 Experience Platform 데이터 세트 매핑에 유효성 검사가 추가되었습니다. | 2025년 9월 9일 수요일 | 2025년 9월 9일 수요일 |
+| **[!UICONTROL Context menu on links to model and plans]** | 모델 및 계획 링크에 대한 브라우저 컨텍스트 메뉴를 활성화했습니다. 이제 해당 브라우저 컨텍스트 메뉴를 사용하여 새 탭이나 창에서 특정 계획이나 모델을 열 수 있습니다. | 2025년 9월 9일 수요일 | 2025년 9월 9일 수요일 |
+| **수정 사항** | 다음 티켓에 대한 수정 사항: <ul><li>AMM-3101: 규칙에 대한 잘못된 매핑 생성이 수정되었습니다. `event_date`이(가) `timestamp` 대신 필드 이름으로 전달되었습니다.</li><li>AMM-3092: 중복된 예산 기반 플랜에서 채널 최대 제한 값을 변경할 수 없습니다.</li><li>AM3130: 모델의 세부 정보 팝업 창에서 잘못된 **[!UICONTROL Run frequency]** 정보를 수정했습니다.</li><li>AMM3158: **[!UICONTROL Select target metric]**&#x200B;계획 만들기&#x200B;**[!UICONTROL Optimize]** 인터페이스의 [ 창의 일부로 ](/help/plans/build.md) 옵션에 대한 레이블을 업데이트했습니다.</li><li>AMM 3176: [의 ](/help/models/insights.md#breakdown) 탭에서 **[!UICONTROL Attribution]**&#x200B;채널별 분류&#x200B;**[!UICONTROL Model Insights]** 시각화를 볼 수 없습니다.</li></ul> | 2025년 9월 9일 수요일 | 2025년 9월 9일 수요일 |
+| **수정 사항** | 다음 티켓에 대한 수정 사항: <ul><li>AMM-3174: 기존 플랜을 사용할 수 없을 때 경험이 개선되었습니다.</li><li>AMM-3216: 사용자 지정 날짜 범위에 대한 유효성 검사가 개선되었습니다.</li><li>AMM-3240: 고정 실행 모델 주파수 표시.</ul> | 2025년 9월 23일 수요일 | 2025년 9월 23일 수요일 |
 
 
 ## 2025년 7월 - 8월
