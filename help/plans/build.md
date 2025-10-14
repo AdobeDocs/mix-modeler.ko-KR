@@ -40,7 +40,7 @@ Mix Modeler에서 계획 마법사를 사용하여 계획을 생성합니다. �
          1. **[!UICONTROL Optimize]** 컨테이너에서:
             1. **[!UICONTROL Select conversion]** 드롭다운 메뉴에서 전환을 선택합니다.
             1. **[!UICONTROL Select model]** 드롭다운 메뉴에서 모델을 선택합니다.
-         1. 날짜를 입력하거나 **[!UICONTROL Date range]**&#x200B;달력![을 사용하여 날짜 범위를 선택하여 ](/help/assets/icons/Calendar.svg)을(를) 지정하십시오.
+         1. 날짜를 입력하거나 **[!UICONTROL Date range]**&#x200B;달력![을 사용하여 날짜 범위를 선택하여 &#x200B;](/help/assets/icons/Calendar.svg)을(를) 지정하십시오.
          1. **[!UICONTROL Budget]** 입력.
 각각 예산이 있는 날짜 범위를 추가하려면 ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**&#x200B;을(를) 선택하십시오.
 날짜 범위 및 관련 예산을 삭제하려면 ![닫기](/help/assets/icons/Close.svg)를 선택하세요.

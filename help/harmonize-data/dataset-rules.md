@@ -123,7 +123,7 @@ Mix Modeler 인터페이스에서 사용 가능한 데이터 세트 규칙 표�
 
 데이터 집합 규칙을 편집하려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 인터페이스에서 다음을 수행하십시오.
 
-1. 편집할 데이터 세트 규칙에 대해 ![ 열에서 ](/help/assets/icons/More.svg)자세히&#x200B;**[!UICONTROL Dataset]**&#x200B;를 선택합니다.
+1. 편집할 데이터 세트 규칙에 대해 ![&#x200B; 열에서 &#x200B;](/help/assets/icons/More.svg)자세히&#x200B;**[!UICONTROL Dataset]**&#x200B;를 선택합니다.
 1. 컨텍스트 메뉴에서 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]**&#x200B;을(를) 선택하여 데이터 집합 규칙 편집을 시작합니다. 자세한 내용은 [데이터 집합 규칙 만들기](#create-a-dataset-rule)를 참조하세요.
 
 
@@ -131,7 +131,7 @@ Mix Modeler 인터페이스에서 사용 가능한 데이터 세트 규칙 표�
 
 데이터 집합 규칙을 삭제하려면 Mix Modeler의 ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** 인터페이스에서 다음을 수행하십시오.
 
-1. 삭제할 데이터 세트 규칙에 대해 ![ 열에서 ](/help/assets/icons/More.svg)자세히&#x200B;**[!UICONTROL Dataset]**&#x200B;를 선택하십시오.
+1. 삭제할 데이터 세트 규칙에 대해 ![&#x200B; 열에서 &#x200B;](/help/assets/icons/More.svg)자세히&#x200B;**[!UICONTROL Dataset]**&#x200B;를 선택하십시오.
 1. 컨텍스트 메뉴에서 ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택하여 데이터 집합 규칙을 삭제합니다. 확인을 묻는 메시지가 표시됩니다. 선택한 데이터 집합 규칙을 영구적으로 삭제하려면 **[!UICONTROL Delete]**&#x200B;을(를) 선택하십시오.
 
 
