@@ -4,10 +4,10 @@ description: Mix Modeler의 기능 및 성능에 대한 개요를 살펴봅니�
 short-description: Mix Modeler의 기능 및 성능에 대한 개요를 살펴봅니다.
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 325bc55076467a8cab5a884ea5137249913d2350
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '745'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -86,7 +86,7 @@ Mix Modeler의 멀티 터치 속성은 두 가지 범주의 점수를 지원합�
 
 * 캠페인 예산 할당: 마케팅 채널 전체에 예산 할당 결정을 알립니다.
 * 캠페인 최적화: 각 채널 내에서 어떤 SKU 또는 Geo에 대해 더 잘 작동하는 캠페인, 크리에이티브 및 키워드를 이해합니다. 이렇게 이해하면 마케팅 팀이 전략을 최적화할 수 있도록 각 채널을 살펴볼 수 있습니다.
-* 전체 단계 이벤트 수준 속성: 전체 고객 여정에서 마케팅이 미치는 영향을 파악합니다. 예를 들어 무료 계정 등록은 유료 전환 및 그 이상에 해당합니다.
+* 전체 funnel 이벤트 수준 속성: 전체 고객 여정에서 마케팅이 미치는 영향을 파악합니다. 예를 들어 무료 계정 등록은 유료 전환 및 그 이상에 해당합니다.
 * 파트너 평가: 기여도 분석 결과를 기반으로 에이전시와 파트너의 효과를 평가합니다.
 
 Mix Modeler 내의 다중 터치 속성 인사이트에 액세스하는 방법은 [모델 인사이트 - 속성](../models/insights.md#attribution)을 참조하십시오.

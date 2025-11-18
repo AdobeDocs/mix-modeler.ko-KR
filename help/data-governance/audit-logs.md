@@ -3,7 +3,7 @@ title: 감사 로그
 description: Mix Modeler에서 감사 로그에 액세스하는 방법을 알아봅니다.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 5%
@@ -22,11 +22,11 @@ If you are subject to the Health Insurance Portability and Accountability Act (H
 
 감사 로그를 검사하려면 Mix Modeler 인터페이스에서 다음을 수행합니다.
 
-1. **[!UICONTROL PRIVACY]**&#x200B;에서 ![작업 목록](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]**&#x200B;을(를) 선택하십시오.
+1. ![에서 ](/help/assets/icons/TaskList.svg)작업 목록&#x200B;**[!UICONTROL Audits]** **[!UICONTROL PRIVACY]**&#x200B;을(를) 선택하십시오.
 
 1. **[!UICONTROL Audits]**&#x200B;에서 **[!UICONTROL Activity log]**&#x200B;을(를) 찾을 수 있습니다. 활동 로그에는 다음 Mix Modeler 범주, 작업 및 상태에 대한 항목이 표시됩니다.
 
-   | 카테고리 | 작업 | 상태 |
+   | 카테고리 | 액션 | 상태 |
    |---|---|---|
    | Mix Modeler 데이터 세트 규칙 | 만들기 | 허용 또는 거부 |
    | Mix Modeler 데이터 세트 규칙 | 업데이트 | 허용 또는 거부 |
@@ -67,4 +67,4 @@ If you are subject to the Health Insurance Portability and Accountability Act (H
 
 조직에서 이 기능을 활성화하면 활동이 발생할 때 감사 로그가 자동으로 수집됩니다. 수동으로 감사 로그 수집을 활성화할 필요가 없습니다.
 
-감사 로그를 보고 내보내려면 감사 로그 액세스 액세스 제어 권한이 있어야 합니다. Mix Modeler 기능에 대한 개별 권한을 관리하는 방법을 알아보려면 [액세스 제어 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home)를 참조하세요.
+감사 로그를 보고 내보내려면 감사 로그 액세스 액세스 제어 권한이 있어야 합니다. Mix Modeler 기능에 대한 개별 권한을 관리하는 방법을 알아보려면 [액세스 제어 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)를 참조하세요.

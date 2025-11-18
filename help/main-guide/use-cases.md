@@ -1,16 +1,16 @@
 ---
-title: Mix Modeler 사용 사례
-description: Mix Modeler 사용 사례.
+title: Mix Modeler 활용 사례
+description: Mix Modeler 활용 사례.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-source-git-commit: c0bae17b21322cafb50370dcd787bb86b8e3e471
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# Mix Modeler 사용 사례
+# Mix Modeler 활용 사례
 
 Mix Modeler은 다음과 같은 주요 사용 사례를 활성화합니다.
 
@@ -34,7 +34,7 @@ Mix Modeler은 다음과 같은 주요 사용 사례를 활성화합니다.
 
 | 단계 | 세부 사항 |
 |---|---|
-| 수집 | 일반 스키마에서 데이터 소스를 식별하고 수집합니다. <br/>빠른 배포에 Adobe Analytics 또는 Customer Journey Analytics에 기존 투자를 적용합니다. |
+| 수집 | 일반 스키마에서 데이터 소스를 식별하고 수집합니다. <br/>빠른 배포에 Adobe Analytics 또는 Customer Journey Analytics의 기존 투자를 적용합니다. |
 | 구성 | 특정 비즈니스 목표에 맞는 AI-as-a-Service 프레임워크를 사용하여 유연한 모델을 구성하십시오<br/>양방향 전송 학습으로 터치포인트와 요약 수준 간의 일관성을 자동으로 보장합니다. |
 | 분석 | 전체 마케팅 및 개별 채널/하위 채널의 ROI를 명확하게 이해합니다.<br/>증분 전환을 가장 잘 유도하는 접점을 명확하게 이해합니다. |
 
@@ -132,7 +132,7 @@ Successful implementation of this use can have the following impact:
 
 -->
 
-## Adobe 애플리케이션 전반에 걸쳐 전술적 통찰력 활성화
+## Adobe 애플리케이션 전반에 대한 전술적 통찰력 활성화
 
 이 사용 사례는 접점 점수에 액세스하여 고객 세그먼트 및 여정에 대한 전략적 증분 통찰력을 얻는 데 도움이 됩니다.
 
@@ -155,7 +155,7 @@ Successful implementation of this use can have the following impact:
 |---|---|
 | 모델 | 일관된 MTA 터치포인트 점수 및 MMM 집계 결과를 얻도록 AI/ML 모델을 구성하고 교육합니다. |
 | 분석 | 증분 터치포인트 점수를 Customer Journey Analytics 또는 외부 BI 도구로 내보냅니다.<br/>터치포인트 점수를 사용하여 세분화된 분석을 수행하고 고급 대시보드를 빌드합니다. |
-| 작업 | Real-time Customer Data Platform을 사용하여 상위 소비자 세그먼트에 대한 룩라이크를 만들고 활성화합니다.<br/>향후 캠페인을 위해 고객 세그먼트별로 데이터 기반 마케팅 전략을 개발합니다. |
+| 액션 | Real-Time Customer Data Platform을 사용하여 상위 소비자 세그먼트에 대한 룩라이크를 만들고 활성화합니다.<br/>향후 캠페인을 위해 고객 세그먼트별로 데이터 기반 마케팅 전략을 개발합니다. |
 
 {style="table-layout:auto"}
 

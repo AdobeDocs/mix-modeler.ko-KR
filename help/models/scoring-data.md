@@ -3,7 +3,7 @@ title: 채점 데이터 사용
 description: Mix Modeler에서 모델의 채점 데이터가 어떻게 지속되는지 알아봅니다.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-source-git-commit: 5f6c35816a8850bf170cb73d9710e65809e5f372
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 6%
@@ -30,17 +30,17 @@ ht-degree: 6%
 | `campaignGroup` | 문자열 | 캠페인 그룹 이름. |
 | `campaignName` | 문자열 | 캠페인 이름. |
 | `contribution` | Double | 지정된 터치포인트에 대한 이 전환에 기인한 기여입니다. |
-| `conversionEndDate` | 날짜 | 전환 창의 종료 날짜. |
+| `conversionEndDate` | Date | 전환 창의 종료 날짜. |
 | `conversionName` | 문자열 | 전환 정의 설정 단계 중에 생성된 전환의 이름입니다. |
-| `conversionStartDate` | 날짜 | 전환 창의 시작일. |
+| `conversionStartDate` | Date | 전환 창의 시작일. |
 | `geo` | 문자열 | 전환이 발생한 지리적 위치. |
 | `mediaChannel` | 문자열 | 터치포인트 설정 단계 중에 사용된 채널의 이름입니다. |
 | `mediaSubChannel` | 문자열 | 하위 채널 이름. |
 | `revenue` | Double | 지정된 접점에 대한 이 전환으로 인한 매출입니다. |
 | `scoreCreatedTime` | DateTime | 해당 스코어 레코드가 생성될 때의 타임스탬프. |
-| `touchpointEndDate` | 날짜 | 접점 창의 종료 날짜입니다. |
+| `touchpointEndDate` | Date | 접점 창의 종료 날짜입니다. |
 | `touchpointName` | 문자열 | 접점 정의 설정 단계 중에 생성된 접점 이름입니다. 현재 터치포인트는 미디어 채널에 정의되어 있습니다. |
-| `touchpointStartDate` | 날짜 | 접점 창의 시작 날짜입니다. |
+| `touchpointStartDate` | Date | 접점 창의 시작 날짜입니다. |
 
 
 ## 이벤트 점수 데이터 스키마

@@ -3,7 +3,7 @@ title: 데이터 수집 개요
 description: Mix Modeler에 데이터를 수집하는 방법에 대해 알아봅니다.
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: f86454dd262a0a11a20d58e380b5d2b7c90fd2b9
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 7%
@@ -23,7 +23,7 @@ For example:
 * 벽으로 둘러싸인 정원(예: Facebook, YouTube), 트래픽 소스 또는 오프라인 광고 데이터의 집계 또는 요약 데이터.
 * 모델 구축에 유용한 내부 또는 외부 요소를 포함하는 비마케팅 집계 또는 요약 데이터.
 
-Experience Platform에서 지원하는 모든 종류의 메커니즘을 사용하여 경험 이벤트 수준, 총 마케팅 활동 데이터 및 다른 소스의 데이터를 수집할 수 있습니다. Experience Platform SDK, API, 소스 커넥터, 스트리밍 및 일괄 처리 수집 등. Adobe Mix Modeler에서 사용하기 위해 Experience Platform에서 데이터를 수집하는 방법에 대한 자세한 내용은 [데이터 수집 개요](https://experienceleague.adobe.com/ko/docs/experience-platform/ingestion/home)를 참조하십시오.
+Experience Platform에서 지원하는 모든 종류의 메커니즘을 사용하여 경험 이벤트 수준, 총 마케팅 활동 데이터 및 다른 소스의 데이터를 수집할 수 있습니다. Experience Platform SDK, API, 소스 커넥터, 스트리밍 및 일괄 처리 수집 등. Adobe Mix Modeler에서 사용하기 위해 Experience Platform에서 데이터를 수집하는 방법에 대한 자세한 내용은 [데이터 수집 개요](https://experienceleague.adobe.com/en/docs/experience-platform/ingestion/home)를 참조하십시오.
 
 ## 지침
 
@@ -89,7 +89,7 @@ Mix Modeler에서 데이터를 제대로 사용할 수 있는지 확인하려면
 * [개요](/help/overview.md)에서 시각화를 사용합니다.
 * Harmonized 데이터 세트의 [Harmonized data](/help/harmonize-data/overview.md)에서 데이터를 다운로드하고 검사합니다.
 
-데이터가 Experience Platform에서 제대로 수집되었는지 확인하기 위해 [Experience Platform 쿼리 서비스를 사용하여 SQL 쿼리를 쓰고 실행](https://experienceleague.adobe.com/ko/docs/experience-platform/query/home)할 수 있습니다.
+데이터가 Experience Platform에서 제대로 수집되었는지 확인하기 위해 [Experience Platform 쿼리 서비스를 사용하여 SQL 쿼리를 쓰고 실행](https://experienceleague.adobe.com/en/docs/experience-platform/query/home)할 수 있습니다.
 
 
 >[!MORELIKETHIS]
