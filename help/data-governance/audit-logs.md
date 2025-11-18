@@ -67,4 +67,4 @@ If you are subject to the Health Insurance Portability and Accountability Act (H
 
 조직에서 이 기능을 활성화하면 활동이 발생할 때 감사 로그가 자동으로 수집됩니다. 수동으로 감사 로그 수집을 활성화할 필요가 없습니다.
 
-감사 로그를 보고 내보내려면 감사 로그 액세스 액세스 제어 권한이 있어야 합니다. Mix Modeler 기능에 대한 개별 권한을 관리하는 방법을 알아보려면 [액세스 제어 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)를 참조하세요.
+감사 로그를 보고 내보내려면 감사 로그 액세스 액세스 제어 권한이 있어야 합니다. Mix Modeler 기능에 대한 개별 권한을 관리하는 방법을 알아보려면 [액세스 제어 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home)를 참조하세요.

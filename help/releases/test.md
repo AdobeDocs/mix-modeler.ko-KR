@@ -30,7 +30,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-이 문서에서는 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**&#x200B;의 속성 패널에 대해 설명합니다.이 문서의 <br/>CustomerJourneyAnalytics[&#x200B; &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)Customer Journey Analytics![&#x200B; 버전에 대해서는 &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg)속성 패널&#x200B;**을 참조하세요.**
+이 문서에서는 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**&#x200B;의 속성 패널에 대해 설명합니다.이 문서의 <br/>CustomerJourneyAnalytics[&#x200B; &#x200B;](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/attribution)Customer Journey Analytics![&#x200B; 버전에 대해서는 &#x200B;](/help/assets/icons/CustomerJourneyAnalytics.svg)속성 패널&#x200B;**을 참조하세요.**
 
 >[!ENDSHADEBOX]
 
