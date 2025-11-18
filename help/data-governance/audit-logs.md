@@ -22,7 +22,7 @@ If you are subject to the Health Insurance Portability and Accountability Act (H
 
 감사 로그를 검사하려면 Mix Modeler 인터페이스에서 다음을 수행합니다.
 
-1. ![에서 ](/help/assets/icons/TaskList.svg)작업 목록&#x200B;**[!UICONTROL Audits]** **[!UICONTROL PRIVACY]**&#x200B;을(를) 선택하십시오.
+1. ![에서 &#x200B;](/help/assets/icons/TaskList.svg)작업 목록&#x200B;**[!UICONTROL Audits]** **[!UICONTROL PRIVACY]**&#x200B;을(를) 선택하십시오.
 
 1. **[!UICONTROL Audits]**&#x200B;에서 **[!UICONTROL Activity log]**&#x200B;을(를) 찾을 수 있습니다. 활동 로그에는 다음 Mix Modeler 범주, 작업 및 상태에 대한 항목이 표시됩니다.
 
