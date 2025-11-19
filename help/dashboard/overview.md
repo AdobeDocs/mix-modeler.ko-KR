@@ -1,11 +1,11 @@
 ---
 title: 홈 개요
-description: Mix Modeler에서 통합한 데이터 및 계획을 개요하는 방법에 대해 알아봅니다.
+description: Mix Modeler에서 통합한 데이터와 계획을 개요하는 방법을 알아봅니다.
 feature: Dashboard, Plans, Harmonized Data, Models
 exl-id: ef034268-ef0a-4c9b-9dd5-d98ff8150b95
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 4e497c987ebb84d864db01e1f7953ee8b3b75abf
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '66'
 ht-degree: 0%
 
 ---
@@ -21,4 +21,4 @@ Mix Modeler의 홈 개요 화면에는 구성 가능한 다양한 시각화를 �
 
 * [조화 데이터](harmonized-data.md)
 
-* [계획](plans.md) [!BADGE Alpha]{type=Informative}
+* [계획 성능](plans.md) [!BADGE Beta]{type=Informative}
