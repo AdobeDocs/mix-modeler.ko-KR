@@ -4,18 +4,28 @@ description: 최신 Mix Modeler 릴리스 정보
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 8b9f8b6b007f78e9c98e71be56bea48d335fb3c3
+source-git-commit: 6fc734793102533003c731e22dfe0d8c422a1cde
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '834'
 ht-degree: 5%
 
 ---
 
 # 최신 Mix Modeler 릴리스 정보
 
-**마지막 업데이트**: 2025년 9월 12일.
+**마지막 업데이트**: 2025년 11월 12일.
 
 이 릴리스 노트는 Mix Modeler의 최신 릴리스를 다룹니다. Mix Modeler 릴리스는 연속 게재 모델에서 작동하므로 대략적인 월별 릴리스 케이던스를 사용할 수 있습니다. 따라서 이 릴리스 정보는 업데이트되므로 정기적으로 확인하십시오.
+
+
+
+## 2025년 11월
+
+| 기능 | 설명 | [롤아웃 시작](#release-strategy) | [일반 가용성](#release-strategy) |
+|---|---|---|---|
+| **[!UICONTROL Plans tracking]** | 사용자가 마케팅 계획 실행이 계획된 작업에 따라 추적되는 방식을 이해할 수 있습니다. 그래서 여러분은 마케팅이 어떻게 수행되는지 자신감 있게 느낄 수 있습니다. 또는 영업 기회와 위험을 조기에 식별하여 과정을 수정하고 비즈니스 목표를 달성할 수 있습니다. [계획 시각화에 대한 성능](/help/dashboard/plans.md#performance-to-plan)이 업데이트되고 지표 및 세부기간을 구성할 수 있습니다. | 2025년 11월 12일 | 2025년 11월 12일 |
+| **[!UICONTROL Channel synergy insights]** | 마케팅 채널이 함께 작동하여 더 큰 효과를 창출하는 방법을 보여 줍니다. 이러한 통찰력을 통해 과거 마케팅 성과를 자신 있게 설명하고 그에 따라 마케팅 지출을 조정하여 마케팅 포트폴리오의 전체 수익률을 극대화할 수 있습니다. 채널 시너지 매트릭스는 [모델 인사이트](/help/models/insights.md#channel-synergy) 및 [계획 인사이트](/help/plans/insights.md#channel-synergies)에서 사용할 수 있습니다. | 2025년 11월 12일 | 2025년 11월 12일 |
+| **수정 사항** | 다음 티켓에 대한 수정 사항: <ul><li>AMM-2920: 계획 생성 흐름 및 마이그레이션.</li><li>AMM-3282: 큰 격자에서 작은 숫자가 다양한 과학적 표기법</li></ul> | 2025년 11월 12일 | 2025년 11월 12일 |
 
 
 ## 2025년 9월
