@@ -3,9 +3,9 @@ title: 플랜 인사이트
 description: Mix Modeler에서 플랜에 대한 통찰력을 보고 플랜을 편집하는 방법을 알아봅니다.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
+source-git-commit: 86b58717c3c8be183c70d1ceccf6f7c757303518
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1170'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 인터페이스를 닫으려면 **[!UICONTROL Close]**&#x200B;을(를) 선택합니다.
 
-플랜의 ROI를 보는 방법을 변경하려면 **[!UICONTROL X]** 또는 **[!UICONTROL &#x200B; %]**(**[!UICONTROL View ROI]**)을(를) 선택하십시오.
+플랜의 ROI를 보는 방법을 변경하려면 **[!UICONTROL X]** 또는 **[!UICONTROL  %]**(**[!UICONTROL View ROI]**)을(를) 선택하십시오.
 
 ## 유료 채널 지출 및 ROI 예측
 
@@ -72,6 +72,13 @@ ht-degree: 0%
 
 시각화에 사용할 특정 채널을 선택하려면 **[!UICONTROL View]** 드롭다운 메뉴에서 채널을 선택합니다.
 
+## 채널 시너지 효과
+
+채널 시너지 매트릭스를 통해 마케팅 채널이 상호 작용하여 개인의 기여도를 넘어 다양한 효과를 창출하는 방법을 식별할 수 있습니다.
+
+![계획 채널 시너지 효과](/help/assets/plan-channel-synergies.png)
+
+매트릭스를 나타내는 CSV 파일을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg) **[!UICONTROL Download]**&#x200B;을(를) 선택하십시오.
 
 ## 날짜 범위 분류
 
@@ -86,7 +93,7 @@ ht-degree: 0%
 
    세부 데이터는 주별로 입력된 세부 데이터입니다. 요약 데이터는 모델이 제공한 날짜 범위에 의해 입력된 데이터입니다.
 
-1. 채널의 범주별 날짜 범위 분류를 보려면 **[!UICONTROL View]** 선택에서 **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]** 또는 **[!UICONTROL Non-paid channels]**&#x200B;을(를) 선택하십시오.
+1. 채널의 범주별 날짜 범위 분류를 보려면 **[!UICONTROL All channels]** 선택에서 **[!UICONTROL Paid channels]**, **[!UICONTROL Non-paid channels]** 또는 **[!UICONTROL View]**&#x200B;을(를) 선택하십시오.
 
 
 ## 플랜 편집
@@ -113,14 +120,14 @@ ht-degree: 0%
 
    1. 각 채널의 예산을 수정하려면 **[!UICONTROL Min]** 및 **[!UICONTROL Max]**&#x200B;의 값을 수정하거나 슬라이더를 사용하십시오.
 
-   1. 통화 또는 백분율 입력 간을 전환하려면 **[!UICONTROL View spend by]**&#x200B;에 대해 **[!UICONTROL $]** 또는 **[!UICONTROL %]**&#x200B;을(를) 선택하세요.
+   1. 통화 또는 백분율 입력 간을 전환하려면 **[!UICONTROL $]**&#x200B;에 대해 **[!UICONTROL %]** 또는 **[!UICONTROL View spend by]**&#x200B;을(를) 선택하세요.
 
    1. 플랜 세부 정보를 편집하려면 **[!UICONTROL Edit details]**&#x200B;을(를) 선택하세요.
 
       1. **[!UICONTROL Setup]** 섹션에서:
 
          1. **[!UICONTROL Plan name]**(예: `Demo plan`)을(를) 입력하십시오. **[!UICONTROL Description]**(예: `Demo plan for Luma company`)을(를) 입력하십시오.
-         1. **[!UICONTROL _에서&#x200B;**&#x200B;[!UICONTROL Model]&#x200B;**을(를) 선택하십시오. 옵션을 선택하십시오._.]**
+         1. **[!UICONTROL Model]**&#x200B;에서 **[!UICONTROL _을(를) 선택하십시오. 옵션을 선택하십시오._.]**
 
             ![계획 설정](/help/assets/plan-setup.png)
 
@@ -134,9 +141,9 @@ ht-degree: 0%
             1. **[!UICONTROL Optimize]** 컨테이너에서:
                1. **[!UICONTROL Select conversion]** 드롭다운 메뉴에서 전환을 선택합니다.
                1. **[!UICONTROL Select model]** 드롭다운 메뉴에서 모델을 선택합니다.
-            1. 날짜를 입력하거나 ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 범위를 선택하여 **[!UICONTROL Date range]**&#x200B;을(를) 지정하십시오.
+            1. 날짜를 입력하거나 **[!UICONTROL Date range]**&#x200B;달력![을 사용하여 날짜 범위를 선택하여 ](/help/assets/icons/Calendar.svg)을(를) 지정하십시오.
             1. **[!UICONTROL Budget]** 입력.
-각각 예산이 있는 날짜 범위를 추가하려면 ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**&#x200B;을(를) 선택하십시오.
+각각 예산이 있는 날짜 범위를 추가하려면 ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**을(를) 선택하십시오.
 날짜 범위 및 관련 예산을 삭제하려면 ![닫기](/help/assets/icons/Close.svg)를 선택하세요.
             1. 계획을 제한하려는 선택적 최대 예산을 정의하려면
                1. **[!UICONTROL Maximize budget]** 스위치를 켭니다.
@@ -152,14 +159,14 @@ ht-degree: 0%
                1. **[!UICONTROL Select target metric]** 드롭다운 메뉴에서 대상 지표를 선택합니다. **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** 또는 **[!UICONTROL ROI]** 중에서 선택할 수 있습니다.
                1. **[!UICONTROL Select model]** 드롭다운 메뉴에서 모델을 선택합니다.
             1. 날짜를 입력하거나 ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 범위를 선택하여 날짜 범위를 지정하십시오.
-            1. 선택한 대상 지표에 대한 값을 입력합니다. 예를 들어, **[!UICONTROL Conversion]**&#x200B;의 숫자, **[!UICONTROL ROI]**&#x200B;의 백분율 또는 **[!UICONTROL CPA]** 및 **[!UICONTROL Revenue]**&#x200B;의 통화 값입니다.
-대상 지표가 있는 날짜 범위를 추가하려면 ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**&#x200B;을(를) 선택하십시오.
+            1. 선택한 대상 지표에 대한 값을 입력합니다. 예를 들어, **[!UICONTROL Conversion]**&#x200B;의 숫자, **[!UICONTROL ROI]**&#x200B;의 백분율 또는 **[!UICONTROL CPA]** 및 **[!UICONTROL Revenue]**의 통화 값입니다.
+대상 지표가 있는 날짜 범위를 추가하려면 ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**을(를) 선택하십시오.
 날짜 범위 및 연결된 대상 지표를 삭제하려면 ![닫기](/help/assets/icons/Close.svg)를 선택하세요.
             1. 계획을 제한하려는 선택적 최대 예산을 정의하려면
                1. **[!UICONTROL Maximize budget]** 스위치를 켭니다.
                1. 최대 예산 금액을 지정합니다.
 
-         1. **[!UICONTROL Spend selection]** 섹션으로 돌아가려면 **[!UICONTROL Next]**&#x200B;을(를) 선택하십시오.
+         1. **[!UICONTROL Next]** 섹션으로 돌아가려면 **[!UICONTROL Spend selection]**&#x200B;을(를) 선택하십시오.
 
 1. **[!UICONTROL Advanced configuration]** 섹션에서:
 
