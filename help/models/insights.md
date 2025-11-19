@@ -3,9 +3,9 @@ title: 모델 인사이트
 description: Mix Modeler의 내역 개요, 모델 통찰력 및 모델 품질과 같은 모델에 대한 세부 정보를 얻는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: bff18fa3d2bb5b5879dca4ab5bdce261e35b2b70
 workflow-type: tm+mt
-source-wordcount: '2332'
+source-wordcount: '2488'
 ht-degree: 2%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 2%
 다음 탭을 사용할 수 있습니다.
 
 * [모델 인사이트](#model-insights)
+* [채널 시너지](#channel-synergy)
 * [요소](#factors-beta) [!BADGE 베타]
 * [속성](#attribution)(MTA 사용 모델만 해당)
 * [진단](#diagnostics)
@@ -110,6 +111,25 @@ ht-degree: 2%
 
 접점 분류 테이블의 내용을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**&#x200B;을(를) 선택하십시오.
 
+
+## 채널 시너지
+
+**[!UICONTROL Channel synergy]** 탭에서 **[!UICONTROL Channel synergies]** 시각화를 사용하면 마케팅 채널이 개별 기여도를 넘어 곱셈 효과를 만들기 위해 상호 작용하는 방법을 식별할 수 있습니다.
+
+히트맵 매트릭스는 지출 채널 쌍들 사이의 시너지 값들의 시각적 표현을 제공한다. 이 매트릭스를 통해 마케터는 채널이 상호 작용하여 성능을 향상시키는 방법을 이해할 수 있습니다. 각 모형에 대해 시너지 값을 0부터 10까지 정규화한다. 이러한 값은 *다음 달러 시너지*&#x200B;를 수량화합니다. 이는 현재 수준에서 각 채널이 1달러의 추가 지출을 받을 때 두 채널이 얼마나 효과적으로 함께 작동하는지 예상합니다.
+
+이 차세대 프레임워크는 교육 데이터의 실제 지출 조건을 설명하므로 보다 정보에 입각한 최적화 결정을 내릴 수 있으므로 상대적 시너지 강도에 대한 현실적인 척도를 제공합니다.
+
+![계획 채널 시너지 효과](/help/assets/model-channel-synergies.png)
+
+매트릭스를 나타내는 CSV 파일을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg) **[!UICONTROL Download]**&#x200B;을(를) 선택하십시오.
+
+>[!NOTE]
+>
+>기존 모델에 대해 **[!UICONTROL Channel synergy]** 탭이 표시되지 않는 경우 기능 및 시각화를 사용하도록 모델을 다시 교육하십시오.
+
+
+
 ## **[!UICONTROL Factors]** [!BADGE 베타]
 
 요소 [!BADGE 베타] 탭에 외부 요소 관련 인사이트가 표시됩니다.
@@ -167,7 +187,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 [!UICONTROL Daily trends], [!UICONTROL Weekly trends] 또는 [!UICONTROL Monthly trends] 시각화는 선택한 속성 모델에 대해 일별, 주별 또는 월별 전환 트렌드를 표시합니다.
 
-기간을 선택하려면 **[!UICONTROL Daily trends]**&#x200B;자세히&#x200B;**[!UICONTROL Weekly trends]**&#x200B;에서 **[!UICONTROL Monthly trends]**, ![&#x200B; 또는 &#x200B;](/help/assets/icons/More.svg)을(를) 선택하십시오.
+기간을 선택하려면 **[!UICONTROL Daily trends]**&#x200B;자세히&#x200B;**[!UICONTROL Weekly trends]**&#x200B;에서 **[!UICONTROL Monthly trends]**, ![ 또는 ](/help/assets/icons/More.svg)을(를) 선택하십시오.
 
 세부 정보를 보려면 특정 속성 모델의 데이터 라인 위로 마우스를 가져가 해당 데이터에 대한 총 전환 수를 표시하는 팝오버를 표시합니다.
 
@@ -175,7 +195,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 [!UICONTROL Breakdown] 시각화는 선택한 각 속성 모델에 대한 전환의 채널 또는 터치포인트별 분류입니다. 이 시각화는 각 채널 또는 터치포인트의 효과에 대한 결정을 내리는 데 도움이 될 수 있습니다.
 
-분류 유형을 선택하려면 **[!UICONTROL Breakdown by channel]**&#x200B;자세히&#x200B;**[!UICONTROL Breakdown by touchpoint]**&#x200B;에서 ![&#x200B; 또는 &#x200B;](/help/assets/icons/More.svg)을(를) 선택하십시오.
+분류 유형을 선택하려면 **[!UICONTROL Breakdown by channel]**&#x200B;자세히&#x200B;**[!UICONTROL Breakdown by touchpoint]**&#x200B;에서 ![ 또는 ](/help/assets/icons/More.svg)을(를) 선택하십시오.
 
 세부 정보를 보려면 차트 요소 위로 마우스를 가져갑니다.
 
@@ -185,7 +205,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 채널, 미디어 유형 또↑ 증분 전환에 ↓ 오름차순 또는 내림차순으로 테이블을 정렬하려면 열 헤더를 선택하고 정렬을 토글합니다.
 
-별도의 대화 상자에서 테이블을 확장하려면 **[!UICONTROL Expand]**&#x200B;자세히![에서 &#x200B;](/help/assets/icons/More.svg)을(를) 선택합니다.
+별도의 대화 상자에서 테이블을 확장하려면 **[!UICONTROL Expand]**&#x200B;자세히![에서 ](/help/assets/icons/More.svg)을(를) 선택합니다.
 
 확장된 [상위 캠페인] 대화 상자에는 다음과 같은 추가 열이 있는 동일한 테이블이 표시됩니다.
 
@@ -238,7 +258,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 >title="모델 평가 그래프"
 >abstract="모델 평가 시각화는 실제 전환과 예측 전환 또는 잔여 전환을 분석합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/mix-modeler/using/overview" text="Mix Modeler 개요"
->additional-url="https://video.tv.adobe.com/v/3440801/?captions=kor&learn=on&enablevpops" text="Mix Modeler 데모"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler 데모"
 
 
 >[!CONTEXTUALHELP]
@@ -255,7 +275,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 **[!UICONTROL Diagnostics]** 탭에는 다음에 대한 시각화가 표시됩니다.
 
-* 다음으로 구성된 **[!UICONTROL Model Assessment]**&#x200B;개의 시각화:
+* 다음으로 구성된 **[!UICONTROL Model Assessment]** 시각화:
 
   ![모델 평가](../assets/model-assessment.png)
 
@@ -305,7 +325,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 >[!AVAILABILITY]
 >
->이 섹션에 설명된 기능은 릴리스의 제한된 테스트 단계에 있으며, 사용자 환경에서 아직 사용하지 못할 수 있습니다. 이 메모는 기능을 일반적으로 사용할 수 있을 때 제거됩니다. Mix Modeler 릴리스 프로세스에 대한 정보는 [Mix Modeler 기능 릴리스](/help/releases/latest.md)를 참조하십시오.
+>이 섹션에 설명된 기능은 릴리스의 제한된 테스트 단계에 있으며, 사용자 환경에서 아직 사용하지 못할 수 있습니다. 이 메모는 기능을 일반적으로 사용할 수 있는 경우 제거됩니다. Mix Modeler 릴리스 프로세스에 대한 정보는 [Mix Modeler 기능 릴리스](/help/releases/latest.md)를 참조하십시오.
 >
 
 모델 드리프트가 감지되면 맨 위에 **[!UICONTROL Model drift detected]** 알림이 표시됩니다.
