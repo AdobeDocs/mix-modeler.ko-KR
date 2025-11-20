@@ -14,9 +14,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mix Modeler **[!UICONTROL Performance to plan]** Home[!BADGE  ]{type=Informative}의 ![ ](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]** 탭은 Beta 기능이며 기능은 변경될 수 있습니다. 이 기능은 제한된 수의 고객이 사용할 수 있습니다.
+>Mix Modeler **[!UICONTROL Performance to plan]** Home[!BADGE &#x200B; &#x200B;]{type=Informative}의 ![&#x200B; &#x200B;](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]** 탭은 Beta 기능이며 기능은 변경될 수 있습니다. 이 기능은 제한된 수의 고객이 사용할 수 있습니다.
 
-Mix Modeler **[!UICONTROL Plans]** Home[!BADGE  ]{type=Informative}의 ![ ](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]** 탭은 계획에 대한 마케팅의 성과를 모니터링하는 추적 대시보드를 제공합니다. 상태 카드 및 시각화를 통해 실제 성능과 계획된 성과를 추적할 수 있습니다.
+Mix Modeler **[!UICONTROL Plans]** Home[!BADGE &#x200B; &#x200B;]{type=Informative}의 ![&#x200B; &#x200B;](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]** 탭은 계획에 대한 마케팅의 성과를 모니터링하는 추적 대시보드를 제공합니다. 상태 카드 및 시각화를 통해 실제 성능과 계획된 성과를 추적할 수 있습니다.
 
 대시보드를 통해 격차, 위험 또는 기회를 파악하고 계획 및 예산을 시기 적절하게 조정할 수 있습니다.
 
@@ -38,7 +38,7 @@ KPI 상태 카드 및 시각화에 대해 표시되는 데이터를 선택하려
 * [시각화](#visualizations):
    * [*지표*](#metric-actual-vs-planned)
    * [*지표*](#metric-actual-vs-planned-by-granularity)
-   * [채널 ](#channel-metric-by-granularity)
+   * [채널 &#x200B;](#channel-metric-by-granularity)
    * [*지표*](#metric-vs-metric-by-channel)
    * [*지표*](#metric-by-granularity)
    * [*지표*](#metric-by-channel)
