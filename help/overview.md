@@ -13,7 +13,7 @@ ht-degree: 18%
 
 # Adobe Mix Modeler 안내서
 
-이 기술 설명서 가이드는 **Mix Modeler** Adobe에 대한 자가 진단 지원을 제공합니다. Mix Modeler은 캠페인을 측정하고 유료, 수익 및 소유 등 모든 채널에서 전체적으로 계획을 최적화하는 Adobe Experience Cloud 애플리케이션입니다. Mix Modeler은 Adobe Experience Platform의 맨 위에 구축되었으며 Adobe Sensei에서 지원합니다.
+이 기술 설명서는 Adobe **Mix Modeler**&#x200B;에 대한 자가 진단 지원을 제공합니다. Mix Modeler은 캠페인을 측정하고 유료, 수익 및 소유 등 모든 채널에서 전체적으로 계획을 최적화하는 Adobe Experience Cloud 애플리케이션입니다. Mix Modeler은 Adobe Experience Platform의 맨 위에 구축되었으며 Adobe Sensei에서 지원합니다.
 
 ## 기본 사항부터 시작
 
@@ -21,11 +21,11 @@ ht-degree: 18%
   <tr style="border: 0;">
     <td>
     <a href="/help/get-started/about.md"><img src="assets/whatis-mm.png"></a>
-    <div><strong>빠른 시작</strong><br/>Mix Modeler 워크플로에 대한 개요와 통찰력을 얻으십시오.</div>
+    <div><strong>빠른 시작</strong><br/>Mix Modeler의 워크플로에 대한 및 insight의 개요를 살펴보십시오.</div>
     </td>
     <td>
     <a href="/help/ingest-data/overview.md"><img src="assets/data-ingestion-mm.png"></a>
-    <div><strong>데이터 수집</strong><br/>Mix Modeler에 이벤트 및 집계 또는 요약 데이터를 수집하는 방법에 대해 알아봅니다.</div>
+    <div><strong>데이터 수집</strong><br/>이벤트 및 집계 또는 요약 데이터를 Mix Modeler으로 수집하는 방법에 대해 알아봅니다.</div>
     </td>
     <td>
     <a href="/help/harmonize-data/overview.md"><img src="assets/plan-mm.png"/></a>
@@ -74,7 +74,7 @@ ht-degree: 18%
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong>Tutorials</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=ko">개요</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=ko">사용 사례</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=ko">사용자 워크플로우</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=ko">사용자 인터페이스 둘러보기</a>
+      <strong>튜토리얼</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">개요</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">사용 사례</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">사용자 워크플로우</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">사용자 인터페이스 둘러보기</a>
     </td>
   </tr>
 </table>

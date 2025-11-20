@@ -5,7 +5,7 @@ user-guide-description: Mix Modeler를 사용하는 방법에 대해 알아봅�
 source-git-commit: cc6f7810bf60c7b364280139cb1cbb39794595d8
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 51%
+ht-degree: 55%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 51%
 
 + [Mix Modeler 안내서](/help/overview.md)
 
-+ 시작하기 {#get-started}
++ 시작 {#get-started}
    + [Mix Modeler란?](/help/get-started/about.md)
    + [애플리케이션 워크플로우](/help/get-started/workflow.md)
 
