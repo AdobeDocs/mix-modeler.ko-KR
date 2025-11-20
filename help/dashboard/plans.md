@@ -3,7 +3,7 @@ title: 계획 성과
 description: Mix Modeler에서 성능을 사용하여 개요를 계획하는 방법에 대해 알아봅니다.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 7834a0c4a5fd18902b73e7c307f61847bee05bc0
+source-git-commit: 89def3d6f5a1415d8f7a91b05d68d70ca881bdf4
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mix Modeler **[!UICONTROL Performance to pan]** Home[!BADGE  ]{type=Informative}의 ![ ](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]** 탭은 Beta 기능이며 기능은 변경될 수 있습니다. 이 기능은 제한된 수의 고객이 사용할 수 있습니다.
+>Mix Modeler **[!UICONTROL Performance to plan]** Home[!BADGE  ]{type=Informative}의 ![ ](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]** 탭은 Beta 기능이며 기능은 변경될 수 있습니다. 이 기능은 제한된 수의 고객이 사용할 수 있습니다.
 
 Mix Modeler **[!UICONTROL Plans]** Home[!BADGE  ]{type=Informative}의 ![ ](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]** 탭은 계획에 대한 마케팅의 성과를 모니터링하는 추적 대시보드를 제공합니다. 상태 카드 및 시각화를 통해 실제 성능과 계획된 성과를 추적할 수 있습니다.
 
