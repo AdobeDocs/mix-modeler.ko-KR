@@ -4,9 +4,9 @@ description: 최신 Mix Modeler 릴리스 정보
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 6fc734793102533003c731e22dfe0d8c422a1cde
+source-git-commit: 5f3b5462bd2174534692051f61c57f0d3f9d4db0
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '874'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 5%
 |---|---|---|---|
 | **[!UICONTROL Dataset mapping validations]** | 조화된 필드에 대한 Experience Platform 데이터 세트 매핑에 유효성 검사가 추가되었습니다. | 2025년 9월 9일 수요일 | 2025년 9월 9일 수요일 |
 | **[!UICONTROL Context menu on links to model and plans]** | 모델 및 계획 링크에 대한 브라우저 컨텍스트 메뉴를 활성화했습니다. 이제 해당 브라우저 컨텍스트 메뉴를 사용하여 새 탭이나 창에서 특정 계획이나 모델을 열 수 있습니다. | 2025년 9월 9일 수요일 | 2025년 9월 9일 수요일 |
-| **수정 사항** | 다음 티켓에 대한 수정 사항: <ul><li>AMM-3101: 규칙에 대한 잘못된 매핑 생성이 수정되었습니다. `event_date`이(가) `timestamp` 대신 필드 이름으로 전달되었습니다.</li><li>AMM-3092: 중복된 예산 기반 플랜에서 채널 최대 제한 값을 변경할 수 없습니다.</li><li>AM3130: 모델의 세부 정보 팝업 창에서 잘못된 **[!UICONTROL Run frequency]** 정보를 수정했습니다.</li><li>AMM3158: **[!UICONTROL Select target metric]**&#x200B;계획 만들기&#x200B;**[!UICONTROL Optimize]** 인터페이스의 [&#x200B; 창의 일부로 &#x200B;](/help/plans/build.md) 옵션에 대한 레이블을 업데이트했습니다.</li><li>AMM 3176: [의 &#x200B;](/help/models/insights.md#breakdown) 탭에서 **[!UICONTROL Attribution]**&#x200B;채널별 분류&#x200B;**[!UICONTROL Model Insights]** 시각화를 볼 수 없습니다.</li></ul> | 2025년 9월 9일 수요일 | 2025년 9월 9일 수요일 |
+| **수정 사항** | 다음 티켓에 대한 수정 사항: <ul><li>AMM-3101: 규칙에 대한 잘못된 매핑 생성이 수정되었습니다. `event_date`이(가) `timestamp` 대신 필드 이름으로 전달되었습니다.</li><li>AMM-3092: 중복된 예산 기반 플랜에서 채널 최대 제한 값을 변경할 수 없습니다.</li><li>AM3130: 모델의 세부 정보 팝업 창에서 잘못된 **[!UICONTROL Run frequency]** 정보를 수정했습니다.</li><li>AMM3158: **[!UICONTROL Select target metric]**&#x200B;계획 만들기&#x200B;**[!UICONTROL Optimize]** 인터페이스의 [ 창의 일부로 ](/help/plans/build.md) 옵션에 대한 레이블을 업데이트했습니다.</li><li>AMM 3176: [의 ](/help/models/insights.md#breakdown) 탭에서 **[!UICONTROL Attribution]**&#x200B;채널별 분류&#x200B;**[!UICONTROL Model Insights]** 시각화를 볼 수 없습니다.</li></ul> | 2025년 9월 9일 수요일 | 2025년 9월 9일 수요일 |
 | **수정 사항** | 다음 티켓에 대한 수정 사항: <ul><li>AMM-3174: 기존 플랜을 사용할 수 없을 때 경험이 개선되었습니다.</li><li>AMM-3216: 사용자 지정 날짜 범위에 대한 유효성 검사가 개선되었습니다.</li><li>AMM-3240: 고정 실행 모델 주파수 표시.</ul> | 2025년 9월 23일 | 2025년 9월 23일 |
 
 ## 2025년 7월 - 8월
@@ -43,6 +43,7 @@ ht-degree: 5%
 |---|---|---|---|
 | **[!UICONTROL Compare plans update]** | 이제 [계획 비교](/help/plans/compare.md) UI에 유료 마케팅에 대한 추가 세부 정보(ROI 또는 CPA 및 수익)가 표시됩니다. | 2025년 8월 20일 | 2025년 8월 20일 |
 | **조정 업데이트** | 이제 모든 데이터 세트 규칙이 데이터 세트 유형에 관계없이 유사한 [통합 필드 경험에 대한 일반 맵](/help/harmonize-data/dataset-rules.md)을 사용합니다. 요약 데이터 세트에서 표준 조화 필드를 매핑하면 Mix Modeler은 해당 Experience Platform 데이터 세트 필드를 자동으로 추론합니다. | 2025년 7월 29일 수요일 | 2025년 7월 29일 수요일 |
+| **팬 한계 ROI/CPA 최적화 향상** | 시간이 지남에 따라 마케팅 예산이 배포되는 방식을 개선할 수 있습니다. 전체 계획 기간 동안 한계 ROI/CPA를 수렴하는 대신 월별 지출 패턴을 유지하면서 [여러 달에 걸쳐 최적화](/help/plans/build.md)할 수 있습니다. | 2025년 7월 8일 수요일 | 2025년 7월 8일 수요일 |
 
 
 ## 2025년 5월 - 6월
