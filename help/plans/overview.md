@@ -87,7 +87,7 @@ Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음
 - 플랜에 대해 ![자세히](/help/assets/icons/More.svg)을(를) 선택하십시오. 컨텍스트 메뉴에서 **[!UICONTROL Duplicate]**&#x200B;을(를) 선택합니다.
 - 또는 ![SelectBox](/help/assets/icons/SelectBox.svg) 테이블에서 플랜을 선택하고 파란색 작업 표시줄에서 ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**&#x200B;을(를) 선택합니다.
 
-원래 계획 이름에 **[!UICONTROL (Copy)](_n_)**&#x200B;을(를) 추가한 이름으로 구성된 새 계획이 만들어집니다. 복사된 플랜에 대한 업데이트된 세부 정보를 제공하기 위해 [플랜 만들기](build.md)(으)로 자동으로 리디렉션됩니다.
+원래 계획 이름에 **[!UICONTROL (Copy)] (_n_)**&#x200B;을(를) 추가한 이름으로 구성된 새 계획이 만들어집니다. 복사된 플랜에 대한 업데이트된 세부 정보를 제공하기 위해 [플랜 만들기](build.md)(으)로 자동으로 리디렉션됩니다.
 
 - 최초 계획의 상세내역(예: 설명, 예산 등)이 복사됩니다.
 - 최초 계획의 예산 제한조건이 새로 생성된 계획에 복사됩니다.
@@ -118,6 +118,6 @@ Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음
 
 1. 여러 계획을 선택합니다.
 1. 파란색 작업 표시줄에서 ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택하여 계획을 삭제합니다.
-1. **[!UICONTROL Delete]** x **[!UICONTROL Delete *계획&#x200B;*확인 대화 상자에서]**을(를) 선택하여 계획을 삭제합니다. 취소할&#x200B;**[!UICONTROL Cancel]**을(를) 선택하십시오.
+1. **[!UICONTROL Delete]** x **[!UICONTROL Delete *계획&#x200B;*확인 대화 상자에서]**&#x200B;을(를) 선택하여 계획을 삭제합니다. 취소할&#x200B;**[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
 
 
