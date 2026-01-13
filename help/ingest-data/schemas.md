@@ -16,7 +16,7 @@ Experience Platform에서 수집하고 Mix Modeler에서 사용할 데이터를 
 
 1. Mix Modeler 인터페이스로 이동합니다.
 
-1. ![ 아래의 ](/help/assets/icons/Schemas.svg)스키마&#x200B;**[!UICONTROL Schemas]** **[!UICONTROL SETUP]**&#x200B;을(를) 선택하십시오.
+1. ![&#x200B; 아래의 &#x200B;](/help/assets/icons/Schemas.svg)스키마&#x200B;**[!UICONTROL Schemas]** **[!UICONTROL SETUP]**&#x200B;을(를) 선택하십시오.
 
 자세한 내용은 [스키마 UI 개요](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en)를 참조하십시오.
 
