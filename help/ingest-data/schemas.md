@@ -18,7 +18,7 @@ Experience Platform에서 수집하고 Mix Modeler에서 사용할 데이터를 
 
 1. ![&#x200B; 아래의 &#x200B;](/help/assets/icons/Schemas.svg)스키마&#x200B;**[!UICONTROL Schemas]** **[!UICONTROL SETUP]**&#x200B;을(를) 선택하십시오.
 
-자세한 내용은 [스키마 UI 개요](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en)를 참조하십시오.
+자세한 내용은 [스키마 UI 개요](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko)를 참조하십시오.
 
 ## 집계 또는 요약 데이터
 
@@ -88,7 +88,7 @@ XDM 요약 지표 클래스 사용:
 
 ## 지원되는 데이터 유형
 
-현재 Mix Modeler은 Experience Platform 데이터 유형의 하위 집합을 지원합니다. [스키마 컴포지션의 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)에 언급된 다음 기본 데이터 형식(필드)이 지원됩니다.
+현재 Mix Modeler은 Experience Platform 데이터 유형의 하위 집합을 지원합니다. [스키마 컴포지션의 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko#data-type)에 언급된 다음 기본 데이터 형식(필드)이 지원됩니다.
 
 - 문자열
 - 정수
