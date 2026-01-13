@@ -3,9 +3,9 @@ title: 모델 개요
 description: Mix Modeler에서 모델을 구축하고 사용하는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: 620f77d5d22713381d708eef47dcb4c7eee79da9
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -51,14 +51,13 @@ Mix Modeler 인터페이스에서 현재 모델의 표를 보려면 다음을 �
 
    | 열 이름 | 세부 사항 |
    |---|---|
-   | 이름 | 모델 이름 |
-   | 설명 | 모델에 대한 설명 |
-   | 전환 이벤트 | 모델에 대해 선택한 변환입니다. |
-   | 실행 빈도 | 모델 교육의 실행 빈도입니다. |
-   | 마지막 실행 | 모델의 마지막 교육 날짜 및 시간입니다. |
-   | 상태 | 모델의 상태입니다. |
+   | **[!UICONTROL Name]** | 모델 이름 |
+   | **[!UICONTROL Description]** | 모델에 대한 설명 |
+   | **[!UICONTROL Conversion event]** | 모델에 대해 선택한 변환입니다. |
+   | **[!UICONTROL Run frequency]** | 모델 교육의 실행 빈도입니다. |
+   | **[!UICONTROL Last run]** | 모델의 마지막 교육 날짜 및 시간입니다. |
+   | **[!UICONTROL Status]** | 모델의 상태입니다. |
 
-   {style="table-layout:auto"}
 
    모델의 보고된 상태는 모델이 라이프사이클 내에 있는 위치에 따라 다릅니다. 예를 들어 모델이 생성되었는지, (재)트레이닝이 성공했는지 또는 (재)채점이 성공했는지 여부에 상관없이 표시됩니다.
 
@@ -120,7 +119,7 @@ Mix Modeler 인터페이스에서 현재 모델의 표를 보려면 다음을 �
 
 1. 모델에 대해 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Duplicate]**&#x200B;을(를) 선택합니다.
 
-원래 모델 이름에 **[!UICONTROL (Copy)] (_n_)**&#x200B;이(가) 추가된 제안된 이름으로 새 모델을 만드는 단계로 리디렉션됩니다.
+원래 모델 이름에 **[!UICONTROL (Copy)](_n_)**&#x200B;이(가) 추가된 제안된 이름으로 새 모델을 만드는 단계로 리디렉션됩니다.
 
 ### 편집
 
@@ -172,5 +171,5 @@ Mix Modeler 인터페이스에서 현재 모델의 표를 보려면 다음을 �
 
 1. 여러 모델을 선택합니다.
 1. 파란색 작업 표시줄에서 ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택하여 모델을 삭제합니다.
-1. **[!UICONTROL Delete]** x **[!UICONTROL Delete *모델&#x200B;*확인 대화 상자에서]**&#x200B;을(를) 선택하여 모델을 삭제합니다. 취소할&#x200B;**[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
+1. **[!UICONTROL Delete]** x **[!UICONTROL Delete *모델&#x200B;*확인 대화 상자에서]**을(를) 선택하여 모델을 삭제합니다. 취소할&#x200B;**[!UICONTROL Cancel]**을(를) 선택하십시오.
 
