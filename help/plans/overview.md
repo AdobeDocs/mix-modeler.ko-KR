@@ -3,9 +3,9 @@ title: 플랜 개요
 description: Mix Modeler에서 플랜을 보고, 선택하고, 실행하는 방법을 알아봅니다.
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 0d11168b71319e6c854482f89dbb1bb68962a880
+source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -48,18 +48,16 @@ Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음
 
    | 열 이름 | 세부 사항 |
    |---|---|
-   | 이름 | 플랜 이름 |
-   | 모델 | 계획의 기반으로 사용되는 모델입니다. |
-   | 날짜 범위 | 플랜에 대한 전체 날짜 범위입니다. |
-   | 예산 | 플랜에 대한 총 예산. |
-   | 계획 대상 | 대상 기반 계획에 대해 정의된 대상 지표. |
-   | 예측 반환 | 플랜에 대한 [예측된 반환](/help/main-guide/glossary.md) |
-   | 예측된 ROI | 플랜에 대한 [예측된 ROI](/help/main-guide/glossary.md). |
-   | 예측 전환 | 플랜에 대한 [예측된 전환](/help/main-guide/glossary.md) |
-   | 예측된 CPA | 플랜에 대한 [예측된 CPA](/help/main-guide/glossary.md) |
-   | 상태 | 플랜 상태: <p><span style="color:red">●</span> 실패, <p><span style="color:blue">●</span> 처리 중 또는 <p><span style="color:green">●</span>이(가) 완료되었습니다. |
-
-   {style="table-layout:auto"}
+   | **[!UICONTROL Name]** | 플랜 이름 |
+   | **[!UICONTROL Model]** | 계획의 기반으로 사용되는 모델입니다. |
+   | **[!UICONTROL Date range]** | 플랜에 대한 전체 날짜 범위입니다. |
+   | **[!UICONTROL Budget]** | 플랜에 대한 총 예산. |
+   | **[!UICONTROL Plan target]** | 대상 기반 계획에 대해 정의된 대상 지표. |
+   | **[!UICONTROL Forecasted return]** | 플랜에 대한 [예측된 반환](/help/main-guide/glossary.md) |
+   | **[!UICONTROL Forecasted ROI]** | 플랜에 대한 [예측된 ROI](/help/main-guide/glossary.md). |
+   | **[!UICONTROL Forecasted conversion]** | 플랜에 대한 [예측된 전환](/help/main-guide/glossary.md) |
+   | **[!UICONTROL Forecasted CPA]** | 플랜에 대한 [예측된 CPA](/help/main-guide/glossary.md) |
+   | **[!UICONTROL Status]** | 플랜의 상태:<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Failed]**,<br/>![StatusBlue](/help/assets/icons/StatusBlue.svg) **[!UICONTROL Processing]** 또는<br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Complete]**. |
 
    ![ColumnSetting](/help/assets/icons/ColumnSetting.svg)을(를) 사용하여 테이블에 표시할 열을 ![확인 표시](/help/assets/icons/Checkmark.svg)할 수 있습니다.
 
@@ -87,7 +85,7 @@ Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음
 - 플랜에 대해 ![자세히](/help/assets/icons/More.svg)을(를) 선택하십시오. 컨텍스트 메뉴에서 **[!UICONTROL Duplicate]**&#x200B;을(를) 선택합니다.
 - 또는 ![SelectBox](/help/assets/icons/SelectBox.svg) 테이블에서 플랜을 선택하고 파란색 작업 표시줄에서 ![복사](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**&#x200B;을(를) 선택합니다.
 
-원래 계획 이름에 **[!UICONTROL (Copy)] (_n_)**&#x200B;을(를) 추가한 이름으로 구성된 새 계획이 만들어집니다. 복사된 플랜에 대한 업데이트된 세부 정보를 제공하기 위해 [플랜 만들기](build.md)(으)로 자동으로 리디렉션됩니다.
+원래 계획 이름에 **[!UICONTROL (Copy)](_n_)**&#x200B;을(를) 추가한 이름으로 구성된 새 계획이 만들어집니다. 복사된 플랜에 대한 업데이트된 세부 정보를 제공하기 위해 [플랜 만들기](build.md)(으)로 자동으로 리디렉션됩니다.
 
 - 최초 계획의 상세내역(예: 설명, 예산 등)이 복사됩니다.
 - 최초 계획의 예산 제한조건이 새로 생성된 계획에 복사됩니다.
@@ -118,6 +116,6 @@ Mix Modeler 인터페이스에서 현재 계획의 테이블을 보려면 다음
 
 1. 여러 계획을 선택합니다.
 1. 파란색 작업 표시줄에서 ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택하여 계획을 삭제합니다.
-1. **[!UICONTROL Delete]** x **[!UICONTROL Delete *계획&#x200B;*확인 대화 상자에서]**&#x200B;을(를) 선택하여 계획을 삭제합니다. 취소할&#x200B;**[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
+1. **[!UICONTROL Delete]** x **[!UICONTROL Delete *계획&#x200B;*확인 대화 상자에서]**을(를) 선택하여 계획을 삭제합니다. 취소할&#x200B;**[!UICONTROL Cancel]**을(를) 선택하십시오.
 
 

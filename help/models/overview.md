@@ -3,9 +3,9 @@ title: 모델 개요
 description: Mix Modeler에서 모델을 구축하고 사용하는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 8f4b07782d74341afd23e8c3d15f7f2d30a7ccbd
+source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Mix Modeler 인터페이스에서 현재 모델의 표를 보려면 다음을 �
    | **[!UICONTROL Name]** | 모델 이름 |
    | **[!UICONTROL Description]** | 모델에 대한 설명 |
    | **[!UICONTROL Conversion event]** | 모델에 대해 선택한 변환입니다. |
-   | **[!UICONTROL Run]** 빈도 | 모델 교육의 실행 빈도입니다. |
+   | **[!UICONTROL Run frequency]** | 모델 교육의 실행 빈도입니다. |
    | **[!UICONTROL Last run]** | 모델의 마지막 교육 날짜 및 시간입니다. |
    | **[!UICONTROL Status]** | 모델의 상태입니다. |
 
@@ -122,7 +122,7 @@ Mix Modeler 인터페이스에서 현재 모델의 표를 보려면 다음을 �
 
 1. 모델에 대해 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Duplicate]**&#x200B;을(를) 선택합니다.
 
-원래 모델 이름에 **[!UICONTROL (Copy)] (_n_)**&#x200B;이(가) 추가된 제안된 이름으로 새 모델을 만드는 단계로 리디렉션됩니다.
+원래 모델 이름에 **[!UICONTROL (Copy)](_n_)**&#x200B;이(가) 추가된 제안된 이름으로 새 모델을 만드는 단계로 리디렉션됩니다.
 
 ### 편집
 
@@ -174,5 +174,5 @@ Mix Modeler 인터페이스에서 현재 모델의 표를 보려면 다음을 �
 
 1. 여러 모델을 선택합니다.
 1. 파란색 작업 표시줄에서 ![삭제](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;을(를) 선택하여 모델을 삭제합니다.
-1. **[!UICONTROL Delete]** x **[!UICONTROL Delete *모델&#x200B;*확인 대화 상자에서]**&#x200B;을(를) 선택하여 모델을 삭제합니다. 취소할&#x200B;**[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
+1. **[!UICONTROL Delete]** x **[!UICONTROL Delete *모델&#x200B;*확인 대화 상자에서]**을(를) 선택하여 모델을 삭제합니다. 취소할&#x200B;**[!UICONTROL Cancel]**을(를) 선택하십시오.
 
