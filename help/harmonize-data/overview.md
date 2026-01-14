@@ -149,9 +149,9 @@ Mix Modeler 인터페이스에서 조정된 데이터를 보려면 다음을 수
 
    1. Harmonized 데이터 테이블에 표시되는 Harmonized 필드 열을 수정하려면 ![설정](/help/assets/icons/Setting.svg)을 사용하여 **[!UICONTROL Column settings]** 대화 상자를 엽니다.
 
-      1. ![에서 하나 이상의 열을 ](/help/assets/icons/SelectBox.svg)SelectBox **[!UICONTROL AVAILABLE COLUMNS]**&#x200B;을(를) 선택하고 ![V자형 화살표 오른쪽](/help/assets/icons/ChevronRight.svg)을(를) 사용하여 이러한 열을 **[!UICONTROL SELECTED COLUMNS]**&#x200B;에 추가하십시오.
+      1. ![에서 하나 이상의 열을 &#x200B;](/help/assets/icons/SelectBox.svg)SelectBox **[!UICONTROL AVAILABLE COLUMNS]**&#x200B;을(를) 선택하고 ![V자형 화살표 오른쪽](/help/assets/icons/ChevronRight.svg)을(를) 사용하여 이러한 열을 **[!UICONTROL SELECTED COLUMNS]**&#x200B;에 추가하십시오.
 
-      1. ![에서 하나 이상의 열을 ](/help/assets/icons/SelectBox.svg)SelectBox **[!UICONTROL SELECTED COLUMNS]**&#x200B;을(를) 선택하고 ![왼쪽 V자형 화살표](/help/assets/icons/ChevronLeft.svg)를 사용하여 선택한 열을 제거하고 이 열을 다시 **[!UICONTROL AVAILABLE COLUMNS]**(으)로 되돌립니다.
+      1. ![에서 하나 이상의 열을 &#x200B;](/help/assets/icons/SelectBox.svg)SelectBox **[!UICONTROL SELECTED COLUMNS]**&#x200B;을(를) 선택하고 ![왼쪽 V자형 화살표](/help/assets/icons/ChevronLeft.svg)를 사용하여 선택한 열을 제거하고 이 열을 다시 **[!UICONTROL AVAILABLE COLUMNS]**(으)로 되돌립니다.
 
       1. **[!UICONTROL DEFAULT SORT]**&#x200B;에서 열을 선택하고 **[!UICONTROL Ascending]** 또는 **[!UICONTROL Descending]** 간에 전환합니다.
 
