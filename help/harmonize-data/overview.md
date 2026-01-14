@@ -3,10 +3,10 @@ title: 데이터 세트 조화 개요
 description: Mix Modeler에서 데이터를 조화롭게 구성하는 방법에 대해 알아봅니다.
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 80fbb8aea3e66342a7887f1660af0f4bf05ffcdb
+source-git-commit: 83ccceb5f8b73157048ed17b190194de4ed05c4f
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 5%
+source-wordcount: '1347'
+ht-degree: 6%
 
 ---
 
@@ -17,7 +17,7 @@ Mix Modeler의 데이터는 데이터 소스에 따라 그 성격이 다릅니�
 * 집계 또는 요약 데이터(예: 담으로 둘러싸인 정원 데이터 소스에서 수집되거나 빌보드 캠페인, 이벤트 또는 물리적 광고 캠페인을 실행하여 수집된(지출) 오프라인 광고 데이터)
 * 이벤트 데이터(예: 자사 데이터 소스). 이 이벤트 데이터는 Adobe Analytics의 Adobe Analytics 소스 커넥터, Experience Platform 웹 또는 Mobile SDK 또는 Edge Network API를 통해 수집된 데이터 또는 소스 커넥터를 사용하여 수집된 데이터일 수 있습니다.
 
-Mix Modeler의 조화 서비스는 집계 및 이벤트 데이터를 일관된 데이터 보기로 통합합니다. [내부 및 외부 요인 데이터](#factors)와(과) 결합된 이 데이터 보기는 Mix Modeler의 모델에 대한 원본입니다. 이 서비스는 여러 데이터 세트에서 가장 높은 세부 기간을 사용합니다. 예를 들어, 한 데이터 세트에 월간 세부 기간이 있고 나머지 데이터 세트에 주별 및 일별 세부 기간이 있는 경우, 조화 서비스는 월간 세부 기간을 사용하여 데이터 보기를 만듭니다.
+Mix Modeler의 조화 서비스는 집계 및 이벤트 데이터를 일관된 데이터 보기로 통합합니다. 이 데이터 보기는 Mix Modeler의 모델에 대한 소스입니다. 이 서비스는 여러 데이터 세트에서 가장 높은 세부 기간을 사용합니다. 예를 들어, 한 데이터 세트에 월간 세부 기간이 있고 나머지 데이터 세트에 주별 및 일별 세부 기간이 있는 경우, 조화 서비스는 월간 세부 기간을 사용하여 데이터 보기를 만듭니다.
 
 ## 요소
 
@@ -27,7 +27,22 @@ Mix Modeler의 조화 서비스는 집계 및 이벤트 데이터를 일관된 �
 
 * 외부 요인은 조직의 제어 범위를 벗어나는 요인이지만, 사용자의 전환에 영향을 줄 수 있습니다. CPI, S&amp;P 500 등을 예로 들 수 있습니다.
 
+Mix Modeler의 요소 기능은 조화로운 요소 워크플로를 사용합니다. 이 워크플로우는 요소 관리 방법을 단순화하고 모델 간에 일관성을 제공하며 직관적인 경험을 제공합니다.
 
+다음과 같이 조화로운 요소 워크플로의 일부로:
+
+1. [데이터 집합 규칙](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)의 요소 데이터 집합에서 요소에 대한 통합 필드를 정의합니다.
+1. 통합 데이터를 [동기화](/help/harmonize-data/dataset-rules.md#sync-data)합니다.
+1. 모델 구성에서 [요소를 사용](/help/models/build.md#configure)합니다.
+
+### 마이그레이션
+
+통합 요소 워크플로를 아직 채택하지 않은 모델이 있을 수 있으며 Experience Platform 데이터 세트 기반 요소 워크플로를 사용합니다. 이러한 모델은 통합 요소 워크플로우를 기반으로 하는 새 요소로 모델을 업데이트할 때까지 원래 데이터 세트 기반 요소를 계속 표시합니다.
+
+데이터 세트 기반 요소 워크플로를 사용하는 모델을 복제하는 경우:
+
+* 모델이 조화되지 않은 경우 이전 요소 구성이 중복 모델로 이전되지 않습니다. 새로운 조화로운 요인 워크플로우를 사용하여 요인을 추가해야 합니다.
+* 모델이 조정된 경우 요소가 이월되고 유지되거나 업데이트됩니다.
 
 ## 조정된 데이터의 예
 
@@ -37,10 +52,10 @@ Mix Modeler에 다음 데이터 세트를 사용할 수 있다고 가정해 보�
 
 집계 데이터의 세부기간을 일별로 설정하여 YouTube의 마케팅 노력 데이터 세트를 포함합니다.
 
-| 일자 | 날짜 유형 | 채널 | Campaign | 브랜드 | 지역 | 클릭수 | 지출 |
+| Date | 날짜 유형 | 채널 | Campaign | 브랜드 | 지역 | 클릭수 | 지출 |
 |---|:--:|---|---|---|---|---:|---:|
-| 12-31-2021 | 일 | YouTube | Y_Fall_02 | 브랜드 | US | 10000 | 10 |
-| 01-01-2022 | 일 | YouTube | Y_Fall_02 | 브랜드 | US | 1000 | 10 |
+| 12-31-2021 | 일 | YouTube | Y_Fall_02 | 브랜드 | 미국 | 10000 | 100 |
+| 01-01-2022 | 일 | YouTube | Y_Fall_02 | 브랜드 | 미국 | 1000 | 10 |
 | 01-03-2022 | 일 | YouTube | Y_Fall_01 | Y 브랜드 | CA | 10000 | 100 |
 | 01-04-2022 | 일 | YouTube | Y_Summer_01 | Null | CA | 9000 | 80 |
 
@@ -51,11 +66,11 @@ Mix Modeler에 다음 데이터 세트를 사용할 수 있다고 가정해 보�
 
 집계 데이터의 세부기간이 주간으로 설정된 Facebook의 마케팅 활동 데이터 세트를 포함합니다.
 
-| 일자 | 날짜 유형 | 채널 | Campaign | 지역 | 클릭수 | 지출 |
+| Date | 날짜 유형 | 채널 | Campaign | 지역 | 클릭수 | 지출 |
 |--- |:---:|--- |---|---|---:|---:|
-| 01-01-2022 | 주 | Fbook | FB_Fall_01 | US | 8000 | 100 |
-| 01-08-2022 | 주 | Fbook | FB_Fall_02 | US | 1000 | 10 |
-| 01-08-2022 | 주 | Fbook | FB_Fall_01 | US | 7000 | 100 |
+| 01-01-2022 | 주 | Fbook | FB_Fall_01 | 미국 | 8000 | 100 |
+| 01-08-2022 | 주 | Fbook | FB_Fall_02 | 미국 | 1000 | 10 |
+| 01-08-2022 | 주 | Fbook | FB_Fall_01 | 미국 | 7000 | 100 |
 | 01-16-2022 | 주 | Fbook | FB_Summer_01 | CA | 10000 | 80 |
 
 {style="table-layout:auto"}
@@ -65,11 +80,11 @@ Mix Modeler에 다음 데이터 세트를 사용할 수 있다고 가정해 보�
 
 집계 데이터의 세부기간이 일별로 설정된 전환 데이터 세트입니다.
 
-| 일자 | 날짜 유형 | 지역 | 목표 | 매출 |
+| Date | 날짜 유형 | 지역 | 목표 | 매출 |
 |--- |:---: |---|---|---:|
-| 01-01-2022 | 일 | US | 패션 | 200 |
-| 01-08-2022 | 일 | US | 패션 | 10 |
-| 01-08-2022 | 일 | US | 보석 | 1100 |
+| 01-01-2022 | 일 | 미국 | 패션 | 200 |
+| 01-08-2022 | 일 | 미국 | 패션 | 10 |
+| 01-08-2022 | 일 | 미국 | 보석 | 1100 |
 | 01-16-2022 | 일 | CA | 보석 | 80 |
 
 {style="table-layout:auto"}
@@ -93,18 +108,18 @@ Mix Modeler에 다음 데이터 세트를 사용할 수 있다고 가정해 보�
 
 **통합 데이터 세트**
 
-| 일자 | 날짜 유형 | 채널 | Campaign | 브랜드 | 지역 | 목표 | 클릭수 | 지출 | 매출 |
+| Date | 날짜 유형 | 채널 | Campaign | 브랜드 | 지역 | 목표 | 클릭수 | 지출 | 매출 |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
-| 12-27-2021 | 주 | YouTube | Y_Fall_02 | 브랜드 | US | Null | 11000 | 110 | Null |
+| 12-27-2021 | 주 | YouTube | Y_Fall_02 | 브랜드 | 미국 | Null | 11000 | 110 | Null |
 | 01-03-2022 | 주 | YouTube | Y_Fall_01 | Y 브랜드 | CA | Null | 10000 | 100 | Null |
 | 01-03-2022 | 주 | YouTube | Y_Summer_01 | Null | CA | Null | 9000 | 80 | Null |
-| 01-01-2022 | 주 | Fbook | FB_Fall_01 | Null | US | Null | 8000 | 100 | Null |
-| 01-08-2022 | 주 | Fbook | FB_Fall_02 | Null | US | Null | 1000 | 10 | Null |
-| 01-08-2022 | 주 | Fbook | FB_Fall_01 | Null | US | Null | 7000 | 100 | Null |
+| 01-01-2022 | 주 | Fbook | FB_Fall_01 | Null | 미국 | Null | 8000 | 100 | Null |
+| 01-08-2022 | 주 | Fbook | FB_Fall_02 | Null | 미국 | Null | 1000 | 10 | Null |
+| 01-08-2022 | 주 | Fbook | FB_Fall_01 | Null | 미국 | Null | 7000 | 100 | Null |
 | 01-16-2022 | 주 | Fbook | FB_Summer_01 | Null | CA | Null | 10000 | 80 | Null |
-| 12-27-2021 | 주 | Null | Null | Null | US | 패션 | Null | Null | 200 |
-| 01-03-2022 | 주 | Null | Null | Null | US | 패션 | Null | Null | 10 |
-| 01-03-2022 | 주 | Null | Null | Null | US | 보석 | Null | Null | 1100 |
+| 12-27-2021 | 주 | Null | Null | Null | 미국 | 패션 | Null | Null | 200 |
+| 01-03-2022 | 주 | Null | Null | Null | 미국 | 패션 | Null | Null | 10 |
+| 01-03-2022 | 주 | Null | Null | Null | 미국 | 보석 | Null | Null | 1100 |
 | 01-10-2022 | 주 | Null | Null | Null | CA | 보석 | Null | Null | 80 |
 | 01-01-2022 | 주 | CSE | Null | Null | Null | Null | 2 | Null | Null |
 | 01-08-2022 | 주 | CSE | Null | Null | Null | Null | 2 | Null | Null |
@@ -134,9 +149,9 @@ Mix Modeler 인터페이스에서 조정된 데이터를 보려면 다음을 수
 
    1. Harmonized 데이터 테이블에 표시되는 Harmonized 필드 열을 수정하려면 ![설정](/help/assets/icons/Setting.svg)을 사용하여 **[!UICONTROL Column settings]** 대화 상자를 엽니다.
 
-      1. **[!UICONTROL AVAILABLE COLUMNS]**&#x200B;에서 하나 이상의 열을 ![SelectBox](/help/assets/icons/SelectBox.svg)을(를) 선택하고 ![V자형 화살표 오른쪽](/help/assets/icons/ChevronRight.svg)을(를) 사용하여 이러한 열을 **[!UICONTROL SELECTED COLUMNS]**&#x200B;에 추가하십시오.
+      1. ![에서 하나 이상의 열을 ](/help/assets/icons/SelectBox.svg)SelectBox **[!UICONTROL AVAILABLE COLUMNS]**&#x200B;을(를) 선택하고 ![V자형 화살표 오른쪽](/help/assets/icons/ChevronRight.svg)을(를) 사용하여 이러한 열을 **[!UICONTROL SELECTED COLUMNS]**&#x200B;에 추가하십시오.
 
-      1. **[!UICONTROL SELECTED COLUMNS]**&#x200B;에서 하나 이상의 열을 ![SelectBox](/help/assets/icons/SelectBox.svg)을(를) 선택하고 ![왼쪽 V자형 화살표](/help/assets/icons/ChevronLeft.svg)를 사용하여 선택한 열을 제거하고 이 열을 다시 **[!UICONTROL AVAILABLE COLUMNS]**(으)로 되돌립니다.
+      1. ![에서 하나 이상의 열을 ](/help/assets/icons/SelectBox.svg)SelectBox **[!UICONTROL SELECTED COLUMNS]**&#x200B;을(를) 선택하고 ![왼쪽 V자형 화살표](/help/assets/icons/ChevronLeft.svg)를 사용하여 선택한 열을 제거하고 이 열을 다시 **[!UICONTROL AVAILABLE COLUMNS]**(으)로 되돌립니다.
 
       1. **[!UICONTROL DEFAULT SORT]**&#x200B;에서 열을 선택하고 **[!UICONTROL Ascending]** 또는 **[!UICONTROL Descending]** 간에 전환합니다.
 
