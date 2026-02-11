@@ -3,9 +3,9 @@ title: 모델 인사이트
 description: Mix Modeler의 내역 개요, 모델 통찰력 및 모델 품질과 같은 모델에 대한 세부 정보를 얻는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
+source-git-commit: 197aa8d5593932e68e592b89dceabf7dc75c7cc7
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2804'
 ht-degree: 2%
 
 ---
@@ -130,7 +130,13 @@ ht-degree: 2%
 
 
 
-## **[!UICONTROL Factors]** [!BADGE 베타]
+## **[!UICONTROL Factors]** [!BADGE 베타] {#factors}
+
+>[!CONTEXTUALHELP]
+>id="models_factors_factorcontributionbreakdown"
+>title="요소 기여도 분석"
+>abstract="요인기여도 분류는 모형에 포함된 다양한 요인에 기인할 수 있는 기본 전환의 비율을 보여준다.<br/><br/>순수 기본은 모델에 포함된 마케팅 접점 및 요인과 독립적으로 발생하는 기본 전환을 나타냅니다. 여기에는 브랜드 에쿼티, 반복 구매, 유기 수요, 장기 시장 트렌드 및 계절성에 따른 전환이 포함됩니다."
+
 
 요소 [!BADGE 베타] 탭에 외부 요소 관련 인사이트가 표시됩니다.
 
@@ -146,7 +152,21 @@ ht-degree: 2%
 
 데이터를 사용할 수 없으면 ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]** 메시지가 표시됩니다.
 
-## [!UICONTROL Attribution]
+## [!UICONTROL Attribution] {#attribution}
+
+
+>[!CONTEXTUALHELP]
+>id="models_attribution_breakdownbychannel"
+>title="채널별 분류"
+>abstract="**[!UICONTROL Breakdown by channel]**&#x200B;은(는) 고객 경험 이벤트 스키마를 기반으로 정의된 접점에 대한 채널 유형별 분류입니다. 터치 포인트별 분류를 표시하려면 ![자세히](https://spectrum.adobe.com/static/icons/workflow_18/Smock_MoreSmallList_18_N.svg) 및 **[!UICONTROL Breakdown by touchpoint]**&#x200B;을(를) 선택하십시오."
+
+
+>[!CONTEXTUALHELP]
+>id="models_attribution_breakdownbytouchpointposition"
+>title="접점 위치별 분류"
+>abstract="이 시각화는 모든 전환 경로에서 접점 및 접점 위치별 속성 전환의 분류를 보여줍니다. 시각화는 접점이 나머지 위치와 다른 위치의 접점보다 더 나은 위치에서 기여하는지 비교합니다. 모든 접점 및 위치에서 속성 모델에 대한 백분율 기여도의 합계는 100입니다. 초보자, 인플루언서 및 피니셔의 위치는 다음과 같이 정의됩니다.<ul><li>**시작**: 접점이 전환 경로의 첫 번째 터치인지 여부를 나타냅니다.</li><li>**플레이어**: 접점이 전환으로 이어지는 첫 번째 터치와 마지막 터치 중 어느 것이 아닌지 나타냅니다.</li><li>**가까이**: 접점이 전환 전 마지막 터치인지 여부를 나타냅니다.</li></ul>"
+
+
 
 >[!NOTE]
 >
@@ -187,7 +207,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 [!UICONTROL Daily trends], [!UICONTROL Weekly trends] 또는 [!UICONTROL Monthly trends] 시각화는 선택한 속성 모델에 대해 일별, 주별 또는 월별 전환 트렌드를 표시합니다.
 
-기간을 선택하려면 **[!UICONTROL Daily trends]**&#x200B;자세히&#x200B;**[!UICONTROL Weekly trends]**&#x200B;에서 **[!UICONTROL Monthly trends]**, ![&#x200B; 또는 &#x200B;](/help/assets/icons/More.svg)을(를) 선택하십시오.
+기간을 선택하려면 **[!UICONTROL Daily trends]**&#x200B;자세히&#x200B;**[!UICONTROL Weekly trends]**&#x200B;에서 **[!UICONTROL Monthly trends]**, ![ 또는 ](/help/assets/icons/More.svg)을(를) 선택하십시오.
 
 세부 정보를 보려면 특정 속성 모델의 데이터 라인 위로 마우스를 가져가 해당 데이터에 대한 총 전환 수를 표시하는 팝오버를 표시합니다.
 
@@ -195,7 +215,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 [!UICONTROL Breakdown] 시각화는 선택한 각 속성 모델에 대한 전환의 채널 또는 터치포인트별 분류입니다. 이 시각화는 각 채널 또는 터치포인트의 효과에 대한 결정을 내리는 데 도움이 될 수 있습니다.
 
-분류 유형을 선택하려면 **[!UICONTROL Breakdown by channel]**&#x200B;자세히&#x200B;**[!UICONTROL Breakdown by touchpoint]**&#x200B;에서 ![&#x200B; 또는 &#x200B;](/help/assets/icons/More.svg)을(를) 선택하십시오.
+분류 유형을 선택하려면 **[!UICONTROL Breakdown by channel]**&#x200B;자세히&#x200B;**[!UICONTROL Breakdown by touchpoint]**&#x200B;에서 ![ 또는 ](/help/assets/icons/More.svg)을(를) 선택하십시오.
 
 세부 정보를 보려면 차트 요소 위로 마우스를 가져갑니다.
 
@@ -205,7 +225,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 채널, 미디어 유형 또↑ 증분 전환에 ↓ 오름차순 또는 내림차순으로 테이블을 정렬하려면 열 헤더를 선택하고 정렬을 토글합니다.
 
-별도의 대화 상자에서 테이블을 확장하려면 **[!UICONTROL Expand]**&#x200B;자세히![에서 &#x200B;](/help/assets/icons/More.svg)을(를) 선택합니다.
+별도의 대화 상자에서 테이블을 확장하려면 **[!UICONTROL Expand]**&#x200B;자세히![에서 ](/help/assets/icons/More.svg)을(를) 선택합니다.
 
 확장된 [상위 캠페인] 대화 상자에는 다음과 같은 추가 열이 있는 동일한 테이블이 표시됩니다.
 
@@ -252,19 +272,36 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 ## [!UICONTROL Diagnostics] {#diagnostics}
 
-
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
 >title="모델 평가 그래프"
 >abstract="모델 평가 시각화는 실제 전환과 예측 전환 또는 잔여 전환을 분석합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/mix-modeler/using/overview" text="Mix Modeler 개요"
->additional-url="https://video.tv.adobe.com/v/3440801/?captions=kor&learn=on&enablevpops" text="Mix Modeler 데모"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler 데모"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modeltrainingfitmetrics"
+>title="모델 맞춤 지표"
+>abstract="여러 모델 교육 적합도 지표에 대한 개요를 표시합니다."
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_pathstouched"
 >title="터치된 경로"
 >abstract="터치된 경로는 각 접점에서 전환을 달성한 경로의 백분율과 전환을 달성하지 못한 경로의 백분율입니다."
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_efficiencymeasure"
+>title="효율성 측정"
+>abstract="알고리즘 속성 모델에 의해 생성된 효율성 측정은 접점 볼륨에 관계없이 전환에 대한 접점의 상대적 중요성을 나타냅니다. 이것은 1에서 5까지의 척도로 측정됩니다. 더 높은 접점 볼륨이 더 높은 효율성 측정을 보장하지는 않습니다."
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_totalvolume"
+>title="총 볼륨"
+>abstract="총 볼륨은 접점이 사용자에 의해 터치된 총 횟수이며 전환을 수행하는 경로와 전환을 수행하지 않는 경로에 나타나는 접점을 포함합니다."
 
 
 >[!CONTEXTUALHELP]
