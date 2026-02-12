@@ -3,9 +3,9 @@ title: 모델 인사이트
 description: Mix Modeler의 내역 개요, 모델 통찰력 및 모델 품질과 같은 모델에 대한 세부 정보를 얻는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 197aa8d5593932e68e592b89dceabf7dc75c7cc7
+source-git-commit: 0a6ed07585f4e2d324159f649efedf2ec6d1b40b
 workflow-type: tm+mt
-source-wordcount: '2804'
+source-wordcount: '2827'
 ht-degree: 2%
 
 ---
@@ -74,9 +74,19 @@ ht-degree: 2%
 
 다양한 채널별 기여도 분포를 보여 주는 도넛 시각화입니다. 이 시각화는 상위 3개 성능 채널의 렌즈를 통해 증분(기본 및 *다른 항목*&#x200B;개 범주 제외)을 보여 줍니다. 시각화는 우선 순위 지정 및 예산 할당을 지원하는 데 도움이 됩니다.
 
-### 마케팅 성과 요약
+### 마케팅 성과 요약 {#marketing-performance-summary}
+
+
+>[!CONTEXTUALHELP]
+>id="models_insights_marketingperformancesummary"
+>title="정의되지 않은 채널"
+>abstract="정의되지 않은 채널은 포함되지만 속성 전환은 없습니다."
+
 
 각 채널별 ROI 또는 CPA 성능을 표시하는 가로 막대 그래프 시각화. 이 시각화는 마케팅 투자의 ROI/CPA를 강조 표시합니다. 채널은 ROI/CPA를 기반으로 내림차순으로 순위가 매겨집니다. 시각화는 가장 효과적인 채널과 최적화가 필요할 수 있는 채널을 식별하는 데 도움이 됩니다.
+
+정의되지 않은 채널은 시각화에 포함되지만 속성 전환은 없습니다.
+
 
 ### 한계 반응 곡선
 
@@ -207,7 +217,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 [!UICONTROL Daily trends], [!UICONTROL Weekly trends] 또는 [!UICONTROL Monthly trends] 시각화는 선택한 속성 모델에 대해 일별, 주별 또는 월별 전환 트렌드를 표시합니다.
 
-기간을 선택하려면 **[!UICONTROL Daily trends]**&#x200B;자세히&#x200B;**[!UICONTROL Weekly trends]**&#x200B;에서 **[!UICONTROL Monthly trends]**, ![&#x200B; 또는 &#x200B;](/help/assets/icons/More.svg)을(를) 선택하십시오.
+기간을 선택하려면 **[!UICONTROL Daily trends]**&#x200B;자세히&#x200B;**[!UICONTROL Weekly trends]**&#x200B;에서 **[!UICONTROL Monthly trends]**, ![ 또는 ](/help/assets/icons/More.svg)을(를) 선택하십시오.
 
 세부 정보를 보려면 특정 속성 모델의 데이터 라인 위로 마우스를 가져가 해당 데이터에 대한 총 전환 수를 표시하는 팝오버를 표시합니다.
 
@@ -215,7 +225,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 [!UICONTROL Breakdown] 시각화는 선택한 각 속성 모델에 대한 전환의 채널 또는 터치포인트별 분류입니다. 이 시각화는 각 채널 또는 터치포인트의 효과에 대한 결정을 내리는 데 도움이 될 수 있습니다.
 
-분류 유형을 선택하려면 **[!UICONTROL Breakdown by channel]**&#x200B;자세히&#x200B;**[!UICONTROL Breakdown by touchpoint]**&#x200B;에서 ![&#x200B; 또는 &#x200B;](/help/assets/icons/More.svg)을(를) 선택하십시오.
+분류 유형을 선택하려면 **[!UICONTROL Breakdown by channel]**&#x200B;자세히&#x200B;**[!UICONTROL Breakdown by touchpoint]**&#x200B;에서 ![ 또는 ](/help/assets/icons/More.svg)을(를) 선택하십시오.
 
 세부 정보를 보려면 차트 요소 위로 마우스를 가져갑니다.
 
@@ -225,7 +235,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 채널, 미디어 유형 또↑ 증분 전환에 ↓ 오름차순 또는 내림차순으로 테이블을 정렬하려면 열 헤더를 선택하고 정렬을 토글합니다.
 
-별도의 대화 상자에서 테이블을 확장하려면 **[!UICONTROL Expand]**&#x200B;자세히![에서 &#x200B;](/help/assets/icons/More.svg)을(를) 선택합니다.
+별도의 대화 상자에서 테이블을 확장하려면 **[!UICONTROL Expand]**&#x200B;자세히![에서 ](/help/assets/icons/More.svg)을(를) 선택합니다.
 
 확장된 [상위 캠페인] 대화 상자에는 다음과 같은 추가 열이 있는 동일한 테이블이 표시됩니다.
 
@@ -277,7 +287,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 >title="모델 평가 그래프"
 >abstract="모델 평가 시각화는 실제 전환과 예측 전환 또는 잔여 전환을 분석합니다."
 >additional-url="https://experienceleague.adobe.com/ko/docs/mix-modeler/using/overview" text="Mix Modeler 개요"
->additional-url="https://video.tv.adobe.com/v/3440801/?captions=kor&learn=on&enablevpops" text="Mix Modeler 데모"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler 데모"
 
 
 >[!CONTEXTUALHELP]
