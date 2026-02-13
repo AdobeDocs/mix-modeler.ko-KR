@@ -3,10 +3,10 @@ title: 모델 구축
 description: Mix Modeler에서 모델을 구축하는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: b08a24856e28a1377728bc2c511f6ea483cbd0fd
+source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 0%
+source-wordcount: '1024'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,12 @@ Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]*
 
 1. 다음 단계로 진행하려면 **[!UICONTROL Next]**&#x200B;을(를) 선택하십시오. 모델 구성을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
 
-## 구성
+## 구성{#configure}
+
+>[!CONTEXTUALHELP]
+>id="model_marketingtouchpoints_select"
+>title="마케팅 접점"
+>abstract="마케팅 접점은 마케팅 투자가 수치적 또는 수익 기반 전환에 미치는 영향을 평가하는 데 사용되는 수신자, 개인 및 쿠키 수준의 마케팅 이벤트입니다.<br/><br/>데이터가 겹치는 터치포인트로 모델을 설정할 수 없으며 지출이 있는 터치포인트가 하나 이상 있어야 합니다."
 
 **[!UICONTROL Configure]** 단계에서 모델을 구성합니다. 구성에는 전환 목표, 마케팅 접점, 적격 데이터 채우기, 외부 및 내부 요인 등의 정의가 포함됩니다.
 
@@ -34,13 +39,13 @@ Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]*
 
    ![모델 - 변환 단계](/help/assets/model-conversion-step.png)
 
-   1. **[!UICONTROL Conversion]** 드롭다운 메뉴에서 전환을 선택합니다. 사용 가능한 전환은 [!UICONTROL Harmonized datasets]에서 [전환](../harmonize-data/conversions.md)의 일부로 정의한 전환입니다. 예: **[!UICONTROL Online Conversion]**.
+   1. **[!UICONTROL Conversion]** 드롭다운 메뉴에서 전환을 선택합니다. 사용 가능한 전환은 [에서 ](../harmonize-data/conversions.md)전환[!UICONTROL Harmonized datasets]의 일부로 정의한 전환입니다. 예: **[!UICONTROL Online Conversion]**.
 
    1. 모델 구성 내에서 직접 변환을 만들려면 ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]**&#x200B;을(를) 선택할 수 있습니다.
 
 
 
-1. **[!UICONTROL Marketing touchpoints]** 섹션에서 [!UICONTROL Harmonized datasets]에 [마케팅 접점](../harmonize-data/marketing-touchpoints.md)의 일부로 정의한 마케팅 접점에 해당하는 마케팅 접점을 하나 이상 선택할 수 있습니다.
+1. **[!UICONTROL Marketing touchpoints]** 섹션에서 [에 ](../harmonize-data/marketing-touchpoints.md)마케팅 접점[!UICONTROL Harmonized datasets]의 일부로 정의한 마케팅 접점에 해당하는 마케팅 접점을 하나 이상 선택할 수 있습니다.
 
 
    ![모델 - 마케팅 접점 단계](/help/assets/model-marketing-touchpoint-step.png)
@@ -120,7 +125,7 @@ Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]*
 
 
 
-1. 모델에 대한 전환 확인 기간을 정의하려면 **[!UICONTROL Give contribution credit to touchpoints occurring within]**&#x200B;에 `1`에서 `52` 사이의 값을 입력하십시오. **[!UICONTROL weeks prior to the conversion]**.
+1. 모델에 대한 전환 확인 기간을 정의하려면 `1`에 `52`에서 **[!UICONTROL Give contribution credit to touchpoints occurring within]** 사이의 값을 입력하십시오. **[!UICONTROL weeks prior to the conversion]**.
 
 1. 다음 단계로 진행하려면 **[!UICONTROL Next]**&#x200B;을(를) 선택하십시오. 추가 구성이 필요한 경우 빨간색 윤곽선과 텍스트가 추가 구성이 필요한 사항을 설명합니다. <br/>이전 단계로 돌아가려면 **[!UICONTROL Back]**&#x200B;을(를) 선택하십시오. <br/>모델 구성을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
 
@@ -143,15 +148,15 @@ Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]*
 
 1. **[!UICONTROL MTA enabled]** 섹션에서:
 
-   * 모델에 대해 MTA 기능을 활성화하려면 **[!UICONTROL MTA enabled]**&#x200B;을(를) 활성화합니다. MTA를 활성화한 경우 멀티터치 속성 인사이트는 모델을 교육하고 점수를 매긴 후 사용할 수 있습니다. [모델 인사이트](insights.md)에서 [속성](insights.md#attribution) 탭을 참조하십시오.
+   * 모델에 대해 MTA 기능을 활성화하려면 **[!UICONTROL MTA enabled]**&#x200B;을(를) 활성화합니다. MTA를 활성화한 경우 멀티터치 속성 인사이트는 모델을 교육하고 점수를 매긴 후 사용할 수 있습니다. [모델 인사이트](insights.md#attribution)에서 [속성](insights.md) 탭을 참조하십시오.
 
 1. **[!UICONTROL Prior knowledge]** 섹션에서:
 
    ![모델 - 사전 지식](/help/assets/model-prior-knowledge-step.png)
 
-   1. 기본적으로 **[!UICONTROL Absolute values]**&#x200B;인 **[!UICONTROL Rule type]**&#x200B;을(를) 선택하십시오.
+   1. 기본적으로 **[!UICONTROL Rule type]**&#x200B;인 **[!UICONTROL Absolute values]**&#x200B;을(를) 선택하십시오.
 
-   1. **[!UICONTROL Contribution proportion]** 열을 사용하여 **[!UICONTROL Name]** 아래에 나열된 채널에 대한 기여도 백분율을 지정하십시오.
+   1. **[!UICONTROL Name]** 열을 사용하여 **[!UICONTROL Contribution proportion]** 아래에 나열된 채널에 대한 기여도 백분율을 지정하십시오.
 
    1. 필요한 경우 각 채널에 대해 **[!UICONTROL Level of confidence]** 백분율을 추가할 수 있습니다.
 
