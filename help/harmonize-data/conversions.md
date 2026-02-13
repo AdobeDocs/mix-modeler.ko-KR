@@ -59,7 +59,7 @@ Mix Modeler 인터페이스에서 사용 가능한 전환의 표를 보려면 �
 
       1. 연산자 ![V자형 화살표](/help/assets/icons/ChevronDown.svg)의 값을 선택하십시오(예: **[!UICONTROL is]**).
 
-      1. **[!UICONTROL *값 선택&#x200B;*]**&#x200B;에서 값을 선택하거나&#x200B;**[!UICONTROL Store]**&#x200B;과(와) 같은 값을 입력하십시오.
+      1. **[!UICONTROL *값 선택&#x200B;*]**에서 값을 선택하거나&#x200B;**[!UICONTROL Store]**과(와) 같은 값을 입력하십시오.
 
    1. **[!UICONTROL Conversion metric for analysis]**&#x200B;에서 조정된 필드를 선택합니다(예: **[!UICONTROL Orders]**).
 
