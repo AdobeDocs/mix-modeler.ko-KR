@@ -39,13 +39,13 @@ Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]*
 
    ![모델 - 변환 단계](/help/assets/model-conversion-step.png)
 
-   1. **[!UICONTROL Conversion]** 드롭다운 메뉴에서 전환을 선택합니다. 사용 가능한 전환은 [에서 &#x200B;](../harmonize-data/conversions.md)전환[!UICONTROL Harmonized datasets]의 일부로 정의한 전환입니다. 예: **[!UICONTROL Online Conversion]**.
+   1. **[!UICONTROL Conversion]** 드롭다운 메뉴에서 전환을 선택합니다. 사용 가능한 전환은 [에서 ](../harmonize-data/conversions.md)전환[!UICONTROL Harmonized datasets]의 일부로 정의한 전환입니다. 예: **[!UICONTROL Online Conversion]**.
 
    1. 모델 구성 내에서 직접 변환을 만들려면 ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]**&#x200B;을(를) 선택할 수 있습니다.
 
 
 
-1. **[!UICONTROL Marketing touchpoints]** 섹션에서 [에 &#x200B;](../harmonize-data/marketing-touchpoints.md)마케팅 접점[!UICONTROL Harmonized datasets]의 일부로 정의한 마케팅 접점에 해당하는 마케팅 접점을 하나 이상 선택할 수 있습니다.
+1. **[!UICONTROL Marketing touchpoints]** 섹션에서 [에 ](../harmonize-data/marketing-touchpoints.md)마케팅 접점[!UICONTROL Harmonized datasets]의 일부로 정의한 마케팅 접점에 해당하는 마케팅 접점을 하나 이상 선택할 수 있습니다.
 
 
    ![모델 - 마케팅 접점 단계](/help/assets/model-marketing-touchpoint-step.png)
