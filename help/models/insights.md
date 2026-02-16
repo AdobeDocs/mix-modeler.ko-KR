@@ -3,9 +3,9 @@ title: 모델 인사이트
 description: Mix Modeler의 내역 개요, 모델 통찰력 및 모델 품질과 같은 모델에 대한 세부 정보를 얻는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 595dc75ee9159a92d893310d5e414f955655be98
+source-git-commit: fe998df0b26f0cef448471147191032751f0c41e
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2772'
 ht-degree: 2%
 
 ---
@@ -172,7 +172,7 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="접점 위치별 분류"
->abstract="이 시각화는 모든 전환 경로에서 접점 및 접점 위치별 속성 전환의 분류를 보여줍니다. 시각화는 접점이 나머지 위치와 다른 위치의 접점보다 더 나은 위치에서 기여하는지 비교합니다. 모든 접점 및 위치에서 속성 모델에 대한 백분율 기여도의 합계는 100입니다. 초보자, 인플루언서 및 피니셔의 위치는 다음과 같이 정의됩니다.<ul><li>**시작**: 접점이 전환 경로의 첫 번째 터치인지 여부를 나타냅니다.</li><li>**플레이어**: 접점이 전환으로 이어지는 첫 번째 터치와 마지막 터치 중 어느 것이 아닌지 나타냅니다.</li><li>**가까이**: 접점이 전환 전 마지막 터치인지 여부를 나타냅니다.</li></ul>"
+>abstract="이 시각화는 모든 전환 경로에서 접점 및 접점 위치별 속성 전환의 분류를 보여줍니다. 시각화는 접점이 나머지 위치와 다른 위치의 접점보다 더 나은 위치에서 기여하는지 비교합니다."
 
 
 
@@ -214,7 +214,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 [!UICONTROL Daily trends], [!UICONTROL Weekly trends] 또는 [!UICONTROL Monthly trends] 시각화는 선택한 속성 모델에 대해 일별, 주별 또는 월별 전환 트렌드를 표시합니다.
 
-기간을 선택하려면 **[!UICONTROL Daily trends]**&#x200B;자세히&#x200B;**[!UICONTROL Weekly trends]**&#x200B;에서 **[!UICONTROL Monthly trends]**, ![&#x200B; 또는 &#x200B;](/help/assets/icons/More.svg)을(를) 선택하십시오.
+기간을 선택하려면 **[!UICONTROL Daily trends]**&#x200B;자세히&#x200B;**[!UICONTROL Weekly trends]**&#x200B;에서 **[!UICONTROL Monthly trends]**, ![ 또는 ](/help/assets/icons/More.svg)을(를) 선택하십시오.
 
 세부 정보를 보려면 특정 속성 모델의 데이터 라인 위로 마우스를 가져가 해당 데이터에 대한 총 전환 수를 표시하는 팝오버를 표시합니다.
 
@@ -222,7 +222,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 [!UICONTROL Breakdown] 시각화는 선택한 각 속성 모델에 대한 전환의 채널 또는 터치포인트별 분류입니다. 이 시각화는 각 채널 또는 터치포인트의 효과에 대한 결정을 내리는 데 도움이 될 수 있습니다.
 
-분류 유형을 선택하려면 **[!UICONTROL Breakdown by channel]**&#x200B;자세히&#x200B;**[!UICONTROL Breakdown by touchpoint]**&#x200B;에서 ![&#x200B; 또는 &#x200B;](/help/assets/icons/More.svg)을(를) 선택하십시오.
+분류 유형을 선택하려면 **[!UICONTROL Breakdown by channel]**&#x200B;자세히&#x200B;**[!UICONTROL Breakdown by touchpoint]**&#x200B;에서 ![ 또는 ](/help/assets/icons/More.svg)을(를) 선택하십시오.
 
 세부 정보를 보려면 차트 요소 위로 마우스를 가져갑니다.
 
@@ -232,7 +232,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 채널, 미디어 유형 또↑ 증분 전환에 ↓ 오름차순 또는 내림차순으로 테이블을 정렬하려면 열 헤더를 선택하고 정렬을 토글합니다.
 
-별도의 대화 상자에서 테이블을 확장하려면 **[!UICONTROL Expand]**&#x200B;자세히![에서 &#x200B;](/help/assets/icons/More.svg)을(를) 선택합니다.
+별도의 대화 상자에서 테이블을 확장하려면 **[!UICONTROL Expand]**&#x200B;자세히![에서 ](/help/assets/icons/More.svg)을(를) 선택합니다.
 
 확장된 [상위 캠페인] 대화 상자에는 다음과 같은 추가 열이 있는 동일한 테이블이 표시됩니다.
 
@@ -312,7 +312,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modeldateinfo"
 >title="모델 날짜 기준"
->abstract="이 테이블의 데이터는 특정 기간 동안만 생성됩니다.  **[!UICONTROL As of]** 날짜는 데이터가 생성된 시간을 나타내며 startDate부터 endDate까지의 데이터를 기반으로 합니다."
+>abstract="이 테이블의 데이터는 특정 기간 동안만 생성됩니다.  **[!UICONTROL As of]** 날짜는 데이터가 생성된 시간을 나타내며 지정된 날짜부터 1년 전까지 데이터를 기반으로 합니다."
 
 
 **[!UICONTROL Diagnostics]** 탭에는 다음에 대한 시각화가 표시됩니다.
