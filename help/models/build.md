@@ -1,12 +1,13 @@
 ---
-title: 모델 구축
-description: Mix Modeler에서 모델을 구축하는 방법에 대해 알아봅니다.
+title: Mix Modeler에서 모델 구축
+description: 모델의 고급 옵션을 설정, 구성 및 지정하는 방법을 포함하여 Mix Modeler에서 모델을 구축하는 방법에 대해 알아봅니다.
 feature: Models
+solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
+source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 3%
+source-wordcount: '1276'
+ht-degree: 2%
 
 ---
 
@@ -18,9 +19,9 @@ Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]*
 
 ## 설정
 
-**[!UICONTROL Setup]** 단계에서 이름과 설명을 정의합니다.
+**[!UICONTROL Setup]** 단계에서 이름 및 설명을 정의합니다.
 
-1. **[!UICONTROL Name]** 모델(예: `Demo model`)을 입력하십시오. **[!UICONTROL Description]**(예: `Demo model to explore AI featues of Mix Modeler`)을(를) 입력하십시오.
+1. **[!UICONTROL Name]** 모델(예: `Demo model`)을 입력하십시오. **[!UICONTROL Description]**(예: `Demo model to explore AI features of Mix Modeler`)을(를) 입력하십시오.
 
    ![모델 이름 및 설명](/help/assets/model-name-description.png)
 
@@ -39,13 +40,13 @@ Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]*
 
    ![모델 - 변환 단계](/help/assets/model-conversion-step.png)
 
-   1. **[!UICONTROL Conversion]** 드롭다운 메뉴에서 전환을 선택합니다. 사용 가능한 전환은 [에서 &#x200B;](../harmonize-data/conversions.md)전환[!UICONTROL Harmonized datasets]의 일부로 정의한 전환입니다. 예: **[!UICONTROL Online Conversion]**.
+   1. **[!UICONTROL Conversion]** 드롭다운 메뉴에서 전환을 선택합니다. 사용 가능한 전환은 [에서 ](../harmonize-data/conversions.md)전환[!UICONTROL Harmonized datasets]의 일부로 정의한 전환입니다. 예: **[!UICONTROL Online Conversion]**.
 
    1. 모델 구성 내에서 직접 변환을 만들려면 ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]**&#x200B;을(를) 선택할 수 있습니다.
 
 
 
-1. **[!UICONTROL Marketing touchpoints]** 섹션에서 [에 &#x200B;](../harmonize-data/marketing-touchpoints.md)마케팅 접점[!UICONTROL Harmonized datasets]의 일부로 정의한 마케팅 접점에 해당하는 마케팅 접점을 하나 이상 선택할 수 있습니다.
+1. **[!UICONTROL Marketing touchpoints]** 섹션에서 [에 ](../harmonize-data/marketing-touchpoints.md)마케팅 접점[!UICONTROL Harmonized datasets]의 일부로 정의한 마케팅 접점에 해당하는 마케팅 접점을 하나 이상 선택할 수 있습니다.
 
 
    ![모델 - 마케팅 접점 단계](/help/assets/model-marketing-touchpoint-step.png)
@@ -83,7 +84,7 @@ Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]*
 
    * 적합한 데이터 채우기 컨테이너를 추가하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**&#x200B;을(를) 선택하십시오.
 
-   * 적격한 데이터 채우기 컨테이너를 제거하려면 컨테이너 내에서 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Remove marketing touchpoint]**&#x200B;을(를) 선택합니다.
+   * 적격한 데이터 채우기 컨테이너를 제거하려면 컨테이너 내에서 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Remove container]**&#x200B;을(를) 선택합니다.
 
    * 적격 데이터 모집단에 대해 보다 복잡한 정의를 만들려면 컨테이너 사이에 **And** 및 **Or**&#x200B;을(를) 선택하십시오.
 
@@ -163,35 +164,62 @@ Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]*
    1. 필요한 경우 **[!UICONTROL Clear all]**&#x200B;을(를) 사용하여 **[!UICONTROL Contribution proportion]** 및 **[!UICONTROL Level of confidence]** 열에 대한 모든 입력 값을 지웁니다.
 
 
-## 일정
+## 옵션 설정
 
-**[!UICONTROL Schedule]** 단계에서 모델에 대한 교육 및 채점을 예약할 수 있습니다.
-
-1. **[!UICONTROL Schedule]** 섹션에서 모델 교육 및 채점을 예약할 수 있습니다.
-
-   ![일정 모델](../assets/model-schedule.png)
-
-   스케줄링된 모델 채점 및 교육을 수행하려면
-
-   1. **[!UICONTROL Enable scheduled model scoring and training]**&#x200B;을(를) 켭니다.
-   1. **[!UICONTROL Scoring frequency]** 선택:
-
-      * **[!UICONTROL Daily]**: 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하십시오.
-      * **[!UICONTROL Weekly]**: 요일을 선택하고 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하십시오.
-      * **[!UICONTROL Monthly]**: 모든 드롭다운 메뉴에서 요일을 선택하고 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하십시오.
-
-   1. 드롭다운 메뉴에서 **[!UICONTROL Training frequency]**&#x200B;을(를) 선택합니다. **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** 또는 **[!UICONTROL None]**.
-
-1. **[!UICONTROL Define training window]** 섹션에서 다음 중 하나를 선택합니다.
-
-   ![모델 - 교육 기간 정의](/help/assets/model-define-training-window.png)
-
-   * **[!UICONTROL Have Mix Modeler select a helpful training window]** 및
-
-   * **[!UICONTROL Manually input a training window]** 질문에 답합니다. 선택한 경우 **[!UICONTROL Include events the following years prior to a conversion]**&#x200B;의 연도 수를 정의합니다.
+[ 단계에서 ](#schedule)교육 및 채점을 예약[, ](#training-window)교육 기간을 정의[하고 모델에 대한 ](#granular-insights-reporting-fields)세부적인 통찰력 보고 필드&#x200B;**[!UICONTROL Set options]**&#x200B;를 지정할 수 있습니다.
 
 
-1. 모델 구성을 완료하려면 **[!UICONTROL Finish]**&#x200B;을(를) 선택하십시오.
+### 일정
+
+**[!UICONTROL Schedule]** 섹션에서 모델 교육 및 채점을 예약할 수 있습니다.
+
+![일정 모델](../assets/model-schedule.png)
+
+스케줄링된 모델 채점 및 교육을 수행하려면
+
+1. **[!UICONTROL Enable scheduled model scoring and training]**&#x200B;을(를) 켭니다.
+1. **[!UICONTROL Scoring frequency]** 선택:
+
+   * **[!UICONTROL Daily]**: 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하십시오.
+   * **[!UICONTROL Weekly]**: 요일을 선택하고 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하십시오.
+   * **[!UICONTROL Monthly]**: 모든 드롭다운 메뉴에서 요일을 선택하고 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하십시오.
+
+1. 드롭다운 메뉴에서 **[!UICONTROL Training frequency]**&#x200B;을(를) 선택합니다. **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** 또는 **[!UICONTROL None]**.
+
+
+### 교육 기간
+
+**[!UICONTROL Define training window]** 섹션에서 다음 중 하나를 선택합니다.
+
+![모델 - 교육 기간 정의](/help/assets/model-define-training-window.png)
+
+* **[!UICONTROL Have Mix Modeler select a helpful training window]** 및
+
+* **[!UICONTROL Manually input a training window]** 질문에 답합니다. 선택한 경우 **[!UICONTROL Include events the following years prior to a conversion]**&#x200B;의 연도 수를 정의합니다.
+
+
+### 세분화된 통찰력 보고 필드
+
+**[!UICONTROL Granular insights reporting fields]** 섹션은 세분화된 증분 보고 기능을 사용합니다. 이 기능을 사용하면 전환 및 접점 증분 점수를 분류하기 위해 조화된 필드를 선택할 수 있습니다.
+
+![세부적인 인사이트 보고 필드 정의](/help/assets/granular-insights-reporting-fields.png)
+
+별도의 모델을 생성하지 않고도 세분화된 보고 열을 사용하여 모델 보고에서 드릴다운할 수 있도록 이러한 통합 필드를 정의합니다.
+
+예를 들어 매출에 중점을 둔 모델을 구축하지만 캠페인, 미디어 유형, 지역 및 트래픽 소스 성과에도 관심이 있습니다. 세분화된 증분 보고 기능이 없으면 네 개의 개별 모델을 빌드해야 합니다. 세분화된 증분 보고 기능을 사용하여 캠페인, 미디어 유형, 지역 및 트래픽 소스에 대한 수익 모델을 분류할 수 있습니다.
+
+1. **[!UICONTROL _통합 필드 선택_]**&#x200B;에서 **[!UICONTROL Includes]** 아래의 통합 필드를 하나 이상 선택하십시오. 선택한 조화화된 필드가 패널에 추가됩니다.
+1. **[!UICONTROL *Harmonized 필드&#x200B;*]**![CrossSize100](/help/assets/icons/CrossSize100.svg)을(를) 선택하여 선택된 Harmonized 필드가 있는 컨테이너에서 Harmonized 필드를 제거합니다.
+1. **[!UICONTROL Clear all]**&#x200B;을(를) 선택하여 선택된 모든 조화 필드를 제거합니다.
+
+세분화된 증분 보고를 위해 선택한 조화 필드는 모델을 채점한 결과 발생하는 Experience Platform [스키마](/help/ingest-data/schemas.md) 및 [데이터 세트](/help/ingest-data/datasets.md)의 일부로 사용할 수 있습니다. 세분화된 인사이트 보고 필드는 **[!UICONTROL conversionPassthrough]** 및 **[!UICONTROL touchpointPassthrough]** 개체 내에서 찾을 수 있습니다.
+
+세분화된 증분 보고를 사용할 수 있는 모델의 스키마에 있는 ![conversionPassthrough 및 touchpointPassthrough 개체의 스크린샷](/help/assets/schema-granular-insights-reporting.png)
+
+
+## 완료
+
+* 모델 구성을 완료하려면 **[!UICONTROL Finish]**&#x200B;을(를) 선택하십시오.
 
    * **[!UICONTROL Create instance?]** 대화 상자에서 **[!UICONTROL Ok]**&#x200B;을(를) 선택하여 첫 번째 교육 및 채점 실행을 즉시 트리거합니다. 모델이 상태 ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**(으)로 나열됩니다.
 
@@ -199,6 +227,7 @@ Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]*
 
    * 추가 구성이 필요한 경우 빨간색 윤곽선과 텍스트가 추가 구성이 필요한 사항을 설명합니다.
 
-   이전 단계로 돌아가려면 **[!UICONTROL Back]**&#x200B;을(를) 선택하십시오.
+* 이전 단계로 돌아가려면 **[!UICONTROL Back]**&#x200B;을(를) 선택하십시오.
 
-   모델 구성을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
+* 모델 구성을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
+
