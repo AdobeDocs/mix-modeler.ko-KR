@@ -4,9 +4,9 @@ description: 모델의 고급 옵션을 설정, 구성 및 지정하는 방법�
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
+source-git-commit: 56682fb57d6ca99fbf5d355ae487af2b31a72319
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1194'
 ht-degree: 2%
 
 ---
@@ -40,13 +40,13 @@ Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]*
 
    ![모델 - 변환 단계](/help/assets/model-conversion-step.png)
 
-   1. **[!UICONTROL Conversion]** 드롭다운 메뉴에서 전환을 선택합니다. 사용 가능한 전환은 [에서 &#x200B;](../harmonize-data/conversions.md)전환[!UICONTROL Harmonized datasets]의 일부로 정의한 전환입니다. 예: **[!UICONTROL Online Conversion]**.
+   1. **[!UICONTROL Conversion]** 드롭다운 메뉴에서 전환을 선택합니다. 사용 가능한 전환은 [에서 ](../harmonize-data/conversions.md)전환[!UICONTROL Harmonized datasets]의 일부로 정의한 전환입니다. 예: **[!UICONTROL Online Conversion]**.
 
    1. 모델 구성 내에서 직접 변환을 만들려면 ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]**&#x200B;을(를) 선택할 수 있습니다.
 
 
 
-1. **[!UICONTROL Marketing touchpoints]** 섹션에서 [에 &#x200B;](../harmonize-data/marketing-touchpoints.md)마케팅 접점[!UICONTROL Harmonized datasets]의 일부로 정의한 마케팅 접점에 해당하는 마케팅 접점을 하나 이상 선택할 수 있습니다.
+1. **[!UICONTROL Marketing touchpoints]** 섹션에서 [에 ](../harmonize-data/marketing-touchpoints.md)마케팅 접점[!UICONTROL Harmonized datasets]의 일부로 정의한 마케팅 접점에 해당하는 마케팅 접점을 하나 이상 선택할 수 있습니다.
 
 
    ![모델 - 마케팅 접점 단계](/help/assets/model-marketing-touchpoint-step.png)
@@ -88,45 +88,23 @@ Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]*
 
    * 적격 데이터 모집단에 대해 보다 복잡한 정의를 만들려면 컨테이너 사이에 **And** 및 **Or**&#x200B;을(를) 선택하십시오.
 
+1. **[!UICONTROL Factor dataset]** 섹션에서 내부 또는 외부 요소가 포함된 데이터 세트를 관리할 수 있습니다.
 
-1. 모델에 외부 요소가 포함된 데이터 세트를 추가하려면 **[!UICONTROL External factors dataset]** 섹션에서 하나 이상의 컨테이너를 사용하십시오. 외부요인의 예로 S&amp;P 지수를 들 수 있다.
+   ![모델 - 요소 데이터 집합 단계](../assets/model-factors-dataset-step.png)
 
-   ![모델 - 외부 요인 데이터 세트](/help/assets/model-external-factors-dataset-step.png)
+   * 요소 데이터 집합을 추가하려면 **[!UICONTROL Add Factor]**&#x200B;을(를) 선택하십시오. 모델에 최대 30개의 요소를 추가할 수 있습니다.
 
-   * 각 컨테이너의 경우:
+      1. 드롭다운 메뉴에서 **[!UICONTROL Factor dataset]**&#x200B;을(를) 선택합니다. 사용 가능한 계수는 [데이터 집합 규칙](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)에서 조화된 필드를 정의한 계수입니다.
+선택한 데이터 집합을 기반으로 하는 **[!UICONTROL Factor type**]은(는) **[!UICONTROL Internal]** 또는 **[!UICONTROL External]**&#x200B;입니다.
 
-      1. **[!UICONTROL External factor name]**(예: `External Factors`)을(를) 입력하십시오.
+      1. 드롭다운 메뉴에서 **[!UICONTROL Impact on conversion]**&#x200B;을(를) 선택합니다. 사용 가능한 옵션은 **[!UICONTROL Auto]**, **[!UICONTROL Positive]** 또는 **[!UICONTROL Negative]**&#x200B;입니다. 기본 옵션은 **[!UICONTROL Auto]**&#x200B;이며, 이를 통해 모델이 계수 데이터 세트의 영향을 결정할 수 있습니다.
 
-      1. **[!UICONTROL Dataset]** 드롭다운 메뉴에서 데이터 세트를 선택합니다. 데이터 집합을 관리하려면 ![데이터](/help/assets/icons/Data.svg)를 선택할 수 있습니다. 자세한 내용은 [데이터 세트](../ingest-data/datasets.md)를 참조하십시오.
-
-      1. **[!UICONTROL Impact on conversion]** 드롭다운 메뉴에서 옵션을 선택하십시오. **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** 또는 **[!UICONTROL Negative]**. 기본 옵션은 모델이 영향을 결정할 수 있도록 하는 **[!UICONTROL Auto select]**&#x200B;입니다. 기본값을 재정의할 수 있습니다.
-
-   * 추가 외부 요인 데이터 세트 컨테이너를 추가하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**&#x200B;을(를) 선택하십시오.
-
-   * 외부 요소 데이터 집합 컨테이너를 제거하려면 ![RemoveCircle](/help/assets/icons/RemoveCircle.svg)을(를) 선택하십시오.
+   * 요소 데이터 집합을 삭제하려면 ![CrossSize200](/help/assets/icons/CrossSize400.svg)을(를) 선택하십시오.
 
 
 
 
-1. 내부 요소가 포함된 데이터 세트를 모델에 추가하려면 **[!UICONTROL Internal factors dataset]** 섹션에서 하나 이상의 컨테이너를 사용하십시오. 내부 요인의 예로는 이메일 마케팅 데이터가 있습니다.
-
-   ![모델 - 내부 요소 데이터 세트](/help/assets/model-internal-factors-dataset-step.png)
-
-   * 각 컨테이너의 경우:
-
-      1. **[!UICONTROL Internal factor name]**(예: `Email Marketing Data`)을(를) 입력하십시오.
-
-      1. **[!UICONTROL _데이터 집합 선택_]**&#x200B;에서 데이터 집합을 선택하십시오. 데이터 집합을 관리하려면 ![데이터](/help/assets/icons/Data.svg)를 선택할 수 있습니다. 자세한 내용은 [데이터 세트](../ingest-data/datasets.md)를 참조하십시오.
-
-      1. **[!UICONTROL Impact on conversion]** 드롭다운 메뉴에서 옵션을 선택하십시오. **[!UICONTROL Auto select]**, **[!UICONTROL Positive]** 또는 **[!UICONTROL Negative]**.
-
-   * 추가 내부 요소 데이터 집합 컨테이너를 추가하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**&#x200B;을(를) 선택하십시오.
-
-   * 내부 요소 데이터 집합 컨테이너를 제거하려면 ![RemoveCircle](/help/assets/icons/RemoveCircle.svg)을(를) 선택하십시오.
-
-
-
-1. 모델에 대한 전환 확인 기간을 정의하려면 `1`에 `52`에서 **[!UICONTROL Give contribution credit to touchpoints occurring within]** 사이의 값을 입력하십시오. **[!UICONTROL weeks prior to the conversion]**.
+1. 모델에 대한 전환 확인 기간을 정의하려면 `1` 섹션에서 `52`.. **[!UICONTROL Give contribution credit to touchpoints occurring within]**&#x200B;에 **[!UICONTROL weeks prior to the conversion]**&#x200B;에서 **[!UICONTROL Define lookback window]** 사이의 값을 입력하십시오.
 
 1. 다음 단계로 진행하려면 **[!UICONTROL Next]**&#x200B;을(를) 선택하십시오. 추가 구성이 필요한 경우 빨간색 윤곽선과 텍스트가 추가 구성이 필요한 사항을 설명합니다. <br/>이전 단계로 돌아가려면 **[!UICONTROL Back]**&#x200B;을(를) 선택하십시오. <br/>모델 구성을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
 
@@ -166,7 +144,7 @@ Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]*
 
 ## 옵션 설정
 
-[&#x200B; 단계에서 &#x200B;](#schedule)교육 및 채점을 예약[, &#x200B;](#training-window)교육 기간을 정의[하고 모델에 대한 &#x200B;](#granular-insights-reporting-fields)세부적인 통찰력 보고 필드&#x200B;**[!UICONTROL Set options]**&#x200B;를 지정할 수 있습니다.
+[ 단계에서 ](#schedule)교육 및 채점을 예약[, ](#training-window)교육 기간을 정의[하고 모델에 대한 ](#granular-insights-reporting-fields)세부적인 통찰력 보고 필드&#x200B;**[!UICONTROL Set options]**&#x200B;를 지정할 수 있습니다.
 
 
 ### 일정
