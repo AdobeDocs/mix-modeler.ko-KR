@@ -4,16 +4,16 @@ description: 최신 Mix Modeler 릴리스 정보
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 011b9b83569925ca9ff4f1ee472288473fbe8502
+source-git-commit: 0a5fdbe90c4a32de45f4f2756f080dc265f5fbb7
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 8%
+source-wordcount: '361'
+ht-degree: 7%
 
 ---
 
 # 최신 Mix Modeler 릴리스 정보
 
-**마지막 업데이트**: 2026년 1월 13일.
+**마지막 업데이트**: 2026년 2월 26일.
 
 이 릴리스 노트는 Mix Modeler의 최신 릴리스를 다룹니다. Mix Modeler 릴리스는 연속 게재 모델에서 작동하므로 대략적인 월별 릴리스 케이던스를 사용할 수 있습니다. 따라서 이 릴리스 정보는 업데이트되므로 정기적으로 확인하십시오.
 
@@ -22,6 +22,7 @@ ht-degree: 8%
 
 | 기능 | 설명 | [롤아웃 시작](#release-strategy) | [일반 가용성](#release-strategy) |
 |---|---|---|---|
+| **통합 요소 워크플로** | 이제 계수가 [결합된 계수 워크플로](/help/harmonize-data/overview.md#factors)의 일부로 관리됩니다. 이를 통해 [요소 데이터를 정의](/help/ingest-data/schemas.md#factor-standard-fields-field-group)하는 방법, [데이터 집합 규칙의 일부로 내부 및 외부 요소를 관리](/help/harmonize-data/dataset-rules.md#factor-datasets)하는 방법, [모델](/help/models/build.md#configure)에서 요소 데이터를 사용하는 방법을 간소화합니다. | 2026년 2월 25일 목요일 | 2026년 2월 25일 목요일 |
 | **[!UICONTROL Granular incrementality reporting]** | 별도의 모델을 만들지 않고도 [세부 인사이트 보고 필드](/help/models/build.md#granular-insights-reporting-fields)를 사용하여 모델 보고에서 드릴다운할 수 있도록 통합 필드를 정의합니다. | 2026년 2월 18일 목요일 | 2026년 2월 18일 목요일 |
 
 ## 2026년 1월
