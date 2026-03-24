@@ -15,7 +15,7 @@ ht-degree: 4%
 
 To build your custom AI-powered models, the interface provides a step-by-step guided model configuration flow.
 
-![](/help/assets/icons/FileData.svg)**[!UICONTROL Models]****[!UICONTROL Open model canvas]**
+![](/help/assets/icons/FileData.svg)**[!UICONTROL Models]**&#x200B;**[!UICONTROL Open model canvas]**
 
 ## 설정
 
@@ -25,7 +25,7 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
    ![](/help/assets/model-name-description.png)
 
-1. **[!UICONTROL Next]****[!UICONTROL Cancel]**
+1. **[!UICONTROL Next]**&#x200B;**[!UICONTROL Cancel]**
 
 ## 구성{#configure}
 
@@ -40,13 +40,13 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
    ![](/help/assets/model-conversion-step.png)
 
-   1. **[!UICONTROL Conversion]**[](../harmonize-data/conversions.md)[!UICONTROL Harmonized datasets]&#x200B;예: **[!UICONTROL Online Conversion]**.
+   1. **[!UICONTROL Conversion]**&#x200B;[&#128279;](../harmonize-data/conversions.md) [!UICONTROL Harmonized datasets]&#x200B;예: **[!UICONTROL Online Conversion]**.
 
    1. ![](/help/assets/icons/LinkOutLight.svg)**[!UICONTROL Create a conversion]**
 
 
 
-1. **[!UICONTROL Marketing touchpoints]**[](../harmonize-data/marketing-touchpoints.md)[!UICONTROL Harmonized datasets]
+1. **[!UICONTROL Marketing touchpoints]**&#x200B;[&#128279;](../harmonize-data/marketing-touchpoints.md) [!UICONTROL Harmonized datasets]
 
 
    ![](/help/assets/model-marketing-touchpoint-step.png)
@@ -72,7 +72,7 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
          1. **[!UICONTROL __]**
 
-         1. **[!UICONTROL equals]****[!UICONTROL not equals]****[!UICONTROL less than]****[!UICONTROL greater than]****[!UICONTROL starts with]****[!UICONTROL doesn't start with]****[!UICONTROL ends with]****[!UICONTROL doesn't end with]****[!UICONTROL contains]****[!UICONTROL doesn't contain]****[!UICONTROL is in]****[!UICONTROL is not in]**
+         1. **[!UICONTROL equals]**&#x200B;**[!UICONTROL not equals]**&#x200B;**[!UICONTROL less than]**&#x200B;**[!UICONTROL greater than]**&#x200B;**[!UICONTROL starts with]**&#x200B;**[!UICONTROL doesn't start with]**&#x200B;**[!UICONTROL ends with]**&#x200B;**[!UICONTROL doesn't end with]**&#x200B;**[!UICONTROL contains]**&#x200B;**[!UICONTROL doesn't contain]**&#x200B;**[!UICONTROL is in]**&#x200B;**[!UICONTROL is not in]**
 
          1. **[!UICONTROL __]**
 
@@ -80,13 +80,13 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
       1. ![](/help/assets/icons/CrossSize75.svg)
 
-      1. **[!UICONTROL Any of]****[!UICONTROL All of]****[!UICONTROL Include ... Or ...]****[!UICONTROL Include ... And ...]**
+      1. **[!UICONTROL Any of]**&#x200B;**[!UICONTROL All of]**&#x200B;**[!UICONTROL Include ... Or ...]**&#x200B;**[!UICONTROL Include ... And ...]**
 
    * ![](/help/assets/icons/AddCircle.svg)**[!UICONTROL Add eligible population]**
 
    * ![](/help/assets/icons/More.svg)**[!UICONTROL Remove container]**
 
-   * ********
+   * **&#x200B;**&#x200B;**&#x200B;**
 
 1. **[!UICONTROL Factor dataset]**
 
@@ -94,16 +94,16 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
    * **[!UICONTROL Add Factor]**
 
-      1. **[!UICONTROL Factor dataset]**[](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)[!UICONTROL Factor type**]**[!UICONTROL Internal]****[!UICONTROL External]**
+      1. **[!UICONTROL Factor dataset]**&#x200B;[&#128279;](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule) [!UICONTROL Factor type&#x200B;**]**&#x200B;[!UICONTROL Internal]&#x200B;**&#x200B;**&#x200B;[!UICONTROL External]**
 
-      1. **[!UICONTROL Impact on conversion]****[!UICONTROL Auto]****[!UICONTROL Positive]****[!UICONTROL Negative]****[!UICONTROL Auto]**
+      1. **[!UICONTROL Impact on conversion]**&#x200B;**[!UICONTROL Auto]**&#x200B;**[!UICONTROL Positive]**&#x200B;**[!UICONTROL Negative]**&#x200B;**[!UICONTROL Auto]**
 
    * ![](/help/assets/icons/CrossSize400.svg)
 
 
 
 
-1. `1``52`**[!UICONTROL Give contribution credit to touchpoints occurring within]****[!UICONTROL weeks prior to the conversion]****[!UICONTROL Define lookback window]**
+1. `1` `52`**[!UICONTROL Give contribution credit to touchpoints occurring within]**&#x200B;**[!UICONTROL weeks prior to the conversion]**&#x200B;**[!UICONTROL Define lookback window]**
 
 1. **[!UICONTROL Next]**<br/>**[!UICONTROL Back]**<br/>**[!UICONTROL Cancel]**
 
@@ -126,24 +126,24 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 
 1. **[!UICONTROL MTA enabled]**
 
-   * **[!UICONTROL MTA enabled]**[](insights.md#attribution)[](insights.md)
+   * **[!UICONTROL MTA enabled]**&#x200B;[&#128279;](insights.md#attribution) [&#128279;](insights.md)
 
 1. **[!UICONTROL Prior knowledge]**
 
    ![](/help/assets/model-prior-knowledge-step.png)
 
-   1. **[!UICONTROL Rule type]****[!UICONTROL Absolute values]**
+   1. **[!UICONTROL Rule type]**&#x200B;**[!UICONTROL Absolute values]**
 
-   1. **[!UICONTROL Name]****[!UICONTROL Contribution proportion]**
+   1. **[!UICONTROL Name]**&#x200B;**[!UICONTROL Contribution proportion]**
 
    1. **[!UICONTROL Level of confidence]**
 
-   1. **[!UICONTROL Clear all]****[!UICONTROL Contribution proportion]****[!UICONTROL Level of confidence]**
+   1. **[!UICONTROL Clear all]**&#x200B;**[!UICONTROL Contribution proportion]**&#x200B;**[!UICONTROL Level of confidence]**
 
 
 ## Set options
 
-[](#schedule)[](#training-window)[](#granular-insights-reporting-fields)**[!UICONTROL Set options]**
+[&#128279;](#schedule) [&#128279;](#training-window) [&#128279;](#granular-insights-reporting-fields)**[!UICONTROL Set options]**
 
 
 ### 일정
@@ -161,7 +161,7 @@ To scheduled model scoring and training:
    * **[!UICONTROL Weekly]**`05:22 pm`![](/help/assets/icons/Clock.svg)
    * **[!UICONTROL Monthly]**`05:22 pm`![](/help/assets/icons/Clock.svg)
 
-1. **[!UICONTROL Training frequency]****[!UICONTROL Monthly]****[!UICONTROL Quarterly]****[!UICONTROL Yearly]****[!UICONTROL None]**
+1. **[!UICONTROL Training frequency]**&#x200B;**[!UICONTROL Monthly]**&#x200B;**[!UICONTROL Quarterly]**&#x200B;**[!UICONTROL Yearly]**&#x200B;**[!UICONTROL None]**
 
 
 ### Training window
@@ -185,11 +185,11 @@ You define these harmonized fields so you can drill down in the reporting of you
 
 For example, you build a model that is focused on revenue, but you are also interested in the campaigns, media types, regions, and traffic sources performance. Without the granular incrementality reporting functionality, you would have to build four separate models. With the granular incrementality reporting functionality, you can break down your revenue model on campaigns, media types, regions, and traffic sources.
 
-1. **[!UICONTROL __]****[!UICONTROL Includes]**
+1. **[!UICONTROL __]**&#x200B;**[!UICONTROL Includes]**
 1. **[!UICONTROL **]**![](/help/assets/icons/CrossSize100.svg)
 1. **[!UICONTROL Clear all]**
 
-[](/help/ingest-data/schemas.md)[](/help/ingest-data/datasets.md)**[!UICONTROL conversionPassthrough]****[!UICONTROL touchpointPassthrough]**
+[&#128279;](/help/ingest-data/schemas.md) [&#128279;](/help/ingest-data/datasets.md)**[!UICONTROL conversionPassthrough]**&#x200B;**[!UICONTROL touchpointPassthrough]**
 
 ![](/help/assets/schema-granular-insights-reporting.png)
 
@@ -198,7 +198,7 @@ For example, you build a model that is focused on revenue, but you are also inte
 
 * **[!UICONTROL Finish]**
 
-   * **[!UICONTROL Create instance?]****[!UICONTROL Ok]**![](/help/assets/icons/StatusOrange.svg)**[!UICONTROL Awaiting training]**
+   * **[!UICONTROL Create instance?]**&#x200B;**[!UICONTROL Ok]**![](/help/assets/icons/StatusOrange.svg)**[!UICONTROL Awaiting training]**
 
      **[!UICONTROL Cancel]**
 
