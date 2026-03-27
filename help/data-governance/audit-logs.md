@@ -3,10 +3,10 @@ title: 감사 로그
 description: Mix Modeler에서 감사 로그에 액세스하는 방법을 알아봅니다.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 5%
+source-wordcount: '488'
+ht-degree: 4%
 
 ---
 
@@ -14,7 +14,8 @@ ht-degree: 5%
 
 시스템에서 수행되는 활동의 투명성과 가시성을 높이기 위해 Mix Modeler 워크플로우 내의 사용자 활동을 Experience Platform 감사 로그에 캡처하여 Mix Modeler 범주에 대한 사용자 중심의 변경 사항을 파악합니다. 이러한 로그는 문제 해결에 도움이 될 수 있는 감사 추적을 형성하며, 기업이 기업 데이터 관리 정책 및 규정 요구 사항을 효과적으로 준수하는 데 도움이 될 수 있습니다.
 
-<!-- DO WE HAVE TO ADD THIS
+<!-- 
+DO WE HAVE TO ADD THIS
 If you are subject to the Health Insurance Portability and Accountability Act (HIPAA) and create, receive, maintain, or transmit permitted sensitive personal data through Mix Modeler, you are responsible for executing a BAA with Adobe and licensing Healthcare Shield.
 -->
 
@@ -22,7 +23,7 @@ If you are subject to the Health Insurance Portability and Accountability Act (H
 
 감사 로그를 검사하려면 Mix Modeler 인터페이스에서 다음을 수행합니다.
 
-1. ![에서 &#x200B;](/help/assets/icons/TaskList.svg)작업 목록&#x200B;**[!UICONTROL Audits]** **[!UICONTROL PRIVACY]**&#x200B;을(를) 선택하십시오.
+1. **[!UICONTROL PRIVACY]**&#x200B;에서 ![작업 목록](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]**&#x200B;을(를) 선택하십시오.
 
 1. **[!UICONTROL Audits]**&#x200B;에서 **[!UICONTROL Activity log]**&#x200B;을(를) 찾을 수 있습니다. 활동 로그에는 다음 Mix Modeler 범주, 작업 및 상태에 대한 항목이 표시됩니다.
 
@@ -67,4 +68,4 @@ If you are subject to the Health Insurance Portability and Accountability Act (H
 
 조직에서 이 기능을 활성화하면 활동이 발생할 때 감사 로그가 자동으로 수집됩니다. 수동으로 감사 로그 수집을 활성화할 필요가 없습니다.
 
-감사 로그를 보고 내보내려면 감사 로그 액세스 액세스 제어 권한이 있어야 합니다. Mix Modeler 기능에 대한 개별 권한을 관리하는 방법을 알아보려면 [액세스 제어 설명서](https://experienceleague.adobe.com/ko/docs/experience-platform/access-control/home)를 참조하세요.
+감사 로그를 보고 내보내려면 감사 로그 액세스 액세스 제어 권한이 있어야 합니다. Mix Modeler 기능에 대한 개별 권한을 관리하는 방법을 알아보려면 [액세스 제어 설명서](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)를 참조하세요.
