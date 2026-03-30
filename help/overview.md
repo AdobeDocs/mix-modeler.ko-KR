@@ -4,7 +4,7 @@ description: Mix Modeler를 사용하여 모든 채널에서 캠페인을 측정
 short-description: Mix Modeler를 사용하여 모든 채널에서 캠페인을 측정하고 계획 수립을 전체적으로 최적화하는 방법에 대해 알아봅니다.
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: 7581053507bd1a6a07b2f3853f454631ecee8cec
+source-git-commit: be8ff78c9f286356e9335b81f11a4efb07e39956
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 14%
@@ -74,8 +74,7 @@ ht-degree: 14%
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong>튜토리얼</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=ko">개요</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=ko">사용 사례</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=ko">사용자 워크플로우</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=ko">사용자 인터페이스 둘러보기</a>
+      <strong>튜토리얼</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">개요</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">사용 사례</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">사용자 워크플로우</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">사용자 인터페이스 둘러보기</a>
     </td>
   </tr>
 </table>
-
