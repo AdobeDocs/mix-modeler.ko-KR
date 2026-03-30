@@ -1,31 +1,31 @@
 ---
-title: Build models In Mix Modeler
-description: Learn how to build models in Mix Modeler including how to set up, configure, and specify advanced options for the model.
+title: Mix Modeler에서 모델 구축
+description: 모델의 고급 옵션을 설정, 구성 및 지정하는 방법을 포함하여 Mix Modeler에서 모델을 구축하는 방법에 대해 알아봅니다.
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 56682fb57d6ca99fbf5d355ae487af2b31a72319
+source-git-commit: efe31b517c1a6be518101fa8266b020348241b98
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1275'
 ht-degree: 4%
 
 ---
 
-# Build models
+# 모델 구축
 
-To build your custom AI-powered models, the interface provides a step-by-step guided model configuration flow.
+사용자 지정 AI 기반 모델을 구축하기 위해 인터페이스는 단계별 가이드 모델 구성 플로우를 제공합니다.
 
-![](/help/assets/icons/FileData.svg)**[!UICONTROL Models]**&#x200B;**[!UICONTROL Open model canvas]**
+Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** 인터페이스에서 **[!UICONTROL Open model canvas]**&#x200B;을(를) 선택합니다.
 
 ## 설정
 
-**[!UICONTROL Setup]**
+**[!UICONTROL Setup]** 단계에서 이름 및 설명을 정의합니다.
 
-1. **[!UICONTROL Name]**`Demo model`**[!UICONTROL Description]**`Demo model to explore AI features of Mix Modeler`
+1. **[!UICONTROL Name]** 모델(예: `Demo model`)을 입력하십시오. **[!UICONTROL Description]**(예: `Demo model to explore AI features of Mix Modeler`)을(를) 입력하십시오.
 
-   ![](/help/assets/model-name-description.png)
+   ![모델 이름 및 설명](/help/assets/model-name-description.png)
 
-1. **[!UICONTROL Next]**&#x200B;**[!UICONTROL Cancel]**
+1. 다음 단계로 진행하려면 **[!UICONTROL Next]**&#x200B;을(를) 선택하십시오. 모델 구성을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
 
 ## 구성{#configure}
 
@@ -34,177 +34,184 @@ To build your custom AI-powered models, the interface provides a step-by-step gu
 >title="마케팅 접점"
 >abstract="마케팅 접점이란 마케팅 투자가 미치는 숫자 또는 수익 기반 영향을 평가하는 데 사용되는 수신자, 개인 및/또는 쿠키 수준 마케팅 이벤트입니다.<br/><br/>겹치는 데이터가 있는 접점으로는 모델을 설정할 수 없으며 지출이 발생하는 점점이 최소 한 개 필요합니다."
 
-**[!UICONTROL Configure]**
 
-1. **[!UICONTROL Conversion goal]**
+**[!UICONTROL Configure]** 단계에서 모델을 구성합니다. 구성에는 전환 목표, 마케팅 접점, 적격 데이터 채우기, 외부 및 내부 요인 등의 정의가 포함됩니다.
 
-   ![](/help/assets/model-conversion-step.png)
+1. **[!UICONTROL Conversion goal]** 섹션에서:
 
-   1. **[!UICONTROL Conversion]**&#x200B;[&#128279;](../harmonize-data/conversions.md) [!UICONTROL Harmonized datasets]&#x200B;예: **[!UICONTROL Online Conversion]**.
+   ![모델 - 변환 단계](/help/assets/model-conversion-step.png)
 
-   1. ![](/help/assets/icons/LinkOutLight.svg)**[!UICONTROL Create a conversion]**
+   1. **[!UICONTROL Conversion]** 드롭다운 메뉴에서 전환을 선택합니다. 사용 가능한 전환은 [!UICONTROL Harmonized datasets]에서 [전환](../harmonize-data/conversions.md)의 일부로 정의한 전환입니다. 예: **[!UICONTROL Online Conversion]**.
 
-
-
-1. **[!UICONTROL Marketing touchpoints]**&#x200B;[&#128279;](../harmonize-data/marketing-touchpoints.md) [!UICONTROL Harmonized datasets]
+   1. 모델 구성 내에서 직접 변환을 만들려면 ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]**&#x200B;을(를) 선택할 수 있습니다.
 
 
-   ![](/help/assets/model-marketing-touchpoint-step.png)
 
-   1. **[!UICONTROL Touchpoint include]**
+1. **[!UICONTROL Marketing touchpoints]** 섹션에서 [!UICONTROL Harmonized datasets]에 [마케팅 접점](../harmonize-data/marketing-touchpoints.md)의 일부로 정의한 마케팅 접점에 해당하는 마케팅 접점을 하나 이상 선택할 수 있습니다.
 
-      * ![](/help/assets/icons/CrossSize75.svg)
-      * **[!UICONTROL Clear all]**
 
-   1. ![](/help/assets/icons/LinkOutLight.svg)**[!UICONTROL Create a touchpoint]**
+   ![모델 - 마케팅 접점 단계](/help/assets/model-marketing-touchpoint-step.png)
+
+   1. **[!UICONTROL Touchpoint include]** 드롭다운 메뉴에서 하나 이상의 마케팅 터치포인트를 선택합니다.
+
+      * ![CrossSize75](/help/assets/icons/CrossSize75.svg)을(를) 사용하여 터치포인트를 제거할 수 있습니다.
+      * **[!UICONTROL Clear all]**&#x200B;을(를) 사용하여 모든 터치포인트를 제거할 수 있습니다.
+
+   1. ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a touchpoint]**&#x200B;을(를) 선택하여 모델 구성 내에서 직접 마케팅 접점을 만들 수 있습니다.
 
    >[!NOTE]
    >
-   >You cannot set up the model with touchpoints that have overlapping data and there must be at least one touchpoint with spend.
+   >데이터가 겹치는 터치포인트로 모델을 설정할 수 없으며 지출이 있는 터치포인트가 하나 이상 있어야 합니다.
 
-1. **[!UICONTROL Eligible data population]**
+1. 기본적으로 점수는 사용자의 조화로운 보기에 있는 모든 데이터에 대해 생성됩니다. 모집단의 하위 집합에만 점수를 매기려면 **[!UICONTROL Eligible data population]** 섹션에서 컨테이너를 사용하여 하나 이상의 필터를 정의합니다.
 
-   ![](/help/assets/model-eligible-data-population-step.png)
+   ![모델 - 적격 데이터 채우기](/help/assets/model-eligible-data-population-step.png)
 
-   * For each container, define one or more events.
+   * 각 컨테이너에 대해 이벤트를 하나 이상 정의합니다.
 
-      1. For each event:
+      1. 각 이벤트에 대해:
 
-         1. **[!UICONTROL __]**
+         1. **[!UICONTROL _통합 필드 선택_]**&#x200B;에서 지표 또는 차원을 선택합니다.
 
-         1. **[!UICONTROL equals]**&#x200B;**[!UICONTROL not equals]**&#x200B;**[!UICONTROL less than]**&#x200B;**[!UICONTROL greater than]**&#x200B;**[!UICONTROL starts with]**&#x200B;**[!UICONTROL doesn't start with]**&#x200B;**[!UICONTROL ends with]**&#x200B;**[!UICONTROL doesn't end with]**&#x200B;**[!UICONTROL contains]**&#x200B;**[!UICONTROL doesn't contain]**&#x200B;**[!UICONTROL is in]**&#x200B;**[!UICONTROL is not in]**
+         1. 적절한 연산자(**[!UICONTROL equals]**, **[!UICONTROL not equals]**, **[!UICONTROL less than]**, **[!UICONTROL greater than]**, **[!UICONTROL starts with]**, **[!UICONTROL doesn't start with]**, **[!UICONTROL ends with]**, **[!UICONTROL doesn't end with]**, **[!UICONTROL contains]**, **[!UICONTROL doesn't contain]**, **[!UICONTROL is in]** 또는 **[!UICONTROL is not in]**)를 선택하십시오.
 
-         1. **[!UICONTROL __]**
+         1. **[!UICONTROL _값을 입력하거나 선택하십시오_]**.
 
-      1. ![](/help/assets/icons/AddCircle.svg)**[!UICONTROL Add event]**
+      1. 컨테이너에 이벤트를 추가하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**&#x200B;을(를) 선택하십시오.
 
-      1. ![](/help/assets/icons/CrossSize75.svg)
+      1. 컨테이너에서 이벤트를 제거하려면 ![닫기](/help/assets/icons/CrossSize75.svg)를 선택합니다.
 
-      1. **[!UICONTROL Any of]**&#x200B;**[!UICONTROL All of]**&#x200B;**[!UICONTROL Include ... Or ...]**&#x200B;**[!UICONTROL Include ... And ...]**
+      1. 컨테이너에 정의된 모든 이벤트 또는 여러 이벤트를 사용하여 필터링하려면 **[!UICONTROL Any of]** 또는 **[!UICONTROL All of]**&#x200B;을(를) 선택합니다. 레이블이 **[!UICONTROL Include ... Or ...]**&#x200B;에서 **[!UICONTROL Include ... And ...]**(으)로 변경됩니다.
 
-   * ![](/help/assets/icons/AddCircle.svg)**[!UICONTROL Add eligible population]**
+   * 적합한 데이터 채우기 컨테이너를 추가하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**&#x200B;을(를) 선택하십시오.
 
-   * ![](/help/assets/icons/More.svg)**[!UICONTROL Remove container]**
+   * 적격한 데이터 채우기 컨테이너를 제거하려면 컨테이너 내에서 ![자세히](/help/assets/icons/More.svg)를 선택하고 상황에 맞는 메뉴에서 **[!UICONTROL Remove container]**&#x200B;을(를) 선택합니다.
 
-   * **&#x200B;**&#x200B;**&#x200B;**
+   * 적격 데이터 모집단에 대해 보다 복잡한 정의를 만들려면 컨테이너 사이에 **And** 및 **Or**&#x200B;을(를) 선택하십시오.
 
-1. **[!UICONTROL Factor dataset]**
+1. **[!UICONTROL Factor dataset]** 섹션에서 내부 또는 외부 요소가 포함된 데이터 세트를 관리할 수 있습니다.
 
-   ![](../assets/model-factors-dataset-step.png)
+   ![모델 - 요소 데이터 집합 단계](../assets/model-factors-dataset-step.png)
 
-   * **[!UICONTROL Add Factor]**
+   * 요소 데이터 집합을 추가하려면 **[!UICONTROL Add Factor]**&#x200B;을(를) 선택하십시오. 모델에 최대 30개의 요소를 추가할 수 있습니다.
 
-      1. **[!UICONTROL Factor dataset]**&#x200B;[&#128279;](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule) [!UICONTROL Factor type&#x200B;**]**&#x200B;[!UICONTROL Internal]&#x200B;**&#x200B;**&#x200B;[!UICONTROL External]**
+      1. 드롭다운 메뉴에서 **[!UICONTROL Factor dataset]**&#x200B;을(를) 선택합니다. 사용 가능한 계수는 [데이터 집합 규칙](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)에서 조화된 필드를 정의한 계수입니다.
+선택한 데이터 집합을 기반으로 하는 **[!UICONTROL Factor type**]은(는) **[!UICONTROL Internal]** 또는 **[!UICONTROL External]**&#x200B;입니다.
 
-      1. **[!UICONTROL Impact on conversion]**&#x200B;**[!UICONTROL Auto]**&#x200B;**[!UICONTROL Positive]**&#x200B;**[!UICONTROL Negative]**&#x200B;**[!UICONTROL Auto]**
+      1. 드롭다운 메뉴에서 **[!UICONTROL Impact on conversion]**&#x200B;을(를) 선택합니다. 사용 가능한 옵션은 **[!UICONTROL Auto]**, **[!UICONTROL Positive]** 또는 **[!UICONTROL Negative]**&#x200B;입니다. 기본 옵션은 **[!UICONTROL Auto]**&#x200B;이며, 이를 통해 모델이 계수 데이터 세트의 영향을 결정할 수 있습니다.
 
-   * ![](/help/assets/icons/CrossSize400.svg)
-
-
+   * 요소 데이터 집합을 삭제하려면 ![CrossSize200](/help/assets/icons/CrossSize400.svg)을(를) 선택하십시오.
 
 
-1. `1` `52`**[!UICONTROL Give contribution credit to touchpoints occurring within]**&#x200B;**[!UICONTROL weeks prior to the conversion]**&#x200B;**[!UICONTROL Define lookback window]**
 
-1. **[!UICONTROL Next]**<br/>**[!UICONTROL Back]**<br/>**[!UICONTROL Cancel]**
+
+1. 모델에 대한 전환 확인 기간을 정의하려면 **[!UICONTROL Define lookback window]** 섹션에서 **[!UICONTROL Give contribution credit to touchpoints occurring within]**.. **[!UICONTROL weeks prior to the conversion]**&#x200B;에 `1`에서 `52` 사이의 값을 입력하십시오.
+
+1. 다음 단계로 진행하려면 **[!UICONTROL Next]**&#x200B;을(를) 선택하십시오. 추가 구성이 필요한 경우 빨간색 윤곽선과 텍스트가 추가 구성이 필요한 사항을 설명합니다. <br/>이전 단계로 돌아가려면 **[!UICONTROL Back]**&#x200B;을(를) 선택하십시오. <br/>모델 구성을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
 
 
 ## 고급
 
-**[!UICONTROL Advanced]**
+>[!CONTEXTUALHELP]
+>id="model_advanced_channeladstock"
+>title="채널 광고"
+>abstract="도메인 전문 지식, 실험 결과 또는 이전 채널 분석을 모델 설정에 직접 통합합니다. Adstock 구성은 모델이 실제 예상과 일치하도록 안내하고 결과에 대한 해석 가능성과 신뢰를 향상시킵니다. 채널당 총 전환 확인 기간(주)과 지연 기간(주)이 구성된 교육 기간의 1/8로 제한됩니다. 이 캡을 사용하면 모델이 광고 스톡 효과를 학습하기에 충분한 데이터를 사용할 수 있습니다."
 
-1. **[!UICONTROL Spend share]**
+**[!UICONTROL Advanced]** 단계에서 고급 설정을 지정할 수 있습니다. 이 단계에서는 멀티 터치 속성(MTA)에 대한 모델을 활성화할 수 있습니다.
 
-   * **[!UICONTROL Allow spend share]**
-      * A channel doesn&#39;t have enough observations (for example, low frequency of spend, impressions or clicks).
-      * You are modeling spiky but regular, and potentially high-spend media (like TV for some brands), where data may be sparse.
+1. **[!UICONTROL Spend share]** 섹션에서:
+
+   * 과거 마케팅 투자 비율을 사용하여 마케팅 데이터가 희소할 때 모델을 알리려면 **[!UICONTROL Allow spend share]**&#x200B;을(를) 활성화합니다. 이 설정은 특히 다음 시나리오에서 권장됩니다.
+      * 채널에 충분한 관찰이 없습니다(예: 지출 빈도가 낮거나 노출 횟수 또는 클릭 수).
+      * 데이터가 희박할 수 있는 스파이크하지만 일반적이고 잠재적으로 비용이 높은 미디어(일부 브랜드의 TV 등)를 모델링합니다.
 
      >[!NOTE]
      >
-     >For one-off investments (for example a Super Bowl ad), consider to incorporate that data as a factor rather than to rely on spend share.
+     >일회성 투자(예: 슈퍼볼 광고)의 경우 점유율에 의존하기 보다는 해당 데이터를 요소로 통합하는 것이 좋습니다.
      >
 
 
-1. **[!UICONTROL MTA enabled]**
+1. **[!UICONTROL MTA enabled]** 섹션에서:
 
-   * **[!UICONTROL MTA enabled]**&#x200B;[&#128279;](insights.md#attribution) [&#128279;](insights.md)
+   * 모델에 대해 MTA 기능을 활성화하려면 **[!UICONTROL MTA enabled]**&#x200B;을(를) 활성화합니다. MTA를 활성화한 경우 멀티터치 속성 인사이트는 모델을 교육하고 점수를 매긴 후 사용할 수 있습니다. [모델 인사이트](insights.md)에서 [속성](insights.md#attribution) 탭을 참조하십시오.
 
-1. **[!UICONTROL Prior knowledge]**
+1. **[!UICONTROL Prior knowledge]** 섹션에서:
 
-   ![](/help/assets/model-prior-knowledge-step.png)
+   ![모델 - 사전 지식](/help/assets/model-prior-knowledge-step.png)
 
-   1. **[!UICONTROL Rule type]**&#x200B;**[!UICONTROL Absolute values]**
+   1. 기본적으로 **[!UICONTROL Absolute values]**&#x200B;인 **[!UICONTROL Rule type]**&#x200B;을(를) 선택하십시오.
 
-   1. **[!UICONTROL Name]**&#x200B;**[!UICONTROL Contribution proportion]**
+   1. **[!UICONTROL Contribution proportion]** 열을 사용하여 **[!UICONTROL Name]** 아래에 나열된 채널에 대한 기여도 백분율을 지정하십시오.
 
-   1. **[!UICONTROL Level of confidence]**
+   1. 필요한 경우 각 채널에 대해 **[!UICONTROL Level of confidence]** 백분율을 추가할 수 있습니다.
 
-   1. **[!UICONTROL Clear all]**&#x200B;**[!UICONTROL Contribution proportion]**&#x200B;**[!UICONTROL Level of confidence]**
+   1. 필요한 경우 **[!UICONTROL Clear all]**&#x200B;을(를) 사용하여 **[!UICONTROL Contribution proportion]** 및 **[!UICONTROL Level of confidence]** 열에 대한 모든 입력 값을 지웁니다.
 
 
-## Set options
+## 옵션 설정
 
-[&#128279;](#schedule) [&#128279;](#training-window) [&#128279;](#granular-insights-reporting-fields)**[!UICONTROL Set options]**
+**[!UICONTROL Set options]** 단계에서 [교육 및 채점을 예약](#schedule), [교육 기간을 정의](#training-window)하고 모델에 대한 [세부적인 통찰력 보고 필드](#granular-insights-reporting-fields)를 지정할 수 있습니다.
 
 
 ### 일정
 
-**[!UICONTROL Schedule]**
+**[!UICONTROL Schedule]** 섹션에서 모델 교육 및 채점을 예약할 수 있습니다.
 
-![](../assets/model-schedule.png)
+![일정 모델](../assets/model-schedule.png)
 
-To scheduled model scoring and training:
+스케줄링된 모델 채점 및 교육을 수행하려면
 
-1. **[!UICONTROL Enable scheduled model scoring and training]**
-1. **[!UICONTROL Scoring frequency]**
+1. **[!UICONTROL Enable scheduled model scoring and training]**&#x200B;을(를) 켭니다.
+1. **[!UICONTROL Scoring frequency]** 선택:
 
-   * **[!UICONTROL Daily]**`05:22 pm`![](/help/assets/icons/Clock.svg)
-   * **[!UICONTROL Weekly]**`05:22 pm`![](/help/assets/icons/Clock.svg)
-   * **[!UICONTROL Monthly]**`05:22 pm`![](/help/assets/icons/Clock.svg)
+   * **[!UICONTROL Daily]**: 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하십시오.
+   * **[!UICONTROL Weekly]**: 요일을 선택하고 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하십시오.
+   * **[!UICONTROL Monthly]**: 모든 드롭다운 메뉴에서 요일을 선택하고 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하십시오.
 
-1. **[!UICONTROL Training frequency]**&#x200B;**[!UICONTROL Monthly]**&#x200B;**[!UICONTROL Quarterly]**&#x200B;**[!UICONTROL Yearly]**&#x200B;**[!UICONTROL None]**
-
-
-### Training window
-
-**[!UICONTROL Define training window]**
-
-![](/help/assets/model-define-training-window.png)
-
-* **[!UICONTROL Have Mix Modeler select a helpful training window]**
-
-* **[!UICONTROL Manually input a training window]**. **[!UICONTROL Include events the following years prior to a conversion]**
+1. 드롭다운 메뉴에서 **[!UICONTROL Training frequency]**&#x200B;을(를) 선택합니다. **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** 또는 **[!UICONTROL None]**.
 
 
-### Granular insights reporting fields
+### 교육 기간
 
-**[!UICONTROL Granular insights reporting fields]**
+**[!UICONTROL Define training window]** 섹션에서 다음 중 하나를 선택합니다.
 
-![](/help/assets/granular-insights-reporting-fields.png)
+![모델 - 교육 기간 정의](/help/assets/model-define-training-window.png)
 
-You define these harmonized fields so you can drill down in the reporting of your model using granular reporting columns instead of having to create separate models.
+* **[!UICONTROL Have Mix Modeler select a helpful training window]** 및
 
-For example, you build a model that is focused on revenue, but you are also interested in the campaigns, media types, regions, and traffic sources performance. Without the granular incrementality reporting functionality, you would have to build four separate models. With the granular incrementality reporting functionality, you can break down your revenue model on campaigns, media types, regions, and traffic sources.
-
-1. **[!UICONTROL __]**&#x200B;**[!UICONTROL Includes]**
-1. **[!UICONTROL **]**![](/help/assets/icons/CrossSize100.svg)
-1. **[!UICONTROL Clear all]**
-
-[&#128279;](/help/ingest-data/schemas.md) [&#128279;](/help/ingest-data/datasets.md)**[!UICONTROL conversionPassthrough]**&#x200B;**[!UICONTROL touchpointPassthrough]**
-
-![](/help/assets/schema-granular-insights-reporting.png)
+* **[!UICONTROL Manually input a training window]**. 선택한 경우 **[!UICONTROL Include events the following years prior to a conversion]**&#x200B;의 연도 수를 정의합니다.
 
 
-## Finish
+### 세분화된 통찰력 보고 필드
 
-* **[!UICONTROL Finish]**
+**[!UICONTROL Granular insights reporting fields]** 섹션은 세분화된 증분 보고 기능을 사용합니다. 이 기능을 사용하면 전환 및 접점 증분 점수를 분류하기 위해 조화된 필드를 선택할 수 있습니다.
 
-   * **[!UICONTROL Create instance?]**&#x200B;**[!UICONTROL Ok]**![](/help/assets/icons/StatusOrange.svg)**[!UICONTROL Awaiting training]**
+![세부적인 인사이트 보고 필드 정의](/help/assets/granular-insights-reporting-fields.png)
 
-     **[!UICONTROL Cancel]**
+별도의 모델을 생성하지 않고도 세분화된 보고 열을 사용하여 모델 보고에서 드릴다운할 수 있도록 이러한 통합 필드를 정의합니다.
 
-   * If more configuration is needed, a red outline and text explains what additional configuration is required.
+예를 들어 매출에 중점을 둔 모델을 구축하지만 캠페인, 미디어 유형, 지역 및 트래픽 소스 성과에도 관심이 있습니다. 세분화된 증분 보고 기능이 없으면 네 개의 개별 모델을 빌드해야 합니다. 세분화된 증분 보고 기능을 사용하여 캠페인, 미디어 유형, 지역 및 트래픽 소스에 대한 수익 모델을 분류할 수 있습니다.
 
-* **[!UICONTROL Back]**
+1. **[!UICONTROL _통합 필드 선택_]**&#x200B;에서 **[!UICONTROL Includes]** 아래의 통합 필드를 하나 이상 선택하십시오. 선택한 조화화된 필드가 패널에 추가됩니다.
+1. **[!UICONTROL *Harmonized 필드&#x200B;*]**![CrossSize100](/help/assets/icons/CrossSize100.svg)을(를) 선택하여 선택된 Harmonized 필드가 있는 컨테이너에서 Harmonized 필드를 제거합니다.
+1. **[!UICONTROL Clear all]**&#x200B;을(를) 선택하여 선택된 모든 조화 필드를 제거합니다.
 
-* **[!UICONTROL Cancel]**
+세분화된 증분 보고를 위해 선택한 조화 필드는 모델을 채점한 결과 발생하는 Experience Platform [스키마](/help/ingest-data/schemas.md) 및 [데이터 세트](/help/ingest-data/datasets.md)의 일부로 사용할 수 있습니다. 세분화된 인사이트 보고 필드는 **[!UICONTROL conversionPassthrough]** 및 **[!UICONTROL touchpointPassthrough]** 개체 내에서 찾을 수 있습니다.
+
+세분화된 증분 보고를 사용할 수 있는 모델의 스키마에 있는 ![conversionPassthrough 및 touchpointPassthrough 개체의 스크린샷](/help/assets/schema-granular-insights-reporting.png)
+
+
+## 완료
+
+* 모델 구성을 완료하려면 **[!UICONTROL Finish]**&#x200B;을(를) 선택하십시오.
+
+   * **[!UICONTROL Create instance?]** 대화 상자에서 **[!UICONTROL Ok]**&#x200B;을(를) 선택하여 첫 번째 교육 및 채점 실행을 즉시 트리거합니다. 모델이 상태 ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**(으)로 나열됩니다.
+
+     취소할 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
+
+   * 추가 구성이 필요한 경우 빨간색 윤곽선과 텍스트가 추가 구성이 필요한 사항을 설명합니다.
+
+* 이전 단계로 돌아가려면 **[!UICONTROL Back]**&#x200B;을(를) 선택하십시오.
+
+* 모델 구성을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
 
