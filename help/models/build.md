@@ -1,13 +1,13 @@
 ---
 title: Mix Modeler에서 모델 구축
-description: 모델의 고급 옵션을 설정, 구성 및 지정하는 방법을 포함하여 Mix Modeler에서 모델을 구축하는 방법에 대해 알아봅니다.
+description: 모델의 고급 옵션을 설정, 구성 및 지정하는 방법을 포함하여 Mix Modeler에서 모델을 구축하는 방법에 대해 알아봅니다. 전환 목표, 접점, 광고 및 일정 등.
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: efe31b517c1a6be518101fa8266b020348241b98
+source-git-commit: dd7a7260464b27b8ef257004b1c2a64d70ffe122
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 4%
+source-wordcount: '1557'
+ht-degree: 3%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 4%
 
 사용자 지정 AI 기반 모델을 구축하기 위해 인터페이스는 단계별 가이드 모델 구성 플로우를 제공합니다.
 
-Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** 인터페이스에서 **[!UICONTROL Open model canvas]**&#x200B;을(를) 선택합니다.
+[!DNL Mix Modeler]의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** 인터페이스에서 **[!UICONTROL Open model canvas]**&#x200B;을(를) 선택합니다.
 
 ## 설정
 
@@ -27,7 +27,7 @@ Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]*
 
 1. 다음 단계로 진행하려면 **[!UICONTROL Next]**&#x200B;을(를) 선택하십시오. 모델 구성을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
 
-## 구성{#configure}
+## 구성 {#configure}
 
 >[!CONTEXTUALHELP]
 >id="model_marketingtouchpoints_select"
@@ -96,61 +96,96 @@ Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]*
    * 요소 데이터 집합을 추가하려면 **[!UICONTROL Add Factor]**&#x200B;을(를) 선택하십시오. 모델에 최대 30개의 요소를 추가할 수 있습니다.
 
       1. 드롭다운 메뉴에서 **[!UICONTROL Factor dataset]**&#x200B;을(를) 선택합니다. 사용 가능한 계수는 [데이터 집합 규칙](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)에서 조화된 필드를 정의한 계수입니다.
-선택한 데이터 집합을 기반으로 하는 **[!UICONTROL Factor type**]은(는) **[!UICONTROL Internal]** 또는 **[!UICONTROL External]**&#x200B;입니다.
+선택한 데이터 집합에 따라 **[!UICONTROL Factor type]**&#x200B;은(는) **[!UICONTROL Internal]** 또는 **[!UICONTROL External]**&#x200B;입니다.
 
       1. 드롭다운 메뉴에서 **[!UICONTROL Impact on conversion]**&#x200B;을(를) 선택합니다. 사용 가능한 옵션은 **[!UICONTROL Auto]**, **[!UICONTROL Positive]** 또는 **[!UICONTROL Negative]**&#x200B;입니다. 기본 옵션은 **[!UICONTROL Auto]**&#x200B;이며, 이를 통해 모델이 계수 데이터 세트의 영향을 결정할 수 있습니다.
 
    * 요소 데이터 집합을 삭제하려면 ![CrossSize200](/help/assets/icons/CrossSize400.svg)을(를) 선택하십시오.
 
 
-
-
 1. 모델에 대한 전환 확인 기간을 정의하려면 **[!UICONTROL Define lookback window]** 섹션에서 **[!UICONTROL Give contribution credit to touchpoints occurring within]**.. **[!UICONTROL weeks prior to the conversion]**&#x200B;에 `1`에서 `52` 사이의 값을 입력하십시오.
+
+1. 모델에 대한 교육 기간을 정의하려면 **[!UICONTROL Define training window]**&#x200B;에서 채점 전환을 시작할 위치를 선택합니다.
+
+   ![모델 - 교육 기간 정의](/help/assets/model-define-training-window.png)
+
+   다음 중 하나를 선택할 수 있습니다.
+
+   * **[!UICONTROL Have Mix Modeler select a helpful training window]** 및
+
+   * **[!UICONTROL Manually input a training window]**. 선택한 경우 **[!UICONTROL Include events the following years prior to a conversion]**&#x200B;의 연도 수를 정의합니다.
+
+   이 입력은 모델에 필요합니다. 연도 수는 **[!UICONTROL Advanced]** 단계에서 구성할 수 있는 채널 adstock의 제한 방법을 결정합니다.
 
 1. 다음 단계로 진행하려면 **[!UICONTROL Next]**&#x200B;을(를) 선택하십시오. 추가 구성이 필요한 경우 빨간색 윤곽선과 텍스트가 추가 구성이 필요한 사항을 설명합니다. <br/>이전 단계로 돌아가려면 **[!UICONTROL Back]**&#x200B;을(를) 선택하십시오. <br/>모델 구성을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
 
 
-## 고급
+## 고급 {#advanced}
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
 >title="채널 광고"
->abstract="도메인 전문 지식, 실험 결과 또는 이전 채널 분석을 모델 설정에 직접 통합합니다. Adstock 구성은 모델이 실제 예상과 일치하도록 안내하고 결과에 대한 해석 가능성과 신뢰를 향상시킵니다. 채널당 총 전환 확인 기간(주)과 지연 기간(주)이 구성된 교육 기간의 1/8로 제한됩니다. 이 캡을 사용하면 모델이 광고 스톡 효과를 학습하기에 충분한 데이터를 사용할 수 있습니다."
+>abstract="도메인 전문 지식, 실험 결과 또는 이전 채널 분석을 모델 설정에 직접 통합합니다. Adstock 구성은 모델이 실제 예상과 일치하도록 안내하고 결과에 대한 해석 가능성과 신뢰를 향상시킵니다. 채널당 총 전환 확인 기간(주)과 지연 기간(주)이 구성된 교육 기간의 1/8로 제한됩니다. 이 캡을 사용하면 모델이 adstock 효과를 학습하기에 충분한 데이터가 허용됩니다."
 
-**[!UICONTROL Advanced]** 단계에서 고급 설정을 지정할 수 있습니다. 이 단계에서는 멀티 터치 속성(MTA)에 대한 모델을 활성화할 수 있습니다.
+**[!UICONTROL Advanced]** 단계에서 고급 설정을 지정할 수 있습니다. 이 단계에서는 [점유율 사용](#spend-share)을 정의하고, [MTA(다중 터치 속성)에 대한 모델을 사용하도록 설정](#mta)하고, [사전 지식](#prior-knowledge)을 정의하고, [채널 데이터를 정의](#channel-adstock)할 수 있습니다.
 
-1. **[!UICONTROL Spend share]** 섹션에서:
+### 공유 사용
 
-   * 과거 마케팅 투자 비율을 사용하여 마케팅 데이터가 희소할 때 모델을 알리려면 **[!UICONTROL Allow spend share]**&#x200B;을(를) 활성화합니다. 이 설정은 특히 다음 시나리오에서 권장됩니다.
-      * 채널에 충분한 관찰이 없습니다(예: 지출 빈도가 낮거나 노출 횟수 또는 클릭 수).
-      * 데이터가 희박할 수 있는 스파이크하지만 일반적이고 잠재적으로 비용이 높은 미디어(일부 브랜드의 TV 등)를 모델링합니다.
+**[!UICONTROL Spend share]** 섹션에서:
 
-     >[!NOTE]
-     >
-     >일회성 투자(예: 슈퍼볼 광고)의 경우 점유율에 의존하기 보다는 해당 데이터를 요소로 통합하는 것이 좋습니다.
-     >
+* 과거 마케팅 투자 비율을 사용하여 마케팅 데이터가 희소할 때 모델을 알리려면 **[!UICONTROL Allow spend share]**&#x200B;을(를) 활성화합니다. 이 설정은 특히 다음 시나리오에서 권장됩니다.
+   * 채널에 충분한 관찰이 없습니다(예: 지출 빈도가 낮거나 노출 횟수 또는 클릭 수).
+   * 데이터가 희박할 수 있는 스파이크하지만 일반적이고 잠재적으로 비용이 높은 미디어(일부 브랜드의 TV 등)를 모델링합니다.
+
+  >[!NOTE]
+  >
+  >일회성 투자(예: 슈퍼볼 광고)의 경우 지출 점유율에 의존하지 않고 해당 데이터를 요소로 통합합니다.
+  >
+
+### MTA
+
+**[!UICONTROL MTA enabled]** 섹션에서:
+
+* 모델에 대해 MTA 기능을 활성화하려면 **[!UICONTROL MTA enabled]**&#x200B;을(를) 활성화합니다. MTA를 활성화한 경우 멀티터치 속성 인사이트는 모델을 교육하고 점수를 매긴 후 사용할 수 있습니다. [모델 인사이트](insights.md)에서 [속성](insights.md#attribution) 탭을 참조하십시오.
 
 
-1. **[!UICONTROL MTA enabled]** 섹션에서:
+### 사전 지식
 
-   * 모델에 대해 MTA 기능을 활성화하려면 **[!UICONTROL MTA enabled]**&#x200B;을(를) 활성화합니다. MTA를 활성화한 경우 멀티터치 속성 인사이트는 모델을 교육하고 점수를 매긴 후 사용할 수 있습니다. [모델 인사이트](insights.md)에서 [속성](insights.md#attribution) 탭을 참조하십시오.
+**[!UICONTROL Prior knowledge]** 섹션에서:
 
-1. **[!UICONTROL Prior knowledge]** 섹션에서:
+![모델 - 사전 지식](/help/assets/model-prior-knowledge-step.png)
 
-   ![모델 - 사전 지식](/help/assets/model-prior-knowledge-step.png)
+1. 기본적으로 **[!UICONTROL Absolute values]**&#x200B;인 **[!UICONTROL Rule type]**&#x200B;을(를) 선택하십시오.
 
-   1. 기본적으로 **[!UICONTROL Absolute values]**&#x200B;인 **[!UICONTROL Rule type]**&#x200B;을(를) 선택하십시오.
+1. **[!UICONTROL Contribution proportion]** 열을 사용하여 **[!UICONTROL Name]** 아래에 나열된 채널에 대한 기여도 백분율을 지정하십시오.
 
-   1. **[!UICONTROL Contribution proportion]** 열을 사용하여 **[!UICONTROL Name]** 아래에 나열된 채널에 대한 기여도 백분율을 지정하십시오.
+1. 필요한 경우 각 채널에 대해 **[!UICONTROL Level of confidence]** 백분율을 추가할 수 있습니다.
 
-   1. 필요한 경우 각 채널에 대해 **[!UICONTROL Level of confidence]** 백분율을 추가할 수 있습니다.
+1. 필요한 경우 **[!UICONTROL Clear all]**&#x200B;을(를) 사용하여 **[!UICONTROL Contribution proportion]** 및 **[!UICONTROL Level of confidence]** 열에 대한 모든 입력 값을 지웁니다.
 
-   1. 필요한 경우 **[!UICONTROL Clear all]**&#x200B;을(를) 사용하여 **[!UICONTROL Contribution proportion]** 및 **[!UICONTROL Level of confidence]** 열에 대한 모든 입력 값을 지웁니다.
+
+### 채널 광고
+
+**[!UICONTROL Channel adstock]** 섹션에서 모델에 정의한 각 채널(마케팅 채널)에 대해 개별 adstock 전환 확인(이월 또는 감소 효과)과 지연(지연된 응답 시간)을 정의할 수 있습니다.
+
+이 채널 데이터 세트 구성을 사용하면 서로 다른 마케팅 채널이 시간 경과에 따라 비즈니스 결과에 미치는 영향을 세밀하게 제어할 수 있습니다. 또는 시스템 기본값과 한 가지 크기로 모두 맞춤 구성을 사용할 수 있습니다.
+
+채널 데이터 구성은 채널별 뉘앙스를 캡처하는 데 도움이 됩니다. 예를 들어 TV 캠페인의 장기간 지속되는 영향, 유료 검색의 짧은 기간 동안의 영향 또는 인플루언서 지출과 관찰할 수 있는 전환 간의 지연 등이 있습니다. 광고 전환 확인 및 지연 매개 변수를 실험하여 보다 정확하고 사용자 지정적이며 신뢰할 수 있는 통찰력을 생성합니다. 궁극적으로 채널 데이터 구성을 통해 보다 정확한 예산 배분과 더 나은 비즈니스 의사 결정을 수행할 수 있습니다.
+
+![채널 adstock](/help/assets/channel-ad-stock.png)
+
+채널 adstock을 구성하려면:
+
+* 각 채널(**[!UICONTROL Name]**)에 대해 **[!UICONTROL Lag (weeks)]**, **[!UICONTROL Min Lookback (weeks)]** 및 **[!UICONTROL Max Lookback (weeks)]** 값을 정의하십시오. 각 값에 대해:
+
+   * 값을 늘리려면 ![추가](/help/assets/icons/Add.svg)를 사용하고, 값을 줄이려면 ![빼기](/help/assets/icons/Subtract.svg)를 사용하거나 수동으로 값을 입력하십시오.
+
+  채널당 총 지연 주 수 + 최대 전환 확인 주가 구성된 교육 기간의 1/8로 제한됩니다. 이 캡을 사용하면 모델이 adstock 효과를 학습하기에 충분한 데이터가 허용됩니다. 예를 들어 2년 교육 기간의 경우 한 채널에 대한 최대 **[!UICONTROL Lag (weeks)]** 및 **[!UICONTROL Lookback (weeks)]**&#x200B;은(는) 13주입니다. 이 상한은 값을 정의할 때 적용됩니다.
 
 
 ## 옵션 설정
 
-**[!UICONTROL Set options]** 단계에서 [교육 및 채점을 예약](#schedule), [교육 기간을 정의](#training-window)하고 모델에 대한 [세부적인 통찰력 보고 필드](#granular-insights-reporting-fields)를 지정할 수 있습니다.
+**[!UICONTROL Set options]** 단계에서 [교육 및 채점을 예약](#schedule)하고 모델에 대한 [세부 인사이트 보고 필드](#granular-insights-reporting-fields)를 지정할 수 있습니다.
 
 
 ### 일정
@@ -159,7 +194,7 @@ Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]*
 
 ![일정 모델](../assets/model-schedule.png)
 
-스케줄링된 모델 채점 및 교육을 수행하려면
+모델 채점 및 교육을 스케줄링하려면
 
 1. **[!UICONTROL Enable scheduled model scoring and training]**&#x200B;을(를) 켭니다.
 1. **[!UICONTROL Scoring frequency]** 선택:
@@ -171,20 +206,9 @@ Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]*
 1. 드롭다운 메뉴에서 **[!UICONTROL Training frequency]**&#x200B;을(를) 선택합니다. **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** 또는 **[!UICONTROL None]**.
 
 
-### 교육 기간
-
-**[!UICONTROL Define training window]** 섹션에서 다음 중 하나를 선택합니다.
-
-![모델 - 교육 기간 정의](/help/assets/model-define-training-window.png)
-
-* **[!UICONTROL Have Mix Modeler select a helpful training window]** 및
-
-* **[!UICONTROL Manually input a training window]**. 선택한 경우 **[!UICONTROL Include events the following years prior to a conversion]**&#x200B;의 연도 수를 정의합니다.
-
-
 ### 세분화된 통찰력 보고 필드
 
-**[!UICONTROL Granular insights reporting fields]** 섹션은 세분화된 증분 보고 기능을 사용합니다. 이 기능을 사용하면 전환 및 접점 증분 점수를 분류하기 위해 조화된 필드를 선택할 수 있습니다.
+**[!UICONTROL Granular insights reporting fields]** 섹션은 세분화된 증분 보고 기능을 사용합니다. 이 기능을 사용하면 전환율과 접점 증분 점수를 분류하기 위해 조정된 필드를 선택할 수 있습니다.
 
 ![세부적인 인사이트 보고 필드 정의](/help/assets/granular-insights-reporting-fields.png)
 

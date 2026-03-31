@@ -4,10 +4,10 @@ description: 최신 Mix Modeler 릴리스 정보
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 7581053507bd1a6a07b2f3853f454631ecee8cec
+source-git-commit: dd7a7260464b27b8ef257004b1c2a64d70ffe122
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 3%
+source-wordcount: '435'
+ht-degree: 5%
 
 ---
 
@@ -16,6 +16,12 @@ ht-degree: 3%
 **마지막 업데이트**: 2026년 2월 26일.
 
 이 릴리스 노트는 Mix Modeler의 최신 릴리스를 다룹니다. Mix Modeler 릴리스는 연속 게재 모델에서 작동하므로 대략적인 월별 릴리스 케이던스를 사용할 수 있습니다. 따라서 이 릴리스 정보는 업데이트되므로 정기적으로 확인하십시오.
+
+## 2026년 3월
+
+| 기능 | 설명 | [롤아웃 시작](#release-strategy) | [일반 가용성](#release-strategy) |
+|---|---|---|---|
+| **채널 adstock** | [채널 adstock](/help/models/build.md#channel-adstock)을 통해 도메인 전문 지식, 실험 결과 또는 이전 채널 분석을 모델 고급 구성에 직접 통합할 수 있습니다. 모델의 채널 분석 내에서 [채널 adstock 인사이트](/help/models/insights.md#channel-adstock)를 표시합니다. | 2026년 3월 30일 | 2026년 3월 30일 |
 
 ## 2026년 2월
 

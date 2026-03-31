@@ -3,10 +3,10 @@ title: 모델 인사이트
 description: Mix Modeler의 내역 개요, 모델 통찰력 및 모델 품질과 같은 모델에 대한 세부 정보를 얻는 방법에 대해 알아봅니다.
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: fe998df0b26f0cef448471147191032751f0c41e
+source-git-commit: be10a2fff940db4effe8f5d23aa7404e6d77ac74
 workflow-type: tm+mt
-source-wordcount: '2795'
-ht-degree: 12%
+source-wordcount: '2999'
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 
 이러한 통찰력은 리소스 우선 순위 지정 및 할당을 지원하는 데 도움이 됩니다.
 
-모델 인사이트를 보려면 Mix Modeler의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** 인터페이스에서 다음을 수행합니다.
+모델 인사이트를 보려면 [!DNL Mix Modeler]의 ![모델](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** 인터페이스에서 다음을 수행합니다.
 
 1. **[!UICONTROL Models]** 테이블에서 **[!UICONTROL Last run status]**&#x200B;이(가) ![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**&#x200B;인 모델 이름을 선택하십시오.
 
@@ -32,8 +32,8 @@ ht-degree: 12%
 다음 탭을 사용할 수 있습니다.
 
 * [모델 인사이트](#model-insights)
-* [채널 시너지](#channel-synergy)
-* [요소](#factors-beta) [!BADGE 베타]
+* [채널 분석](#channel-analysis)
+* [요소](#factors) [!BADGE 베타]
 * [속성](#attribution)(MTA 사용 모델만 해당)
 * [진단](#diagnostics)
 * [기록 개요](#historical-overview).
@@ -50,7 +50,7 @@ ht-degree: 12%
 
 ## 모델 인사이트 {#model-insights-section}
 
-모델 인사이트 탭에는 [날짜 및 기본 미디어별 기여도](#contribution-by-date-and-base-media), [채널별 기여도](#contribution-by-channel), [마케팅 성과 요약](#marketing-performance-summary) 및 [한계 응답 곡선](#marginal-response-curves)에 대한 시각화가 표시됩니다. 탭은 [접점 분류](#touchppint-breakdown) 테이블도 제공합니다.
+**[!UICONTROL Model insights]** 탭에는 [날짜 및 기본 미디어별 기여도](#contribution-by-date-and-base-media), [채널별 기여도](#contribution-by-channel), [마케팅 성과 요약](#marketing-performance-summary) 및 [한계 응답 곡선](#marginal-response-curves)에 대한 시각화가 표시됩니다. 탭은 [접점 분류](#touchpoint-breakdown) 테이블도 제공합니다.
 
 ![모델 - 모델 인사이트](/help/assets/model-insights-insights.png)
 
@@ -58,7 +58,7 @@ ht-degree: 12%
 
 * 시각화에 대한 데이터가 포함된 CSV 파일을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg)를 선택하십시오.
 
-* Microsoft® Excel 형식으로 전체 모델 인사이트 데이터를 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**&#x200B;를 선택하십시오.
+* ® Excel 형식으로 전체 모델 인사이트 데이터를 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**&#x200B;를 선택하십시오.
 
 
 ### 날짜 및 기본 미디어별 기여도
@@ -102,7 +102,7 @@ ht-degree: 12%
 
 접점 분류 테이블에는 모든 또는 선택한 채널에 대한 주별 접점 분류가 주별 기준으로 표시되며, 각각에 연결된 주요 지표가 표시됩니다. 이 표를 통해 보다 세분화된 채널 수준에서 쉽게 비교, 트렌드 식별 및 성능 추적을 수행할 수 있습니다. 이 테이블은 날짜 및 기본 미디어별 [기여도](#contribution-by-date-and-base-media) 시각화 및 채널별 [기여도](#contribution-by-channel) 시각화를 명시적으로 보완합니다.
 
-![터치포인트 분류](../assets/touchpoint-breakdown.png)
+![접점 분류](../assets/touchpoint-breakdown.png)
 
 다음 열을 사용할 수 있습니다.
 
@@ -118,25 +118,70 @@ ht-degree: 12%
 
 특정 채널 또는 모든 채널을 선택하려면 **[!UICONTROL View]** 드롭다운 메뉴에서 선택하십시오.
 
-접점 분류 테이블의 내용을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**&#x200B;를 선택하십시오.
+접점 분류 테이블의 내용을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**&#x200B;을(를) 선택하십시오.
 
 
-## 채널 시너지
+## 채널 분석
 
-**[!UICONTROL Channel synergy]** 탭에서 **[!UICONTROL Channel synergies]** 시각화는 마케팅 채널이 개별 기여도를 넘어 곱셈 효과를 만들기 위해 상호 작용하는 방법을 식별하는 데 도움이 됩니다.
+**[!UICONTROL Channel analysis]** 탭에는 **[!UICONTROL Channel synergies]** 및 **[채널 adstock]**&#x200B;에 대한 시각화가 표시됩니다.
 
-히트맵 매트릭스는 지출 채널 쌍들 사이의 시너지 값들의 시각적 표현을 제공한다. 이 매트릭스를 통해 마케터는 채널이 상호 작용하여 성능을 향상시키는 방법을 이해할 수 있습니다. 각 모형에 대해 시너지 값을 0부터 10까지 정규화한다. 이 값은 *다음 달러 시너지*&#x200B;를 수량화합니다. 이는 현재 수준에서 각 채널이 1달러의 추가 지출을 받을 때 두 채널이 얼마나 효과적으로 함께 작동하는지 예상합니다.
+
+### 채널 시너지 효과
+
+채널 시너지 가시화는 마케팅 채널이 개인적 기여도를 넘어서 상호 작용하여 승산 효과를 창출하는 방법을 식별하는 데 도움이 됩니다.
+
+히트맵 매트릭스는 지출 채널 쌍들 사이의 시너지 값들의 시각적 표현을 제공한다. 이 매트릭스를 통해 마케터는 채널이 상호 작용하여 성능을 향상시키는 방법을 이해할 수 있습니다. 각 모형에 대해 시너지 값을 0부터 10까지 정규화한다. 이러한 값은 *다음 달러 시너지*&#x200B;를 수량화합니다. 이는 현재 수준에서 각 채널이 1달러의 추가 지출을 받을 때 두 채널이 얼마나 효과적으로 함께 작동하는지 예상합니다.
 
 이 차세대 프레임워크는 교육 데이터의 실제 지출 조건을 설명하므로 보다 정보에 입각한 최적화 결정을 내릴 수 있으므로 상대적 시너지 강도에 대한 현실적인 척도를 제공합니다.
 
-![계획 채널 시너지 효과](/help/assets/model-channel-synergies.png)
 
-행렬을 나타내는 CSV 파일을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg) **[!UICONTROL Download]**&#x200B;를 선택하십시오.
+>[!BEGINTABS]
+
+>[!TAB 시너지 효과 간단히 표시]
+
+![계획 채널 시너지 효과](/help/assets/model-channel-synergies-less.png)
+
+>[!TAB 모든 시너지 효과 표시]
+
+![계획 채널 시너지 효과](/help/assets/model-channel-synergies-all.png)
+
+>[!ENDTABS]
+
+
+* 모든 시너지 효과를 표시하려면 **[!UICONTROL Show all]**&#x200B;을(를) 선택하십시오.
+
+* 시너지 효과를 줄이려면 **[!UICONTROL Show less]**&#x200B;을(를) 선택하세요.
+
+* 시너지의 세부 정보를 표시하려면 시각화의 셀 위로 마우스를 가져갑니다.
+
+* 매트릭스를 나타내는 CSV 파일을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg) **[!UICONTROL Download]**&#x200B;을(를) 선택하십시오.
 
 >[!NOTE]
 >
->기존 모델에 대해 **[!UICONTROL Channel synergy]** 탭이 표시되지 않으면 모델을 다시 교육하여 기능 및 시각화를 활성화하십시오.
+>기존 모델에 대해 **[!UICONTROL Channel synergy]** 탭이 표시되지 않는 경우 기능 및 시각화를 사용하도록 모델을 다시 교육하십시오.
 
+
+### 채널 광고
+
+채널 adstock 시각화는 구성된 각 채널 adstock에 대해 시각화를 보여 줍니다. 시각화를 통해 각 채널에 대한 마케팅 지출의 영향이 지속되고 시간이 지남에 따라 그리고 초기 노출 이후부터 어떻게 감소하는지 이해할 수 있습니다. 시각화는 모델로부터 학습된 시간적 동역학의 통합을 통해 채널 이월을 현실적으로 볼 수 있도록 한다.
+
+각 개별 차트는 단일 마케팅 채널을 나타내며 데이터 스톡 곡선을 표시합니다. 그 곡선은 노출 단위의 효과가 어떻게 미래 기간으로 이어지는지를 모형화한다. 이 곡선은 전환에 미치는 영향이 줄어드는 비율을 보여 주며 마케터가 초기 투자 후 다양한 채널이 성능에 계속 영향을 미치는 기간을 비교하는 데 도움이 됩니다.
+
+감쇠 곡선이 느린 채널(긴 꼬리)은 시간이 지남에 따라 지속적인 영향을 나타냅니다. 드롭오프가 가파른 채널은 보다 즉각적이고 단기간 지속되는 효과를 반영합니다. 해당 채널에 대해 구성된 최대 전환 확인 기간은 각 곡선의 길이를 결정합니다.
+
+>[!BEGINTABS]
+
+>[!TAB 모든 adstock 표시]
+
+![계획 채널 시너지 효과](/help/assets/model-channel-adstock-all.png)
+
+>[!TAB 선택한 adstock 표시]
+
+![계획 채널 시너지 효과](/help/assets/model-channel-adstock-selected.png)
+
+>[!ENDTABS]
+
+* **[!UICONTROL All channels]**&#x200B;에 대한 adstock 시각화 또는 개별 채널(예: **[!UICONTROL Paid Social Facebook]**)에 대한 adstock 시각화를 표시하려면 **[!UICONTROL Channel]** 드롭다운 메뉴에서 선택하십시오.
 
 
 ## 요인 {#factors}
@@ -147,7 +192,7 @@ ht-degree: 12%
 >abstract="요인 기여도 분류는 모델에 포함된 다양한 요인에 기인할 수 있는 기본 전환의 비율을 표시합니다.<br/><br/>순수 기본은 모델에 포함된 마케팅 접점 및 요인과 독립적으로 발생하는 기본 전환을 나타냅니다. 여기에는 브랜드 에쿼티, 반복 구매, 유기적 수요, 장기 시장 트렌드 및 계절성에 따른 전환이 포함됩니다."
 
 
-요소 [!BADGE 베타] 탭에는 외부 요소 관련 인사이트가 표시됩니다.
+요소 [!BADGE 베타] 탭에 외부 요소 관련 인사이트가 표시됩니다.
 
 ![요소](/help/assets/factors.png)
 
@@ -159,7 +204,7 @@ ht-degree: 12%
 
 테이블에 대한 데이터가 포함된 CSV 파일을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg)를 선택합니다.
 
-사용 가능한 데이터가 없으면 ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]** 메시지가 표시됩니다.
+데이터를 사용할 수 없으면 ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]** 메시지가 표시됩니다.
 
 ## 속성 {#attribution}
 
@@ -172,7 +217,7 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbytouchpointposition"
 >title="접점 위치별 분류"
->abstract="이 시각화는 모든 전환 경로에서 접점 및 접점 위치에 따른 속성 전환의 분류를 보여줍니다. 시각화는 접점이 나머지 위치와 다른 위치의 접점보다 더 나은 위치에서 기여하는지 비교합니다."
+>abstract="이 시각화는 모든 전환 경로에서 접점 및 접점 위치에 따른 속성 전환의 분류를 보여줍니다. 시각화는 접점이 나머지 위치보다 한 위치에서 더 잘 기여하고 다른 위치에서 더 잘 기여하는지 비교합니다."
 
 
 
@@ -180,11 +225,11 @@ ht-degree: 12%
 >
 >속성 탭은 MTA 활성화 모델에만 사용할 수 있습니다.
 
-[!UICONTROL Attribution] 탭을 사용하면 이벤트 수준 데이터가 있는 터치포인트 및 마케팅 캠페인의 효과를 이해할 수 있습니다.  [모델 빌드](build.md)를 참조하십시오.
+[!UICONTROL Attribution] 탭을 사용하여 이벤트 수준 데이터가 있는 터치포인트 및 마케팅 캠페인의 효과를 이해할 수 있습니다.  [모델 빌드](build.md)를 참조하세요.
 
 지원되는 속성 모델은 다음과 같습니다.
 
-* Mix Modeler에서 선택한 모델 기반:
+* [!DNL Mix Modeler]에서 선택한 모델을 기반으로 합니다.
    * 알고리즘 - 영향
    * 알고리즘 - 증분
 * 규칙 기반:
@@ -194,19 +239,19 @@ ht-degree: 12%
    * 선형
    * U자형
 
-Mix Modeler의 멀티 터치 속성 기능에 대한 소개는 [멀티 터치 속성](../get-started/about.md#multi-touch-attribution)을 참조하십시오.
+[!DNL Mix Modeler]의 다중 터치 속성 기능에 대한 소개는 [다중 터치 속성](../get-started/about.md#multi-touch-attribution)을 참조하십시오.
 
 **[!UICONTROL Attribution Model]** 드롭다운 메뉴에서 속성 모델을 하나 이상 선택합니다. 선택한 속성 모델은 속성 탭의 모든 시각화에 적용됩니다.
 
 ![속성](/help/assets/model-insights-attribution.png)
 
-Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Modeler 점수 및 ROI에 맞게 조정됩니다. 이러한 점수는 Experience Platform에서 데이터 세트로 사용할 수도 있습니다.
+Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 [!DNL Mix Modeler] 점수 및 ROI에 맞게 조정됩니다. 이러한 점수는 Experience Platform에서 데이터 세트로 사용할 수도 있습니다.
 
 속성 탭은 다음 시각화로 구성됩니다.
 
 ### 개요
 
-[!UICONTROL Overview] 시각화는 선택한 속성 모델에 대한 전환 총계와 백분율을 보여 줍니다. 모델을 더 선택하면 시각화에 범례에 해당하는 자체 색상이 있는 원이 더 추가됩니다.
+[!UICONTROL Overview] 시각화는 선택한 속성 모델에 대한 전환 합계 및 백분율을 보여 줍니다. 모델을 더 선택하면 시각화에 범례에 해당하는 자체 색상이 있는 원이 더 추가됩니다.
 
 속성 모델에 대한 세부 사항이 있는 팝업을 보려면 시각화의 원 위로 마우스를 가져갑니다.
 
@@ -232,9 +277,9 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
 채널, 미디어 유형 또↑ 증분 전환에 ↓ 오름차순 또는 내림차순으로 테이블을 정렬하려면 열 헤더를 선택하고 정렬을 토글합니다.
 
-별도의 대화 상자에서 테이블을 확장하려면 ![자세히](/help/assets/icons/More.svg)에서 **[!UICONTROL Expand]**&#x200B;을(를) 선택하십시오.
+별도의 대화 상자에서 테이블을 확장하려면 ![자세히](/help/assets/icons/More.svg)에서 **[!UICONTROL Expand]**&#x200B;을(를) 선택합니다.
 
-확장된 [상위 캠페인] 대화 상자에는 다음과 같은 추가 열이 있는 동일한 테이블이 표시됩니다.
+확장된 **[!UICONTROL Top campaigns]** 대화 상자에 다음에 대한 추가 열이 있는 동일한 테이블이 표시됩니다.
 
 * 증분 전환
 * 영향을 받은 전환
@@ -243,7 +288,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 
   추가 열 헤더를 각각 선택하여 테이블을 오름차순 또는 내림차순으로 정렬할 수 있습니다.
 
-확장된 상위 캠페인 대화 상자를 닫으려면 **[!UICONTROL Close]**&#x200B;을(를) 선택합니다.
+확장된 [최상위 캠페인] 대화 상자를 닫으려면 **[!UICONTROL Close]**&#x200B;을(를) 선택합니다.
 
 
 ### 접점 위치별 분류
@@ -255,7 +300,7 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 >모든 접점 및 위치에서 속성 모델에 대한 백분율 기여도의 합계는 100이어야 합니다.
 
 
-[!UICONTROL Starter], [!UICONTROL Player] 및 [!UICONTROL Closer] 위치는 다음과 같이 정의됩니다.
+위치 [!UICONTROL Starter], [!UICONTROL Player] 및 [!UICONTROL Closer]은(는) 다음과 같이 정의됩니다.
 
 | 위치 | 설명 |
 |---|---|
@@ -300,13 +345,13 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_efficiencymeasure"
 >title="효율성 측정"
->abstract="알고리즘 속성 모델에 의해 생성되는 효율성 측정은 접점 볼륨과 무관하게 전환하는 접점의 상대적 중요성을 나타냅니다. 이는 1에서 5까지의 척도로 측정됩니다. 접점 볼륨이 높다고 해서 효율성 측정이 높아지는 것은 아닙니다."
+>abstract="알고리즘 속성 모델에 의해 생성되는 효율성 측정은 접점 볼륨과 무관하게 전환하는 접점의 상대적 중요성을 나타냅니다. 이 측정은 1에서 5까지의 눈금에 있습니다. 접점 볼륨이 높다고 해서 효율성 측정이 높아지는 것은 아닙니다."
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_totalvolume"
 >title="총 볼륨"
->abstract="총 볼륨은 접점이 사용자에 의해 터치된 총 횟수이며 전환을 수행하는 경로와 전환을 수행하지 않는 경로에 나타나는 접점을 포함합니다."
+>abstract="총 볼륨은 사용자가 터치포인트를 터치한 총 횟수입니다. 및 는 달성하는 경로와, 전환을 초래하지 않는 경로에 나타나는 터치포인트를 포함합니다."
 
 
 >[!CONTEXTUALHELP]
@@ -335,58 +380,58 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 Mix Mod
       * **[!UICONTROL Residual Conversion]**
       * **[!UICONTROL R<sup>2</sup>]**, 데이터가 회귀 모델(적합도)에 얼마나 잘 맞는지 알려주는 점수입니다.
       * **[!UICONTROL MAPE]**(평균 절대 백분율 오류): 예측 정확도를 측정하기 위해 가장 일반적으로 사용되는 KPI 중 하나이며 예측 오류를 실제 값의 백분율로 표시합니다.
-      * **[!UICONTROL RMSE]**(제곱 평균 제곱근 오류): 평균 오류를 표시하며 오류 제곱에 따라 가중치가 적용됩니다.
+      * **[!UICONTROL RMSE]**(제곱 평균 제곱근 오류): 평균 오류를 나타내며 오류의 제곱에 따라 가중치가 적용됩니다.
 
   테이블에 대한 데이터가 포함된 CSV 파일을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg)를 선택합니다.
 
 * 각 전환 지표에 대해 표시되는 **[!UICONTROL Model training fit metrics]** 테이블:
 
-  ![모델 교육 적합성 지표 테이블](../assets/model-training-fit-metrics.png)
+  ![모델 교육 맞춤 지표 테이블](../assets/model-training-fit-metrics.png)
 
-   * **[!UICONTROL Training R<sup>2</sup>]**: 0에서 1 사이의 범위에서 모델의 예측에 의해 설명되는 실제 값의 차이 비율을 나타냅니다.
+   * **[!UICONTROL Training R<sup>2</sup>]**: 모델의 예측으로 설명한 실제 값의 분산 비율을 나타냅니다(0 ~ 1 범위).
    * **[!UICONTROL Training sMAPE]**(대칭 평균 절대 백분율 오류): 교육 데이터에 대한 평균 백분율 오류를 측정합니다. 값이 낮을수록 정확도가 향상됩니다.
-   * **[!UICONTROL Training RMSE]**(제곱 평균 제곱근 오류): 교육 데이터의 평균 백분율 오류를 측정합니다. MAPE보다 더 큰 오류를 처벌합니다. 낮은 RMSE는 더 나은 예측 정확도를 시사하지만 이상치에 민감하다.
-   * **[!UICONTROL Out-of-sample sMAPE]**: 확인되지 않은 데이터에 대한 백분율 오류를 평가하여 초과 및 과소 예측의 균형을 조정합니다. 일반화를 평가하는 데 도움이 됩니다. 현재 Mix Modeler은 교육 데이터의 마지막 분기를 보류 집합으로 사용하여 백분율 오류를 평가합니다.
-   * **[!UICONTROL Out-of-sample RMSE]**: 확인되지 않은 데이터에 대한 백분율 오류를 평가하여 초과 및 과소 예측의 균형을 조정합니다. 일반화를 평가하는 데 도움이 됩니다. 현재 Mix Modeler은 교육 데이터의 마지막 분기를 보류 집합으로 사용하여 백분율 오류를 평가합니다. RMSE는 MAPE보다 더 큰 오류를 처벌합니다.
+   * **[!UICONTROL Training RMSE]**(제곱 평균 제곱근 오류): 교육 데이터에 대한 평균 백분율 오류를 측정합니다. MAPE보다 더 큰 오류를 처벌합니다. 낮은 RMSE는 더 나은 예측 정확도를 시사하지만 이상치에 민감하다.
+   * **[!UICONTROL Out-of-sample sMAPE]**: 확인되지 않은 데이터에 대해 백분율 오류를 평가하여 초과 및 미만 예측의 균형을 조정합니다. 일반화를 평가하는 데 도움이 됩니다. 현재 Mix Modeler은 교육 데이터의 마지막 분기를 보류 집합으로 사용하여 백분율 오류를 평가합니다.
+   * **[!UICONTROL Out-of-sample RMSE]**: 확인되지 않은 데이터에 대해 백분율 오류를 평가하여 초과 및 미만 예측의 균형을 조정합니다. 일반화를 평가하는 데 도움이 됩니다. 현재 [!DNL Mix Modeler]은(는) 보류 집합으로 교육 데이터의 마지막 분기를 사용하여 백분율 오류를 평가합니다. RMSE는 MAPE보다 더 큰 오류를 처벌합니다.
 
 
-* **[!UICONTROL Touchpoint effectiveness]** table, representing the outcome of the Attribution AI algorithmic model.
+* 기여도 AI 알고리즘 모델의 결과를 나타내는 **[!UICONTROL Touchpoint effectiveness]** 테이블입니다.
 
-  ![Touchpoint effectiveness table](../assets/touchpoint-effectiveness.png)
+  ![접점 효율성 테이블](../assets/touchpoint-effectiveness.png)
 
-  이 테이블의 데이터는 특정 기간 동안만 생성됩니다. Select **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) for more details.
+  이 테이블의 데이터는 특정 기간 동안만 생성됩니다. 자세한 내용은 **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![정보](/help/assets/icons/InfoOutline.svg)를 선택하십시오.
 
-  The visualization shows, in descending order of [!UICONTROL Efficiency measure] ![Descending Order](/help/assets/icons/SortOrderDown.svg), for each touchpoint:
+  시각화는 각 터치포인트에 대해 내림차순 [!UICONTROL Efficiency measure] ![내림차순](/help/assets/icons/SortOrderDown.svg)으로 표시됩니다.
 
-   * **[!UICONTROL Paths touched]**: visualizes the percentage of paths achieving conversion and percentage of paths not achieving conversion. For a touchpoint, you see more attributed conversions when the attribution conversion ratio is high. This ratio compares the percentage of paths that lead to conversion versus the percentage of paths that do *not* lead to conversion.
-   * **[!UICONTROL Efficiency measure]**: generated by the algorithmic attribution model, the efficiency measure indicates the relative importance of a touchpoint toward conversion, independent of touchpoint volume. The efficiency is measured on a scale of 1 to 5. 접점 볼륨이 높다고 해서 효율성 측정이 높아지는 것은 아닙니다.
-   * **[!UICONTROL Total volume]**: The aggregate number of times a user touches a touchpoint. The number is inclusive of touchpoints that appear on a path achieving conversion as well as paths *not* resulting in conversion.
+   * **[!UICONTROL Paths touched]**: 전환된 경로의 비율과 전환되지 않은 경로의 비율을 시각화합니다. 접점의 경우 속성 전환율이 높으면 더 많은 속성 전환을 볼 수 있습니다. 이 비율은 전환으로 이어지는 경로의 비율과 전환으로 이어지는 *아닌*&#x200B;경로의 비율을 비교합니다.
+   * **[!UICONTROL Efficiency measure]**: 알고리즘 속성 모델에 의해 생성된 효율성 측정은 접점 볼륨에 관계없이 전환에 대한 접점의 상대적 중요성을 나타냅니다. 효율은 1~5의 척도로 측정됩니다. 접점 볼륨이 높다고 해서 효율성 측정이 높아지는 것은 아닙니다.
+   * **[!UICONTROL Total volume]**: 사용자가 터치포인트를 터치한 총 횟수입니다. 이 숫자는 전환을 수행하는 경로와 전환을 수행하는 경로 *not*&#x200B;에 표시되는 터치포인트를 포함합니다.
 
 
-### Model drift detection
+### 모델 드리프트 감지
 
 >[!AVAILABILITY]
 >
->The functionality described in this section is in the Limited Testing phase of release and might not be available yet in your environment. This note is removed when the functionality is generally available. For information about the Mix Modeler release process, see [Mix Modeler feature releases](/help/releases/latest.md).
+>이 섹션에 설명된 기능은 릴리스의 제한된 테스트 단계에 있으며, 사용자 환경에서 아직 사용하지 못할 수 있습니다. 이 메모는 기능을 일반적으로 사용할 수 있는 경우 제거됩니다. [!DNL Mix Modeler] 릴리스 프로세스에 대한 자세한 내용은 [Mix Modeler 기능 릴리스](/help/releases/latest.md)를 참조하십시오.
 >
 
-If model drift is detected, you see a **[!UICONTROL Model drift detected]** notification at the top.
+모델 드리프트가 감지되면 맨 위에 **[!UICONTROL Model drift detected]** 알림이 표시됩니다.
 
-![Model drift notification](/help/assets/model-drift-notification.png)
+![모델 드리프트 알림](/help/assets/model-drift-notification.png)
 
-Select **[!UICONTROL Hide]** to hide the notification. The notification will re-appear the next day or at the next login.
-
-
-## Historical overview
-
-The Historical overview tab shows visualizations for:
-
-![Model - Historical overview](/help/assets/model-insights-historical-overview.png)
+알림을 숨기려면 **[!UICONTROL Hide]**&#x200B;을(를) 선택하십시오. 알림은 다음 날 또는 다음 로그인 시 다시 나타납니다.
 
 
-### Conversion and Spend by Fiscal Qtr and Product
+## 내역 개요
 
-This visualization represents the conversion and spend distribution across various quarters within the given date range. The visualization helps to identify high-performing quarters where spend is driving conversions.
+내역 개요 탭에는 다음에 대한 시각화가 표시됩니다.
+
+![모델 - 이전 개요](/help/assets/model-insights-historical-overview.png)
+
+
+### 회계 분기 및 제품별 전환 및 지출
+
+이 시각화는 지정된 날짜 범위 내의 다양한 분기에 걸친 전환 및 지출 분포를 나타냅니다. 시각화는 지출이 전환을 유도하는 성과가 좋은 분기를 식별하는 데 도움이 됩니다.
 
 
 ### 채널별 소비
@@ -398,7 +443,7 @@ This visualization represents the conversion and spend distribution across vario
 
 이 시각화는 지정된 날짜 범위 내의 각 분기에 대해 유료 터치포인트에 대한 지출 분포를 나타냅니다. 시각화를 통해 특정 채널 및 분기 내에서 우선 순위가 지정된 터치포인트를 이해할 수 있습니다. 시각화는 채널 지출 패턴 및 트렌드, 특히 시간이 지남에 따라 지출이 적고 빈번하지 않은 채널을 식별하는 데 도움이 됩니다.
 
-이 시각화에 대해 표시할 대체 비용 기반 채널을 선택하려면 다음을 수행하십시오.
+이 시각화에 대한 대체 지출 기반 채널을 표시하려면 다음을 수행하십시오.
 
 * **[!UICONTROL Channels]**&#x200B;에서 채널을 선택하십시오.
 
@@ -407,7 +452,7 @@ This visualization represents the conversion and spend distribution across vario
 
 이 시각화는 지정된 날짜 범위 내의 각 분기에 대한 모든 접점에 대한 볼륨 분포를 나타냅니다.
 
-이 시각화에 대해 표시할 대체 볼륨 기반 채널을 선택하려면 다음을 수행하십시오.
+이 시각화에 대한 대체 볼륨 기반 채널을 표시하려면 다음 작업을 수행하십시오.
 
 * **[!UICONTROL Channels]**&#x200B;에서 채널을 선택하십시오.
 
@@ -420,15 +465,15 @@ This visualization represents the conversion and spend distribution across vario
 
 1. **[!UICONTROL Edit model]** 대화 상자에서:
 
-   * 새 **[!UICONTROL Name]** 및 **[!UICONTROL Description]** 입력
+   * 새 **[!UICONTROL Name]** 및 **[!UICONTROL Description]**&#x200B;을(를) 입력하십시오.
 
-   * 예약을 활성화하려면 **[!UICONTROL Status]**&#x200B;을(를) 활성화하십시오. 교육되고 점수가 매겨진 모델만 예약할 수 있습니다.
+   * 예약을 사용하려면 **[!UICONTROL Status]**&#x200B;을(를) 사용하도록 설정하십시오. 교육되고 점수가 매겨진 모델만 예약할 수 있습니다.
 
       1. **[!UICONTROL Scoring frequency]** 선택:
 
          * **[!UICONTROL Daily]**: 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하십시오.
          * **[!UICONTROL Weekly]**: 요일을 선택하고 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하십시오.
-         * **[!UICONTROL Monthly]**: 모든 드롭다운 메뉴에서 실행 날짜를 선택하고 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하십시오.
+         * **[!UICONTROL Monthly]**: 모든 드롭다운 메뉴에서 요일을 선택하고 올바른 시간(예: `05:22 pm`)을 입력하거나 ![시계](/help/assets/icons/Clock.svg)를 사용하십시오.
 
       1. 드롭다운 메뉴에서 **[!UICONTROL Training frequency]**&#x200B;을(를) 선택합니다. **[!UICONTROL Monthly]**, **[!UICONTROL Quarterly]**, **[!UICONTROL Yearly]** 또는 **[!UICONTROL None]**.
 
