@@ -2,7 +2,8 @@
 title: 교육 및 점수 모델
 description: 모델을 교육하고 평가하는 방법을 알아봅니다.
 feature: Models
-source-git-commit: 6855d19347b7f6f1477a6265310df5950b8463c9
+exl-id: c4fbe13e-4548-421b-ba90-274fc42f4be2
+source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -56,14 +57,13 @@ ht-degree: 0%
    **[!UICONTROL Score marketing data]** 대화 상자에서 다음 옵션을 선택합니다.
 
    * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**, 새 마케팅 데이터를 사용하여 점진적으로 모델에 점수를 매기거나
-   * **[!UICONTROL Score specific date range of marketing data]**&#x200B;을(를) 사용하여 특정 날짜 범위를 다시 검색하십시오.
+   * **[!UICONTROL Score specific date range of marketing data]**을(를) 사용하여 특정 날짜 범위를 다시 검색하십시오.
 날짜 범위를 지정합니다. ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 범위를 선택할 수 있습니다.
 
    ![모델 다시 검색](../assets/rescore-model.png)
 
-1. **[!UICONTROL Score]**&#x200B;을(를) 선택합니다. 특정 데이터 범위를 사용하여 모델의 점수를 다시 매길 때 **[!UICONTROL Existing model is replaced]** 대화 상자가 표시되어 선택한 날짜 범위에 대해 모델을 새 점수로 바꾸도록 확인하는 메시지가 표시됩니다. **[!UICONTROL Replace model]**&#x200B;을(를) 선택하여 확인하십시오.
+1. **[!UICONTROL Score]**&#x200B;를 선택합니다. 특정 데이터 범위를 사용하여 모델을 다시 검사할 때 **[!UICONTROL Existing model is replaced]** 대화 상자가 표시되어 선택한 날짜 범위에 대해 모델을 새 점수로 바꾸도록 확인하는 메시지가 표시됩니다. **[!UICONTROL Replace model]**&#x200B;을(를) 선택하여 확인하십시오.
 
 >[!IMPORTANT]
 >
 >모델 재정의는 재계산된 모델을 기반으로 이미 생성된 플랜을 변경하지 않습니다. 계획에서 새 복원 모델을 사용하려면 새 계획을 생성해야 합니다.
-
