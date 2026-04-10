@@ -2,7 +2,7 @@
 user-guide-title: Mix Modeler 안내서
 breadcrumb-title: Mix Modeler 안내서
 user-guide-description: Mix Modeler를 사용하는 방법에 대해 알아봅니다.
-source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
+source-git-commit: 8340b8a6c32670f372fff489fd46ea1003ff1d02
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 54%
@@ -63,7 +63,7 @@ ht-degree: 54%
    + [2025 릴리스](/help/releases/2025.md)
    + [2024 릴리스](/help/releases/2024.md)
    + [2023 릴리스](/help/releases/2023.md)
-   + [테스트](../releases/test.md)
+   + {hide-from-toc}[테스트](../releases/test.md)
 
 + [용어집](/help/main-guide/glossary.md)
 
