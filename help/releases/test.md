@@ -5,7 +5,7 @@ feature-set: Experience Cloud
 feature: Release Notes
 hide: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
-source-git-commit: 8340b8a6c32670f372fff489fd46ea1003ff1d02
+source-git-commit: dda5f56fc2bf3066fbd2cd9170dd6c6ab3cbd17e
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -29,7 +29,7 @@ ht-degree: 1%
 
 >[!BEGINSHADEBOX]
 
-이 문서에서는 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**&#x200B;의 속성 패널에 대해 설명합니다.<br/>이 문서의 ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** 버전에 대한 [속성 패널](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/attribution)을 참조하십시오.
+이 문서에서는 ![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**&#x200B;의 속성 패널에 대해 설명합니다.<br/>이 문서의 ![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics** 버전에 대한 [속성 패널](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)을 참조하십시오.
 
 >[!ENDSHADEBOX]
 
