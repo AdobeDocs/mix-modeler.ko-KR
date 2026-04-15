@@ -7,7 +7,7 @@ exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 source-git-commit: 3a8c82d30e97e875e129c931dcd2578fa39f05a5
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -124,8 +124,8 @@ ht-degree: 2%
 
 >[!CONTEXTUALHELP]
 >id="model_advanced_channeladstock"
->title="채널 광고"
->abstract="도메인 전문 지식, 실험 결과 또는 이전 채널 분석을 모델 설정에 직접 통합합니다. Adstock 구성은 모델이 실제 예상과 일치하도록 안내하고 결과에 대한 해석 가능성과 신뢰를 향상시킵니다. 채널당 총 전환 확인 기간(주)과 지연 기간(주)이 구성된 교육 기간의 1/8로 제한됩니다. 이 캡을 사용하면 모델이 adstock 효과를 학습하기에 충분한 데이터가 허용됩니다."
+>title="채널 adstock"
+>abstract="도메인 전문 지식, 실험 결과 또는 이전 채널 분석을 모델 설정에 직접 통합합니다. Adstock 구성은 모델이 실제 예상과 일치하도록 안내하고 결과에 대한 해석 가능성과 신뢰도를 향상시킵니다. 채널당 총 전환 확인 기간(주)과 지연 기간(주)은 구성된 교육 기간의 1/8로 제한됩니다. 이 캡을 사용하면 모델이 adstock 효과를 학습하기에 충분한 데이터가 허용됩니다."
 
 **[!UICONTROL Advanced]** 단계에서 고급 설정을 지정할 수 있습니다. 이 단계에서는 [점유율 사용](#spend-share)을 정의하고, [MTA(다중 터치 속성)에 대한 모델을 사용하도록 설정](#mta)하고, [사전 지식](#prior-knowledge)을 정의하고, [채널 데이터를 정의](#channel-adstock)할 수 있습니다.
 
@@ -164,7 +164,7 @@ ht-degree: 2%
 1. 필요한 경우 **[!UICONTROL Clear all]**&#x200B;을(를) 사용하여 **[!UICONTROL Contribution proportion]** 및 **[!UICONTROL Level of confidence]** 열에 대한 모든 입력 값을 지웁니다.
 
 
-### 채널 광고
+### 채널 adstock
 
 **[!UICONTROL Channel adstock]** 섹션에서 모델에 정의한 각 채널(마케팅 채널)에 대해 개별 adstock 전환 확인(이월 또는 감소 효과)과 지연(지연된 응답 시간)을 정의할 수 있습니다.
 
