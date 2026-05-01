@@ -3,9 +3,22 @@ title: 계획 성과
 description: Mix Modeler에서 성능을 사용하여 개요를 계획하는 방법에 대해 알아봅니다.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 89def3d6f5a1415d8f7a91b05d68d70ca881bdf4
+TQID: https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+subfeature_v2:
+  - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+  - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+  - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T09:20:18.412Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: 537
 ht-degree: 0%
 
 ---
@@ -14,15 +27,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mix Modeler **[!UICONTROL Performance to plan]** Home[!BADGE &#x200B; &#x200B;]{type=Informative}의 ![&#x200B; &#x200B;](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]** 탭은 Beta 기능이며 기능은 변경될 수 있습니다. 이 기능은 제한된 수의 고객이 사용할 수 있습니다.
+>Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;의 **[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative} 탭은 Beta 기능이며 기능은 변경될 수 있습니다. 이 기능은 제한된 수의 고객이 사용할 수 있습니다.
 
-Mix Modeler **[!UICONTROL Plans]** Home[!BADGE &#x200B; &#x200B;]{type=Informative}의 ![&#x200B; &#x200B;](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]** 탭은 계획에 대한 마케팅의 성과를 모니터링하는 추적 대시보드를 제공합니다. 상태 카드 및 시각화를 통해 실제 성능과 계획된 성과를 추적할 수 있습니다.
+Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;의 **[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} 탭은 계획에 대한 마케팅의 성과를 모니터링하는 추적 대시보드를 제공합니다. 상태 카드 및 시각화를 통해 실제 성능과 계획된 성과를 추적할 수 있습니다.
 
 대시보드를 통해 격차, 위험 또는 기회를 파악하고 계획 및 예산을 시기 적절하게 조정할 수 있습니다.
 
 KPI 상태 카드 및 시각화에 대해 표시되는 데이터를 선택하려면 다음과 같이 하십시오.
 
-* **[!UICONTROL Plan name]**&#x200B;옵션 선택...**[!UICONTROL _을 사용하여_]** 드롭다운 메뉴에서 계획을 선택하십시오.
+* **[!UICONTROL _옵션 선택..._]**&#x200B;을 사용하여 **[!UICONTROL Plan name]** 드롭다운 메뉴에서 계획을 선택하십시오.
 
 * 날짜 기간을 지정합니다. 날짜 기간을 변경하려면 시작 날짜와 종료 날짜를 수동으로 입력하거나 ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 기간을 선택하십시오.
 
@@ -31,17 +44,17 @@ KPI 상태 카드 및 시각화에 대해 표시되는 데이터를 선택하려
 * [KPI 상태 카드](#kpi-status-cards):
 
    * [예산](#budget)
-   * [매출](#revenue)
+   * [수입](#revenue)
    * [ROI](#roi)
    * [KPI](#kpi)
 
 * [시각화](#visualizations):
-   * [*지표*](#metric-actual-vs-planned)
-   * [*지표*](#metric-actual-vs-planned-by-granularity)
-   * [채널 &#x200B;](#channel-metric-by-granularity)
-   * [*지표*](#metric-vs-metric-by-channel)
-   * [*지표*](#metric-by-granularity)
-   * [*지표*](#metric-by-channel)
+   * [*지표*: 실제 및 계획된 비교](#metric-actual-vs-planned)
+   * [*지표*: 실제 대 *세부기간*&#x200B;에 의해 계획된 대](#metric-actual-vs-planned-by-granularity)
+   * [*세부 기간*&#x200B;별 채널 *지표*](#channel-metric-by-granularity)
+   * [채널별 *지표*&#x200B;와 *지표* 비교](#metric-vs-metric-by-channel)
+   * [*세부 기간*&#x200B;별 *지표*](#metric-by-granularity)
+   * [채널별 *지표*](#metric-by-channel)
 
 ## KPI 상태 카드
 
@@ -52,7 +65,7 @@ KPI 상태 카드 및 시각화에 대해 표시되는 데이터를 선택하려
 
 날짜 기간에 대한 플랜 예산과 마케팅 지출이 어떻게 비교되는지 표시하는 순환 진행률 시각화입니다.
 
-### 매출
+### 수입
 
 날짜 기간에 대해 계획된 대상 매출과 실제 매출액이 어떻게 비교되는지 표시하는 순환 진행 시각화입니다.
 
@@ -123,7 +136,7 @@ KPI 상태 카드 및 시각화에 대해 표시되는 데이터를 선택하려
 
       * ROI 기반 계획의 경우 옵션은 [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI], [!UICONTROL Spend] 및 [!UICONTROL Volume]입니다.
       * CPA 기반 계획의 경우 옵션은 [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Spend] 및 [!UICONTROL Volume]입니다.
-   * **[!UICONTROL Granularity]**: **[!UICONTROL date ranges]** 드롭다운 메뉴에서 **[!UICONTROL week]** 또는 **[!UICONTROL Granularity]**&#x200B;을(를) 선택합니다.
+   * **[!UICONTROL Granularity]**: **[!UICONTROL Granularity]** 드롭다운 메뉴에서 **[!UICONTROL date ranges]** 또는 **[!UICONTROL week]**&#x200B;을(를) 선택합니다.
 
    **[!UICONTROL Preview]**&#x200B;에서 변경 내용이 **[!UICONTROL Current]** 시각화와 어떻게 다른지 확인할 수 있습니다.
 

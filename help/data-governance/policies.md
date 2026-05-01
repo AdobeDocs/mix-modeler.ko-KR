@@ -3,10 +3,26 @@ title: 정책
 description: Mix Modeler에서 정책에 액세스하는 방법을 알아봅니다.
 feature: Administration
 exl-id: 4dba7c30-ad1e-4213-a2b0-afc55f2448a3
-source-git-commit: 132dc18b84723358a7d65e2aaadd49cf1deb2dd8
+TQID: https://experienceleague.adobe.com/fk6qAZS7Uymx2dzptcazBieXIJ3mGF2pjG-EDhm-Kh4
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
+subfeature_v2:
+  - id: fd80ec6b-9b9e-448a-a6d0-b0c9a15da6b8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+autotag-review: '2026-05-01T09:17:02.907Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 1%
+source-wordcount: 507
+ht-degree: 2%
 
 ---
 
@@ -14,7 +30,7 @@ ht-degree: 1%
 
 워크플로우를 통해 모델을 만들고 모델의 구성을 제출하면 [정책 시행](https://experienceleague.adobe.com/ko/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement)에서 위반이 있는지 확인합니다. 정책 위반이 발생하면 하나 이상의 정책이 위반되었음을 나타내는 팝오버가 표시됩니다. 이 검사는 Experience Platform 내의 데이터 작업 및 마케팅 작업이 데이터 사용 정책을 준수하는지 확인하기 위한 것입니다.
 
-기본적으로 Mix Modeler은 다음 레이블 및 마케팅 작업과 관련된 Adobe 정의 정책 위반을 확인합니다.
+기본적으로 Mix Modeler은 다음 레이블 및 마케팅 작업과 관련된 Adobe 정의 정책 위반이 있는지 확인합니다.
 
 | 정책 이름 | 관련 레이블 | 연계된 마케팅 액션 |
 |---|---|---|
@@ -26,7 +42,7 @@ ht-degree: 1%
 
 데이터 세트 규칙을 작성하는 동안 정책을 위반하면 정책 위반에 대한 정보를 표시하는 팝오버가 표시됩니다.
 
-For example:
+예:
 
 - 연결된 레이블 [!UICONTROL C9] 및 연결된 마케팅 작업 [!UICONTROL Data Science]과(와) 함께 [!UICONTROL Restrict data science] 정책을 사용하도록 설정했습니다.
 - 전환 데이터 스키마의 `totalCost` 필드에 [!UICONTROL C9] - [!UICONTROL No data science] 레이블을 적용했습니다.
@@ -38,7 +54,7 @@ For example:
 
 조화된 데이터에 이미 사용된 스키마 필드에 데이터 사용 레이블을 적용하면 정책 위반에 대한 정보를 표시하는 팝오버가 표시됩니다.
 
-For example:
+예:
 
 - 특히 전환 데이터 스키마의 `totalCost` 필드를 이름이 `spend`이고 표시 이름이 `Spend`인 통합 필드에 매핑하는 데이터 집합 규칙을 설정했습니다.
 - 통합 데이터를 한 번 이상 동기화했습니다([데이터 집합 규칙 - 데이터 동기화](/help/harmonize-data/dataset-rules.md#sync-data) 참조).

@@ -3,10 +3,28 @@ title: 데이터 거버넌스 개요
 description: 수집된 경험 데이터를 제어할 수 있는 Experience Platform의 서비스 및 도구를 사용하는 방법을 알아봅니다. 따라서 비즈니스 관행, 법적 의무 및 개발 프로세스를 준수합니다.
 feature: Administration
 exl-id: 87407c29-e158-48bf-bde9-b3c16a16107e
-source-git-commit: bdde574b150bda2b0c82a9f5a20160fed26cb69d
+TQID: https://experienceleague.adobe.com/vc5z266rexOpAuR1HJCj-ltOLZmkccBDvfi8JUsuiJ4
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
+subfeature_v2:
+  - id: bf7ac0fc-effb-4f0c-b93f-658412718d3c
+  - id: fd80ec6b-9b9e-448a-a6d0-b0c9a15da6b8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+autotag-review: '2026-05-01T09:16:50.195Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 2%
+source-wordcount: 462
+ht-degree: 3%
 
 ---
 
