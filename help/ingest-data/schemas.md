@@ -3,10 +3,15 @@ title: 스키마
 description: Mix Modeler으로 데이터를 수집하는 데 필요한 스키마를 관리하는 방법을 알아봅니다.
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 7524c2ffc0408b04e6bef5bd5deedc1feea0b682
+TQID: https://experienceleague.adobe.com/E41pnyBetoLPOOulNmKh033myMvfF4bV9A2Xd3FXqcs
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T08:56:54.552Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 4%
+source-wordcount: 613
+ht-degree: 6%
 
 ---
 
@@ -16,9 +21,9 @@ Experience Platform에서 수집하고 Mix Modeler에서 사용할 데이터를 
 
 1. Mix Modeler 인터페이스로 이동합니다.
 
-1. ![&#x200B; 아래의 &#x200B;](/help/assets/icons/Schemas.svg)스키마&#x200B;**[!UICONTROL Schemas]** **[!UICONTROL SETUP]**&#x200B;을(를) 선택하십시오.
+1. **[!UICONTROL SETUP]** 아래의 ![스키마](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**&#x200B;을(를) 선택하십시오.
 
-자세한 내용은 [스키마 UI 개요](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ko)를 참조하십시오.
+자세한 내용은 [스키마 UI 개요](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en)를 참조하십시오.
 
 ## 집계 또는 요약 데이터
 
@@ -36,7 +41,7 @@ XDM 요약 지표 클래스 사용:
 >
 >수집된 데이터에 필요한 지표를 지원하려면 스키마 정의에 하나 이상의 숫자 필드(정수, Double, 부울 또는 기타 숫자 유형 사용)가 포함되어야 합니다.
 
-아래 **[!DNL XDM Summary Metrics]**&#x200B;에 표시된 대로 **[!DNL ExternalFactorSummarySchema]** 기본 클래스를 사용하는 스키마는 간단할 수 있습니다.
+아래 **[!DNL ExternalFactorSummarySchema]**&#x200B;에 표시된 대로 **[!DNL XDM Summary Metrics]** 기본 클래스를 사용하는 스키마는 간단할 수 있습니다.
 
 ![외부 요소 스키마](/help/assets/external-factors-schema.png)
 
@@ -44,7 +49,7 @@ XDM 요약 지표 클래스 사용:
 
 - 경쟁업체 인덱스 데이터
 
-  | 타임스탬프 | date_type | 요소 | 값 |
+  | 타임스탬프 | date_type | 요소 | value |
   |---|---|---|--:|
   | 2020-11-28T00:00:00.000Z | 주 | competitor_index | 289.8 |
   | 2020-12-05T00:00:00.000Z | 주 | competitor_index | 291.2 |
@@ -53,7 +58,7 @@ XDM 요약 지표 클래스 사용:
 
 - 공휴일 데이터
 
-  | 타임스탬프 | date_type | 요소 | 값 |
+  | 타임스탬프 | date_type | 요소 | value |
   |---|---|---|--:|
   | 2020-11-28T00:00:00.000Z | 주 | all_holidays_flag | 0.0 |
   | 2020-12-05T00:00:00.000Z | 주 | all_holidays_flag | 0.0 |
@@ -63,7 +68,7 @@ XDM 요약 지표 클래스 사용:
   | ... | ... | ... | ... |
 
 
-**[!DNL LumaPaidMarketingSchema]**&#x200B;을(를) 기본 클래스로 사용하는 **[!DNL XDM Summary Metrics]**&#x200B;에 대한 보다 포괄적인 예제는 아래를 참조하십시오. 스키마는 지표(**[!DNL AMMMetrics]**), 차원(**[!DNL AMMDimensions]**) 및 기타 고객별 정보(**[!DNL CustomerSpecific]**)에 대해 색상 주석이 있는 전용 필드 그룹을 사용합니다.
+**[!DNL XDM Summary Metrics]**&#x200B;을(를) 기본 클래스로 사용하는 **[!DNL LumaPaidMarketingSchema]**&#x200B;에 대한 보다 포괄적인 예제는 아래를 참조하십시오. 스키마는 지표(**[!DNL AMMMetrics]**), 차원(**[!DNL AMMDimensions]**) 및 기타 고객별 정보(**[!DNL CustomerSpecific]**)에 대해 색상 주석이 있는 전용 필드 그룹을 사용합니다.
 
 ![요약 스키마](/help/assets/summary-schema.png)
 
@@ -76,10 +81,10 @@ XDM 요약 지표 클래스 사용:
 | 필드 표시 이름 | 필드 이름 | 필드 유형 | 데이터 유형 | 필수 여부 | 설명 |
 |---|---|---|---|:-:|---|
 | 요소 이름 | factorName | 차원 | 문자열 | ![확인 표시](/help/assets/icons/Checkmark.svg) | 계수의 이름입니다. |
-| 요소 값 | factorValue | 지표 | Double | ![확인 표시](/help/assets/icons/Checkmark.svg) | 인자 값 |
+| 요소 값 | factorValue | 지표 | 더블 | ![확인 표시](/help/assets/icons/Checkmark.svg) | 인자 값 |
 | 요소 유형 | factorType | 차원 | 문자열(열거형) | | 인자의 유형입니다.<br/>가능한 값은 다음과 같습니다. <ul><li>내부(내부 계수)</li><li>외부(외부 요소)</li></ul> |
 | 값 유형 | valueType | 차원 | 문자열(열거형) | | 가능한 값:<ul><li>실제(실제 값)</li><li>예측된(예측된 값)</li></ul>값이 없으면 실제 값이 기본값입니다. |
-| 세부기간 | 세부기간 | 차원 | 문자열(열거형) | | 가능한 값:<ul><li>매일</li><li>매주</li><li>월별</li></ul> |
+| 세부기간 | 세부기간 | 차원 | 문자열(열거형) | | 가능한 값:<ul><li>일별</li><li>매주</li><li>월별</li></ul> |
 
 요약, 내부 요소 또는 외부 요소 데이터 세트는 다음을 기반으로 할 수 있습니다.
 
@@ -88,16 +93,16 @@ XDM 요약 지표 클래스 사용:
 
 ## 지원되는 데이터 유형
 
-현재 Mix Modeler은 Experience Platform 데이터 유형의 하위 집합을 지원합니다. [스키마 컴포지션의 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ko#data-type)에 언급된 다음 기본 데이터 형식(필드)이 지원됩니다.
+현재 Mix Modeler은 Experience Platform 데이터 유형의 하위 집합을 지원합니다. [스키마 컴포지션의 기본 사항](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)에 언급된 다음 기본 데이터 형식(필드)이 지원됩니다.
 
 - 문자열
 - 정수
-- Double
+- 더블
 - 부울
-- 길게
+- Long
 - 짧음
 - 바이트
-- Date
+- 일자
 - 날짜-시간
 
 

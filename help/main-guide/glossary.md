@@ -3,9 +3,16 @@ title: Mix Modeler 용어
 description: Mix Modeler 용어
 feature: Datasets, Conversions, Marketing Touch Points, Harmonized Data
 exl-id: e002a0c0-71a4-418e-90c4-819649433a7d
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+TQID: https://experienceleague.adobe.com/WvkcvEy6h4cYz28vJXkwVBJ-UIgHyscRj9eTbPQY1DY
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ffid: d822825b-9821-40d5-9b0d-42a9e3f317c5id: a567f0f7-0057-4079-8ded-5b24cc25af15id: a234aebd-3855-4376-a64d-29b38411e0c5id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+subfeature_v2: id: bc2f5225-03d4-4bc8-89ec-99d78c30e6ddid: d4b8ba18-64c1-4413-be54-74405ec7f558id: ba4fd72c-282e-4fb6-abc1-08e6fb87b2adid: b4655f7e-1a6e-4fa3-a7c5-3c34d4786e49id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980bid: c89e26b6-808d-4500-8b01-450a63466999id: a9505d76-24a1-4ffe-bd01-6ac32d5af453id: cb40363e-1205-4921-971c-9ee6bdb18329id: d7b067e6-4f39-41e9-a081-7650346a84cdid: b2520ae7-8f6c-4952-935e-aacc2c10256fid: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+autotag-review: '2026-05-01T09:09:18.318Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: 353
 ht-degree: 0%
 
 ---
@@ -17,7 +24,7 @@ ht-degree: 0%
 | 용어 또는 두문자어 | 정의 |
 |---|---|
 | **Experience Platform(AEP)** | Experience Platform은 기업 전체의 데이터 및 콘텐츠를 표준화하므로 실시간 고객 프로필을 기반으로 데이터 과학을 구현하고 콘텐츠 속도를 가속화하여 고객 여정 전반에 걸쳐 경험 개인화를 촉진합니다. |
-| **집계 또는 요약 데이터** | 그룹(예: 소비자, 캠페인, 지역 등)이 비즈니스와 상호 작용하거나 비즈니스에서 수행하는 방식을 자세히 설명하는 높은 수준의 데이터 |
+| **집계 또는 요약 데이터** | 그룹(예: 소비자, 캠페인, 지역 등)을 자세히 설명하는 높은 수준의 데이터 이(가) 귀하의 비즈니스에서 또는 와 상호 작용함 |
 | **전환** | 사용자가 수행하는 모든 작업 및 비즈니스에서 가치 있는 것으로 간주되는 작업. 등록, 제품 구매 등. |
 | **이벤트 데이터** | 이벤트 타임스탬프 및 개인 ID를 포함하는 이벤트 수준의 마케팅 접점 또는 전환 데이터 |
 | **인스턴스** | 자체 목표 및 구성 세트가 있는 데이터 과학 파이프라인의 복사본 1개. |

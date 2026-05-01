@@ -3,9 +3,15 @@ title: Mix Modeler 활용 사례
 description: Mix Modeler 활용 사례.
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
+TQID: https://experienceleague.adobe.com/AaVm2Jwz9MX-zuURspqkXLG9ZoO91iBowQU-hWBg-4M
+autotag-review: '2026-05-01T08:58:19.052Z'
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: a234aebd-3855-4376-a64d-29b38411e0c5id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: 645
 ht-degree: 3%
 
 ---
@@ -34,7 +40,7 @@ Mix Modeler은 다음과 같은 주요 사용 사례를 활성화합니다.
 
 | 단계 | 세부 사항 |
 |---|---|
-| 수집 | 일반 스키마에서 데이터 소스를 식별하고 수집합니다. <br/>빠른 경로 배포에 Adobe Analytics 또는 Customer Journey Analytics에 대한 기존 투자를 적용합니다. |
+| 수집 | 일반 스키마에서 데이터 소스를 식별하고 수집합니다. <br/>빠른 배포에 Adobe Analytics 또는 Customer Journey Analytics의 기존 투자를 적용합니다. |
 | 구성 | 특정 비즈니스 목표에 맞는 AI-as-a-Service 프레임워크를 사용하여 유연한 모델을 구성하십시오<br/>양방향 전송 학습으로 터치포인트와 요약 수준 간의 일관성을 자동으로 보장합니다. |
 | 분석 | 전체 마케팅 및 개별 채널/하위 채널의 ROI를 명확하게 이해합니다.<br/>증분 전환을 가장 잘 유도하는 접점을 명확하게 이해합니다. |
 
@@ -73,9 +79,9 @@ Mix Modeler은 다음과 같은 주요 사용 사례를 활성화합니다.
 
 | 단계 | 세부 사항 |
 |---|---|
-| 구성 | 비즈니스 목표에 맞게 측정 모델을 손쉽게 맞춤화할 수 있습니다.<br/>몇 번의 클릭으로 매개 변수를 정의하며 코딩이 필요하지 않습니다(예: 채널, 지역, 판매 주기, 랙, 내부 및 외부 비즈니스 요소 등). |
+| 구성 | 비즈니스 목표에 맞게 측정 모델을 손쉽게 맞춤화할 수 있습니다.<br/>몇 번의 클릭으로 매개 변수를 정의하며 코딩이 필요하지 않습니다(예: 채널, 지역, 판매 주기, 지연, 내부 및 외부 비즈니스 요소 등). |
 | 교육 | 구성된 AI/ML 모델을에 교육하여 입력 데이터에 가장 적합한 방식을 학습하여 가장 정확한 결과를 제공합니다. |
-| 최적화 | 모델 예측에 따라 자동화된 최적화 예산 할당을 가져옵니다.<br/>직관적인 UI를 사용하여 몇 번의 클릭으로 여러 예산 시나리오를 개발 및 비교합니다. |
+| 최적화 | 모델 예측을 기반으로 자동화된 최적화 예산 할당을 가져옵니다.<br/>직관적인 UI를 사용하여 몇 번의 클릭만으로 여러 예산 시나리오를 개발하고 비교합니다. |
 
 {style="table-layout:auto"}
 
@@ -155,7 +161,7 @@ Successful implementation of this use can have the following impact:
 | 단계 | 세부 사항 |
 |---|---|
 | 모델 | 일관된 MTA 터치포인트 점수 및 MMM 집계 결과를 얻도록 AI/ML 모델을 구성하고 교육합니다. |
-| 분석 | 증분 접점 점수를 Customer Journey Analytics 또는 외부 BI 도구로 내보냅니다.<br/>세부 분석을 수행하고 접점 점수를 사용하여 고급 대시보드를 빌드합니다. |
+| 분석 | 증분 터치포인트 점수를 Customer Journey Analytics 또는 외부 BI 도구로 내보냅니다.<br/>터치포인트 점수를 사용하여 세분화된 분석을 수행하고 고급 대시보드를 빌드합니다. |
 | 액션 | Real-Time Customer Data Platform을 사용하여 상위 소비자 세그먼트에 대한 룩라이크를 만들고 활성화합니다.<br/>향후 캠페인을 위해 고객 세그먼트별로 데이터 기반 마케팅 전략을 개발합니다. |
 
 {style="table-layout:auto"}

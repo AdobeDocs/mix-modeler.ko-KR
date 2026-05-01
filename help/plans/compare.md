@@ -3,9 +3,15 @@ title: 계획 비교
 description: Mix Modeler에서 플랜을 비교하는 방법을 알아봅니다.
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: d6cf7e75b91ca3c3a50b95c0909e2d250af07317
+TQID: https://experienceleague.adobe.com/SJ2SlIAgIaRsrkhzebjky7FvHs4yOvWCxjWjaPi--fc
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+subfeature_v2: id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T09:07:12.191Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: 205
 ht-degree: 0%
 
 ---
@@ -20,7 +26,7 @@ Mix Modeler 계획 인터페이스에서 계획을 비교하려면 다음을 수
 
 계획 비교 인터페이스에는 다음에 대한 정보와 시각화가 표시됩니다.
 
-* **[!UICONTROL Plan]** 질문에 답합니다. 계획이 목표 기반 계획(예: ROI 또는 CPA)인 경우 목표 상태(예: 목표 달성 가능)를 표시하는 배지가 표시됩니다.
+* **[!UICONTROL Plan]**. 계획이 목표 기반 계획(예: ROI 또는 CPA)인 경우 목표 상태(예: 목표 달성 가능)를 표시하는 배지가 표시됩니다.
 * **[!UICONTROL Date range]**
 * **[!UICONTROL Model]**
 * **[!UICONTROL Total budget]**

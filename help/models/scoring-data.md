@@ -3,10 +3,17 @@ title: 채점 데이터 사용
 description: Mix Modeler에서 모델의 채점 데이터가 어떻게 지속되는지 알아봅니다.
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+TQID: https://experienceleague.adobe.com/6eMg5Azsb-rdyG5g-hIkiyJrVbgOOul5V-0TvxzCTyo
+autotag-review: '2026-05-01T08:58:54.964Z'
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: cb40363e-1205-4921-971c-9ee6bdb18329
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 6%
+source-wordcount: 684
+ht-degree: 11%
 
 ---
 
@@ -29,18 +36,18 @@ ht-degree: 6%
 |---|---|---|
 | `campaignGroup` | 문자열 | 캠페인 그룹 이름. |
 | `campaignName` | 문자열 | 캠페인 이름. |
-| `contribution` | Double | 지정된 터치포인트에 대한 이 전환에 기인한 기여입니다. |
-| `conversionEndDate` | Date | 전환 창의 종료 날짜. |
+| `contribution` | 더블 | 지정된 터치포인트에 대한 이 전환에 기인한 기여입니다. |
+| `conversionEndDate` | 일자 | 전환 창의 종료 날짜. |
 | `conversionName` | 문자열 | 전환 정의 설정 단계 중에 생성된 전환의 이름입니다. |
-| `conversionStartDate` | Date | 전환 창의 시작일. |
+| `conversionStartDate` | 일자 | 전환 창의 시작일. |
 | `geo` | 문자열 | 전환이 발생한 지리적 위치. |
 | `mediaChannel` | 문자열 | 터치포인트 설정 단계 중에 사용된 채널의 이름입니다. |
 | `mediaSubChannel` | 문자열 | 하위 채널 이름. |
-| `revenue` | Double | 지정된 접점에 대한 이 전환으로 인한 매출입니다. |
-| `scoreCreatedTime` | DateTime | 해당 스코어 레코드가 생성될 때의 타임스탬프. |
-| `touchpointEndDate` | Date | 접점 창의 종료 날짜입니다. |
+| `revenue` | 더블 | 지정된 접점에 대한 이 전환으로 인한 매출입니다. |
+| `scoreCreatedTime` | 날짜/시간 | 해당 스코어 레코드가 생성될 때의 타임스탬프. |
+| `touchpointEndDate` | 일자 | 접점 창의 종료 날짜입니다. |
 | `touchpointName` | 문자열 | 접점 정의 설정 단계 중에 생성된 접점 이름입니다. 현재 터치포인트는 미디어 채널에 정의되어 있습니다. |
-| `touchpointStartDate` | Date | 접점 창의 시작 날짜입니다. |
+| `touchpointStartDate` | 일자 | 접점 창의 시작 날짜입니다. |
 
 
 ## 이벤트 점수 데이터 스키마
@@ -64,13 +71,13 @@ ht-degree: 6%
 |      `eventType` | 문자열 | 해당 시계열 레코드에 대한 기본 이벤트 유형. <br> **예:** `Order` |
 |      `geo` | 문자열 | 전환이 전달된 지리적 위치 `placeContext.geo.countryCode`입니다. <br> **예:** `US` |
 |      `path` | 문자열 | |
-|      `priceTotal` | Double | 전환 <br>을(를) 통해 얻은 매출 **예:** `99.9` |
+|      `priceTotal` | 더블 | 전환 <br>을(를) 통해 얻은 매출 **예:** `99.9` |
 |      `product` | 문자열 | 제품 자체의 XDM 식별자. <br> **예:** `RX 1080 ti` |
 |      `productType` | 문자열 | 이 제품 보기에 대해 사용자에게 표시되는 제품의 표시 이름입니다. <br> **예:** `Gpus` |
 |      `quantity` | 정수 | 전환 중 구매한 수량입니다. <br> **예:** `1` |
-|      `receivedTimeStamp` | DateTime | 전환의 타임스탬프를 수신했습니다. <br> **예:** `2020-06-09T00:01:51.000Z` |
+|      `receivedTimeStamp` | 날짜/시간 | 전환의 타임스탬프를 수신했습니다. <br> **예:** `2020-06-09T00:01:51.000Z` |
 |      `skuId` | 문자열 | 공급업체가 정의한 제품에 대한 고유 식별자인 SKU(Stock Keeping Unit). <br> **예:** `MJ-03-XS-Black` |
-|      `timestamp` | DateTime | 변환의 타임스탬프입니다. <br> **예:** `2020-06-09T00:01:51.000Z` |
+|      `timestamp` | 날짜/시간 | 변환의 타임스탬프입니다. <br> **예:** `2020-06-09T00:01:51.000Z` |
 |      `totalDaysToConversion` | 정수 |  |
 |      `totalTouchpointCount` | 정수 | |
 | `customerProfile` | 오브젝트 | 모델 구축에 사용된 사용자의 ID 세부 정보. |
@@ -79,13 +86,13 @@ ht-degree: 6%
 |           `namespace` | 문자열 | `id` 및 `namespace` 등 모델을 만드는 데 사용되는 사용자의 세부 정보를 포함합니다. |
 | `touchpointsDetail` | 개체[] | 전환으로 이어지는 접점 세부 정보 목록으로서, 접점 발생 또는 타임스탬프별로 순서가 지정됩니다. |
 |      `scores` | 오브젝트 | 이 전환에 대한 터치포인트 기여도를 점수로 표시합니다. |
-|           `algorithmicInfluenced` | Double | 영향을 받는 점수는 각 마케팅 접점이 담당하는 전환의 비율입니다. |
-|           `algorithmicSourced` | Double | 증분 점수는 마케팅 접점에 의해 직접 발생한 한계 영향의 양입니다. |
-|           `decayUnits` | Double | 전환에 더 가까운 접점이 전환에서 시간상 더 먼 접점보다 더 많은 크레딧을 받는 규칙 기반 속성 점수. |
-|           `firstTouch` | Double | 전환 경로의 초기 접점에 모든 크레딧을 할당하는 규칙 기반 속성 점수입니다. |
-|           `lastTouch` | Double | 전환에 가장 가까운 접점에 모든 크레딧을 할당하는 규칙 기반 속성 점수. |
-|           `linear` | Double | 전환 경로의 각 접점에 동일한 크레딧을 할당하는 규칙 기반 속성 점수. |
-|           `uShape` | Double | 첫 번째 접점에 크레딧의 40%를 할당하고 마지막 접점에 크레딧의 40%를 할당하는 규칙 기반 속성 점수입니다. 나머지 20%는 다른 접점에서 똑같이 나누어집니다. |
+|           `algorithmicInfluenced` | 더블 | 영향을 받는 점수는 각 마케팅 접점이 담당하는 전환의 비율입니다. |
+|           `algorithmicSourced` | 더블 | 증분 점수는 마케팅 접점에 의해 직접 발생한 한계 영향의 양입니다. |
+|           `decayUnits` | 더블 | 전환에 더 가까운 접점이 전환에서 시간상 더 먼 접점보다 더 많은 크레딧을 받는 규칙 기반 속성 점수. |
+|           `firstTouch` | 더블 | 전환 경로의 초기 접점에 모든 크레딧을 할당하는 규칙 기반 속성 점수입니다. |
+|           `lastTouch` | 더블 | 전환에 가장 가까운 접점에 모든 크레딧을 할당하는 규칙 기반 속성 점수. |
+|           `linear` | 더블 | 전환 경로의 각 접점에 동일한 크레딧을 할당하는 규칙 기반 속성 점수. |
+|           `uShape` | 더블 | 첫 번째 접점에 크레딧의 40%를 할당하고 마지막 접점에 크레딧의 40%를 할당하는 규칙 기반 속성 점수입니다. 나머지 20%는 다른 접점에서 똑같이 나누어집니다. |
 |      `touchPoint` | 오브젝트 | 접점 메타데이터. |
 |           `passThrough` | 오브젝트 | |
 |                `eventType` | 문자열 | |
@@ -96,15 +103,15 @@ ht-degree: 6%
 |           `geo` | 문자열 | |
 |           `mediaAction` | 문자열 | |
 |           `mediaChannel` | 문자열 | |
-|           `receivedTimeStamp` | DateTime | |
-|           `timestamp` | DateTime | |
+|           `receivedTimeStamp` | 날짜/시간 | |
+|           `timestamp` | 날짜/시간 | |
 |      `isFirstInThePosition` | 정수 | |
 |      `lag` | 정수 | |
 |      `position` | 문자열 | |
 |      `touchpointCountToConversion` | 정수 | |
 |      `touchpointName` | 문자열 | 설정 중에 구성된 터치포인트의 이름입니다. <br> **예:** `PAID_SEARCH_CLICK` |
 | `conversionName` | 문자열 | 설정 중에 구성된 전환의 이름입니다. <br> **예:** `Order`, `Lead`, `Visit` |
-| `scoreCreatedTime` | DateTime | |
+| `scoreCreatedTime` | 날짜/시간 | |
 | `segmentation` | 문자열 | 모델이 만들어지는 지역 세분화와 같은 전환 세그먼트. 세그먼트가 없으면 `segmentation`은(는) `conversionName`과(와) 같습니다. <br> **예:** `ORDER_US` |
 
 
