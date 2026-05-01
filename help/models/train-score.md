@@ -5,10 +5,15 @@ feature: Models
 exl-id: c4fbe13e-4548-421b-ba90-274fc42f4be2
 TQID: https://experienceleague.adobe.com/yHi6d-zZeT5fpedJeqNAj-Q01NlEK-y3MybA5p54DhE
 autotag-review: '2026-05-01T09:03:34.273Z'
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2: id: cb40363e-1205-4921-971c-9ee6bdb18329
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2:
+  - id: cb40363e-1205-4921-971c-9ee6bdb18329
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 374
@@ -63,7 +68,7 @@ ht-degree: 0%
    **[!UICONTROL Score marketing data]** 대화 상자에서 다음 옵션을 선택합니다.
 
    * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**, 새 마케팅 데이터를 사용하여 점진적으로 모델에 점수를 매기거나
-   * **[!UICONTROL Score specific date range of marketing data]**을(를) 사용하여 특정 날짜 범위를 다시 검색하십시오.
+   * **[!UICONTROL Score specific date range of marketing data]**&#x200B;을(를) 사용하여 특정 날짜 범위를 다시 검색하십시오.
 날짜 범위를 지정합니다. ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 범위를 선택할 수 있습니다.
 
    ![모델 다시 검색](../assets/rescore-model.png)
