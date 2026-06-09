@@ -3,9 +3,13 @@ title: Mix Modeler 딥 다이브
 description: 멀티 터치 속성, 마케팅 믹스 모델링, 전송 학습 및 예산 최적화를 포함하여 Adobe Mix Modeler에 숨겨진 기술 방법론을 살펴봅니다.
 feature: Administration
 hide: true
-feature_v2: id: a234aebd-3855-4376-a64d-29b38411e0c5id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
-level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+feature_v2:
+  - id: a234aebd-3855-4376-a64d-29b38411e0c5
+  - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
 source-git-commit: 4f4fe68694c81ddb258656eb05d62ef057f200cb
 workflow-type: tm+mt
 source-wordcount: 2747
@@ -126,9 +130,9 @@ Mix Modeler은 다중 터치 속성 결과로 얻은 인사이트에 대해 [마
 * **곱셈 모델**: 판매 또는 전환은 기본 및 미디어 승수의 곱입니다.
 
   따라서 가산 모델을 사용하는 대신
-  *주간 전환 = 기준선 수요&#x200B;**+**검색 승수&#x200B;**+**표시 승수&#x200B;**+**....*
+  *주간 전환 = 기준선 수요&#x200B;**+**&#x200B;검색 승수&#x200B;**+**&#x200B;표시 승수&#x200B;**+**....*
 승산 모델 사용:
-  *주간 전환 = 기준선 수요&#x200B;**x**검색 승수&#x200B;**x**표시 승수&#x200B;**x**....*
+  *주간 전환 = 기준선 수요&#x200B;**x**&#x200B;검색 승수&#x200B;**x**&#x200B;표시 승수&#x200B;**x**....*
 
   또는 수식에서 다음을 수행합니다. ** Y = ⨍<sub>BL</sub>(X<sub>인자</sub>;θ<sub>인자</sub>) x<sub>⨍ ⨍S</sub>(X<sub>S</sub>;θ<sub>S</sub>) x<sub>D</sub>(X<sub>D</sub>;θ<sub>D</sub>)*
 
