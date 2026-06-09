@@ -21,7 +21,7 @@ ht-degree: 0%
 # 심층 조사
 
 
-Adobe Mix Modeler은 멀티 터치 속성(MTA)과 마케팅 믹스 모델링(MMM)을 결합하여 정확하고 확장 가능하며 미래 지향적인 마케팅 통찰력을 제공하는 통합 AI/ML 기반 측정 플랫폼입니다. 이 문서에서는 Mix Modeler 이면의 방법론, 디자인 선택 및 기술 혁신에 대한 자세한 분석을 제공합니다. 이 세션은 [2025년 Summit 세션](https://business.adobe.com/summit/2025/sessions/marketing-mix-modeling-at-adobe-learn-to-predict-s602.html){target="_blank"}을 기반으로 합니다. 이 세션에서는 Mix Modeler에 숨겨진 방법론, 디자인 선택 및 기술 혁신에 대한 자세한 분석을 제공합니다.
+Adobe Mix Modeler은 멀티 터치 속성(MTA)과 마케팅 믹스 모델링(MMM)을 결합하여 정확하고 확장 가능하며 미래 지향적인 마케팅 통찰력을 제공하는 통합 AI/ML 기반 측정 플랫폼입니다. 이 문서에서는 Mix Modeler 이면의 방법론, 디자인 선택 및 기술 혁신에 대한 자세한 분석을 제공합니다. 이 세션은 [2025년 Summit 세션](https://business.adobe.com/kr/summit/2025/sessions/marketing-mix-modeling-at-adobe-learn-to-predict-s602.html){target="_blank"}을 기반으로 합니다. 이 세션에서는 Mix Modeler에 숨겨진 방법론, 디자인 선택 및 기술 혁신에 대한 자세한 분석을 제공합니다.
 
 마케팅 복잡성이 증가하면 기존 측정 접근 방식에도 미치지 못합니다. 조각화된 데이터, 진화하는 개인정보 보호 제한, 속도와 엄격함 모두에 대한 요구 사항 때문에 마케팅 성과가 평가되는 방식을 재고해야 합니다. Adobe은 머신 러닝을 활용해 여러 데이터 소스를 합성하고 패러다임을 모델링하여 응집력 있는 전략으로 만드는 통합 시스템인 Mix Modeler에 대해 대응하고 있다.
 
