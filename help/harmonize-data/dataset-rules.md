@@ -19,9 +19,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: '2026-05-01T09:12:48.985Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
 workflow-type: tm+mt
-source-wordcount: 2106
+source-wordcount: 2161
 ht-degree: 3%
 
 ---
@@ -33,6 +33,7 @@ ht-degree: 3%
 * Adobe Experience Platform에서 수집한 집계 데이터의 경우 사용 가능한 데이터 세트 필드 중 하나 이상을 적절한 조화된 필드에 매핑합니다.
 * 이벤트 데이터의 경우, 직접 또는 조건을 사용하여 하나 이상의 조정된 필드를 데이터 세트의 필드에 개별적으로 매핑할 수 있습니다.
 
+![데이터 집합 규칙 목록](/help/assets/harmonize-dataset-rules-list.png)
 
 ## 데이터 세트 규칙 관리
 
@@ -42,7 +43,15 @@ Mix Modeler 인터페이스에서 사용 가능한 데이터 세트 규칙 표�
 
 1. 상단 표시줄에서 **[!UICONTROL Dataset rules]**&#x200B;을(를) 선택합니다. 데이터 세트 규칙 표가 표시됩니다.
 
-![검색](/help/assets/icons/Search.svg) **[!UICONTROL _데이터 세트 이름 입력_]**&#x200B;을 사용하여 데이터 세트를 빠르게 검색할 수 있습니다.
+데이터 세트를 검색하고 필터링할 수 있습니다.
+
+* ![검색](/help/assets/icons/Search.svg) **[!UICONTROL _데이터 세트 이름 입력_]**&#x200B;을 사용하여 데이터 세트를 빠르게 검색합니다.
+* 다음을 사용하여 데이터 세트 필터링:
+  * **[!UICONTROL Source]**: **[!UICONTROL all]**, **[!UICONTROL Summary]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Adobe Audience Manager]**, **[!UICONTROL Experience Events]**, **[!UICONTROL Consumer Experience Events]** 또는 **[!UICONTROL Factors]** 중에서 선택합니다.
+  * **[!UICONTROL Granularity]**: **[!UICONTROL all]**, **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** 또는 **[!UICONTROL Yearly]** 중에서 선택합니다.
+  * **[!UICONTROL Start of the week]**: 모두 또는 가능한 요일(**[!UICONTROL Monday]** ~ **[!UICONTROL Sunday]**)을 선택하십시오.
+
+![CrossSize200](/help/assets/icons/CrossSize200.svg) **[!UICONTROL Clear]**&#x200B;을(를) 사용하여 모든 필터와 검색 필드를 지웁니다.
 
 테이블 열은 데이터 세트 규칙에 대한 세부 사항을 지정합니다.
 
@@ -82,38 +91,38 @@ Mix Modeler 인터페이스에서 사용 가능한 데이터 세트 규칙 표�
 
    * 선택한 조화로운 필드가 유형 지표인 경우:
 
-      1. **[!UICONTROL Mapping type]**&#x200B;에서 **[!UICONTROL Count]** 또는 **[!UICONTROL Sum]**&#x200B;을(를) 선택합니다.
+     1. **[!UICONTROL Mapping type]**&#x200B;에서 **[!UICONTROL Count]** 또는 **[!UICONTROL Sum]**&#x200B;을(를) 선택합니다.
 
-      1. 기본적으로 통합 필드를 매핑할 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**&#x200B;를 선택하십시오.
+     1. 기본적으로 통합 필드를 매핑할 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**&#x200B;를 선택하십시오.
 
    * 선택한 필드가 차원 유형인 경우:
 
-      1. **[!UICONTROL Mapping type]**&#x200B;에서 **[!UICONTROL Map Into]** 또는 **[!UICONTROL Case]**&#x200B;을(를) 선택합니다.
+     1. **[!UICONTROL Mapping type]**&#x200B;에서 **[!UICONTROL Map Into]** 또는 **[!UICONTROL Case]**&#x200B;을(를) 선택합니다.
 
-      1. **[!UICONTROL Map Into]**&#x200B;을(를) 선택한 경우 **[!UICONTROL Field]**&#x200B;과(와) **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**&#x200B;또는&#x200B;**[!UICONTROL Value]**&#x200B;을(를) 선택하고 기본적으로 조화 필드를 데이터 세트 필드 또는 입력된 값에 매핑합니다.
+     1. **[!UICONTROL Map Into]**&#x200B;을(를) 선택한 경우 **[!UICONTROL Field]**&#x200B;과(와) **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**&#x200B;또는&#x200B;**[!UICONTROL Value]**&#x200B;을(를) 선택하고 기본적으로 조화 필드를 데이터 세트 필드 또는 입력된 값에 매핑합니다.
 
-      1. **[!UICONTROL Case]**&#x200B;을(를) 선택한 경우 **[!UICONTROL Field]** 및 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**&#x200B;또는&#x200B;**[!UICONTROL Value]**&#x200B;을(를) 선택하고 기본적으로 조화 필드를 데이터 세트 필드 또는 입력된 값에 매핑합니다.
+     1. **[!UICONTROL Case]**&#x200B;을(를) 선택한 경우 **[!UICONTROL Field]** 및 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**&#x200B;또는&#x200B;**[!UICONTROL Value]**&#x200B;을(를) 선택하고 기본적으로 조화 필드를 데이터 세트 필드 또는 입력된 값에 매핑합니다.
 
-         1. 값을 명시적으로 설정하려면 하나 이상의 조건으로 구성된 하나 이상의 사례를 정의합니다. 각 조건은 특정 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**&#x200B;에 대해&#x200B;**[!UICONTROL Exists]**&#x200B;또는&#x200B;**[!UICONTROL Not Exists]**&#x200B;인지 또는&#x200B;**[!UICONTROL *&#x200B;입력 값 입력&#x200B;*]**&#x200B;에 입력한 값이 **[!UICONTROL Contains]**, **[!UICONTROL Not Contains]**, **[!UICONTROL Equals]**, **[!UICONTROL Not Equals]**, **[!UICONTROL Starts With]** 또는 **[!UICONTROL Ends With]**&#x200B;인지 여부를 확인할 수 있습니다.
+        1. 값을 명시적으로 설정하려면 하나 이상의 조건으로 구성된 하나 이상의 사례를 정의합니다. 각 조건은 특정 **[!UICONTROL *AEP 데이터 세트 필드&#x200B;*]**&#x200B;에 대해&#x200B;**[!UICONTROL Exists]**&#x200B;또는&#x200B;**[!UICONTROL Not Exists]**&#x200B;인지 또는&#x200B;**[!UICONTROL *&#x200B;입력 값 입력&#x200B;*]**&#x200B;에 입력한 값이 **[!UICONTROL Contains]**, **[!UICONTROL Not Contains]**, **[!UICONTROL Equals]**, **[!UICONTROL Not Equals]**, **[!UICONTROL Starts With]** 또는 **[!UICONTROL Ends With]**&#x200B;인지 여부를 확인할 수 있습니다.
 
-         1. 다른 서비스 케이스를 추가하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**&#x200B;를 선택하고 다른 조건을 추가하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**&#x200B;를 선택합니다.
+        1. 다른 서비스 케이스를 추가하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**&#x200B;를 선택하고 다른 조건을 추가하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**&#x200B;를 선택합니다.
 
-         1. 서비스 케이스 또는 조건을 삭제하려면 해당 컨테이너에서 ![닫기](/help/assets/icons/Close.svg)를 선택합니다.
+        1. 서비스 케이스 또는 조건을 삭제하려면 해당 컨테이너에서 ![닫기](/help/assets/icons/Close.svg)를 선택합니다.
 
-         1. 서비스 케이스에 조건을 적용할지 또는 모두 적용할지 여부를 선택하려면 **[!UICONTROL Any of]** 또는 **[!UICONTROL All of]**&#x200B;을(를) 선택하십시오.
+        1. 서비스 케이스에 조건을 적용할지 또는 모두 적용할지 여부를 선택하려면 **[!UICONTROL Any of]** 또는 **[!UICONTROL All of]**&#x200B;을(를) 선택하십시오.
 
-         1. 사례에 대한 결과 값을 설정하려면 **[!UICONTROL Then]**&#x200B;에 값을 입력하십시오.
+        1. 사례에 대한 결과 값을 설정하려면 **[!UICONTROL Then]**&#x200B;에 값을 입력하십시오.
 
      아래 예:
 
-      * **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]**&#x200B;을(를) 사용하여 **[!UICONTROL Channel Type At Source]** harmonized 필드를 **[!DNL Luma Transactions]** 데이터 세트의 **[!UICONTROL channel_type]** 필드에 매핑합니다.
+     * **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]**&#x200B;을(를) 사용하여 **[!UICONTROL Channel Type At Source]** harmonized 필드를 **[!DNL Luma Transactions]** 데이터 세트의 **[!UICONTROL channel_type]** 필드에 매핑합니다.
 
-      * **[!UICONTROL Case]** **[!UICONTROL Mapping type]**&#x200B;을(를) 사용하여 **[!DNL Luma Transactions]** 데이터 집합에 있는 **[!UICONTROL marketing.campaignName]** 필드의 값을 **[!UICONTROL Campaign]** 조화 필드에 조건부로 매핑합니다. Campaign harmonized 필드가 다음으로 설정됨:
+     * **[!UICONTROL Case]** **[!UICONTROL Mapping type]**&#x200B;을(를) 사용하여 **[!DNL Luma Transactions]** 데이터 집합에 있는 **[!UICONTROL marketing.campaignName]** 필드의 값을 **[!UICONTROL Campaign]** 조화 필드에 조건부로 매핑합니다. Campaign harmonized 필드가 다음으로 설정됨:
 
-         * **[!UICONTROL marketing.campaignName]**&#x200B;이(가) `_black_friday` 또는 `BlackFriday`인 경우 `Black Friday`.
-         * 다른 모든 경우에는 **[!UICONTROL marketing.campaignName]**&#x200B;의 값으로 설정됩니다.
+       * **[!UICONTROL marketing.campaignName]**&#x200B;이(가) `_black_friday` 또는 `BlackFriday`인 경우 `Black Friday`.
+       * 다른 모든 경우에는 **[!UICONTROL marketing.campaignName]**&#x200B;의 값으로 설정됩니다.
 
-        ![데이터 집합 규칙 이벤트](/help/assets/dataset-create-event.png)
+       ![데이터 집합 규칙 이벤트](/help/assets/dataset-create-event.png)
 
 1. 추가 필드를 정의하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**&#x200B;을(를) 선택하십시오.
 
@@ -279,19 +288,19 @@ Mix Modeler 인터페이스에서 사용 가능한 데이터 세트 규칙 표�
 
    * 특정 지표 기반 환경 설정을 추가하려면 다음 작업을 수행하십시오.
 
-      1. ![더하기](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**&#x200B;을(를) 선택합니다.
-         1. **[!UICONTROL *지표 선택&#x200B;*]**&#x200B;목록에서 지표를 선택합니다.
-         1. **[!UICONTROL CHANNELS]** 또는&#x200B;**[!UICONTROL CONVERSION TYPES]**&#x200B;를 선택합니다. 목록에서 **[!UICONTROL All]** 또는 특정 채널 또는 전환 유형을 선택합니다.
-         1. 데이터를 병합할 때 지표(및 모든 또는 선택한 채널)에 대해 요약 데이터나 이벤트 데이터를 선호하는지 여부를 지정하려면 **[!UICONTROL Summary]** 또는 **[!UICONTROL Event]**&#x200B;을(를) 선택하십시오.
+     1. ![더하기](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**&#x200B;을(를) 선택합니다.
+        1. **[!UICONTROL *지표 선택&#x200B;*]**&#x200B;목록에서 지표를 선택합니다.
+        1. **[!UICONTROL CHANNELS]** 또는&#x200B;**[!UICONTROL CONVERSION TYPES]**&#x200B;를 선택합니다. 목록에서 **[!UICONTROL All]** 또는 특정 채널 또는 전환 유형을 선택합니다.
+        1. 데이터를 병합할 때 지표(및 모든 또는 선택한 채널)에 대해 요약 데이터나 이벤트 데이터를 선호하는지 여부를 지정하려면 **[!UICONTROL Summary]** 또는 **[!UICONTROL Event]**&#x200B;을(를) 선택하십시오.
 
-         하나 이상의 채널 또는 전환 유형을 추가하려면 다음을 수행합니다.
+        하나 이상의 채널 또는 전환 유형을 추가하려면 다음을 수행합니다.
 
-         1. ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** 또는 ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**&#x200B;을(를) 선택하십시오.
-         1. **[!UICONTROL Summary]** 또는&#x200B;**[!UICONTROL Event]**&#x200B;를 선택합니다.
+        1. ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** 또는 ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**&#x200B;을(를) 선택하십시오.
+        1. **[!UICONTROL Summary]** 또는&#x200B;**[!UICONTROL Event]**&#x200B;를 선택합니다.
 
-         채널 또는 전환 유형을 삭제하려면 ![교차](/help/assets/icons/Close.svg)를 선택하세요.
+        채널 또는 전환 유형을 삭제하려면 ![교차](/help/assets/icons/Close.svg)를 선택하세요.
 
-      1. 더 구체적인 지표 기반 환경 설정을 추가하려면 이전 단계를 반복합니다.
+     1. 더 구체적인 지표 기반 환경 설정을 추가하려면 이전 단계를 반복합니다.
 
    * 기존의 특정 지표 기반 환경 설정을 삭제하려면 ![삭제](/help/assets/icons/Delete.svg)를 선택하십시오.
 
