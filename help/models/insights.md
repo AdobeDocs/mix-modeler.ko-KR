@@ -5,21 +5,14 @@ feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 TQID: https://experienceleague.adobe.com/Ml1WZzjI8bruwu0xV5r6Y9DY34aZad-nMhUMoIObIow
 autotag-review: '2026-05-01T08:59:31.397Z'
-product_v2:
-  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2:
-  - id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2:
-  - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2: id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
 workflow-type: tm+mt
-source-wordcount: 2896
+source-wordcount: 2957
 ht-degree: 11%
 
 ---
@@ -86,7 +79,13 @@ ht-degree: 11%
 
 ### 채널별 기여도
 
-다양한 채널별 기여도 분포를 보여 주는 도넛 시각화입니다. 이 시각화는 상위 3개 성능 채널의 렌즈를 통해 증분(기본 및 *다른 항목*&#x200B;개 범주 제외)을 보여 줍니다. 시각화는 우선 순위 지정 및 예산 할당을 지원하는 데 도움이 됩니다.
+다양한 채널별 기여도 분포를 보여 주는 도넛 시각화입니다. 이 시각화는 상위 성능 채널의 렌즈를 통해 증분 상태를 보여 줍니다. 시각화는 우선 순위 지정 및 예산 할당을 지원하는 데 도움이 됩니다.
+
+시각화에 표시할 미디어 채널을 선택할 수 있습니다.
+
+* 유료 미디어 채널의 기여도에만 집중하려면 **[!UICONTROL Paid media]**&#x200B;을(를) 선택하십시오.
+* 모든 채널의 기여도를 보려면 **[!UICONTROL All media]**&#x200B;을(를) 선택하십시오.
+
 
 ### 마케팅 성과 요약 {#marketing-performance-summary}
 
@@ -96,6 +95,11 @@ ht-degree: 11%
 >abstract="정의되지 않은 채널은 포함되지만 속성 전환은 없습니다."
 
 각 채널별 ROI 또는 CPA 성능을 표시하는 가로 막대 그래프 시각화. 이 시각화는 마케팅 투자의 ROI/CPA를 강조 표시합니다. 채널은 ROI/CPA를 기반으로 내림차순으로 순위가 매겨집니다. 시각화는 가장 효과적인 채널과 최적화가 필요할 수 있는 채널을 식별하는 데 도움이 됩니다.
+
+수익 기반 모델의 경우
+
+* 시각화에 원하는 **[!UICONTROL Metric]**&#x200B;을(를) 구성하려면 **[!UICONTROL ROI]**(수익 - 지출)/지출) 또는 **[!UICONTROL ROAS]**(수익/지출) 중에서 선택합니다.
+* 선택한 지표가 표시되는 방식을 구성하려면 **[!UICONTROL Show as]**&#x200B;에 대해 **[!UICONTROL %]** 또는 **[!UICONTROL $]** 중에서 선택하십시오.
 
 정의되지 않은 채널은 시각화에 포함되지만 속성 전환은 없습니다.
 
@@ -243,20 +247,20 @@ ht-degree: 11%
 지원되는 속성 모델은 다음과 같습니다.
 
 * [!DNL Mix Modeler]에서 선택한 모델을 기반으로 합니다.
-   * 알고리즘 - 영향
-   * 알고리즘 - 증분
+  * 알고리즘 - 영향
+  * 알고리즘 - 증분
 * 규칙 기반:
-   * 가치 감소 단위
-   * 첫 번째 터치
-   * 마지막 터치
-   * 선형
-   * U자형
+  * 가치 감소 단위
+  * 첫 번째 터치
+  * 마지막 터치
+  * 선형
+  * U자형
 
 [!DNL Mix Modeler]의 다중 터치 속성 기능에 대한 소개는 [다중 터치 속성](../get-started/about.md#multi-touch-attribution)을 참조하십시오.
 
 **[!UICONTROL Attribution Model]** 드롭다운 메뉴에서 속성 모델을 하나 이상 선택합니다. 선택한 속성 모델은 속성 탭의 모든 시각화에 적용됩니다.
 
-![속성](/help/assets/model-insights-attribution.png)
+![특성](/help/assets/model-insights-attribution.png)
 
 Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 [!DNL Mix Modeler] 점수 및 ROI에 맞게 조정됩니다. 이러한 점수는 Experience Platform에서 데이터 세트로 사용할 수도 있습니다.
 
@@ -379,21 +383,21 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 [!DNL M
 
   ![모델 평가](../assets/model-assessment.png)
 
-   * 실제 변환과 예측 또는 잔차 변환을 분류할 수 있는 그래프입니다.
-시각화를 분류하려면 **[!UICONTROL Breakdown]** 목록에서 다음 옵션 중 하나를 선택하십시오.
+  * 실제 변환과 예측 또는 잔차 변환을 분류할 수 있는 그래프입니다.
+    시각화를 분류하려면 **[!UICONTROL Breakdown]** 목록에서 다음 옵션 중 하나를 선택하십시오.
 
-      * **[!UICONTROL Actual vs Predicted]**: 이 옵션은 실제 값을 모델 예측과 비교합니다. 이상적으로, 예측된 값은 실제 값과 밀접하게 정렬되어야 하지만, 약간의 편차가 예상된다. 큰 또는 체계적인 편차 또는 패턴은 누락된 관계 및 데이터 또는 잠재적인 편향을 나타낼 수 있다.
+    * **[!UICONTROL Actual vs Predicted]**: 이 옵션은 실제 값을 모델 예측과 비교합니다. 이상적으로, 예측된 값은 실제 값과 밀접하게 정렬되어야 하지만, 약간의 편차가 예상된다. 큰 또는 체계적인 편차 또는 패턴은 누락된 관계 및 데이터 또는 잠재적인 편향을 나타낼 수 있다.
 
-      * **[!UICONTROL Residuals]**: 이 옵션은 실제 값과 예측된 값의 차이를 표시합니다. 성과가 좋은 모델은 명확한 패턴이나 스프레드의 증가 없이 무작위로 분포된 잔차를 갖는다. 구조화된 트렌드 또는 확장 잔차는 누락된 관계 및 데이터 또는 분산 문제를 나타낼 수 있습니다.
+    * **[!UICONTROL Residuals]**: 이 옵션은 실제 값과 예측된 값의 차이를 표시합니다. 성과가 좋은 모델은 명확한 패턴이나 스프레드의 증가 없이 무작위로 분포된 잔차를 갖는다. 구조화된 트렌드 또는 확장 잔차는 누락된 관계 및 데이터 또는 분산 문제를 나타낼 수 있습니다.
 
-   * 각 전환 지표에 대한 다음 열을 보여주는 표
+  * 각 전환 지표에 대한 다음 열을 보여주는 표
 
-      * **[!UICONTROL Actual Conversion]**
-      * **[!UICONTROL Predicted Conversion]**
-      * **[!UICONTROL Residual Conversion]**
-      * **[!UICONTROL R<sup>2</sup>]**, 데이터가 회귀 모델(적합도)에 얼마나 잘 맞는지 알려주는 점수입니다.
-      * **[!UICONTROL MAPE]**(평균 절대 백분율 오류): 예측 정확도를 측정하기 위해 가장 일반적으로 사용되는 KPI 중 하나이며 예측 오류를 실제 값의 백분율로 표시합니다.
-      * **[!UICONTROL RMSE]**(제곱 평균 제곱근 오류): 평균 오류를 나타내며 오류의 제곱에 따라 가중치가 적용됩니다.
+    * **[!UICONTROL Actual Conversion]**
+    * **[!UICONTROL Predicted Conversion]**
+    * **[!UICONTROL Residual Conversion]**
+    * **[!UICONTROL R<sup>2</sup>]**, 데이터가 회귀 모델(적합도)에 얼마나 잘 맞는지 알려주는 점수입니다.
+    * **[!UICONTROL MAPE]**(평균 절대 백분율 오류): 예측 정확도를 측정하기 위해 가장 일반적으로 사용되는 KPI 중 하나이며 예측 오류를 실제 값의 백분율로 표시합니다.
+    * **[!UICONTROL RMSE]**(제곱 평균 제곱근 오류): 평균 오류를 나타내며 오류의 제곱에 따라 가중치가 적용됩니다.
 
   테이블에 대한 데이터가 포함된 CSV 파일을 다운로드하려면 ![다운로드](/help/assets/icons/Download.svg)를 선택합니다.
 
@@ -401,11 +405,11 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 [!DNL M
 
   ![모델 교육 맞춤 지표 테이블](../assets/model-training-fit-metrics.png)
 
-   * **[!UICONTROL Training R<sup>2</sup>]**: 모델의 예측으로 설명한 실제 값의 분산 비율을 나타냅니다(0 ~ 1 범위).
-   * **[!UICONTROL Training sMAPE]**(대칭 평균 절대 백분율 오류): 교육 데이터에 대한 평균 백분율 오류를 측정합니다. 값이 낮을수록 정확도가 향상됩니다.
-   * **[!UICONTROL Training RMSE]**(제곱 평균 제곱근 오류): 교육 데이터에 대한 평균 백분율 오류를 측정합니다. MAPE보다 더 큰 오류를 처벌합니다. 낮은 RMSE는 더 나은 예측 정확도를 시사하지만 이상치에 민감하다.
-   * **[!UICONTROL Out-of-sample sMAPE]**: 확인되지 않은 데이터에 대해 백분율 오류를 평가하여 초과 및 미만 예측의 균형을 조정합니다. 일반화를 평가하는 데 도움이 됩니다. 현재 Mix Modeler은 교육 데이터의 마지막 분기를 보류 집합으로 사용하여 백분율 오류를 평가합니다.
-   * **[!UICONTROL Out-of-sample RMSE]**: 확인되지 않은 데이터에 대해 백분율 오류를 평가하여 초과 및 미만 예측의 균형을 조정합니다. 일반화를 평가하는 데 도움이 됩니다. 현재 [!DNL Mix Modeler]은(는) 보류 집합으로 교육 데이터의 마지막 분기를 사용하여 백분율 오류를 평가합니다. RMSE는 MAPE보다 더 큰 오류를 처벌합니다.
+  * **[!UICONTROL Training R<sup>2</sup>]**: 모델의 예측으로 설명한 실제 값의 분산 비율을 나타냅니다(0 ~ 1 범위).
+  * **[!UICONTROL Training sMAPE]**(대칭 평균 절대 백분율 오류): 교육 데이터에 대한 평균 백분율 오류를 측정합니다. 값이 낮을수록 정확도가 향상됩니다.
+  * **[!UICONTROL Training RMSE]**(제곱 평균 제곱근 오류): 교육 데이터에 대한 평균 백분율 오류를 측정합니다. MAPE보다 더 큰 오류를 처벌합니다. 낮은 RMSE는 더 나은 예측 정확도를 시사하지만 이상치에 민감하다.
+  * **[!UICONTROL Out-of-sample sMAPE]**: 확인되지 않은 데이터에 대해 백분율 오류를 평가하여 초과 및 미만 예측의 균형을 조정합니다. 일반화를 평가하는 데 도움이 됩니다. 현재 Mix Modeler은 교육 데이터의 마지막 분기를 보류 집합으로 사용하여 백분율 오류를 평가합니다.
+  * **[!UICONTROL Out-of-sample RMSE]**: 확인되지 않은 데이터에 대해 백분율 오류를 평가하여 초과 및 미만 예측의 균형을 조정합니다. 일반화를 평가하는 데 도움이 됩니다. 현재 [!DNL Mix Modeler]은(는) 보류 집합으로 교육 데이터의 마지막 분기를 사용하여 백분율 오류를 평가합니다. RMSE는 MAPE보다 더 큰 오류를 처벌합니다.
 
 
 * 기여도 AI 알고리즘 모델의 결과를 나타내는 **[!UICONTROL Touchpoint effectiveness]** 테이블입니다.
@@ -416,9 +420,9 @@ Mix Modeler 멀티 터치 속성 세분화된 이벤트 점수는 전체 [!DNL M
 
   시각화는 각 터치포인트에 대해 내림차순 [!UICONTROL Efficiency measure] ![내림차순](/help/assets/icons/SortOrderDown.svg)으로 표시됩니다.
 
-   * **[!UICONTROL Paths touched]**: 전환된 경로의 비율과 전환되지 않은 경로의 비율을 시각화합니다. 접점의 경우 속성 전환율이 높으면 더 많은 속성 전환을 볼 수 있습니다. 이 비율은 전환으로 이어지는 경로의 비율과 전환으로 이어지는 *아닌*&#x200B;경로의 비율을 비교합니다.
-   * **[!UICONTROL Efficiency measure]**: 알고리즘 속성 모델에 의해 생성된 효율성 측정은 접점 볼륨에 관계없이 전환에 대한 접점의 상대적 중요성을 나타냅니다. 효율은 1~5의 척도로 측정됩니다. 접점 볼륨이 높다고 해서 효율성 측정이 높아지는 것은 아닙니다.
-   * **[!UICONTROL Total volume]**: 사용자가 터치포인트를 터치한 총 횟수입니다. 이 숫자는 전환을 수행하는 경로와 전환을 수행하는 경로 *not*&#x200B;에 표시되는 터치포인트를 포함합니다.
+  * **[!UICONTROL Paths touched]**: 전환된 경로의 비율과 전환되지 않은 경로의 비율을 시각화합니다. 접점의 경우 속성 전환율이 높으면 더 많은 속성 전환을 볼 수 있습니다. 이 비율은 전환으로 이어지는 경로의 비율과 전환으로 이어지는 *아닌*&#x200B;경로의 비율을 비교합니다.
+  * **[!UICONTROL Efficiency measure]**: 알고리즘 속성 모델에 의해 생성된 효율성 측정은 접점 볼륨에 관계없이 전환에 대한 접점의 상대적 중요성을 나타냅니다. 효율은 1~5의 척도로 측정됩니다. 접점 볼륨이 높다고 해서 효율성 측정이 높아지는 것은 아닙니다.
+  * **[!UICONTROL Total volume]**: 사용자가 터치포인트를 터치한 총 횟수입니다. 이 숫자는 전환을 수행하는 경로와 전환을 수행하는 경로 *not*&#x200B;에 표시되는 터치포인트를 포함합니다.
 
 
 ### 모델 드리프트 감지

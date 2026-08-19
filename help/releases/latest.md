@@ -5,30 +5,32 @@ feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
 TQID: https://experienceleague.adobe.com/8o2hpkneIUMbBNEZfw9TsQLaGuPOxqF-XA2TV9cJnqc
-product_v2:
-  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2:
-  - id: ca6bcd6f-f5ca-4e5f-a5ae-7dce7177bde9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: ca6bcd6f-f5ca-4e5f-a5ae-7dce7177bde9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: '2026-05-01T09:06:55.437Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 1e6444e672e85d9f3f666bc865d020fb67c45b09
 workflow-type: tm+mt
-source-wordcount: 435
-ht-degree: 5%
+source-wordcount: 524
+ht-degree: 6%
 
 ---
 
 # 최신 Mix Modeler 릴리스 정보
 
-**마지막 업데이트**: 2026년 2월 26일.
+**마지막 업데이트**: 2026년 8월 19일.
 
 이 릴리스 노트는 Mix Modeler의 최신 릴리스를 다룹니다. Mix Modeler 릴리스는 연속 게재 모델에서 작동하므로 대략적인 월별 릴리스 케이던스를 사용할 수 있습니다. 따라서 이 릴리스 정보는 업데이트되므로 정기적으로 확인하십시오.
+
+## 2026년 8월
+
+| 기능 | 설명 | [롤아웃 시작](#release-strategy) | [일반 가용성](#release-strategy) |
+|---|---|---|---|
+| **데이터 세트 규칙 필터링** | 조화된 데이터 세트 구성에서 [소스, 세부 기간 및 주의 시작에 대한 데이터 세트 규칙을 필터링할 수 있습니다](/help/harmonize-data/dataset-rules.md#manage-dataset-rules). | 2026년 8월 19일 | 2026년 8월 19일 |
+| **유료 미디어 채널 포커스** | 모델 인사이트에서 [유료 미디어 채널 기여도에 집중](/help/models/insights.md#contribution-by-channel)하도록 선택할 수 있습니다. | 2026년 8월 19일 | 2026년 8월 19일 |
+| **마케팅 성능 요약 구성** | Models Insights의 매출 기반 모델의 마케팅 성능 요약에 대해 [지표와 지표가 표시되는 방식을 선택](/help/models/insights.md#marketing-performance-summary)할 수 있습니다. | 2026년 8월 19일 | 2026년 8월 19일 |
+
 
 ## 2026년 3월
 
