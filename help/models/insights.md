@@ -7,23 +7,28 @@ TQID: https://experienceleague.adobe.com/Ml1WZzjI8bruwu0xV5r6Y9DY34aZad-nMhUMoIO
 autotag-review: '2026-05-01T08:59:31.397Z'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
+    internal-label: Insights
+source-git-commit: 4c3c5548ced77cf84daf5cd8eb6708bfbc3dbb48
 workflow-type: tm+mt
-source-wordcount: 2957
+source-wordcount: '2951'
 ht-degree: 11%
-
 ---
-
 # 모델 인사이트
 
 모델 인사이트의 각 시각화는 다음을 수행하는 데 도움이 되도록 설계되었습니다.
@@ -235,7 +240,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbychannel"
 >title="채널별 분류"
->abstract="**[!UICONTROL Breakdown by channel]**&#x200B;은(는) 고객 경험 이벤트 스키마를 기반으로 정의된 접점에 대한 채널 유형별 분류입니다. 터치 포인트별 분류를 표시하려면 ![자세히](https://spectrum.adobe.com/static/icons/workflow_18/Smock_MoreSmallList_18_N.svg) 및 **[!UICONTROL Breakdown by touchpoint]**&#x200B;을(를) 선택하십시오."
+>abstract="**[!UICONTROL Breakdown by channel]**&#x200B;은(는) 고객 경험 이벤트 스키마를 기반으로 정의된 접점에 대한 채널 유형별 분류입니다. 터치 포인트별 분류를 표시하려면 ![자세히](/help/assets/icons/More.svg) 및 **[!UICONTROL Breakdown by touchpoint]**&#x200B;을(를) 선택하십시오."
 
 
 >[!CONTEXTUALHELP]
