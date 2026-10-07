@@ -47,7 +47,7 @@ Experience Platform 데이터 거버넌스는 Experience Platform을 통해 데�
 
 Experience Platform에서 사용하는 데이터 세트에 생성된 데이터 사용 레이블 및 정책은 해당되는 경우 Mix Modeler에서 표시됩니다. 예를 들어 이러한 레이블은 조화된 데이터의 데이터 세트 규칙에 속하는 데이터 세트를 삭제할 때 사용자를 중지하거나 경고합니다. 또는 데이터 세트 규칙을 만들 때 사용자에 대해 제한된 스키마 필드를 숨깁니다.
 
-데이터 거버넌스 통합을 통해 규정 준수를 보다 효율적으로 관리할 수 있습니다. 조직의 데이터 관리자는 사용을 제한하는 정책을 설정할 수 있습니다. 따라서 데이터 관리자에 의해 정의된 정책을 준수하는 데이터를 사용할 수 있습니다. 자세한 내용은 [레이블 및 정책](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance)에 대한 설명서를 읽어 보십시오.
+데이터 거버넌스 통합을 통해 규정 준수를 보다 효율적으로 관리할 수 있습니다. 조직의 데이터 관리자는 사용을 제한하는 정책을 설정할 수 있습니다. 따라서 데이터 관리자에 의해 정의된 정책을 준수하는 데이터를 사용할 수 있습니다. 자세한 내용은 [레이블 및 정책](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-governance)에 대한 설명서를 읽어 보십시오.
 
 다음 데이터 거버넌스 기능을 사용할 수 있습니다.
 
