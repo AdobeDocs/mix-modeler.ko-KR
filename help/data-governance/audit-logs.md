@@ -3,30 +3,40 @@ title: 감사 로그
 description: Mix Modeler에서 감사 로그에 액세스하는 방법을 알아봅니다.
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-TQID: https://experienceleague.adobe.com/SVw4XFGpjHu5B5awcf9L-LH-IMEMrMmReACYo3-fSb0
+autotag-review: '2026-05-01T09:16:13.122Z'
+TQID: 'https://experienceleague.adobe.com/SVw4XFGpjHu5B5awcf9L-LH-IMEMrMmReACYo3-fSb0'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
+    internal-label: Data governance
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
 subfeature_v2:
   - id: bf7ac0fc-effb-4f0c-b93f-658412718d3c
+    internal-label: Audits
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-autotag-review: '2026-05-01T09:16:13.122Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Privacy
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 488
-ht-degree: 4%
-
+source-wordcount: '488'
+ht-degree: 6%
 ---
-
 # 감사 로그
 
 시스템에서 수행되는 활동의 투명성과 가시성을 높이기 위해 Mix Modeler 워크플로우 내의 사용자 활동을 Experience Platform 감사 로그에 캡처하여 Mix Modeler 범주에 대한 사용자 중심의 변경 사항을 파악합니다. 이러한 로그는 문제 해결에 도움이 될 수 있는 감사 추적을 형성하며, 기업이 기업 데이터 관리 정책 및 규정 요구 사항을 효과적으로 준수하는 데 도움이 될 수 있습니다.

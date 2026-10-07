@@ -3,27 +3,36 @@ title: Harmonized data dashboard
 description: Mix Modeler의 Harmonized Data Overview 대시보드를 사용하는 방법에 대해 알아봅니다.
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-TQID: https://experienceleague.adobe.com/umAqsiCgpFt4eLBuWPJahtwglXaQKD-iv91yCazIbkE
 autotag-review: '2026-05-01T09:17:34.958Z'
+TQID: 'https://experienceleague.adobe.com/umAqsiCgpFt4eLBuWPJahtwglXaQKD-iv91yCazIbkE'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
 subfeature_v2:
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+    internal-label: Conversions
   - id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
+    internal-label: Marketing touchpoints
+  - id: c564971c-1597-4a46-a354-33d74ee8a5d1
+    internal-label: Dashboard
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Insights
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 298
+source-wordcount: '298'
 ht-degree: 0%
-
 ---
-
 # 조화 데이터
 
 Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;의 **[!UICONTROL Harmonized data]** 탭은 수집된 데이터 및 조정된 데이터 설정의 일부로 사용하도록 구성한 조정된 데이터에 대한 통찰력을 제공합니다.
@@ -53,31 +62,31 @@ Mix Modeler ![Home](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200
 
 * KPI 상태 카드 시각화에서:
 
-   1. 컨텍스트 메뉴에서 ![편집](/help/assets/icons/Edit.svg) 및 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL Edit data]**&#x200B;을(를) 선택합니다.
+  1. 컨텍스트 메뉴에서 ![편집](/help/assets/icons/Edit.svg) 및 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL Edit data]**&#x200B;을(를) 선택합니다.
 
-   1. **[!UICONTROL KPI status card]** 대화 상자에서:
+  1. **[!UICONTROL KPI status card]** 대화 상자에서:
 
-      1. 목록에서 **[!UICONTROL KPI]**&#x200B;을(를) 선택하십시오.
+     1. 목록에서 **[!UICONTROL KPI]**&#x200B;을(를) 선택하십시오.
 
-      1. 변경 내용을 카드에 적용하려면 **[!UICONTROL Apply]**&#x200B;을(를) 선택하십시오. 변경을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
+     1. 변경 내용을 카드에 적용하려면 **[!UICONTROL Apply]**&#x200B;을(를) 선택하십시오. 변경을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
 
 * 구성 가능한 다른 시각화 요소에서는
 
-   1. 컨텍스트 메뉴에서 ![편집](/help/assets/icons/Edit.svg) 및 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL Edit data]**&#x200B;을(를) 선택합니다.
+  1. 컨텍스트 메뉴에서 ![편집](/help/assets/icons/Edit.svg) 및 ![편집](/help/assets/icons/Edit.svg) **[!UICONTROL Edit data]**&#x200B;을(를) 선택합니다.
 
-   1. **[!UICONTROL Edit Data]** 대화 상자에서:
+  1. **[!UICONTROL Edit Data]** 대화 상자에서:
 
-      1. **[!UICONTROL Select a metric]**&#x200B;에서 지표(예: **[!UICONTROL Impressions]**)를 선택하십시오.
-      1. **[!UICONTROL Select category]**&#x200B;에서 범주(예: **[!UICONTROL Media types]**)를 선택하십시오.
-      1. (선택 사항) **[!UICONTROL Select second category (optional)]**&#x200B;에서 두 번째 범주를 선택합니다(예: **[!UICONTROL Traffic sources]**).
-      1. **[!UICONTROL Select analysis type]**&#x200B;에서 분석 유형으로 ![시계](/help/assets/icons/Clock.svg) **[!UICONTROL Time]** 또는 ![계산기](/help/assets/icons/Calculator.svg) **[!UICONTROL Total]**&#x200B;을(를) 선택하십시오.
+     1. **[!UICONTROL Select a metric]**&#x200B;에서 지표(예: **[!UICONTROL Impressions]**)를 선택하십시오.
+     1. **[!UICONTROL Select category]**&#x200B;에서 범주(예: **[!UICONTROL Media types]**)를 선택하십시오.
+     1. (선택 사항) **[!UICONTROL Select second category (optional)]**&#x200B;에서 두 번째 범주를 선택합니다(예: **[!UICONTROL Traffic sources]**).
+     1. **[!UICONTROL Select analysis type]**&#x200B;에서 분석 유형으로 ![시계](/help/assets/icons/Clock.svg) **[!UICONTROL Time]** 또는 ![계산기](/help/assets/icons/Calculator.svg) **[!UICONTROL Total]**&#x200B;을(를) 선택하십시오.
 
-         ![시계](/help/assets/icons/Clock.svg) **[!UICONTROL Time]**&#x200B;을(를) 선택하는 경우 시간 빈도를 지정할 수 있습니다. **[!UICONTROL Select time frequency]**&#x200B;에서 **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** 또는 **[!UICONTROL Quarterly]** 선택
+        ![시계](/help/assets/icons/Clock.svg) **[!UICONTROL Time]**&#x200B;을(를) 선택하는 경우 시간 빈도를 지정할 수 있습니다. **[!UICONTROL Select time frequency]**&#x200B;에서 **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** 또는 **[!UICONTROL Quarterly]** 선택
 
-         [!UICONTROL Preview Area]에서 현재 선택 항목의 업데이트된 미리 보기와 [!UICONTROL Current] 아래에 현재 시각화가 표시됩니다.
+        [!UICONTROL Preview Area]에서 현재 선택 항목의 업데이트된 미리 보기와 [!UICONTROL Current] 아래에 현재 시각화가 표시됩니다.
 
-         ![통합 데이터 위젯 편집](/help/assets/edit-harmonized-data-widget.png)
+        ![통합 데이터 위젯 편집](/help/assets/edit-harmonized-data-widget.png)
 
-         데이터를 사용할 수 없어 미리 보기를 렌더링할 수 없는 경우 ![데이터 오류](/help/assets/icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available]이(가) 표시됩니다.
+        데이터를 사용할 수 없어 미리 보기를 렌더링할 수 없는 경우 ![데이터 오류](/help/assets/icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available]이(가) 표시됩니다.
 
-      1. **[!UICONTROL Apply]**&#x200B;을(를) 선택하여 시각화에 변경 내용을 적용합니다. 현재 시각화에 대한 변경 내용을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
+     1. **[!UICONTROL Apply]**&#x200B;을(를) 선택하여 시각화에 변경 내용을 적용합니다. 현재 시각화에 대한 변경 내용을 취소하려면 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.

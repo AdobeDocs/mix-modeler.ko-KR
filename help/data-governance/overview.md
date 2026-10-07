@@ -3,31 +3,42 @@ title: 데이터 거버넌스 개요
 description: 수집된 경험 데이터를 제어할 수 있는 Experience Platform의 서비스 및 도구를 사용하는 방법을 알아봅니다. 따라서 비즈니스 관행, 법적 의무 및 개발 프로세스를 준수합니다.
 feature: Administration
 exl-id: 87407c29-e158-48bf-bde9-b3c16a16107e
-TQID: https://experienceleague.adobe.com/vc5z266rexOpAuR1HJCj-ltOLZmkccBDvfi8JUsuiJ4
+autotag-review: '2026-05-01T09:16:50.195Z'
+TQID: 'https://experienceleague.adobe.com/vc5z266rexOpAuR1HJCj-ltOLZmkccBDvfi8JUsuiJ4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: f6633d1c-3d2d-4f48-95d4-4bbc9913db52
+    internal-label: Data governance
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
 subfeature_v2:
   - id: bf7ac0fc-effb-4f0c-b93f-658412718d3c
+    internal-label: Audits
   - id: fd80ec6b-9b9e-448a-a6d0-b0c9a15da6b8
+    internal-label: Policies
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-autotag-review: '2026-05-01T09:16:50.195Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Privacy
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 462
+source-wordcount: '462'
 ht-degree: 3%
-
 ---
-
 # 데이터 거버넌스 개요
 
 Mix Modeler과 Experience Platform 간의 통합은 Mix Modeler에 Experience Platform의 고유한 데이터 거버넌스 기능을 활용할 수 있는 기능을 제공합니다. 이 설명서 섹션에서는 Mix Modeler에서 사용할 수 있는 데이터 거버넌스 기능의 세부 사항을 자세히 설명합니다.
@@ -36,7 +47,7 @@ Experience Platform 데이터 거버넌스는 Experience Platform을 통해 데�
 
 Experience Platform에서 사용하는 데이터 세트에 생성된 데이터 사용 레이블 및 정책은 해당되는 경우 Mix Modeler에서 표시됩니다. 예를 들어 이러한 레이블은 조화된 데이터의 데이터 세트 규칙에 속하는 데이터 세트를 삭제할 때 사용자를 중지하거나 경고합니다. 또는 데이터 세트 규칙을 만들 때 사용자에 대해 제한된 스키마 필드를 숨깁니다.
 
-데이터 거버넌스 통합을 통해 규정 준수를 보다 효율적으로 관리할 수 있습니다. 조직의 데이터 관리자는 사용을 제한하는 정책을 설정할 수 있습니다. 따라서 데이터 관리자에 의해 정의된 정책을 준수하는 데이터를 사용할 수 있습니다. 자세한 내용은 [레이블 및 정책](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/data-governance)에 대한 설명서를 읽어 보십시오.
+데이터 거버넌스 통합을 통해 규정 준수를 보다 효율적으로 관리할 수 있습니다. 조직의 데이터 관리자는 사용을 제한하는 정책을 설정할 수 있습니다. 따라서 데이터 관리자에 의해 정의된 정책을 준수하는 데이터를 사용할 수 있습니다. 자세한 내용은 [레이블 및 정책](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance)에 대한 설명서를 읽어 보십시오.
 
 다음 데이터 거버넌스 기능을 사용할 수 있습니다.
 

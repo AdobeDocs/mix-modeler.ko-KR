@@ -3,25 +3,37 @@ title: Mix Modeler 딥 다이브
 description: 멀티 터치 속성, 마케팅 믹스 모델링, 전송 학습 및 예산 최적화를 포함하여 Adobe Mix Modeler에 숨겨진 기술 방법론을 살펴봅니다.
 feature: Administration
 hide: true
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: a234aebd-3855-4376-a64d-29b38411e0c5
+    internal-label: Marketing mix modeling
   - id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+    internal-label: Marketing touch attribution
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 4f4fe68694c81ddb258656eb05d62ef057f200cb
+    internal-label: Artificial intelligence
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 2747
+source-wordcount: '2835'
 ht-degree: 0%
-
 ---
-
 
 # 심층 조사
 
 
-Adobe Mix Modeler은 멀티 터치 속성(MTA)과 마케팅 믹스 모델링(MMM)을 결합하여 정확하고 확장 가능하며 미래 지향적인 마케팅 통찰력을 제공하는 통합 AI/ML 기반 측정 플랫폼입니다. 이 문서에서는 Mix Modeler 이면의 방법론, 디자인 선택 및 기술 혁신에 대한 자세한 분석을 제공합니다. 이 세션은 [2025년 Summit 세션](https://business.adobe.com/kr/summit/2025/sessions/marketing-mix-modeling-at-adobe-learn-to-predict-s602.html){target="_blank"}을 기반으로 합니다. 이 세션에서는 Mix Modeler에 숨겨진 방법론, 디자인 선택 및 기술 혁신에 대한 자세한 분석을 제공합니다.
+Adobe Mix Modeler은 멀티 터치 속성(MTA)과 마케팅 믹스 모델링(MMM)을 결합하여 정확하고 확장 가능하며 미래 지향적인 마케팅 통찰력을 제공하는 통합 AI/ML 기반 측정 플랫폼입니다. 이 문서에서는 Mix Modeler 이면의 방법론, 디자인 선택 및 기술 혁신에 대한 자세한 분석을 제공합니다. 이 세션은 [2025년 Summit 세션](https://business.adobe.com/summit/2025/sessions/marketing-mix-modeling-at-adobe-learn-to-predict-s602.html){target="_blank"}을 기반으로 합니다. 이 세션에서는 Mix Modeler에 숨겨진 방법론, 디자인 선택 및 기술 혁신에 대한 자세한 분석을 제공합니다.
 
 마케팅 복잡성이 증가하면 기존 측정 접근 방식에도 미치지 못합니다. 조각화된 데이터, 진화하는 개인정보 보호 제한, 속도와 엄격함 모두에 대한 요구 사항 때문에 마케팅 성과가 평가되는 방식을 재고해야 합니다. Adobe은 머신 러닝을 활용해 여러 데이터 소스를 합성하고 패러다임을 모델링하여 응집력 있는 전략으로 만드는 통합 시스템인 Mix Modeler에 대해 대응하고 있다.
 
@@ -57,20 +69,20 @@ Mix Modeler을 구동하는 MTA(Multi-Touch Attribution) 모델은 이벤트 수
 
   이 접근법에서, 일련의 관심 신호들은 각각 다음에 의해 영향을 받는 전환의 가능성을 구동한다.
 
-   * 이전 미디어 노출,
-   * media adstock impact(소비자 시장에서 광고가 만들어지고 감소하는 방식에 대한 모델) 및
-   * 기타 기준 요소.
+  * 이전 미디어 노출,
+  * media adstock impact(소비자 시장에서 광고가 만들어지고 감소하는 방식에 대한 모델) 및
+  * 기타 기준 요소.
 
 
 
   이러한 신호는 *Θ<sub>BL</sub>* + *Θ<sub>E,tc-t1</sub>* + *Θ<sub>E,tc-t2</sub>* 및 *Θ<sub>S, tc-t3</sub>*(여기서,
 
-   * *Θ*: 모델 매개 변수(모델에서 학습한 내용)를 보여 줍니다.
-   * *tc*: 변환 시간입니다.
-   * *tc-tx: 노출과 전환 사이의 시간으로, 모델과 관련이 있습니다.
-   * *BL*: 기준선입니다.
-   * *전자 메일*: 전자 메일.
-   * *초*: 검색.
+  * *Θ*: 모델 매개 변수(모델에서 학습한 내용)를 보여 줍니다.
+  * *tc*: 변환 시간입니다.
+  * *tc-tx: 노출과 전환 사이의 시간으로, 모델과 관련이 있습니다.
+  * *BL*: 기준선입니다.
+  * *전자 메일*: 전자 메일.
+  * *초*: 검색.
 
   모델링 프레임워크에서 목표는 각 미디어 노출과 전환 순간 사이의 시간(*tc-tx*)을 명시적으로 고려하는 것이며, 보다 최신 상호 작용은 이전 상호 작용보다 더 많은 가중치를 전달합니다.
 
@@ -89,7 +101,7 @@ Mix Modeler을 구동하는 MTA(Multi-Touch Attribution) 모델은 이벤트 수
   ![이산 시간 생존 모델](/help/assets/discrete-time-survival-model.jpg)
 
   연속 시간 함수는 노출 시간 이후 언제든지 이메일 애드스톡이 관심 수준에 미치는 영향을 모델링합니다. *Θ<sub>E</sub>(Δt;⋋)*
-이산 시간 함수는 스칼라 매개 변수 *Θ<sub>E,i</sub> ≥ 0<sub>E,i+1</sub>*&#x200B;을(를) 사용하여 이메일 애드스톡이 관심 수준에 미치는 영향을 이산 시간 기간으로 모델링합니다.
+  이산 시간 함수는 스칼라 매개 변수 *Θ<sub>E,i</sub> ≥ 0<sub>E,i+1</sub>*&#x200B;을(를) 사용하여 이메일 애드스톡이 관심 수준에 미치는 영향을 이산 시간 기간으로 모델링합니다.
 
 
 ### 이점
@@ -130,19 +142,19 @@ Mix Modeler은 다중 터치 속성 결과로 얻은 인사이트에 대해 [마
 * **곱셈 모델**: 판매 또는 전환은 기본 및 미디어 승수의 곱입니다.
 
   따라서 가산 모델을 사용하는 대신
-  *주간 전환 = 기준선 수요&#x200B;**+**&#x200B;검색 승수&#x200B;**+**&#x200B;표시 승수&#x200B;**+**....*
+  *주간 전환 = 기준선 수요&#x200B;**+**검색 승수&#x200B;**+**표시 승수&#x200B;**+**....*
 승산 모델 사용:
-  *주간 전환 = 기준선 수요&#x200B;**x**&#x200B;검색 승수&#x200B;**x**&#x200B;표시 승수&#x200B;**x**....*
+  *주간 전환 = 기준선 수요&#x200B;**x**검색 승수&#x200B;**x**표시 승수&#x200B;**x**....*
 
   또는 수식에서 다음을 수행합니다. ** Y = ⨍<sub>BL</sub>(X<sub>인자</sub>;θ<sub>인자</sub>) x<sub>⨍ ⨍S</sub>(X<sub>S</sub>;θ<sub>S</sub>) x<sub>D</sub>(X<sub>D</sub>;θ<sub>D</sub>)*
 
   예:
 
-   * 주 실제 전환: 1730.
-   * 주 예상 전환: 1787.5 = 1100 x 1.25 x 1.3, 여기서:
-      * 1100: 4주차에 기준선 수요가 예상되었으며, 4주차 1, 2계수 데이터에 대한 함수입니다.
-      * 1.25: 4주차 예측 검색 승수, 1주차부터 4주차까지의 검색 데이터에서 함수.
-      * 1.3: 1주부터 4주까지의 디스플레이 데이터에 대한 함수인 4주 예상 디스플레이 승수.
+  * 주 실제 전환: 1730.
+  * 주 예상 전환: 1787.5 = 1100 x 1.25 x 1.3, 여기서:
+    * 1100: 4주차에 기준선 수요가 예상되었으며, 4주차 1, 2계수 데이터에 대한 함수입니다.
+    * 1.25: 4주차 예측 검색 승수, 1주차부터 4주차까지의 검색 데이터에서 함수.
+    * 1.3: 1주부터 4주까지의 디스플레이 데이터에 대한 함수인 4주 예상 디스플레이 승수.
 
   모델이 예측한 것(1787.5)과 실제 전환율(1730)의 예상 차이는 잔차이며, 크기가 작고 걱정할 필요가 없는 경우가 많다.
 
