@@ -3,26 +3,37 @@ title: 계획 성과
 description: Mix Modeler에서 성능을 사용하여 개요를 계획하는 방법에 대해 알아봅니다.
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-TQID: https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU
+autotag-review: '2026-05-01T09:20:18.412Z'
+TQID: 'https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
 subfeature_v2:
   - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+    internal-label: Build plans
   - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+    internal-label: Compare plans
   - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+    internal-label: Plan insights
+  - id: c564971c-1597-4a46-a354-33d74ee8a5d1
+    internal-label: Dashboard
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T09:20:18.412Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: '537'
 ht-degree: 0%
-
 ---
-
 # 계획 성과
 
 >[!NOTE]
@@ -43,18 +54,18 @@ KPI 상태 카드 및 시각화에 대해 표시되는 데이터를 선택하려
 
 * [KPI 상태 카드](#kpi-status-cards):
 
-   * [예산](#budget)
-   * [수입](#revenue)
-   * [ROI](#roi)
-   * [KPI](#kpi)
+  * [예산](#budget)
+  * [수입](#revenue)
+  * [ROI](#roi)
+  * [KPI](#kpi)
 
 * [시각화](#visualizations):
-   * [*지표*: 실제 및 계획된 비교](#metric-actual-vs-planned)
-   * [*지표*: 실제 대 *세부기간*&#x200B;에 의해 계획된 대](#metric-actual-vs-planned-by-granularity)
-   * [*세부 기간*&#x200B;별 채널 *지표*](#channel-metric-by-granularity)
-   * [채널별 *지표*&#x200B;와 *지표* 비교](#metric-vs-metric-by-channel)
-   * [*세부 기간*&#x200B;별 *지표*](#metric-by-granularity)
-   * [채널별 *지표*](#metric-by-channel)
+  * [*지표*: 실제 및 계획된 비교](#metric-actual-vs-planned)
+  * [*지표*: 실제 대 *세부기간*&#x200B;에 의해 계획된 대](#metric-actual-vs-planned-by-granularity)
+  * [*세부 기간*&#x200B;별 채널 *지표*](#channel-metric-by-granularity)
+  * [채널별 *지표*&#x200B;와 *지표* 비교](#metric-vs-metric-by-channel)
+  * [*세부 기간*&#x200B;별 *지표*](#metric-by-granularity)
+  * [채널별 *지표*](#metric-by-channel)
 
 ## KPI 상태 카드
 
@@ -134,8 +145,8 @@ KPI 상태 카드 및 시각화에 대해 표시되는 데이터를 선택하려
 
    * 하나 또는 두 개의 지표: **[!UICONTROL Select metric]** 드롭다운 메뉴에서 지표를 선택합니다.
 
-      * ROI 기반 계획의 경우 옵션은 [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI], [!UICONTROL Spend] 및 [!UICONTROL Volume]입니다.
-      * CPA 기반 계획의 경우 옵션은 [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Spend] 및 [!UICONTROL Volume]입니다.
+     * ROI 기반 계획의 경우 옵션은 [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Revenue], [!UICONTROL ROI], [!UICONTROL Spend] 및 [!UICONTROL Volume]입니다.
+     * CPA 기반 계획의 경우 옵션은 [!UICONTROL Conversions], [!UICONTROL CPA], [!UICONTROL Spend] 및 [!UICONTROL Volume]입니다.
    * **[!UICONTROL Granularity]**: **[!UICONTROL Granularity]** 드롭다운 메뉴에서 **[!UICONTROL date ranges]** 또는 **[!UICONTROL week]**&#x200B;을(를) 선택합니다.
 
    **[!UICONTROL Preview]**&#x200B;에서 변경 내용이 **[!UICONTROL Current]** 시각화와 어떻게 다른지 확인할 수 있습니다.

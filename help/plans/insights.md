@@ -3,26 +3,32 @@ title: 플랜 인사이트
 description: Mix Modeler에서 플랜에 대한 통찰력을 보고 플랜을 편집하는 방법을 알아봅니다.
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-TQID: https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM
+autotag-review: '2026-04-28T06:09:37.014Z'
+TQID: 'https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: '2026-04-28T06:09:37.014Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Insights
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 1174
+source-wordcount: '1190'
 ht-degree: 0%
-
 ---
-
 # 플랜 인사이트
 
 
@@ -32,12 +38,12 @@ ht-degree: 0%
 인사이트가 만들어지면 다음으로 구성된 플랜 개요가 표시됩니다.
 
 - 플랜의 기반이 되는 [!UICONTROL Model], [!UICONTROL Data range] 및 [!UICONTROL Plan target]을(를) 표시하는 헤더입니다.
-   - 목표 기반 계획을 정의한 경우 배지가 목표 상태를 나타냅니다. 가능한 옵션은 다음과 같습니다.
+  - 목표 기반 계획을 정의한 경우 배지가 목표 상태를 나타냅니다. 가능한 옵션은 다음과 같습니다.
 
-      - [!BADGE 달성 가능한 목표]{type=Positive}
-      - [!BADGE 목표를 달성할 수 없음]{type=Negative}
+    - [!BADGE 달성 가능한 목표]{type=Positive}
+    - [!BADGE 목표를 달성할 수 없음]{type=Negative}
 
-   - 자세한 내용을 표시하려면 ![V자형 화살표](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Show more]**&#x200B;을(를) 선택하십시오.
+  - 자세한 내용을 표시하려면 ![V자형 화살표](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Show more]**&#x200B;을(를) 선택하십시오.
 
 - [[!UICONTROL Forecasted paid channel ROI] 시각화](#forecasted-paid-channel-spend-and-roi)
 - [[!UICONTROL Forecasted revenue] 시각화](#forecasted-revenue)
@@ -45,12 +51,12 @@ ht-degree: 0%
 - [[!UICONTROL Marginal channel return] 시각화](#marginal-channel-return)
 - [[!UICONTROL Data range breakdown] 테이블(](#date-range-breakdown) 계획의 테이블, 열 표시)
 
-   - 채널
-   - ROI
-   - CPA
-   - 수입
-   - 전환 목표
-   - 지출
+  - 채널
+  - ROI
+  - CPA
+  - 수입
+  - 전환 목표
+  - 지출
 
 인터페이스를 닫으려면 **[!UICONTROL Close]**&#x200B;을(를) 선택합니다.
 
@@ -151,33 +157,33 @@ ht-degree: 0%
 
            이 옵션을 사용하면 하나 이상의 날짜 범위에 대한 예산을 입력할 수 있습니다.
 
-            1. **[!UICONTROL Optimize]** 컨테이너에서:
-               1. **[!UICONTROL Select conversion]** 드롭다운 메뉴에서 전환을 선택합니다.
-               1. **[!UICONTROL Select model]** 드롭다운 메뉴에서 모델을 선택합니다.
-            1. 날짜를 입력하거나 ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 범위를 선택하여 **[!UICONTROL Date range]**&#x200B;을(를) 지정하십시오.
-            1. **[!UICONTROL Budget]** 입력.
-각각 예산이 있는 날짜 범위를 추가하려면 ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**&#x200B;을(를) 선택하십시오.
-날짜 범위 및 관련 예산을 삭제하려면 ![닫기](/help/assets/icons/Close.svg)를 선택하세요.
-            1. 계획을 제한하려는 선택적 최대 예산을 정의하려면
-               1. **[!UICONTROL Maximize budget]** 스위치를 켭니다.
-               1. 최대 예산 금액을 지정합니다. 금액은 날짜 범위에 대해 지정된 예산의 총 금액보다 크거나 같아야 합니다.
+           1. **[!UICONTROL Optimize]** 컨테이너에서:
+              1. **[!UICONTROL Select conversion]** 드롭다운 메뉴에서 전환을 선택합니다.
+              1. **[!UICONTROL Select model]** 드롭다운 메뉴에서 모델을 선택합니다.
+           1. 날짜를 입력하거나 ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 범위를 선택하여 **[!UICONTROL Date range]**&#x200B;을(를) 지정하십시오.
+           1. **[!UICONTROL Budget]** 입력.
+              각각 예산이 있는 날짜 범위를 추가하려면 ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**&#x200B;을(를) 선택하십시오.
+              날짜 범위 및 관련 예산을 삭제하려면 ![닫기](/help/assets/icons/Close.svg)를 선택하세요.
+           1. 계획을 제한하려는 선택적 최대 예산을 정의하려면
+              1. **[!UICONTROL Maximize budget]** 스위치를 켭니다.
+              1. 최대 예산 금액을 지정합니다. 금액은 날짜 범위에 대해 지정된 예산의 총 금액보다 크거나 같아야 합니다.
 
 
          - **[!UICONTROL I have a target to achieve]** [!BADGE Beta]
 
            ![대상 계획](../assets/plan-target.png)
 
-            1. **[!UICONTROL Optimize]** 컨테이너에서
-               1. **[!UICONTROL Select conversion]** 드롭다운 메뉴에서 전환을 선택합니다.
-               1. **[!UICONTROL Select target metric]** 드롭다운 메뉴에서 대상 지표를 선택합니다. **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** 또는 **[!UICONTROL ROI]** 중에서 선택할 수 있습니다.
-               1. **[!UICONTROL Select model]** 드롭다운 메뉴에서 모델을 선택합니다.
-            1. 날짜를 입력하거나 ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 범위를 선택하여 날짜 범위를 지정하십시오.
-            1. 선택한 대상 지표에 대한 값을 입력합니다. 예를 들어, **[!UICONTROL Conversion]**&#x200B;의 숫자, **[!UICONTROL ROI]**&#x200B;의 백분율 또는 **[!UICONTROL CPA]** 및 **[!UICONTROL Revenue]**&#x200B;의 통화 값입니다.
-대상 지표가 있는 날짜 범위를 추가하려면 ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**&#x200B;을(를) 선택하십시오.
-날짜 범위 및 연결된 대상 지표를 삭제하려면 ![닫기](/help/assets/icons/Close.svg)를 선택하세요.
-            1. 계획을 제한하려는 선택적 최대 예산을 정의하려면
-               1. **[!UICONTROL Maximize budget]** 스위치를 켭니다.
-               1. 최대 예산 금액을 지정합니다.
+           1. **[!UICONTROL Optimize]** 컨테이너에서
+              1. **[!UICONTROL Select conversion]** 드롭다운 메뉴에서 전환을 선택합니다.
+              1. **[!UICONTROL Select target metric]** 드롭다운 메뉴에서 대상 지표를 선택합니다. **[!UICONTROL Conversion]**, **[!UICONTROL CPA]**, **[!UICONTROL Revenue]** 또는 **[!UICONTROL ROI]** 중에서 선택할 수 있습니다.
+              1. **[!UICONTROL Select model]** 드롭다운 메뉴에서 모델을 선택합니다.
+           1. 날짜를 입력하거나 ![달력](/help/assets/icons/Calendar.svg)을 사용하여 날짜 범위를 선택하여 날짜 범위를 지정하십시오.
+           1. 선택한 대상 지표에 대한 값을 입력합니다. 예를 들어, **[!UICONTROL Conversion]**&#x200B;의 숫자, **[!UICONTROL ROI]**&#x200B;의 백분율 또는 **[!UICONTROL CPA]** 및 **[!UICONTROL Revenue]**&#x200B;의 통화 값입니다.
+              대상 지표가 있는 날짜 범위를 추가하려면 ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**&#x200B;을(를) 선택하십시오.
+              날짜 범위 및 연결된 대상 지표를 삭제하려면 ![닫기](/help/assets/icons/Close.svg)를 선택하세요.
+           1. 계획을 제한하려는 선택적 최대 예산을 정의하려면
+              1. **[!UICONTROL Maximize budget]** 스위치를 켭니다.
+              1. 최대 예산 금액을 지정합니다.
 
          1. **[!UICONTROL Spend selection]** 섹션으로 돌아가려면 **[!UICONTROL Next]**&#x200B;을(를) 선택하십시오.
 
