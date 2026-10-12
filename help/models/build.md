@@ -4,30 +4,39 @@ description: 모델의 고급 옵션을 설정, 구성 및 지정하는 방법�
 feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-TQID: https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4
+TQID: 'https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2:
+    internal-label: Models
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized data
+subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+    internal-label: Conversions
   - id: c89e26b6-808d-4500-8b01-450a63466999
+    internal-label: Build model
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
+    internal-label: Insights
+source-git-commit: d83e095cdcd2954b5c6cc5f4b3f32a26cf27ed9a
 workflow-type: tm+mt
-source-wordcount: 1578
-ht-degree: 8%
-
+source-wordcount: '1591'
+ht-degree: 9%
 ---
-
 # 모델 구축
 
 사용자 지정 AI 기반 모델을 구축하기 위해 인터페이스는 단계별 가이드 모델 구성 플로우를 제공합니다.
@@ -86,19 +95,19 @@ ht-degree: 8%
 
    * 각 컨테이너에 대해 이벤트를 하나 이상 정의합니다.
 
-      1. 각 이벤트에 대해:
+     1. 각 이벤트에 대해:
 
-         1. **[!UICONTROL _통합 필드 선택_]**&#x200B;에서 지표 또는 차원을 선택합니다.
+        1. **[!UICONTROL _통합 필드 선택_]**&#x200B;에서 지표 또는 차원을 선택합니다.
 
-         1. 적절한 연산자(**[!UICONTROL equals]**, **[!UICONTROL not equals]**, **[!UICONTROL less than]**, **[!UICONTROL greater than]**, **[!UICONTROL starts with]**, **[!UICONTROL doesn't start with]**, **[!UICONTROL ends with]**, **[!UICONTROL doesn't end with]**, **[!UICONTROL contains]**, **[!UICONTROL doesn't contain]**, **[!UICONTROL is in]** 또는 **[!UICONTROL is not in]**)를 선택하십시오.
+        1. 적절한 연산자(**[!UICONTROL equals]**, **[!UICONTROL not equals]**, **[!UICONTROL less than]**, **[!UICONTROL greater than]**, **[!UICONTROL starts with]**, **[!UICONTROL doesn't start with]**, **[!UICONTROL ends with]**, **[!UICONTROL doesn't end with]**, **[!UICONTROL contains]**, **[!UICONTROL doesn't contain]**, **[!UICONTROL is in]** 또는 **[!UICONTROL is not in]**)를 선택하십시오.
 
-         1. **[!UICONTROL _값을 입력하거나 선택하십시오_]**.
+        1. **[!UICONTROL _값을 입력하거나 선택하십시오_]**.
 
-      1. 컨테이너에 이벤트를 추가하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**&#x200B;을(를) 선택하십시오.
+     1. 컨테이너에 이벤트를 추가하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**&#x200B;을(를) 선택하십시오.
 
-      1. 컨테이너에서 이벤트를 제거하려면 ![닫기](/help/assets/icons/CrossSize75.svg)를 선택합니다.
+     1. 컨테이너에서 이벤트를 제거하려면 ![닫기](/help/assets/icons/CrossSize75.svg)를 선택합니다.
 
-      1. 컨테이너에 정의된 모든 이벤트 또는 여러 이벤트를 사용하여 필터링하려면 **[!UICONTROL Any of]** 또는 **[!UICONTROL All of]**&#x200B;을(를) 선택합니다. 레이블이 **[!UICONTROL Include ... Or ...]**&#x200B;에서 **[!UICONTROL Include ... And ...]**(으)로 변경됩니다.
+     1. 컨테이너에 정의된 모든 이벤트 또는 여러 이벤트를 사용하여 필터링하려면 **[!UICONTROL Any of]** 또는 **[!UICONTROL All of]**&#x200B;을(를) 선택합니다. 레이블이 **[!UICONTROL Include ... Or ...]**&#x200B;에서 **[!UICONTROL Include ... And ...]**(으)로 변경됩니다.
 
    * 적합한 데이터 채우기 컨테이너를 추가하려면 ![추가](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**&#x200B;을(를) 선택하십시오.
 
@@ -112,10 +121,10 @@ ht-degree: 8%
 
    * 요소 데이터 집합을 추가하려면 **[!UICONTROL Add Factor]**&#x200B;을(를) 선택하십시오. 모델에 최대 30개의 요소를 추가할 수 있습니다.
 
-      1. 드롭다운 메뉴에서 **[!UICONTROL Factor dataset]**&#x200B;을(를) 선택합니다. 사용 가능한 계수는 [데이터 집합 규칙](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)에서 조화된 필드를 정의한 계수입니다.
-선택한 데이터 집합에 따라 **[!UICONTROL Factor type]**&#x200B;은(는) **[!UICONTROL Internal]** 또는 **[!UICONTROL External]**&#x200B;입니다.
+     1. 드롭다운 메뉴에서 **[!UICONTROL Factor dataset]**&#x200B;을(를) 선택합니다. 사용 가능한 계수는 [데이터 집합 규칙](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)에서 조화된 필드를 정의한 계수입니다.
+        선택한 데이터 집합에 따라 **[!UICONTROL Factor type]**&#x200B;은(는) **[!UICONTROL Internal]** 또는 **[!UICONTROL External]**&#x200B;입니다.
 
-      1. 드롭다운 메뉴에서 **[!UICONTROL Impact on conversion]**&#x200B;을(를) 선택합니다. 사용 가능한 옵션은 **[!UICONTROL Auto]**, **[!UICONTROL Positive]** 또는 **[!UICONTROL Negative]**&#x200B;입니다. 기본 옵션은 **[!UICONTROL Auto]**&#x200B;이며, 이를 통해 모델이 계수 데이터 세트의 영향을 결정할 수 있습니다.
+     1. 드롭다운 메뉴에서 **[!UICONTROL Impact on conversion]**&#x200B;을(를) 선택합니다. 사용 가능한 옵션은 **[!UICONTROL Auto]**, **[!UICONTROL Positive]** 또는 **[!UICONTROL Negative]**&#x200B;입니다. 기본 옵션은 **[!UICONTROL Auto]**&#x200B;이며, 이를 통해 모델이 계수 데이터 세트의 영향을 결정할 수 있습니다.
 
    * 요소 데이터 집합을 삭제하려면 ![CrossSize200](/help/assets/icons/CrossSize400.svg)을(를) 선택하십시오.
 
@@ -151,8 +160,8 @@ ht-degree: 8%
 **[!UICONTROL Spend share]** 섹션에서:
 
 * 과거 마케팅 투자 비율을 사용하여 마케팅 데이터가 희소할 때 모델을 알리려면 **[!UICONTROL Allow spend share]**&#x200B;을(를) 활성화합니다. 이 설정은 특히 다음 시나리오에서 권장됩니다.
-   * 채널에 충분한 관찰이 없습니다(예: 지출 빈도가 낮거나 노출 횟수 또는 클릭 수).
-   * 데이터가 희박할 수 있는 스파이크하지만 일반적이고 잠재적으로 비용이 높은 미디어(일부 브랜드의 TV 등)를 모델링합니다.
+  * 채널에 충분한 관찰이 없습니다(예: 지출 빈도가 낮거나 노출 횟수 또는 클릭 수).
+  * 데이터가 희박할 수 있는 스파이크하지만 일반적이고 잠재적으로 비용이 높은 미디어(일부 브랜드의 TV 등)를 모델링합니다.
 
   >[!NOTE]
   >
@@ -195,13 +204,13 @@ ht-degree: 8%
 
 * 각 채널(**[!UICONTROL Name]**)에 대해 **[!UICONTROL Lag (weeks)]**, **[!UICONTROL Min Lookback (weeks)]** 및 **[!UICONTROL Max Lookback (weeks)]** 값을 정의하십시오. 각 값에 대해:
 
-   * 값을 늘리려면 ![추가](/help/assets/icons/Add.svg)를 사용하고, 값을 줄이려면 ![빼기](/help/assets/icons/Subtract.svg)를 사용하거나 수동으로 값을 입력하십시오.
+  * 값을 늘리려면 ![추가](/help/assets/icons/Add.svg)를 사용하고, 값을 줄이려면 ![빼기](/help/assets/icons/Subtract.svg)를 사용하거나 수동으로 값을 입력하십시오.
 
   채널당 총 지연 주 수 + 최대 전환 확인 주가 구성된 교육 기간의 1/8로 제한됩니다. 이 상한을 사용하면 모델이 Adstock 효과를 학습하기에 충분한 데이터를 사용할 수 있습니다. 예를 들어 2년 교육 기간의 경우 한 채널에 대한 최대 **[!UICONTROL Lag (weeks)]** 및 **[!UICONTROL Lookback (weeks)]**&#x200B;은(는) 13주입니다. 이 상한은 값을 정의할 때 적용됩니다.
 
 * 모든 채널 adstock을 기본값으로 재설정하려면 다음을 수행합니다.
 
-   * **[!UICONTROL Reset to defaults]**&#x200B;를 선택합니다.
+  * **[!UICONTROL Reset to defaults]**&#x200B;를 선택합니다.
 
 
 ## 옵션 설정
@@ -250,11 +259,11 @@ ht-degree: 8%
 
 * 모델 구성을 완료하려면 **[!UICONTROL Finish]**&#x200B;을(를) 선택하십시오.
 
-   * **[!UICONTROL Create instance?]** 대화 상자에서 **[!UICONTROL Ok]**&#x200B;을(를) 선택하여 첫 번째 교육 및 채점 실행을 즉시 트리거합니다. 모델이 상태 ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**(으)로 나열됩니다.
+  * **[!UICONTROL Create instance?]** 대화 상자에서 **[!UICONTROL Ok]**&#x200B;을(를) 선택하여 첫 번째 교육 및 채점 실행을 즉시 트리거합니다. 모델이 상태 ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**(으)로 나열됩니다.
 
-     취소할 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
+    취소할 **[!UICONTROL Cancel]**&#x200B;을(를) 선택하십시오.
 
-   * 추가 구성이 필요한 경우 빨간색 윤곽선과 텍스트가 추가 구성이 필요한 사항을 설명합니다.
+  * 추가 구성이 필요한 경우 빨간색 윤곽선과 텍스트가 추가 구성이 필요한 사항을 설명합니다.
 
 * 이전 단계로 돌아가려면 **[!UICONTROL Back]**&#x200B;을(를) 선택하십시오.
 
